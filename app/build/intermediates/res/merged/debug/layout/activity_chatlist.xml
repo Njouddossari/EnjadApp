@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.example.lenovo.enjad.chatlistActivity">
 
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select all"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="58dp" />
 </android.support.constraint.ConstraintLayout>
