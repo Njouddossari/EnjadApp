@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/deemah/Desktop/Gpp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
+        "outputFile": "C:\\Users\\fahad\\Desktop\\Nouf_GP\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 121
                 },
                 "from": {
-                    "file": "/Users/deemah/.android/build-cache/327ae5fc5dd3720dc45767c8d78251abda5ad8c4/output/res/values-v25/values-v25.xml",
+                    "file": "C:\\Users\\fahad\\.android\\build-cache\\498d6890e0fa21283fcf0a79000cd8b939008249\\output\\res\\values-v25\\values-v25.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 204
                 },
                 "from": {
-                    "file": "/Users/deemah/.android/build-cache/327ae5fc5dd3720dc45767c8d78251abda5ad8c4/output/res/values-v25/values-v25.xml",
+                    "file": "C:\\Users\\fahad\\.android\\build-cache\\498d6890e0fa21283fcf0a79000cd8b939008249\\output\\res\\values-v25\\values-v25.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -50,7 +50,7 @@
                     "endOffset": 303
                 },
                 "from": {
-                    "file": "/Users/deemah/.android/build-cache/327ae5fc5dd3720dc45767c8d78251abda5ad8c4/output/res/values-v25/values-v25.xml",
+                    "file": "C:\\Users\\fahad\\.android\\build-cache\\498d6890e0fa21283fcf0a79000cd8b939008249\\output\\res\\values-v25\\values-v25.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -71,7 +71,92 @@
                     "endOffset": 414
                 },
                 "from": {
-                    "file": "/Users/deemah/.android/build-cache/327ae5fc5dd3720dc45767c8d78251abda5ad8c4/output/res/values-v25/values-v25.xml",
+                    "file": "C:\\Users\\fahad\\.android\\build-cache\\498d6890e0fa21283fcf0a79000cd8b939008249\\output\\res\\values-v25\\values-v25.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 308,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 414
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\deemah\\Desktop\\Gpp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 70,
+                    "endOffset": 121
+                },
+                "from": {
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\327ae5fc5dd3720dc45767c8d78251abda5ad8c4\\output\\res\\values-v25\\values-v25.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 70,
+                        "endOffset": 121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 126,
+                    "endColumn": 82,
+                    "endOffset": 204
+                },
+                "from": {
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\327ae5fc5dd3720dc45767c8d78251abda5ad8c4\\output\\res\\values-v25\\values-v25.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 126,
+                        "endColumn": 82,
+                        "endOffset": 204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 209,
+                    "endLine": 5,
+                    "endColumn": 12,
+                    "endOffset": 303
+                },
+                "from": {
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\327ae5fc5dd3720dc45767c8d78251abda5ad8c4\\output\\res\\values-v25\\values-v25.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 209,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 303
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 308,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 414
+                },
+                "from": {
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\327ae5fc5dd3720dc45767c8d78251abda5ad8c4\\output\\res\\values-v25\\values-v25.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,

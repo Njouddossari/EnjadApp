@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/Users/deemah/Desktop/Gpp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
-        "source": "/Users/deemah/Desktop/Gpp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\deemah\\Desktop\\Gpp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\deemah\\Desktop\\Gpp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/deemah/Desktop/Gpp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/Users/deemah/Desktop/Gpp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\deemah\\Desktop\\Gpp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\deemah\\Desktop\\Gpp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\fahad\\Desktop\\Nouf_GP\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\fahad\\Desktop\\Nouf_GP\\EnjadApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\fahad\\Desktop\\Nouf_GP\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\fahad\\Desktop\\Nouf_GP\\EnjadApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]
