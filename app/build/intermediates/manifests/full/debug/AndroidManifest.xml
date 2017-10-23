@@ -29,7 +29,7 @@
         <activity android:name="com.example.lenovo.enjad.SignupActivity" />
         <activity android:name="com.example.lenovo.enjad.LoginActivity" />
         <activity android:name="com.example.lenovo.enjad.ProfileActivity" />
-        <activity android:name="com.example.lenovo.enjad.chatActivity" />
+        <activity android:name="com.example.lenovo.enjad.chatlistActivity" />
     </application>
 
 </manifest>
