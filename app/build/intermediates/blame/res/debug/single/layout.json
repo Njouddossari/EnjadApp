@@ -120,6 +120,10 @@
         "source": "/Users/deemah/.android/build-cache/327ae5fc5dd3720dc45767c8d78251abda5ad8c4/output/res/layout/notification_template_icon_group.xml"
     },
     {
+        "merged": "/Users/deemah/Desktop/Gpp/app/build/intermediates/res/merged/debug/layout/activity_chatlist.xml",
+        "source": "/Users/deemah/Desktop/Gpp/app/src/main/res/layout/activity_chatlist.xml"
+    },
+    {
         "merged": "/Users/deemah/Desktop/Gpp/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/Users/deemah/.android/build-cache/327ae5fc5dd3720dc45767c8d78251abda5ad8c4/output/res/layout/notification_template_part_chronometer.xml"
     },

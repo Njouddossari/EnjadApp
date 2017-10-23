@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml:2:1-24:12
 		INJECTED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml:5:5-22:19
+ADDED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml:5:5-23:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/deemah/.android/build-cache/327ae5fc5dd3720dc45767c8d78251abda5ad8c4/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/deemah/.android/build-cache/511cc70c5d5c2fba516a6138478e74cc2c93af10/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/deemah/.android/build-cache/3768ef0cf4bdc869498bc60ff410150ed98f4c26/output/AndroidManifest.xml:29:5-20
@@ -60,9 +60,13 @@ ADDED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml:20:9-51
 	android:name
 		ADDED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml:20:19-48
 activity#com.example.lenovo.enjad.ProfileActivity
-ADDED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml:21:9-62
+ADDED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml:21:9-53
 	android:name
 		ADDED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml:21:19-50
+activity#com.example.lenovo.enjad.chatlistActivity
+ADDED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml:22:9-63
+	android:name
+		ADDED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml:22:19-51
 uses-sdk
 INJECTED from /Users/deemah/Desktop/Gpp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/deemah/.android/build-cache/327ae5fc5dd3720dc45767c8d78251abda5ad8c4/output/AndroidManifest.xml:21:5-23:78
