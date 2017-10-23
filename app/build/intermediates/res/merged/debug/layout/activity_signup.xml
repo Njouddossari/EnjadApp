@@ -24,7 +24,6 @@
         android:layout_marginLeft="39dp" />
 
     <TextView
-        android:id="@+id/emailtv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email"
@@ -95,7 +94,6 @@
         app:layout_constraintLeft_toLeftOf="@+id/emailet" />
 
     <Button
-        android:id="@+id/signupbu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="151dp"

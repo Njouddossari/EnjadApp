@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.enjad.HomPageActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="UserName"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="-49dp"
+            tools:layout_editor_absoluteY="-92dp"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/Chatsbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Profilebutton"
+            android:layout_marginTop="58dp"
+            android:layout_toEndOf="@+id/textView"
+            android:layout_toRightOf="@+id/textView"
+            android:layout_weight="1"
+            android:text="Chats"
+            tools:layout_editor_absoluteX="-35dp"
+            tools:layout_editor_absoluteY="-120dp" />
+
+        <Button
+            android:id="@+id/Profilebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Reportsbutton"
+            android:layout_marginTop="59dp"
+            android:layout_toLeftOf="@+id/textView"
+            android:layout_toStartOf="@+id/textView"
+            android:layout_weight="1"
+            android:text="Profile"
+            tools:layout_editor_absoluteX="-35dp"
+            tools:layout_editor_absoluteY="-120dp" />
+
+        <Button
+            android:id="@+id/Reportsbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView"
+            android:layout_marginEnd="66dp"
+            android:layout_marginRight="66dp"
+            android:layout_marginTop="58dp"
+            android:layout_weight="1"
+            android:text="Reports"
+            tools:layout_editor_absoluteX="-35dp"
+            tools:layout_editor_absoluteY="-120dp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

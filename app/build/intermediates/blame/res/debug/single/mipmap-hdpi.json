@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\USER\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\USER\\Desktop\\EnjadApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\fahad\\Desktop\\Nouf_GP\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\fahad\\Desktop\\Nouf_GP\\EnjadApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
@@ -10,6 +14,10 @@
     {
         "merged": "C:\\Users\\fahad\\Desktop\\Nouf_GP\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\fahad\\Desktop\\Nouf_GP\\EnjadApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\USER\\Desktop\\EnjadApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\deemah\\Desktop\\Gpp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
