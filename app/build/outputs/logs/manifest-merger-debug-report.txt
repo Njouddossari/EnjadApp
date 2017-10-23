@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.
 		INJECTED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.xml:5:5-23:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\fahad\.android\build-cache\498d6890e0fa21283fcf0a79000cd8b939008249\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\fahad\.android\build-cache\680b3ff03c5dc117a5b97238f49341012b6d7108\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\fahad\.android\build-cache\920c493dac96ff943e40a276177c1a1d650e475b\output\AndroidManifest.xml:29:5-20
@@ -60,9 +60,13 @@ ADDED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.
 	android:name
 		ADDED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.xml:20:19-48
 activity#com.example.lenovo.enjad.ProfileActivity
-ADDED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.xml:21:9-62
+ADDED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.xml:21:9-53
 	android:name
 		ADDED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.xml:21:19-50
+activity#com.example.lenovo.enjad.chatActivity
+ADDED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.xml:22:9-59
+	android:name
+		ADDED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.xml:22:19-47
 uses-sdk
 INJECTED from C:\Users\fahad\Desktop\Nouf_GP\EnjadApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\fahad\.android\build-cache\498d6890e0fa21283fcf0a79000cd8b939008249\output\AndroidManifest.xml:21:5-23:78
