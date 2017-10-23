@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\LENOVO\\Desktop\\Grad project\\ENJAD\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/deemah/Desktop/Gpp/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\3d1b65222cbff6ac4cb86ddb02c6cb13324220dd\\output\\res\\values\\values.xml",
+                    "file": "/Users/deemah/.android/build-cache/0f70f2ec159f0cd93920e20914eb25239532af0f/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

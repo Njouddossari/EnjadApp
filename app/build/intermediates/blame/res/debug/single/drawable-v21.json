@@ -1,18 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\LENOVO\\Desktop\\Grad project\\ENJAD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\LENOVO\\.android\\build-cache\\22ab6d881efab104529d5d76cb6f34584950ca18\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "/Users/deemah/Desktop/Gpp/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/deemah/.android/build-cache/327ae5fc5dd3720dc45767c8d78251abda5ad8c4/output/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\Desktop\\Grad project\\ENJAD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\LENOVO\\.android\\build-cache\\22ab6d881efab104529d5d76cb6f34584950ca18\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "/Users/deemah/Desktop/Gpp/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/deemah/.android/build-cache/327ae5fc5dd3720dc45767c8d78251abda5ad8c4/output/res/drawable-v21/notification_action_background.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\Desktop\\Grad project\\ENJAD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "C:\\Users\\LENOVO\\.android\\build-cache\\22ab6d881efab104529d5d76cb6f34584950ca18\\output\\res\\drawable-v21\\notification_action_background.xml"
+        "merged": "/Users/deemah/Desktop/Gpp/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/deemah/.android/build-cache/327ae5fc5dd3720dc45767c8d78251abda5ad8c4/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\LENOVO\\Desktop\\Grad project\\ENJAD\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\LENOVO\\.android\\build-cache\\22ab6d881efab104529d5d76cb6f34584950ca18\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "merged": "/Users/deemah/Desktop/Gpp/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/deemah/.android/build-cache/327ae5fc5dd3720dc45767c8d78251abda5ad8c4/output/res/drawable-v21/abc_edit_text_material.xml"
     }
 ]
