@@ -32,4 +32,13 @@ public class HomPageActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void profileonclick(View view) {
+
+        Intent profile = new Intent (this,HomPageActivity.class);
+
+        startActivity(profile);
+
+
+    }
 }

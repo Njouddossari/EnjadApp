@@ -10,10 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".SignupActivity" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <uses-permission android:name="android.permission.GET_TASKS" />
+        </activity>
         <activity android:name=".ProfileActivity" />
         <activity android:name=".chatlistActivity" />
-        <activity android:name=".HomPageActivity"></activity>
+        <activity android:name=".HomPageActivity"/>
     </application>
 
 </manifest>
