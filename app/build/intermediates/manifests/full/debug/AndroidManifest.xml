@@ -20,10 +20,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.lenovo.enjad.SignupActivity" />
-        <activity android:name="com.example.lenovo.enjad.LoginActivity" />
+        <activity android:name="com.example.lenovo.enjad.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <uses-permission android:name="android.permission.GET_TASKS" />
+        </activity>
         <activity android:name="com.example.lenovo.enjad.ProfileActivity" />
         <activity android:name="com.example.lenovo.enjad.chatlistActivity" />
         <activity android:name="com.example.lenovo.enjad.HomPageActivity" />
+        <activity android:name="com.example.lenovo.enjad.ReportlistActivity" />
     </application>
 
 </manifest>

@@ -31,6 +31,14 @@ public class HomPageActivity extends AppCompatActivity {
                 startActivity(chls);
             }
         });
+
+        ReportsB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent rep = new Intent(getApplicationContext(), ReportlistActivity.class);
+                startActivity(rep);
+            }
+        });
     }
 
     public void profileonclick(View view) {

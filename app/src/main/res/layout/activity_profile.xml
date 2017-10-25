@@ -12,7 +12,7 @@
         android:id="@+id/usernametv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/username"
+        android:text="اسم المستخدم:"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textSize="18sp"
         tools:layout_constraintBottom_creator="1"

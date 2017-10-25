@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/deemah/.android/build-cache/3904c8da7f1cc621b9fe3c58400390fb54210087/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/deemah/Desktop/EnjadApp/app/build/intermediates/pre-dexed/debug/classes_abe5fab7f7d552f3cdefdf3a4165d68677570033.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deemah/.android/build-cache/6e93cb19f80a3f4000a5acf2ba1be685edd96d7c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/deemah/Desktop/EnjadApp/app/build/intermediates/pre-dexed/debug/classes_1f2d14c1e5c30b403bff5fb63f96a017b1ca17ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deemah/.android/build-cache/2332884144472e7dfc800a10556f65dfd0c0daa0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/deemah/Desktop/EnjadApp/app/build/intermediates/pre-dexed/debug/classes_3e880f4e01d72f6bbf4933eb10f57036c020ff94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deemah/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/deemah/Desktop/EnjadApp/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_089875df6c801ba21158b01fa92ca65872093cce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deemah/.android/build-cache/220e9d7d8a178727fee8532736dd0f5acc1bab9e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/deemah/Desktop/EnjadApp/app/build/intermediates/pre-dexed/debug/classes_853cf3914ddb570575d7a0318f04c3615bbabcd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deemah/.android/build-cache/511cc70c5d5c2fba516a6138478e74cc2c93af10/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/deemah/Desktop/EnjadApp/app/build/intermediates/pre-dexed/debug/classes_39f3c06ec762e9513bdbb619c24eca2ff46696c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deemah/.android/build-cache/4688041c14d4f53ed04a1c9ce662a1f2d8f06f5d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/deemah/Desktop/EnjadApp/app/build/intermediates/pre-dexed/debug/classes_8d2923a91a0028b9267973e76b08e536dcc5141b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deemah/.android/build-cache/f0970a9a33291295e6be069a34f490287a744978/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/deemah/Desktop/EnjadApp/app/build/intermediates/pre-dexed/debug/classes_e0017ef5099464c8e30587a35444fb700c778c27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deemah/.android/build-cache/327ae5fc5dd3720dc45767c8d78251abda5ad8c4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/deemah/Desktop/EnjadApp/app/build/intermediates/pre-dexed/debug/classes_87cd4c8355100bff79f06b88e36df2cdf1713876.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deemah/.android/build-cache/3768ef0cf4bdc869498bc60ff410150ed98f4c26/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/deemah/Desktop/EnjadApp/app/build/intermediates/pre-dexed/debug/classes_7840d35069237122ee4ee421ff9809508ab5259b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deemah/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/deemah/Desktop/EnjadApp/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_d54acfc8c51a4d9e27d0ae45cc3402818236918f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/deemah/.android/build-cache/9970c29eb3c90b64ccadd8b31525824aa03242e8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/deemah/Desktop/EnjadApp/app/build/intermediates/pre-dexed/debug/classes_3be66b0cf3470fc045c8ff61ae55f6f539d886c1.jar" />
+    </item>
+
+</items>
