@@ -450,12 +450,14 @@
     <string name="my_healthcondition">المعلومات الصحية:  </string>
     <string name="my_reports">البلاغات  </string>
     <string name="my_reportslist">قائمة بلاغاتي  </string>
+    <string name="phone">رقم الجوال :</string>
     <string name="profile">الملف الشخصي </string>
     <string name="providehelp">تقديم المساعدة للآخرين:  </string>
     <string name="savechenges">حفظ التغييرات  </string>
     <string name="search_menu_title">Search</string>
     <string name="signup">إنشاء حساب</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="toRegister">اضغط هنا إذا لم يكن لديك حساب  </string>
     <string name="username">اسم المستخدم:</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

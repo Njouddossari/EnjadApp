@@ -9,6 +9,7 @@
 
     <string name="username">اسم المستخدم:</string>
     <string name="email">البريد الإلكتروني :</string>
+    <string name="phone">رقم الجوال :</string>
     <string name="signup">إنشاء حساب</string>
     <string name="login">دخول </string>
     <string name="profile">الملف الشخصي </string>
@@ -21,5 +22,6 @@
     <string name="accessToMIC">استخدام المايكروفون:  </string>
     <string name="savechenges">حفظ التغييرات  </string>
     <string name="my_reportslist">قائمة بلاغاتي  </string>
+    <string name="toRegister">اضغط هنا إذا لم يكن لديك حساب  </string>
 
 </resources>

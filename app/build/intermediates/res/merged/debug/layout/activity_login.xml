@@ -53,7 +53,7 @@
         android:layout_marginLeft="11dp" />
 
     <TextView
-        android:id="@+id/passwordtv"
+        android:id="@+id/passwrdtv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="16dp"
@@ -83,5 +83,14 @@
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/toregistertv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toRegister"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="272dp" />
 
 </android.support.constraint.ConstraintLayout>
