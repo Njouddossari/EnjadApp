@@ -1,7 +1,9 @@
 package com.example.lenovo.enjad;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 
 import java.io.BufferedOutputStream;
@@ -16,24 +18,28 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
+import com.example.lenovo.enjad.LoginActivity;
+
+import static com.example.lenovo.enjad.R.string.username;
 
 /**
  * Created by LENOVO on 26/10/17.
  */
 
 public class loginDataLoaderBW extends AsyncTask<String,Void,String> {
-    Context context;
-    AlertDialog alertDialog;
+    LoginActivity activity;
+   // AlertDialog alertDialog;
+    String result;
 
-    loginDataLoaderBW(Context ctx )
+    loginDataLoaderBW(LoginActivity a )
     {
 
-        context=ctx;
+        activity=a;
     }
     @Override
     protected String doInBackground(String... params) {
         String type= params[0];
-        String login_url= "http://192.168.8.107/Myphpfiles/enjad/login.php";
+        String login_url= "http://192.168.8.106/Myphpfiles/enjad/login.php";
         if ( type.equals("login"))
         {
             try {
@@ -81,14 +87,20 @@ public class loginDataLoaderBW extends AsyncTask<String,Void,String> {
 
     @Override
     protected void onPreExecute() {
-        alertDialog = new AlertDialog.Builder(context).create();
-        alertDialog.setTitle("Login Status");
+       // alertDialog = new AlertDialog.Builder(context).create();
+        //alertDialog.setTitle("Login Status");
+    }
+    public String getresult() {
+        return result;
     }
 
     @Override
     protected void onPostExecute(String result) {
-        alertDialog.setMessage(result);
-        alertDialog.show();
+        this.result=result;
+        activity.getDataLogin(this.result);
+       //save  the response from DB
+        //alertDialog.setMessage(result);
+        //alertDialog.show();
 
     }
 

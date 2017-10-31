@@ -24,4 +24,20 @@
     <string name="my_reportslist">قائمة بلاغاتي  </string>
     <string name="toRegister">اضغط هنا إذا لم يكن لديك حساب  </string>
 
+    <string name="failed_login">اسم المستخدم او كلمة المرور غير صحيحة  </string>
+    <string name="Msg_ErrorTitle">خطأ  </string>
+    <string name="Msg_RequiredUserName">من فضلك ادخل اسم المستخدم  </string>
+    <string name="Msg_ok">موافق  </string>
+    <string name="Msg_FormatUserName">يجب ان يحتوي اسم المستخدم على الحروف التالية فقط ( 0~9 ) or ( A~Z ) or ( a~z ) or ( . ) or ( _ )  </string>
+    <string name="Msg_Requiredpass">من فضلك ادخل كلمة المرور.  </string>
+    <string name="No_internetconnection">يتطلب هذا التطبيق الاتصال بشبكة الانترنت يرجى التحقق وحاول مرة أخرى </string>
+    <string name="Msg_RequiredEmail">من فضلك ادخل البريد الإلكتروني. </string>
+    <string name="Msg_FormateEmail">من فضلك ادخل البريد الإلكتروني بشكل صحيح. </string>
+    <string name="Msg_RequiredPassword">من فضلك ادخل كلمة المرور.</string>
+    <string name="Msg_ConfirmPassword">كلمة المرور وتأكيد كلمة المرور غير متطابقتين.</string>
+    <string name="Msg_RequiredHealth">من فضلك ادخل معلوماتك الصحية.</string>
+    <string name="Msg_Requiredphone">من فضلك ادخل رقم الجوال.</string>
+    <string name="error_confrim">تأكد أن كل الحقول كاملة.</string>
+
+
 </resources>

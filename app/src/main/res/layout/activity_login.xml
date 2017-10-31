@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textPersonName|textPassword"
+        android:inputType="textPassword"
         android:layout_marginStart="11dp"
         tools:layout_constraintTop_creator="1"
         android:layout_marginTop="209dp"

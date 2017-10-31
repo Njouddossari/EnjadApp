@@ -15,6 +15,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
+import com.example.lenovo.enjad.SignupActivity;
 
 
 /**
@@ -23,13 +24,14 @@ import java.net.URLEncoder;
 
 public class registerDataLoaderBW extends AsyncTask <String,Void,String> {
 
-    Context context;
-    AlertDialog alertDialog;
+    SignupActivity activity;
+   // AlertDialog alertDialog;
+   String result;
 
-    registerDataLoaderBW (Context ctx )
+    registerDataLoaderBW (SignupActivity a )
     {
 
-        context=ctx;
+        activity=a;
     }
 
 
@@ -37,13 +39,15 @@ public class registerDataLoaderBW extends AsyncTask <String,Void,String> {
     protected String doInBackground(String... params) {
 
     String type= params[0];
-    String signup_url= "http://192.168.8.105/Myphpfiles/enjad/register.php";
+    String signup_url= "http://192.168.8.106/Myphpfiles/enjad/register.php";
         if ( type.equals("signup"))
     {
         try {
             String username=params[1];
             String password=params[2];
             String email=params[3];
+            String health=params[4];
+            String mobile=params[5];
             URL url= new URL (signup_url);
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             httpURLConnection.setRequestMethod("POST");
@@ -53,7 +57,9 @@ public class registerDataLoaderBW extends AsyncTask <String,Void,String> {
             BufferedWriter bufferedWriter= new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
             String post_data= URLEncoder.encode("username","UTF-8")+"="+URLEncoder.encode(username,"UTF-8")+"&"
                     +URLEncoder.encode("user_pass","UTF-8")+"="+URLEncoder.encode(password,"UTF-8")+"&"
-                    +URLEncoder.encode("user_email","UTF-8")+"="+URLEncoder.encode(email,"UTF-8");
+                    +URLEncoder.encode("user_email","UTF-8")+"="+URLEncoder.encode(email,"UTF-8")+"&"
+                    +URLEncoder.encode("user_health","UTF-8")+"="+URLEncoder.encode(health,"UTF-8")+"&"
+                    +URLEncoder.encode("user_mobile","UTF-8")+"="+URLEncoder.encode(mobile,"UTF-8");
             bufferedWriter.write(post_data);
             bufferedWriter.flush();
             bufferedWriter.close();
@@ -88,14 +94,16 @@ public class registerDataLoaderBW extends AsyncTask <String,Void,String> {
 
     @Override
     protected void onPreExecute() {
-        alertDialog = new AlertDialog.Builder(context).create();
-        alertDialog.setTitle("register Status");
+       // alertDialog = new AlertDialog.Builder(context).create();
+        //alertDialog.setTitle("register Status");
     }
 
     @Override
     protected void onPostExecute(String result) {
-        alertDialog.setMessage(result);
-        alertDialog.show();
+        this.result=result;
+        activity.getDataSign(this.result);
+        //alertDialog.setMessage(result);
+       // alertDialog.show();
 
     }
 

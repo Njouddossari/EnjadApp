@@ -409,6 +409,18 @@
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="ConfirmPassword">تأكيد كلمة المرور:</string>
+    <string name="Msg_ConfirmPassword">كلمة المرور وتأكيد كلمة المرور غير متطابقتين.</string>
+    <string name="Msg_ErrorTitle">خطأ  </string>
+    <string name="Msg_FormatUserName">يجب ان يحتوي اسم المستخدم على الحروف التالية فقط ( 0~9 ) or ( A~Z ) or ( a~z ) or ( . ) or ( _ )  </string>
+    <string name="Msg_FormateEmail">من فضلك ادخل البريد الإلكتروني بشكل صحيح. </string>
+    <string name="Msg_RequiredEmail">من فضلك ادخل البريد الإلكتروني. </string>
+    <string name="Msg_RequiredHealth">من فضلك ادخل معلوماتك الصحية.</string>
+    <string name="Msg_RequiredPassword">من فضلك ادخل كلمة المرور.</string>
+    <string name="Msg_RequiredUserName">من فضلك ادخل اسم المستخدم  </string>
+    <string name="Msg_Requiredpass">من فضلك ادخل كلمة المرور.  </string>
+    <string name="Msg_Requiredphone">من فضلك ادخل رقم الجوال.</string>
+    <string name="Msg_ok">موافق  </string>
+    <string name="No_internetconnection">يتطلب هذا التطبيق الاتصال بشبكة الانترنت يرجى التحقق وحاول مرة أخرى </string>
     <string name="Password">كلمة المرور:</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -445,6 +457,8 @@
     <string name="accessTocontact">الوصول إلى قائمة الاتصال:  </string>
     <string name="app_name">ENJAD</string>
     <string name="email">البريد الإلكتروني :</string>
+    <string name="error_confrim">تأكد أن كل الحقول كاملة.</string>
+    <string name="failed_login">اسم المستخدم او كلمة المرور غير صحيحة  </string>
     <string name="login">دخول </string>
     <string name="my_chats">المحادثات  </string>
     <string name="my_healthcondition">المعلومات الصحية:  </string>
