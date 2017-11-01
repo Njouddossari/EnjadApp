@@ -52,7 +52,7 @@ public class LoginActivity extends AppCompatActivity {
                             // here you can add functions
                         }
                     });
-            ad.setIcon(R.drawable.ic_launcher); //i put the icon of app
+            ad.setIcon(R.drawable.enjadapplogoicon); //i put the icon of app //Njoud changed app icon for better resolution
             ad.show();
             return;
         }
@@ -78,7 +78,7 @@ public class LoginActivity extends AppCompatActivity {
                             // here you can add functions
                         }
                     });
-            alertDialog.setIcon(R.drawable.ic_launcher);
+            alertDialog.setIcon(R.drawable.enjadapplogoicon);
             alertDialog.show();
             return;
         }
@@ -94,7 +94,7 @@ public class LoginActivity extends AppCompatActivity {
                             // here you can add functions
                         }
                     });
-            alertDialog.setIcon(R.drawable.ic_launcher);
+            alertDialog.setIcon(R.drawable.enjadapplogoicon);
             alertDialog.show();
             return;
         }
@@ -110,7 +110,7 @@ public class LoginActivity extends AppCompatActivity {
                             // here you can add functions
                         }
                     });
-            alertDialog.setIcon(R.drawable.ic_launcher);
+            alertDialog.setIcon(R.drawable.enjadapplogoicon);
             alertDialog.show();
             return;
         }

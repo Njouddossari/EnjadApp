@@ -7,7 +7,7 @@
     tools:context="com.example.lenovo.enjad.ProfileActivity"
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp">
-
+    <include layout="@layout/shared_design"/>
     <TextView
         android:id="@+id/usernametv"
         android:layout_width="wrap_content"

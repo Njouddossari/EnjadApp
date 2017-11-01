@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">ENJAD</string>
+    <string name="app_name">إنجاد</string>
 
     <string name="Password">كلمة المرور:</string>
 
@@ -11,7 +11,7 @@
     <string name="email">البريد الإلكتروني :</string>
     <string name="phone">رقم الجوال :</string>
     <string name="signup">إنشاء حساب</string>
-    <string name="login">دخول </string>
+    <string name="login">تسجيل الدخول</string>
     <string name="profile">الملف الشخصي </string>
     <string name="my_reports">البلاغات  </string>
     <string name="my_chats">المحادثات  </string>
@@ -38,6 +38,6 @@
     <string name="Msg_RequiredHealth">من فضلك ادخل معلوماتك الصحية.</string>
     <string name="Msg_Requiredphone">من فضلك ادخل رقم الجوال.</string>
     <string name="error_confrim">تأكد أن كل الحقول كاملة.</string>
-
+    <string name="Log_out">تسجيل خروج</string>
 
 </resources>

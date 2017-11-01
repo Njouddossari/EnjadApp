@@ -89,7 +89,7 @@ public class SignupActivity extends AppCompatActivity {
                             // here you can add functions
                         }
                     });
-            alertDialog.setIcon(R.drawable.ic_launcher);
+            alertDialog.setIcon(R.drawable.enjadapplogoicon);
             alertDialog.show();
             return;
         }
