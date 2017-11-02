@@ -414,5 +414,9 @@
     {
         "merged": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
         "source": "C:\\Users\\USER\\.android\\build-cache\\319ca9f8b96d22321093dc2c9c4265f326fad426\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_desing.xml",
+        "source": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\src\\main\\res\\drawable-hdpi\\button_desing.xml"
     }
 ]

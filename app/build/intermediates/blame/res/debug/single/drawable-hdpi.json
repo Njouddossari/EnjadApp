@@ -1,6 +1,34 @@
 [
     {
+        "merged": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\profileicon.png",
+        "source": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\src\\main\\res\\drawable-hdpi\\profileicon.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\enjadapp_bg.png",
+        "source": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\src\\main\\res\\drawable-hdpi\\enjadapp_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bellicon.png",
+        "source": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\src\\main\\res\\drawable-hdpi\\bellicon.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\enjadapplogo.png",
+        "source": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\src\\main\\res\\drawable-hdpi\\enjadapplogo.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\chaticon.png",
+        "source": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\src\\main\\res\\drawable-hdpi\\chaticon.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\enjadapplogoicon.png",
+        "source": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\src\\main\\res\\drawable-hdpi\\enjadapplogoicon.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\settingicon.png",
+        "source": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\src\\main\\res\\drawable-hdpi\\settingicon.png"
     }
 ]

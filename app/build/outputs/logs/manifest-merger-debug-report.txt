@@ -42,9 +42,9 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\US
 	android:allowBackup
 		ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:10:9-35
 	android:icon
-		ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:11:9-50
 	android:theme
-		ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:15:9-65
 activity#com.example.lenovo.enjad.SignupActivity
 ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:16:9-52
 	android:name
@@ -76,23 +76,33 @@ ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:27:1
 	android:name
 		ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:27:30-73
 activity#com.example.lenovo.enjad.ProfileActivity
-ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:29:9-53
+ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:29:9-96
+	android:icon
+		ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:29:52-93
 	android:name
 		ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:29:19-50
 activity#com.example.lenovo.enjad.chatlistActivity
-ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:30:9-54
+ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:30:9-95
+	android:icon
+		ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:30:52-93
 	android:name
 		ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:30:19-51
 activity#com.example.lenovo.enjad.HomPageActivity
-ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:31:9-53
+ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:31:9-94
+	android:icon
+		ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:31:51-92
 	android:name
 		ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:31:19-50
 activity#com.example.lenovo.enjad.ReportlistActivity
-ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:32:9-56
+ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:32:9-97
+	android:icon
+		ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:32:54-95
 	android:name
 		ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:32:19-53
 activity#com.example.lenovo.enjad.MainActivity
-ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:33:9-59
+ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:33:9-101
+	android:icon
+		ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:33:48-89
 	android:name
 		ADDED from C:\Users\USER\Desktop\EnjadApp1\app\src\main\AndroidManifest.xml:33:19-47
 uses-sdk

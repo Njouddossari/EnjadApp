@@ -7,80 +7,83 @@
     tools:context="com.example.lenovo.enjad.LoginActivity"
     tools:layout_editor_absoluteY="0dp"
     tools:layout_editor_absoluteX="0dp">
-    <include layout="@layout/shared_design"/>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/shared_design"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
     <TextView
         android:id="@+id/usernametv"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginEnd="7dp"
+        android:layout_height="25dp"
         android:text="@string/username"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="24sp"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="parent"
+        android:textColor="@color/colorPrimaryRed"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="121dp" />
         app:layout_constraintBaseline_toBaselineOf="@+id/usernameet"
+        app:layout_constraintRight_toRightOf="parent"
         tools:layout_constraintBaseline_creator="1"
-        android:layout_marginRight="7dp" />
+        tools:layout_constraintRight_creator="1"/>
 
     <EditText
         android:id="@+id/usernameet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:layout_marginLeft="120dp"
         android:ems="10"
-        android:hint="Username"
         android:inputType="textPersonName"
-        android:layout_marginStart="16dp"
-        tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toTopOf="@+id/Passwordet"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="23dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="16dp" />
-
-    <EditText
-        android:id="@+id/Passwordet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:layout_marginStart="11dp"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="209dp"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="11dp" />
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
 
     <TextView
         android:id="@+id/passwrdtv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="96dp"
         android:text="@string/Password"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="24sp"
-        android:layout_marginEnd="15dp"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
+        android:textColor="@color/colorPrimaryRed"
+        android:textSize="22sp"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="37dp"
         app:layout_constraintTop_toBottomOf="@+id/usernametv"
-        android:layout_marginRight="15dp" />
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <EditText
+        android:id="@+id/Passwordet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="284dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
 
     <Button
         android:id="@+id/loginbu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_desing"
         android:onClick="loginonclick"
         android:text="@string/login"
-        android:textSize="24sp"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginEnd="5dp"
+        android:theme="@style/ButtonText"
         app:layout_constraintRight_toRightOf="@+id/toregistertv"
-        android:layout_marginTop="15dp"
         app:layout_constraintTop_toBottomOf="@+id/toregistertv"
-        android:layout_marginRight="5dp" />
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
     <TextView
         android:id="@+id/toregistertv"

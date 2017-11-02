@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.lenovo.enjad.ReportlistActivity">
-
+    <include layout="@layout/shared_design"/>
     <TextView
         android:id="@+id/reports"
         android:layout_width="wrap_content"
