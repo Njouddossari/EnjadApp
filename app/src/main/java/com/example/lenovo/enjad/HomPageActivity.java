@@ -12,11 +12,12 @@ import android.view.View;
 import android.widget.Button;
 
 public class HomPageActivity extends AppCompatActivity {
-
+String username;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getIntent().getExtras().getString("username");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hom_page);
         Button ReportsB = (Button) findViewById(R.id.Reportsbutton);
@@ -31,6 +32,7 @@ public class HomPageActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) { //move to Profile page
                 Intent R = new Intent(getApplicationContext(),ProfileActivity.class);
+                R.putExtra("username",username);
                 startActivity(R);
             }
         });

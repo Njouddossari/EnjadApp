@@ -11,5 +11,6 @@
         android:layout_height="wrap_content"
         android:text="select all"
         tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="58dp" />
+        tools:layout_editor_absoluteY="58dp"
+        tools:ignore="MissingConstraints"/>
 </android.support.constraint.ConstraintLayout>

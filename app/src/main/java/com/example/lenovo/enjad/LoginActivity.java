@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
         bulogin= (Button) findViewById(R.id.loginbu);
         usernameet= (EditText) findViewById(R.id.usernameet);
         passwordet= (EditText) findViewById(R.id.Passwordet);
-        toregister=(TextView) findViewById(R.id.toregistertv);
+        //toregister=(TextView) findViewById(R.id.toregistertv);
 
         toregister.setOnClickListener(new View.OnClickListener() {
             @Override
