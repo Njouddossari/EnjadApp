@@ -18,7 +18,7 @@
     <style name="ButtonText" parent="@android:style/Widget.Button">
         <item name="android:textColor">@color/whitetext</item>
         <item name="android:textSize">22sp</item>
-        <item name="fontFamily">Caviar Dreams</item>
+       <!-- <item name="fontFamily">Caviar Dreams</item>-->
         <item name="android:background">@drawable/button_desing</item><!-- only way to change this is to change the src image -->
         <item name="android:layout_width">80.0px</item>
         <item name="android:layout_height">40.0px</item>
