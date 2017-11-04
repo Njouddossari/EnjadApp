@@ -12,13 +12,21 @@
     <include
         android:id="@+id/include2"
         layout="@layout/shared_design"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="39dp"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_height="0dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_width="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/passwrdtv"
-        android:layout_width="100dp"
+        android:layout_width="0dp"
         android:layout_height="29dp"
         android:text="@string/Password"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -27,9 +35,18 @@
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintTop_creator="1"
-        tools:layout_editor_absoluteX="201dp"
-        tools:layout_editor_absoluteY="330dp"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/reenterpasstv"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintRight_toRightOf="@+id/passwrdet"
+        android:layout_marginTop="73dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintTop_toTopOf="@+id/phonetv"
+        app:layout_constraintLeft_toRightOf="@+id/signbu"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp" />
 
     <TextView
         android:id="@+id/emailtv"
@@ -42,9 +59,18 @@
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintTop_creator="1"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="114dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toTopOf="@+id/phonetv"
+        android:layout_marginStart="83dp"
+        android:layout_marginEnd="83dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="114dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="114dp"
+        app:layout_constraintLeft_toLeftOf="@+id/reenterpasset"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="83dp"
+        android:layout_marginRight="83dp" />
 
     <TextView
         android:id="@+id/usrnametv"
@@ -55,10 +81,13 @@
         android:textColor="@color/colorPrimaryRed"
         android:textSize="22sp"
         tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_editor_absoluteX="183dp"
-        tools:layout_editor_absoluteY="39dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/usrnameet"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintRight_toRightOf="@+id/usrnameet"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="2dp" />
 
     <EditText
         android:id="@+id/passwrdet"
@@ -70,9 +99,14 @@
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintRight_creator="1"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="359dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/reenterpasset"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="71dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/phoneet" />
 
     <EditText
         android:id="@+id/emailet"
@@ -84,9 +118,14 @@
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintTop_creator="1"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="143dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toBottomOf="@+id/healthtv"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="29dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="31dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/emailtv" />
 
     <EditText
         android:id="@+id/usrnameet"
@@ -99,9 +138,13 @@
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintTop_creator="1"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="69dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toBottomOf="@+id/emailet"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/signbu"
@@ -113,9 +156,12 @@
         android:theme="@style/ButtonText"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="503dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:layout_marginStart="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="80dp" />
 
     <TextView
         android:id="@+id/reenterpasstv"
@@ -127,9 +173,15 @@
         android:textSize="22sp"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintRight_creator="1"
-        tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="403dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/signbu"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintRight_toRightOf="@+id/reenterpasset"
+        android:layout_marginTop="120dp"
+        app:layout_constraintTop_toBottomOf="@+id/phonetv"
+        android:layout_marginBottom="122dp"
+        android:layout_marginRight="3dp" />
 
     <EditText
         android:id="@+id/reenterpasset"
@@ -141,9 +193,14 @@
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintTop_creator="1"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="433dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="103dp"
+        android:layout_marginBottom="102dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/passwrdtv" />
 
     <TextView
         android:id="@+id/healthtv"
@@ -155,9 +212,12 @@
         android:textSize="22sp"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintTop_creator="1"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="181dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintRight_toRightOf="@+id/healthet"
+        android:layout_marginTop="38dp"
+        app:layout_constraintTop_toBottomOf="@+id/emailtv"
+        android:layout_marginRight="3dp" />
 
     <EditText
         android:id="@+id/healthet"
@@ -169,9 +229,14 @@
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintRight_creator="1"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="211dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/phonetv"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="35dp"
+        app:layout_constraintTop_toBottomOf="@+id/emailet"
+        android:layout_marginBottom="38dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <TextView
         android:id="@+id/phonetv"
@@ -181,11 +246,14 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/colorPrimaryRed"
         android:textSize="22sp"
-        tools:layout_constraintBottom_creator="1"
         tools:layout_constraintRight_creator="1"
-        tools:layout_editor_absoluteX="210dp"
-        tools:layout_editor_absoluteY="257dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintRight_toRightOf="@+id/phoneet"
+        android:layout_marginTop="257dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="2dp" />
 
     <EditText
         android:id="@+id/phoneet"
@@ -197,8 +265,13 @@
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintRight_creator="1"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="287dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/reenterpasset"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="111dp"
+        app:layout_constraintTop_toBottomOf="@+id/emailet"
+        android:layout_marginBottom="111dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

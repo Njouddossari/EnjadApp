@@ -34,18 +34,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity android:name="com.example.lenovo.enjad.SignupActivity" />
-        <activity android:name="com.example.lenovo.enjad.LoginActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.HOME" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-            <uses-permission android:name="android.permission.GET_TASKS" />
-        </activity>
+        <activity android:name="com.example.lenovo.enjad.LoginActivity" />
         <activity
             android:name="com.example.lenovo.enjad.ProfileActivity"
             android:icon="@drawable/enjadapplogoicon" />
@@ -60,7 +49,22 @@
             android:icon="@drawable/enjadapplogoicon" />
         <activity
             android:name="com.example.lenovo.enjad.MainActivity"
-            android:icon="@drawable/enjadapplogoicon" />
+            android:icon="@drawable/enjadapplogoicon" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <uses-permission android:name="android.permission.GET_TASKS" />
+        </activity>
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
@@ -74,11 +78,6 @@
             android:name="com.google.android.gms.measurement.AppMeasurementService"
             android:enabled="true"
             android:exported="false" />
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <receiver
             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"

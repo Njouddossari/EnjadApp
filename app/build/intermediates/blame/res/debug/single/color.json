@@ -1,7 +1,7 @@
 [
     {
         "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\LENOVO\\.android\\build-cache\\2d387351a08ea5a11ff48c1d34539b12018f39df\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\LENOVO\\.android\\build-cache\\46af5636a37662b848d227c905d647e8eb87beab\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
@@ -57,7 +57,7 @@
     },
     {
         "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\LENOVO\\.android\\build-cache\\2d387351a08ea5a11ff48c1d34539b12018f39df\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\LENOVO\\.android\\build-cache\\46af5636a37662b848d227c905d647e8eb87beab\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
@@ -89,10 +89,10 @@
     },
     {
         "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\LENOVO\\.android\\build-cache\\2d387351a08ea5a11ff48c1d34539b12018f39df\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\LENOVO\\.android\\build-cache\\46af5636a37662b848d227c905d647e8eb87beab\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
-        "source": "C:\\Users\\LENOVO\\.android\\build-cache\\2d387351a08ea5a11ff48c1d34539b12018f39df\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
+        "source": "C:\\Users\\LENOVO\\.android\\build-cache\\46af5636a37662b848d227c905d647e8eb87beab\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
     }
 ]

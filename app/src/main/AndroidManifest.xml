@@ -14,7 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".SignupActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".ProfileActivity"  android:icon="@drawable/enjadapplogoicon" />
+        <activity android:name=".chatlistActivity" android:icon="@drawable/enjadapplogoicon"/>
+        <activity android:name=".HomPageActivity" android:icon="@drawable/enjadapplogoicon"/>
+        <activity android:name=".ReportlistActivity" android:icon="@drawable/enjadapplogoicon"/>
+        <activity android:name=".MainActivity" android:icon="@drawable/enjadapplogoicon">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.MAIN" />
@@ -26,11 +31,6 @@
 
             <uses-permission android:name="android.permission.GET_TASKS" />
         </activity>
-        <activity android:name=".ProfileActivity"  android:icon="@drawable/enjadapplogoicon" />
-        <activity android:name=".chatlistActivity" android:icon="@drawable/enjadapplogoicon"/>
-        <activity android:name=".HomPageActivity" android:icon="@drawable/enjadapplogoicon"/>
-        <activity android:name=".ReportlistActivity" android:icon="@drawable/enjadapplogoicon"/>
-        <activity android:name=".MainActivity" android:icon="@drawable/enjadapplogoicon"></activity>
     </application>
 
 </manifest>

@@ -1,27 +1,42 @@
 package com.example.lenovo.enjad;
 
 import android.app.AlertDialog;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.ConnectivityManager;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 import java.util.regex.Pattern;
 
 public class SignupActivity extends AppCompatActivity {
     Button busign; EditText usernameet, passwordet , emailet, reenterpasset , healthet , mobileet;
     String username;
+    ProgressDialog progressDialog;
+    FirebaseAuth firebaseAuth;
+    FirebaseUser Fuser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
+
+        firebaseAuth=FirebaseAuth.getInstance();
+
         busign= (Button) findViewById(R.id.signbu);
         usernameet= (EditText) findViewById(R.id.usrnameet);
         passwordet= (EditText) findViewById(R.id.passwrdet);
@@ -29,6 +44,7 @@ public class SignupActivity extends AppCompatActivity {
         reenterpasset=(EditText) findViewById(R.id.reenterpasset);
         healthet= (EditText) findViewById(R.id.healthet);
         mobileet=(EditText) findViewById(R.id.phoneet);
+        progressDialog= new ProgressDialog(this);
 
     }
     public final Pattern EMAIL_ADDRESS_PATTERN = Pattern
@@ -95,10 +111,30 @@ public class SignupActivity extends AppCompatActivity {
         }
 
 
+        progressDialog.setMessage("Registring user.... ");
+        firebaseAuth.createUserWithEmailAndPassword(emailet.getText().toString().trim(),passwordet.getText().toString())
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful())
+                        {
+                            Toast.makeText(getApplicationContext(), "successfuly registered", Toast.LENGTH_LONG).show();
+                            Fuser=firebaseAuth.getCurrentUser();
+                            //user is successfully registered and logged in
+                            //start home page activity
+                            //insert all user info. to the DB
 
-        String type = "signup";
-        registerDataLoaderBW bw = new registerDataLoaderBW(this);
-        bw.execute(type, usernameet.getText().toString().trim(), passwordet.getText().toString(),  emailet.getText().toString().trim(),healthet.getText().toString().trim(), mobileet.getText().toString().trim());
+                        }
+                        else
+                        {
+                            Toast.makeText(getApplicationContext(), getString(R.string.error_confrim), Toast.LENGTH_LONG).show();
+                        }
+
+                    }
+                });
+
+
+        //bw.execute(type, usernameet.getText().toString().trim(), passwordet.getText().toString(),  emailet.getText().toString().trim(),healthet.getText().toString().trim(), mobileet.getText().toString().trim());
     }
 
 

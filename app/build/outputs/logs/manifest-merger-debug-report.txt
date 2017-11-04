@@ -19,9 +19,9 @@ ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\An
 		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:7:5-67
-MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\LENOVO\.android\build-cache\d601f2663cf6183b2843767cad4c0c6149b0249f\output\AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\LENOVO\.android\build-cache\4b6d4e2d0b1d68122412d0b18c1be0e66ae47ef7\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:21:5-67
 	android:name
 		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:7:22-64
 application
@@ -30,14 +30,16 @@ MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\LENOVO\.an
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\LENOVO\.android\build-cache\8ac576d26c9377b43ced0793971700d14d88b5f9\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\LENOVO\.android\build-cache\a11600cfda7408602561907f3d15c4dbb853731d\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\LENOVO\.android\build-cache\d63b0fb949196cd443c9df49967496af934b42ba\output\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-core:9.0.0] C:\Users\LENOVO\.android\build-cache\23211e1c54b4032b26aaf4d4ac962d622233c28d\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:26:5-41:19
-MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\LENOVO\.android\build-cache\d601f2663cf6183b2843767cad4c0c6149b0249f\output\AndroidManifest.xml:26:5-41:19
-MERGED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\LENOVO\.android\build-cache\2d387351a08ea5a11ff48c1d34539b12018f39df\output\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:30:5-59:19
-MERGED from [com.google.firebase:firebase-common:9.0.0] C:\Users\LENOVO\.android\build-cache\d19899d297c6a61502c5c06ea1542dca808ac787\output\AndroidManifest.xml:5:5-12:19
-MERGED from [com.google.android.gms:play-services-tasks:9.0.0] C:\Users\LENOVO\.android\build-cache\3bbd3d0ef11e84835263bb7ada1dbea46fc9a2ed\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\LENOVO\.android\build-cache\40ea66c31676f82fb306244d84ad836ece1ca4a2\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.firebase:firebase-auth:9.2.0] C:\Users\LENOVO\.android\build-cache\f9d0983da16c558c8b4f821331fadcf94fece06f\output\AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.2.0] C:\Users\LENOVO\.android\build-cache\b292be84345b800a58a172f5a379e42687fd0559\output\AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\LENOVO\.android\build-cache\46af5636a37662b848d227c905d647e8eb87beab\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-core:9.2.0] C:\Users\LENOVO\.android\build-cache\cac57811118cc9278b0ca622ced79591a3ecb6a6\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\LENOVO\.android\build-cache\4b6d4e2d0b1d68122412d0b18c1be0e66ae47ef7\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.2.0] C:\Users\LENOVO\.android\build-cache\c71d88662fbceb10a3e0a4a1b09f8008de213603\output\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] C:\Users\LENOVO\.android\build-cache\72006773acc962701c0e8e00952058f37da54a9f\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\LENOVO\.android\build-cache\155b40d311517b26929cfcedacd3dfa7bd495913\output\AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\LENOVO\.android\build-cache\8423d56da514e329a9858c8e00e24913b897ed38\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\LENOVO\.android\build-cache\64c4103ee7fe2befca9ce4a474b70789d0648a13\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\LENOVO\.android\build-cache\3c8616985fe2f74c25d68d63a34c90b3a234438c\output\AndroidManifest.xml:29:5-20
@@ -61,75 +63,78 @@ ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\An
 	android:name
 		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:16:19-49
 activity#com.example.lenovo.enjad.LoginActivity
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:17:9-28:20
+ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:17:9-60
 	android:name
 		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:17:19-48
-intent-filter#android.intent.action.MAIN+android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.HOME+android.intent.category.LAUNCHER
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:18:13-25:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:19:17-69
-	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:19:25-66
-category#android.intent.category.HOME
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:22:17-73
-	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:22:27-70
-category#android.intent.category.DEFAULT
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:23:17-76
-	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:23:27-73
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:24:17-77
-	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:24:27-74
-uses-permission#android.permission.GET_TASKS
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:27:13-76
-	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:27:30-73
 activity#com.example.lenovo.enjad.ProfileActivity
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:29:9-96
+ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:18:9-96
 	android:icon
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:29:52-93
+		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:18:52-93
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:29:19-50
+		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:18:19-50
 activity#com.example.lenovo.enjad.chatlistActivity
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:30:9-95
+ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:19:9-95
 	android:icon
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:30:52-93
+		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:19:52-93
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:30:19-51
+		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:19:19-51
 activity#com.example.lenovo.enjad.HomPageActivity
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:31:9-94
+ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:20:9-94
 	android:icon
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:31:51-92
+		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:20:51-92
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:31:19-50
+		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:20:19-50
 activity#com.example.lenovo.enjad.ReportlistActivity
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:32:9-97
+ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:21:9-97
 	android:icon
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:32:54-95
+		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:21:54-95
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:32:19-53
+		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:21:19-53
 activity#com.example.lenovo.enjad.MainActivity
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:33:9-101
+ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:22:9-33:20
 	android:icon
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:33:48-89
+		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:22:48-89
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:33:19-47
+		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:22:19-47
+intent-filter#android.intent.action.MAIN+android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.HOME+android.intent.category.LAUNCHER
+ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:23:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.HOME
+ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:27:17-73
+	android:name
+		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:27:27-70
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:28:17-76
+	android:name
+		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:28:27-73
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:29:27-74
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:32:13-76
+	android:name
+		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:32:30-73
 uses-sdk
 INJECTED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\LENOVO\.android\build-cache\22ab6d881efab104529d5d76cb6f34584950ca18\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\LENOVO\.android\build-cache\8ac576d26c9377b43ced0793971700d14d88b5f9\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\LENOVO\.android\build-cache\a11600cfda7408602561907f3d15c4dbb853731d\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\LENOVO\.android\build-cache\d63b0fb949196cd443c9df49967496af934b42ba\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-core:9.0.0] C:\Users\LENOVO\.android\build-cache\23211e1c54b4032b26aaf4d4ac962d622233c28d\output\AndroidManifest.xml:4:5-42
-MERGED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\LENOVO\.android\build-cache\d601f2663cf6183b2843767cad4c0c6149b0249f\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\LENOVO\.android\build-cache\2d387351a08ea5a11ff48c1d34539b12018f39df\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.firebase:firebase-common:9.0.0] C:\Users\LENOVO\.android\build-cache\d19899d297c6a61502c5c06ea1542dca808ac787\output\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:9.0.0] C:\Users\LENOVO\.android\build-cache\3bbd3d0ef11e84835263bb7ada1dbea46fc9a2ed\output\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\LENOVO\.android\build-cache\40ea66c31676f82fb306244d84ad836ece1ca4a2\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-auth:9.2.0] C:\Users\LENOVO\.android\build-cache\f9d0983da16c558c8b4f821331fadcf94fece06f\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.2.0] C:\Users\LENOVO\.android\build-cache\b292be84345b800a58a172f5a379e42687fd0559\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.2.0] C:\Users\LENOVO\.android\build-cache\9b699bc1bf09b33d4b126b7d811d4fd3cb88c7b5\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\LENOVO\.android\build-cache\46af5636a37662b848d227c905d647e8eb87beab\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-core:9.2.0] C:\Users\LENOVO\.android\build-cache\cac57811118cc9278b0ca622ced79591a3ecb6a6\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\LENOVO\.android\build-cache\4b6d4e2d0b1d68122412d0b18c1be0e66ae47ef7\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.2.0] C:\Users\LENOVO\.android\build-cache\c71d88662fbceb10a3e0a4a1b09f8008de213603\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] C:\Users\LENOVO\.android\build-cache\72006773acc962701c0e8e00952058f37da54a9f\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\LENOVO\.android\build-cache\155b40d311517b26929cfcedacd3dfa7bd495913\output\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\LENOVO\.android\build-cache\8423d56da514e329a9858c8e00e24913b897ed38\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\LENOVO\.android\build-cache\64c4103ee7fe2befca9ce4a474b70789d0648a13\output\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\LENOVO\.android\build-cache\3c8616985fe2f74c25d68d63a34c90b3a234438c\output\AndroidManifest.xml:21:5-23:60
@@ -158,117 +163,117 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\LENOVO\.
 		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\LENOVO\.android\build-cache\22ab6d881efab104529d5d76cb6f34584950ca18\output\AndroidManifest.xml:27:9-38
 	android:name
 		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\LENOVO\.android\build-cache\22ab6d881efab104529d5d76cb6f34584950ca18\output\AndroidManifest.xml:26:9-47
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\LENOVO\.android\build-cache\d601f2663cf6183b2843767cad4c0c6149b0249f\output\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:20:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:22:22-76
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\LENOVO\.android\build-cache\d601f2663cf6183b2843767cad4c0c6149b0249f\output\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:22:5-68
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:24:22-65
-receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:28:7-34:18
-MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\LENOVO\.android\build-cache\d601f2663cf6183b2843767cad4c0c6149b0249f\output\AndroidManifest.xml:28:7-34:18
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:30:11-33
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:29:11-83
-intent-filter#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:31:9-33:25
-action#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:32:11-77
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:32:19-75
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:36:7-39:37
-MERGED from [com.google.firebase:firebase-analytics-impl:9.0.0] C:\Users\LENOVO\.android\build-cache\d601f2663cf6183b2843767cad4c0c6149b0249f\output\AndroidManifest.xml:36:7-39:37
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:38:11-33
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:39:11-35
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.0.0] C:\Users\LENOVO\.android\build-cache\c788abbb3091d14590f31f8a9ee11de99330445e\output\AndroidManifest.xml:37:11-82
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\LENOVO\.android\build-cache\2d387351a08ea5a11ff48c1d34539b12018f39df\output\AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\LENOVO\.android\build-cache\46af5636a37662b848d227c905d647e8eb87beab\output\AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\LENOVO\.android\build-cache\2d387351a08ea5a11ff48c1d34539b12018f39df\output\AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\LENOVO\.android\build-cache\46af5636a37662b848d227c905d647e8eb87beab\output\AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\LENOVO\.android\build-cache\2d387351a08ea5a11ff48c1d34539b12018f39df\output\AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\LENOVO\.android\build-cache\46af5636a37662b848d227c905d647e8eb87beab\output\AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:9.0.0] C:\Users\LENOVO\.android\build-cache\2d387351a08ea5a11ff48c1d34539b12018f39df\output\AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\LENOVO\.android\build-cache\46af5636a37662b848d227c905d647e8eb87beab\output\AndroidManifest.xml:20:19-85
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\LENOVO\.android\build-cache\4b6d4e2d0b1d68122412d0b18c1be0e66ae47ef7\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\LENOVO\.android\build-cache\4b6d4e2d0b1d68122412d0b18c1be0e66ae47ef7\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:24:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\LENOVO\.android\build-cache\4b6d4e2d0b1d68122412d0b18c1be0e66ae47ef7\output\AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\LENOVO\.android\build-cache\4b6d4e2d0b1d68122412d0b18c1be0e66ae47ef7\output\AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:37:11-82
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:23:5-82
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:23:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:23:22-79
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:23:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:25:5-26:47
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:25:5-26:47
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:26:9-44
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:26:9-44
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:25:17-71
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:25:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:28:5-79
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:28:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:28:22-76
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:28:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:32:9-41:20
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:32:9-41:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:34:13-36
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:34:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:35:13-73
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:35:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:33:13-78
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:33:13-78
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:36:13-40:29
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:36:13-40:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:37:17-81
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:37:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:37:25-78
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:37:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:38:17-86
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:38:17-86
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:38:25-83
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:38:25-83
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:39:17-61
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:39:17-61
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:39:27-58
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:39:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:45:9-47:40
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:45:9-47:40
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:47:13-37
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:46:13-86
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:46:13-86
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:51:9-57:19
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:51:9-57:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:53:13-36
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:53:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:52:13-77
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:52:13-77
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:54:13-56:29
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:54:13-56:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:54:28-51
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:54:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:55:17-80
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:55:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.0.0] C:\Users\LENOVO\.android\build-cache\0aa0259752a7821f5d13d38e9e4a1440d926be65\output\AndroidManifest.xml:55:25-77
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\LENOVO\.android\build-cache\39abe5873fed8e0057e80eb3b2c897d3d7c1e5e1\output\AndroidManifest.xml:55:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\LENOVO\.android\build-cache\d19899d297c6a61502c5c06ea1542dca808ac787\output\AndroidManifest.xml:7:9-11:39
+ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\LENOVO\.android\build-cache\c71d88662fbceb10a3e0a4a1b09f8008de213603\output\AndroidManifest.xml:7:9-11:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\LENOVO\.android\build-cache\d19899d297c6a61502c5c06ea1542dca808ac787\output\AndroidManifest.xml:8:13-72
+		ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\LENOVO\.android\build-cache\c71d88662fbceb10a3e0a4a1b09f8008de213603\output\AndroidManifest.xml:8:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\LENOVO\.android\build-cache\d19899d297c6a61502c5c06ea1542dca808ac787\output\AndroidManifest.xml:10:13-37
+		ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\LENOVO\.android\build-cache\c71d88662fbceb10a3e0a4a1b09f8008de213603\output\AndroidManifest.xml:10:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\LENOVO\.android\build-cache\d19899d297c6a61502c5c06ea1542dca808ac787\output\AndroidManifest.xml:11:13-36
+		ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\LENOVO\.android\build-cache\c71d88662fbceb10a3e0a4a1b09f8008de213603\output\AndroidManifest.xml:11:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:9.0.0] C:\Users\LENOVO\.android\build-cache\d19899d297c6a61502c5c06ea1542dca808ac787\output\AndroidManifest.xml:9:13-58
+		ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\LENOVO\.android\build-cache\c71d88662fbceb10a3e0a4a1b09f8008de213603\output\AndroidManifest.xml:9:13-58
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\LENOVO\.android\build-cache\40ea66c31676f82fb306244d84ad836ece1ca4a2\output\AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\LENOVO\.android\build-cache\155b40d311517b26929cfcedacd3dfa7bd495913\output\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\LENOVO\.android\build-cache\40ea66c31676f82fb306244d84ad836ece1ca4a2\output\AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\LENOVO\.android\build-cache\155b40d311517b26929cfcedacd3dfa7bd495913\output\AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:9.0.0] C:\Users\LENOVO\.android\build-cache\40ea66c31676f82fb306244d84ad836ece1ca4a2\output\AndroidManifest.xml:22:13-58
+		ADDED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\LENOVO\.android\build-cache\155b40d311517b26929cfcedacd3dfa7bd495913\output\AndroidManifest.xml:22:13-58
