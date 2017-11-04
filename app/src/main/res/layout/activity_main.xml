@@ -21,7 +21,7 @@
         android:text="@string/login"
         android:theme="@style/ButtonText"
         tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="416dp" />
+        tools:layout_editor_absoluteY="424dp" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -29,6 +29,16 @@
         android:layout_height="387dp"
         app:srcCompat="@drawable/enjadapplogo"
         tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/signuptextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/New_user"
+        android:textColor="@color/colorPrimaryRed"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="498dp" />
 
 </android.support.constraint.ConstraintLayout>

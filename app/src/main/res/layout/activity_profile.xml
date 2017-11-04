@@ -11,7 +11,8 @@
     <include
         layout="@layout/shared_design"
         tools:layout_editor_absoluteX="191dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints"/>
     <TextView
         android:id="@+id/usernametv"
         android:layout_width="wrap_content"
@@ -141,13 +142,14 @@
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintTop_creator="1"  />
 
-    <Switch
+    <!-- to be deleted? --> <Switch
         android:id="@+id/accesstomicSW"
         android:layout_width="0dp"
         android:layout_height="51dp"
         android:text="@string/accessToMIC"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:textColor="@color/colorPrimaryRed"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         tools:layout_constraintTop_creator="1"
@@ -165,22 +167,20 @@
 
     <Button
         android:id="@+id/savechngeBU"
-        android:layout_width="wrap_content"
+        android:layout_width="145dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/button_desing"
         android:text="@string/savechenges"
         android:theme="@style/ButtonText"
-        android:background="@drawable/button_desing"
-        android:layout_marginEnd="65dp"
-        android:textColor="@color/colorPrimaryRed"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        android:layout_marginStart="65dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="@+id/passwrdtv"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="45dp"
+        app:layout_constraintHorizontal_bias="0.888"
         app:layout_constraintLeft_toLeftOf="@+id/textView5"
-        android:layout_marginLeft="65dp"
-        android:layout_marginRight="65dp" />
+        app:layout_constraintRight_toRightOf="@+id/passwrdtv"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
 
 </android.support.constraint.ConstraintLayout>
