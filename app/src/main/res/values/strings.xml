@@ -41,4 +41,8 @@
     <string name="Log_out">تسجيل خروج</string>
     <string name="New_user">مستخدم جديد؟</string>
 
+    <string name="success_Log_in">تمت عملية تسجيل الدخول بنجاح... </string>
+    <string name="success_Log_out">تمت عملية تسجيل الخروج بنجاح... </string>
+    <string name="success_sign_in">تمت عمليةالتسجيل بنجاح... </string>
+
 </resources>

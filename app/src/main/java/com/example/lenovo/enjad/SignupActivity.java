@@ -20,15 +20,17 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.regex.Pattern;
 
 public class SignupActivity extends AppCompatActivity {
     Button busign; EditText usernameet, passwordet , emailet, reenterpasset , healthet , mobileet;
     String username;
-    ProgressDialog progressDialog;
     FirebaseAuth firebaseAuth;
-    FirebaseUser Fuser;
+    FirebaseUser user;
+    DatabaseReference databaseReference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,13 @@ public class SignupActivity extends AppCompatActivity {
         setContentView(R.layout.activity_signup);
 
         firebaseAuth=FirebaseAuth.getInstance();
+        if (firebaseAuth.getCurrentUser() != null ) // check if user is not logged in
+        {
+           firebaseAuth.signOut();
+        }
+
+        databaseReference= FirebaseDatabase.getInstance().getReference();
+
 
         busign= (Button) findViewById(R.id.signbu);
         usernameet= (EditText) findViewById(R.id.usrnameet);
@@ -44,7 +53,6 @@ public class SignupActivity extends AppCompatActivity {
         reenterpasset=(EditText) findViewById(R.id.reenterpasset);
         healthet= (EditText) findViewById(R.id.healthet);
         mobileet=(EditText) findViewById(R.id.phoneet);
-        progressDialog= new ProgressDialog(this);
 
     }
     public final Pattern EMAIL_ADDRESS_PATTERN = Pattern
@@ -111,23 +119,27 @@ public class SignupActivity extends AppCompatActivity {
         }
 
 
-        progressDialog.setMessage("Registring user.... ");
+
         firebaseAuth.createUserWithEmailAndPassword(emailet.getText().toString().trim(),passwordet.getText().toString())
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful())
+                        if ( task.isSuccessful())
                         {
-                            Toast.makeText(getApplicationContext(), "successfuly registered", Toast.LENGTH_LONG).show();
-                            Fuser=firebaseAuth.getCurrentUser();
-                            //user is successfully registered and logged in
-                            //start home page activity
+                            //Toast.makeText(getApplicationContext(), getString(R.string.success_sign_in), Toast.LENGTH_LONG).show();
+                            //user is successfully registered
                             //insert all user info. to the DB
+                            saveUserInfo(usernameet.getText().toString().trim(),emailet.getText().toString().trim(),healthet.getText().toString().trim()
+                                    , mobileet.getText().toString().trim(), passwordet.getText().toString());
+                            //logged in system and start home page activity
+                            startActivity(new Intent (getApplicationContext(),HomPageActivity.class));
+
 
                         }
                         else
                         {
                             Toast.makeText(getApplicationContext(), getString(R.string.error_confrim), Toast.LENGTH_LONG).show();
+                            return ;
                         }
 
                     }
@@ -137,18 +149,24 @@ public class SignupActivity extends AppCompatActivity {
         //bw.execute(type, usernameet.getText().toString().trim(), passwordet.getText().toString(),  emailet.getText().toString().trim(),healthet.getText().toString().trim(), mobileet.getText().toString().trim());
     }
 
-
-    public void getDataSign(String result)
+    public void saveUserInfo(String name , String email, String health_info , String phone , String pass  )
     {
-        if (result.toString().trim().equals("1")) //trim() omit the white space from starting and the ending in the varible
-        {
-            Intent signup = new Intent (this,HomPageActivity.class);
-            signup.putExtra("username", usernameet.getText().toString().trim());
-            startActivity(signup);
-        }
-        else{
-            Toast.makeText(getApplicationContext(), getString(R.string.error_confrim), Toast.LENGTH_LONG).show();}
+        String username1=name;
+        String Email=email;
+        String H_info=health_info;
+        String mobile=phone;
+        String password=pass;
+        User newuser= new User (username1, Email, H_info,mobile,password);
+        user=firebaseAuth.getCurrentUser();
+        databaseReference.child("user").child(user.getUid()).setValue(newuser);
+
+
+
+
     }
+
+
+
 
 }
 

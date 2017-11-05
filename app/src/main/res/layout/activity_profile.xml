@@ -165,7 +165,7 @@
             android:textColor="@color/colorPrimaryBlack"/>
 
         <TextView
-            android:id="@+id/usernametv"
+            android:id="@+id/emailTV"
             android:layout_width="123dp"
             android:layout_height="34dp"
             android:layout_weight="1"

@@ -11,15 +11,25 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class HomPageActivity extends AppCompatActivity {
-String username;
+    String username;
+    FirebaseAuth firebaseAuth;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        getIntent().getExtras().getString("username");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hom_page);
+
+        firebaseAuth=FirebaseAuth.getInstance();
+        if (firebaseAuth.getCurrentUser() == null ) // check if user is not logged in
+        {
+            //login activity here
+            startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+        }
+
         Button ReportsB = (Button) findViewById(R.id.Reportsbutton);
         Button ProfileB = (Button) findViewById(R.id.Profilebutton);
         Button ChatsB = (Button) findViewById(R.id.Chatsbutton);
@@ -65,4 +75,15 @@ String username;
     public boolean onOptionsItemSelected(MenuItem item) { //to tell if item is selected from the menu
         return super.onOptionsItemSelected(item);
     }
+
+    /*
+    function logout
+    {
+            firebaseAuth.signOut();
+            Toast.makeText(getApplicationContext(),قgetString(R.string.success_Log_out), Toast.LENGTH_LONG).show();
+            finish();
+            startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+    }
+
+     */
 }

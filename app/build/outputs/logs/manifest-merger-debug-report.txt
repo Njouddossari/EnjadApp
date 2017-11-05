@@ -127,6 +127,8 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\LE
 MERGED from [com.google.firebase:firebase-auth:9.2.0] C:\Users\LENOVO\.android\build-cache\f9d0983da16c558c8b4f821331fadcf94fece06f\output\AndroidManifest.xml:18:5-43
 MERGED from [com.google.firebase:firebase-auth-common:9.2.0] C:\Users\LENOVO\.android\build-cache\b292be84345b800a58a172f5a379e42687fd0559\output\AndroidManifest.xml:18:5-43
 MERGED from [com.google.firebase:firebase-auth-module:9.2.0] C:\Users\LENOVO\.android\build-cache\9b699bc1bf09b33d4b126b7d811d4fd3cb88c7b5\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database:9.2.0] C:\Users\LENOVO\.android\build-cache\e30c9777a6a6b3ee4ccf5e106f7d360d47a356eb\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database-connection:9.2.0] C:\Users\LENOVO\.android\build-cache\c90c2719ece9e7437c41bca519c3fc594db03f78\output\AndroidManifest.xml:5:5-43
 MERGED from [com.google.android.gms:play-services-base:9.2.0] C:\Users\LENOVO\.android\build-cache\46af5636a37662b848d227c905d647e8eb87beab\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.firebase:firebase-core:9.2.0] C:\Users\LENOVO\.android\build-cache\cac57811118cc9278b0ca622ced79591a3ecb6a6\output\AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\LENOVO\.android\build-cache\688b24a811a48a37e0d998d5d7e31657e0b05a42\output\AndroidManifest.xml:18:5-42

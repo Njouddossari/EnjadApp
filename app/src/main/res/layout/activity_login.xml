@@ -11,23 +11,36 @@
     <include
         android:id="@+id/include"
         layout="@layout/shared_design"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_height="0dp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/Passwordet"
+        app:layout_constraintRight_toRightOf="@+id/loginbu"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_width="0dp"
+        app:layout_constraintTop_toTopOf="@+id/Passwordet"
+        app:layout_constraintLeft_toRightOf="@+id/loginbu" />
 
     <TextView
-        android:id="@+id/usernametv"
+        android:id="@+id/emailTV"
         android:layout_width="wrap_content"
         android:layout_height="25dp"
-        android:text="@string/username"
+        android:text="@string/email"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@color/colorPrimaryRed"
         android:textSize="22sp"
-        tools:layout_editor_absoluteX="218dp"
-        tools:layout_editor_absoluteY="121dp" />
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/emailET"
+        android:layout_marginEnd="35dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="29dp"
+        android:layout_marginRight="35dp" />
 
 
     <EditText
-        android:id="@+id/usernameet"
+        android:id="@+id/emailET"
         android:layout_width="300dp"
         android:layout_height="37dp"
         android:layout_marginBottom="72dp"
@@ -39,7 +52,8 @@
         app:layout_constraintBottom_toTopOf="@+id/Passwordet"
         app:layout_constraintLeft_toLeftOf="parent"
         tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1" />
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginStart="40dp" />
 
     <TextView
         android:id="@+id/passwrdtv"
@@ -52,9 +66,10 @@
         android:textColor="@color/colorPrimaryRed"
         android:textSize="22sp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/usernametv"
+        app:layout_constraintTop_toBottomOf="@+id/emailTV"
         tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1" />
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginEnd="48dp" />
 
     <EditText
         android:id="@+id/Passwordet"
@@ -69,7 +84,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintTop_creator="1" />
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="40dp" />
 
 
     <Button
@@ -80,9 +96,12 @@
         android:onClick="loginonclick"
         android:text="@string/login"
         android:theme="@style/ButtonText"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="434dp" />
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="85dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="36dp" />
 
 </android.support.constraint.ConstraintLayout>
