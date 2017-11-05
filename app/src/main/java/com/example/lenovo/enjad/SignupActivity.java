@@ -37,10 +37,10 @@ public class SignupActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
-        firebaseAuth=FirebaseAuth.getInstance();
+        firebaseAuth=FirebaseAuth.getInstance();//to authinticate user
         if (firebaseAuth.getCurrentUser() != null ) // check if user is not logged in
         {
-           firebaseAuth.signOut();
+           firebaseAuth.signOut(); //logout because the user want to create new account
         }
 
         databaseReference= FirebaseDatabase.getInstance().getReference();
@@ -146,7 +146,7 @@ public class SignupActivity extends AppCompatActivity {
                 });
 
 
-        //bw.execute(type, usernameet.getText().toString().trim(), passwordet.getText().toString(),  emailet.getText().toString().trim(),healthet.getText().toString().trim(), mobileet.getText().toString().trim());
+
     }
 
     public void saveUserInfo(String name , String email, String health_info , String phone , String pass  )
@@ -156,11 +156,9 @@ public class SignupActivity extends AppCompatActivity {
         String H_info=health_info;
         String mobile=phone;
         String password=pass;
-        User newuser= new User (username1, Email, H_info,mobile,password);
-        user=firebaseAuth.getCurrentUser();
-        databaseReference.child("user").child(user.getUid()).setValue(newuser);
-
-
+        User newuser= new User (username1, Email, H_info,mobile,password); //save user information in object
+        user=firebaseAuth.getCurrentUser();// which user is signed in system
+        databaseReference.child("user").child(user.getUid()).setValue(newuser); // insert the user info to DB
 
 
     }

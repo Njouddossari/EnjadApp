@@ -23,9 +23,9 @@ import java.util.regex.Pattern;
 
 public class LoginActivity extends AppCompatActivity {
     Button bulogin; EditText emailet, passwordet;
-    TextView toregister;
+
     String email , password;
-    ProgressDialog progressDialog;
+
     FirebaseAuth firebaseAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,17 +42,11 @@ public class LoginActivity extends AppCompatActivity {
         bulogin= (Button) findViewById(R.id.loginbu);
         emailet= (EditText) findViewById(R.id.emailET);
         passwordet= (EditText) findViewById(R.id.Passwordet);
-        progressDialog= new ProgressDialog(this);
 
 
-        toregister.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view){
-                Intent intent = new Intent(getApplicationContext(), SignupActivity.class);
-                startActivity(intent);
-            }});
 
     }
+
     public final Pattern EMAIL_ADDRESS_PATTERN = Pattern
             .compile("[a-zA-Z0-9\\+\\.\\_\\%\\-\\+]{1,256}" + "\\@"
                     + "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,64}" + "(" + "\\."
@@ -96,25 +90,24 @@ public class LoginActivity extends AppCompatActivity {
         }
        password= passwordet.getText().toString().trim();
         email=emailet.getText().toString().trim();
-        progressDialog.setMessage("Login .... ");
         firebaseAuth.signInWithEmailAndPassword(email,password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        progressDialog.dismiss();
+
                         if (task.isSuccessful())
                         {
                             Toast.makeText(getApplicationContext(),getString(R.string.success_Log_in), Toast.LENGTH_LONG).show();
                             //user is successfully logged to the system
                             //start home page activity
-                            finish();
                             startActivity(new Intent(getApplicationContext(),HomPageActivity.class));
+                            finish();
 
 
                         }
                         else
                         {
-                            Toast.makeText(getApplicationContext(), getString(R.string.error_confrim), Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), getString(R.string.failed_login), Toast.LENGTH_LONG).show();
                         }
 
                     }
@@ -122,24 +115,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
-           // backgrandworker.execute(type, usernameet.getText().toString(), passwordet.getText().toString());
 
-        }
-        //Intent login = new Intent (this,HomPageActivity.class);
-
-        // startActivity(login);
-        public void getDataLogin(String result)
-        {
-            /*if (result.toString().trim().equals("1")) //trim() omit the white space from starting and the ending in the varible
-            {
-                Intent login = new Intent(this, HomPageActivity.class);
-                login.putExtra("username",usernameet.getText().toString().trim()); // to move username data to Home page avtivity
-                startActivity(login);
-            }
-            else
-            {
-                Toast.makeText(getApplicationContext(), getString(R.string.failed_login), Toast.LENGTH_LONG).show(); //message
-            }*/
 
         }
 
