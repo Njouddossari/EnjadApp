@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">352690967329-shgt0osh1d3nmkdttcp9vn3q0bcbru8h.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://enjadpp.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">352690967329</string>
+    <string name="google_api_key" translatable="false">AIzaSyAevEfjj7JRinnM5f0BUmoulDODktTclk8</string>
+    <string name="google_app_id" translatable="false">1:352690967329:android:6dc528e44becdfff</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAevEfjj7JRinnM5f0BUmoulDODktTclk8</string>
+    <string name="google_storage_bucket" translatable="false">enjadpp.appspot.com</string>
+    <string name="project_id" translatable="false">enjadpp</string>
+</resources>
