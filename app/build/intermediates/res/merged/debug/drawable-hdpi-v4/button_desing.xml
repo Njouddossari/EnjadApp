@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- rounded edge and black button -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+        <corners
+            android:radius="5dp"
+            />
+        <solid
+            android:color="@color/colorPrimaryBlack"
+            />
+    <size
+        android:width="25dp"
+        android:height="10dp"
+        />
+        <stroke
+            android:width="2dp"
+            android:color="@color/colorPrimaryBlack"
+            />
+    </shape>
+

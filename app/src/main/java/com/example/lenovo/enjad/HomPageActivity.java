@@ -36,7 +36,7 @@ public class HomPageActivity extends AppCompatActivity {
 
         Toolbar actionbar=(Toolbar) findViewById(R.id.action_bar);//Creating object toolbar
         setSupportActionBar(actionbar);
-        actionbar.setLogo(R.drawable.enjadapplogoicon); //set logo in the toolbar/action bar
+
 
         ProfileB.setOnClickListener(new View.OnClickListener() {
             @Override
