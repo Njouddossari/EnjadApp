@@ -168,4 +168,5 @@ public class SignupActivity extends AppCompatActivity {
 
 }
 
-
+//databaseref.push() // create unique id
+//id=databaseref.push().getkey(); // to get the id
