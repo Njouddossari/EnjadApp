@@ -17,12 +17,13 @@
     <string name="my_chats">المحادثات</string>
 
     <string name="my_healthcondition">المعلومات الصحية</string>
-    <string name="providehelp">تقديم المساعدة للآخرين</string>
-    <string name="accessTocontact">الوصول إلى قائمة الاتصال</string>
+    <string name="providehelp">تقديم المساعدة للآخرين: </string>
     <string name="accessToMIC">استخدام المايكروفون</string>
     <string name="savechenges">حفظ التغييرات</string>
     <string name="my_reportslist">قائمة بلاغاتي</string>
     <string name="toRegister">اضغط هنا إذا لم يكن لديك حساب</string>
+    <string name="accessTocontact">تنبيه ثلاثة من معارفك فقط:</string>
+    <string name="phone_et">رقم الجوال </string>
 
     <string name="failed_login">اسم المستخدم او كلمة المرور غير صحيحة</string>
     <string name="Msg_ErrorTitle">خطأ</string>
@@ -33,6 +34,7 @@
     <string name="No_internetconnection">يتطلب هذا التطبيق الاتصال بشبكة الانترنت يرجى التحقق وحاول مرة أخرى</string>
     <string name="Msg_RequiredEmail">من فضلك ادخل البريد الإلكتروني.</string>
     <string name="Msg_FormateEmail">من فضلك ادخل البريد الإلكتروني بشكل صحيح.</string>
+    <string name="Msg_Formatephone">من فضلك ادخل رقم الجوال بشكل صحيح. </string>
     <string name="Msg_RequiredPassword">من فضلك ادخل كلمة المرور.</string>
     <string name="Msg_ConfirmPassword">كلمة المرور وتأكيد كلمة المرور غير متطابقتين.</string>
     <string name="Msg_RequiredHealth">من فضلك ادخل معلوماتك الصحية.</string>
@@ -44,5 +46,10 @@
     <string name="success_Log_in">تمت عملية تسجيل الدخول بنجاح... </string>
     <string name="success_Log_out">تمت عملية تسجيل الخروج بنجاح... </string>
     <string name="success_sign_in">تمت عمليةالتسجيل بنجاح... </string>
+    <string name="fill_contact">من فضلك أدخل رقم الجوال للشخص الذي تريد تنبيهه في حالتك الطارئة. </string>
+    <string name="save_change">تم تحديث الملف الشخصي. </string>
+
+
+
 
 </resources>

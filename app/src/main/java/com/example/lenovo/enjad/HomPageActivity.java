@@ -14,7 +14,6 @@ import android.widget.Button;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class HomPageActivity extends AppCompatActivity {
-    String username;
     FirebaseAuth firebaseAuth;
 
 
@@ -42,7 +41,6 @@ public class HomPageActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) { //move to Profile page
                 Intent R = new Intent(getApplicationContext(),ProfileActivity.class);
-                R.putExtra("username",username);
                 startActivity(R);
             }
         });
@@ -80,7 +78,7 @@ public class HomPageActivity extends AppCompatActivity {
     function logout
     {
             firebaseAuth.signOut();
-            Toast.makeText(getApplicationContext(),قgetString(R.string.success_Log_out), Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),getString(R.string.success_Log_out), Toast.LENGTH_LONG).show();
             finish();
             startActivity(new Intent(getApplicationContext(),LoginActivity.class));
     }
