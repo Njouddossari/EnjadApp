@@ -60,6 +60,9 @@ public class SignupActivity extends AppCompatActivity {
                     + "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,64}" + "(" + "\\."
                     + "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,25}" + ")+"); //email pattern
 
+    public final Pattern phone_PATTERN = Pattern
+            .compile("^[0-9]{10}$");
+
     public void signuponclick(View view) {
 
         if (usernameet.getText().toString().trim().equalsIgnoreCase("")) {
@@ -80,6 +83,10 @@ public class SignupActivity extends AppCompatActivity {
         }
         if (mobileet.getText().toString().trim().equalsIgnoreCase("")) {
             Toast.makeText(this, getString(R.string.Msg_Requiredphone), Toast.LENGTH_SHORT).show();
+            return;
+        }
+        if (phone_PATTERN.matcher(mobileet.getText().toString().trim()).matches() == false) {
+            Toast.makeText(this, getString(R.string.Msg_Formatephone), Toast.LENGTH_SHORT).show();
             return;
         }
         if (passwordet.getText().toString().trim().equalsIgnoreCase("")) {

@@ -25,6 +25,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.regex.Pattern;
 
 public class ProfileActivity extends AppCompatActivity {
 
@@ -35,6 +36,8 @@ public class ProfileActivity extends AppCompatActivity {
     DatabaseReference dbRefconfig;
     DatabaseReference dbRefcontact;
     Switch providehelpSW , acesscontactsw;
+    static Boolean flag = true;
+    String con_id;
 
 
     @Override
@@ -54,6 +57,7 @@ public class ProfileActivity extends AppCompatActivity {
         dbRefconfig=FirebaseDatabase.getInstance().getReference("configuration"); //connect to the database to -node(table)-  configuration
         dbRefcontact=FirebaseDatabase.getInstance().getReference("user_contactlist");//connect to the database to -node(table)- user_contactlist
 
+        con_id="";
         usrname_et= (EditText) findViewById(R.id.Usrnameet);
         pass_et= (EditText) findViewById(R.id.Passet);
         email_et= (EditText) findViewById(R.id.Emailet);
@@ -107,11 +111,17 @@ public class ProfileActivity extends AppCompatActivity {
     }
 
 
-
+    public final Pattern phone_PATTERN = Pattern
+            .compile("^[0-9]{10}$");
+    public final Pattern EMAIL_ADDRESS_PATTERN = Pattern
+            .compile("[a-zA-Z0-9\\+\\.\\_\\%\\-\\+]{1,256}" + "\\@"
+                    + "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,64}" + "(" + "\\."
+                    + "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,25}" + ")+"); //email pattern
 
     public void save_config() { //save configuration info. in DB
 
-        String flag_provideHelp , flag_access_contact ,con_id;
+        String flag_provideHelp , flag_access_contact ;
+
 
         if (providehelpSW.isChecked())
         {flag_provideHelp="1";}
@@ -123,7 +133,11 @@ public class ProfileActivity extends AppCompatActivity {
         else
         {flag_access_contact="0";}
 
-        con_id=dbRefconfig.child(user.getUid()).push().getKey(); //generate unique id
+        if ( flag ) { //to generate the key once
+            con_id = dbRefconfig.child(user.getUid()).push().getKey(); //generate unique id
+            flag=false;
+        }
+        con_id = dbRefconfig.child(user.getUid()).getKey();
         configuration con = new configuration(con_id,flag_provideHelp,flag_access_contact );
         dbRefconfig.child(user.getUid()).child(con_id).setValue(con); //insert to db to configuration table
    }
@@ -181,6 +195,16 @@ public class ProfileActivity extends AppCompatActivity {
     }
 
     public void saveInfobu(View view) {
+
+        if (EMAIL_ADDRESS_PATTERN.matcher(email_et.getText().toString().trim()).matches() == false) {
+            Toast.makeText(this, getString(R.string.Msg_FormateEmail), Toast.LENGTH_SHORT).show();
+            return;
+        }
+        if (phone_PATTERN.matcher(mobile_et.getText().toString().trim()).matches() == false) {
+            Toast.makeText(this, getString(R.string.Msg_Formatephone), Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         String flag;
         //insert to db to configuration table
         save_config();
