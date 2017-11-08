@@ -185,7 +185,7 @@
             android:layout_weight="1"
             android:ems="10"
 
-            android:gravity="start"
+            android:gravity="end"
 
             android:hint="@string/Password"
             android:inputType="textPassword"
@@ -222,7 +222,7 @@
             android:layout_height="44dp"
             android:layout_weight="1"
             android:ems="10"
-            android:gravity="start"
+            android:gravity="end"
             android:hint="@string/ConfirmPassword"
             android:inputType="textPassword"
             android:textAlignment="textEnd"
