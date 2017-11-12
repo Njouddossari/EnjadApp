@@ -11,7 +11,8 @@
     <string name="email">البريد الإلكتروني</string>
     <string name="phone">رقم الجوال</string>
     <string name="signup">تسجيل</string>
-    <string name="login">الدخول</string>
+    <string name="login">دخول</string>
+    <string name="olduser">تسجيل دخول</string>
     <string name="profile">الملف الشخصي</string>
     <string name="my_reports">البلاغات</string>
     <string name="my_chats">المحادثات</string>
@@ -48,8 +49,7 @@
     <string name="success_sign_in">تمت عمليةالتسجيل بنجاح... </string>
     <string name="fill_contact">من فضلك أدخل رقم الجوال للشخص الذي تريد تنبيهه في حالتك الطارئة. </string>
     <string name="save_change">تم تحديث الملف الشخصي. </string>
-
-
+    <string name="title_activity_main2">Main2Activity</string>
 
 
 </resources>

@@ -11,52 +11,38 @@
     <include
         android:id="@+id/include5"
         layout="@layout/shared_design"
-        android:layout_width="20dp"
-        android:layout_height="551dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <RelativeLayout
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp"
-        tools:ignore="MissingConstraints">
+        android:layout_height="55dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="52dp">
 
         <TextView
             android:id="@+id/PersonalProfile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="15dp"
             android:text="@string/profile"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:textColor="@color/colorPrimaryBlack"
             android:textSize="36sp"
             tools:layout_constraintLeft_creator="1"
             tools:layout_constraintTop_creator="1"
-            tools:layout_editor_absoluteX="94dp"
-            tools:layout_editor_absoluteY="16dp" />
-
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="49dp" />
     </RelativeLayout>
-
-    <EditText
-        android:id="@+id/Usrnameet"
-        style="@style/Widget.AppCompat.AutoCompleteTextView"
-        android:layout_width="184dp"
-        android:layout_height="45dp"
-        android:layout_above="@+id/imageView11"
-        android:layout_centerHorizontal="true"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textColor="@color/colorPrimaryBlack"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="98dp" />
 
     <EditText
         android:id="@+id/Helathet"
@@ -69,9 +55,9 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="@color/colorPrimaryBlack"
+        tools:ignore="MissingConstraints,NotSibling"
         tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="206dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="206dp" />
 
     <EditText
         android:id="@+id/Passet"
@@ -85,9 +71,9 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="@color/colorPrimaryBlack"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="316dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="316dp" />
 
     <TextView
         android:id="@+id/accesset"
@@ -102,9 +88,9 @@
         android:textColor="@color/colorPrimaryRed"
         android:textSize="18sp"
         android:textStyle="bold"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="432dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="432dp" />
 
     <Switch
         android:id="@+id/providehelpSW"
@@ -128,33 +114,48 @@
         android:textColor="@color/colorPrimaryRed"
         android:textSize="18sp"
         android:textStyle="bold"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="432dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="432dp" />
 
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_alignParentBottom="true"
-        android:layout_toEndOf="@+id/imageView12"
-        android:layout_toRightOf="@+id/imageView12"
-        app:srcCompat="@drawable/email"
-        tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="143dp"
-        tools:ignore="MissingConstraints" />
+    <RelativeLayout
+        android:layout_width="254dp"
+        android:layout_height="51dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="155dp">
 
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_alignLeft="@+id/include5"
-        android:layout_alignStart="@+id/include5"
-        android:layout_below="@+id/providehelpSW"
-        app:srcCompat="@drawable/username"
-        tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="88dp"
-        tools:ignore="MissingConstraints" />
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="@android:dimen/app_icon_size"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@drawable/email"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="280dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+        <EditText
+            android:id="@+id/Emailet"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="184dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:layout_toLeftOf="@+id/imageView11"
+            android:layout_toStartOf="@+id/imageView11"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorPrimaryBlack"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </RelativeLayout>
 
     <ImageView
         android:id="@+id/imageView12"
@@ -165,9 +166,9 @@
         android:layout_alignStart="@+id/imageView10"
         android:layout_weight="1"
         app:srcCompat="@drawable/healthinfo"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="203dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="203dp" />
 
     <Button
         android:id="@+id/savechngeBU"
@@ -179,24 +180,10 @@
         android:background="@drawable/button_desing"
         android:text="@string/savechenges"
         android:theme="@style/ButtonText"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="480dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="480dp" />
 
-    <EditText
-        android:id="@+id/Emailet"
-        style="@style/Widget.AppCompat.AutoCompleteTextView"
-        android:layout_width="184dp"
-        android:layout_height="45dp"
-        android:layout_alignEnd="@+id/providehelpSW"
-        android:layout_alignRight="@+id/providehelpSW"
-        android:layout_weight="1"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textColor="@color/colorPrimaryBlack"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="151dp"
-        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/Phoneet"
@@ -210,9 +197,9 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="@color/colorPrimaryBlack"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="261dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="261dp" />
 
     <TextView
         android:id="@+id/provideet"
@@ -225,27 +212,27 @@
         android:textColor="@color/colorPrimaryRed"
         android:textSize="18sp"
         android:textStyle="bold"
+        tools:ignore="MissingConstraints,NotSibling"
         tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="384dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="384dp" />
 
     <ImageView
         android:id="@+id/imageView13"
         android:layout_width="48dp"
         android:layout_height="48dp"
         app:srcCompat="@drawable/phone"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="259dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="259dp" />
 
     <ImageView
         android:id="@+id/imageView14"
         android:layout_width="48dp"
         android:layout_height="48dp"
         app:srcCompat="@drawable/pw"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="313dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="313dp" />
 
     <EditText
         android:id="@+id/contact3et"
@@ -261,6 +248,7 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="196dp"
         tools:layout_editor_absoluteY="464dp" />
+
     <EditText
         android:id="@+id/contact2et"
         style="@style/Widget.AppCompat.AutoCompleteTextView"
@@ -274,19 +262,57 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="186dp"
         tools:layout_editor_absoluteY="497dp" />
+
     <EditText
         android:id="@+id/contact1et"
         style="@style/Widget.AppCompat.AutoCompleteTextView"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="@string/phone_et"
         android:inputType="textPersonName"
         android:textColor="@color/colorPrimaryBlack"
         android:visibility="invisible"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="186dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="16dp" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="186dp" />
+
+    <RelativeLayout
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="107dp">
+
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="@android:dimen/app_icon_size"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:layout_alignBottom="@+id/Usrnameet"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            app:srcCompat="@drawable/username"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="280dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+        <EditText
+            android:id="@+id/Usrnameet"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="184dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorPrimaryBlack"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="107dp" />
+    </RelativeLayout>
+
 
 </android.support.constraint.ConstraintLayout>

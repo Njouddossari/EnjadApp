@@ -4,7 +4,10 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.CompoundButton;
@@ -45,7 +48,8 @@ public class ProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
-
+        Toolbar actionbar=(Toolbar) findViewById(R.id.action_bar);//Creating object toolbar
+        setSupportActionBar(actionbar);
         firebaseAuth=FirebaseAuth.getInstance();
         if (firebaseAuth.getCurrentUser() == null ) // check if user is not logged in
         {//login activity here
@@ -225,5 +229,22 @@ public class ProfileActivity extends AppCompatActivity {
 
 
 
+    }
+
+    @Override
+    public boolean onPrepareOptionsMenu(final Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) { //to tell if item is selected from the menu
+        firebaseAuth.signOut();
+        Toast.makeText(getApplicationContext(),getString(R.string.success_Log_out), Toast.LENGTH_LONG).show();
+        finish();
+        startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+        return super.onOptionsItemSelected(item);
     }
 }

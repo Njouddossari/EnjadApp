@@ -11,457 +11,282 @@
     <include
         android:id="@+id/include5"
         layout="@layout/shared_design"
-        tools:ignore="MissingConstraints"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        android:layout_height="0dp"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_width="0dp" />
+        android:layout_width="20dp"
+        android:layout_height="551dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints" />
 
-
-    <ScrollView
+    <RelativeLayout
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
-        android:orientation="vertical"
-        android:padding="8dp"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/include5"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1">
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
 
-        <LinearLayout
-            android:layout_width="fill_parent"
+        <TextView
+            android:id="@+id/PersonalProfile"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="right|center_vertical"
-            android:orientation="vertical"
-            android:paddingLeft="20sp"
-            android:paddingRight="20sp"
-            android:weightSum="1">
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/profile"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/colorPrimaryBlack"
+            android:textSize="36sp"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintTop_creator="1"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="16dp" />
 
-            <LinearLayout
-                android:id="@+id/linearLayout21"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="16dp"
-                android:orientation="horizontal"
-                app:layout_constraintLeft_toLeftOf="@+id/linearLayout13"
-                app:layout_constraintRight_toRightOf="@+id/linearLayout13"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:layout_constraintLeft_creator="1"
-                tools:layout_constraintRight_creator="1"
-                tools:layout_constraintTop_creator="1">
+    </RelativeLayout>
 
-                <TextView
-                    android:id="@+id/PersonalProfile"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true"
-                    android:layout_weight="1"
-                    android:text="@string/profile"
-                    android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.AppCompat"
-                    android:textColor="@color/colorPrimaryBlack"
-                    android:textSize="36sp"
-                    tools:layout_editor_absoluteX="72dp"
-                    tools:layout_editor_absoluteY="12dp" />
-            </LinearLayout>
+    <EditText
+        android:id="@+id/Usrnameet"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="184dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/imageView11"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryBlack"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="98dp" />
 
-            <LinearLayout
-                android:id="@+id/linearLayout14"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="11dp"
-                android:orientation="horizontal"
-                app:layout_constraintLeft_toLeftOf="@+id/linearLayout20"
-                app:layout_constraintRight_toRightOf="@+id/linearLayout20"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout21"
-                tools:layout_constraintLeft_creator="1"
-                tools:layout_constraintRight_creator="1"
-                tools:layout_constraintTop_creator="1">
+    <EditText
+        android:id="@+id/Helathet"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="184dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/Phoneet"
+        android:layout_alignStart="@+id/Phoneet"
+        android:layout_below="@+id/Emailet"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryBlack"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="206dp"
+        tools:ignore="MissingConstraints" />
 
-                <EditText
-                    android:id="@+id/Usrnameet"
-                    style="@style/Widget.AppCompat.AutoCompleteTextView"
-                    android:layout_width="0dp"
-                    android:layout_height="45dp"
-                    android:layout_centerHorizontal="false"
-                    android:layout_weight="1.35"
-                    android:ems="10"
-                    android:inputType="phone"
-                    android:textColor="@color/colorPrimaryBlack"
-                    tools:layout_editor_absoluteX="31dp"
-                    tools:layout_editor_absoluteY="78dp" />
+    <EditText
+        android:id="@+id/Passet"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="184dp"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/savechngeBU"
+        android:layout_alignStart="@+id/savechngeBU"
+        android:layout_alignTop="@+id/imageView12"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryBlack"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="316dp"
+        tools:ignore="MissingConstraints" />
 
-                <ImageView
-                    android:id="@+id/imageView10"
-                    android:layout_width="35dp"
-                    android:layout_height="match_parent"
-                    android:layout_alignLeft="@+id/include5"
-                    android:layout_alignStart="@+id/include5"
-                    android:layout_below="@+id/providehelpSW"
-                    app:srcCompat="@drawable/username"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="244dp"
-                    tools:layout_editor_absoluteY="68dp" />
-            </LinearLayout>
+    <TextView
+        android:id="@+id/accesset"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/provideet"
+        android:text="@string/accessTocontact"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorPrimaryRed"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="432dp"
+        tools:ignore="MissingConstraints" />
 
-            <LinearLayout
-                android:id="@+id/linearLayout20"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="10dp"
-                android:orientation="horizontal"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout14"
-                tools:layout_constraintTop_creator="1">
+    <Switch
+        android:id="@+id/providehelpSW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Phoneet"
+        android:layout_alignStart="@+id/Phoneet"
+        android:textColor="@color/colorPrimaryRed"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="384dp" />
 
-                <EditText
-                    android:id="@+id/Emailet"
-                    style="@style/Widget.AppCompat.AutoCompleteTextView"
-                    android:layout_width="0dp"
-                    android:layout_height="45dp"
-                    android:layout_alignEnd="@+id/providehelpSW"
-                    android:layout_alignRight="@+id/providehelpSW"
-                    android:layout_weight="1.51"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:textColor="@color/colorPrimaryBlack"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="31dp"
-                    tools:layout_editor_absoluteY="132dp" />
+    <Switch
+        android:id="@+id/accesstocontctSW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Phoneet"
+        android:layout_alignStart="@+id/Phoneet"
+        android:textColor="@color/colorPrimaryRed"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="432dp"
+        tools:ignore="MissingConstraints" />
 
-                <ImageView
-                    android:id="@+id/imageView11"
-                    android:layout_width="35dp"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
-                    android:layout_toEndOf="@+id/imageView12"
-                    android:layout_toRightOf="@+id/imageView12"
-                    app:srcCompat="@drawable/email"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="192dp"
-                    tools:layout_editor_absoluteY="140dp" />
-            </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/imageView12"
+        android:layout_toRightOf="@+id/imageView12"
+        app:srcCompat="@drawable/email"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="143dp"
+        tools:ignore="MissingConstraints" />
 
-            <LinearLayout
-                android:id="@+id/linearLayout15"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="10dp"
-                android:orientation="horizontal"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout20"
-                tools:layout_constraintTop_creator="1">
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/include5"
+        android:layout_alignStart="@+id/include5"
+        android:layout_below="@+id/providehelpSW"
+        app:srcCompat="@drawable/username"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="88dp"
+        tools:ignore="MissingConstraints" />
 
-                <EditText
-                    android:id="@+id/Helathet"
-                    style="@style/Widget.AppCompat.AutoCompleteTextView"
-                    android:layout_width="0dp"
-                    android:layout_height="45dp"
-                    android:layout_alignLeft="@+id/Phoneet"
-                    android:layout_alignStart="@+id/Phoneet"
-                    android:layout_below="@+id/Emailet"
-                    android:layout_weight="2.00"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:textColor="@color/colorPrimaryBlack"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="31dp"
-                    tools:layout_editor_absoluteY="188dp" />
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/imageView10"
+        android:layout_alignLeft="@+id/imageView10"
+        android:layout_alignStart="@+id/imageView10"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/healthinfo"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="203dp"
+        tools:ignore="MissingConstraints" />
 
-                <ImageView
-                    android:id="@+id/imageView12"
-                    android:layout_width="35dp"
-                    android:layout_height="match_parent"
-                    android:layout_alignLeft="@+id/imageView10"
-                    android:layout_alignStart="@+id/imageView10"
-                    app:srcCompat="@drawable/healthinfo"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="192dp"
-                    tools:layout_editor_absoluteY="196dp" />
-            </LinearLayout>
+    <Button
+        android:id="@+id/savechngeBU"
+        android:layout_width="176dp"
+        android:layout_height="62dp"
+        android:layout_alignTop="@+id/include5"
+        android:layout_toLeftOf="@+id/include5"
+        android:layout_toStartOf="@+id/include5"
+        android:background="@drawable/button_desing"
+        android:text="@string/savechenges"
+        android:theme="@style/ButtonText"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="480dp"
+        tools:ignore="MissingConstraints" />
 
-            <LinearLayout
-                android:id="@+id/linearLayout16"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                android:orientation="horizontal"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout15"
-                tools:layout_constraintTop_creator="1">
+    <EditText
+        android:id="@+id/Emailet"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="184dp"
+        android:layout_height="45dp"
+        android:layout_alignEnd="@+id/providehelpSW"
+        android:layout_alignRight="@+id/providehelpSW"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryBlack"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="151dp"
+        tools:ignore="MissingConstraints" />
 
-                <EditText
-                    android:id="@+id/Phoneet"
-                    style="@style/Widget.AppCompat.AutoCompleteTextView"
-                    android:layout_width="0dp"
-                    android:layout_height="45dp"
-                    android:layout_toLeftOf="@+id/Usrnameet"
-                    android:layout_toStartOf="@+id/Usrnameet"
-                    android:layout_weight="1.49"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:textColor="@color/colorPrimaryBlack"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="31dp"
-                    tools:layout_editor_absoluteY="244dp" />
+    <EditText
+        android:id="@+id/Phoneet"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="184dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/imageView11"
+        android:layout_toLeftOf="@+id/Usrnameet"
+        android:layout_toStartOf="@+id/Usrnameet"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryBlack"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="261dp"
+        tools:ignore="MissingConstraints" />
 
-                <ImageView
-                    android:id="@+id/imageView13"
-                    android:layout_width="35dp"
-                    android:layout_height="match_parent"
-                    app:srcCompat="@drawable/phone"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="192dp"
-                    tools:layout_editor_absoluteY="250dp" />
-            </LinearLayout>
+    <TextView
+        android:id="@+id/provideet"
+        android:layout_width="164dp"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@+id/imageView10"
+        android:text="@string/providehelp"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorPrimaryRed"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="384dp"
+        tools:ignore="MissingConstraints" />
 
-            <LinearLayout
-                android:id="@+id/linearLayout17"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout16"
-                tools:layout_constraintTop_creator="1">
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/phone"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="259dp"
+        tools:ignore="MissingConstraints" />
 
-                <EditText
-                    android:id="@+id/Passet"
-                    style="@style/Widget.AppCompat.AutoCompleteTextView"
-                    android:layout_width="0dp"
-                    android:layout_height="45dp"
-                    android:layout_alignLeft="@+id/savechngeBU"
-                    android:layout_alignStart="@+id/savechngeBU"
-                    android:layout_alignTop="@+id/imageView12"
-                    android:layout_weight="2.00"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:textColor="@color/colorPrimaryBlack"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="31dp"
-                    tools:layout_editor_absoluteY="298dp" />
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/pw"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="313dp"
+        tools:ignore="MissingConstraints" />
 
-                <ImageView
-                    android:id="@+id/imageView14"
-                    android:layout_width="35dp"
-                    android:layout_height="match_parent"
-                    app:srcCompat="@drawable/pw"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="192dp"
-                    tools:layout_editor_absoluteY="306dp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/linearLayout13"
-                android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:layout_marginEnd="29dp"
-                android:layout_marginRight="29dp"
-                android:layout_marginTop="12dp"
-                android:orientation="horizontal"
-                app:layout_constraintRight_toRightOf="@+id/linearLayout18"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout17"
-                tools:layout_constraintRight_creator="1"
-                tools:layout_constraintTop_creator="1">
-
-                <Switch
-                    android:id="@+id/providehelpSW"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignLeft="@+id/Phoneet"
-                    android:layout_alignStart="@+id/Phoneet"
-                    android:textColor="@color/colorPrimaryRed"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="5dp"
-                    tools:layout_editor_absoluteY="342dp" />
-
-                <TextView
-                    android:id="@+id/provideet"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/imageView10"
-                    android:text="@string/providehelp"
-                    android:textAllCaps="true"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/colorPrimaryRed"
-                    android:textSize="18sp"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="145dp"
-                    tools:layout_editor_absoluteY="352dp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/linearLayout18"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:orientation="horizontal"
-                app:layout_constraintBottom_toTopOf="@+id/linearLayout19"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout13"
-                tools:layout_constraintBottom_creator="1"
-                tools:layout_constraintTop_creator="1">
-
-                <Switch
-                    android:id="@+id/accesstocontctSW"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_alignLeft="@+id/Phoneet"
-                    android:layout_alignStart="@+id/Phoneet"
-                    android:textColor="@color/colorPrimaryRed"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="5dp"
-                    tools:layout_editor_absoluteY="388dp" />
-
-                <TextView
-                    android:id="@+id/accesset"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_below="@+id/provideet"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginRight="16dp"
-                    android:text="@string/accessTocontact"
-
-                    android:textAllCaps="true"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="@color/colorPrimaryRed"
-                    android:textSize="18sp"
-                    app:layout_constraintRight_toRightOf="parent"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteY="376dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/linearLayout19"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/include5"
-                tools:layout_constraintTop_creator="1">
-
-                <EditText
-                    android:id="@+id/contact1et"
-                    style="@style/Widget.AppCompat.AutoCompleteTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="45dp"
-                    android:layout_toLeftOf="@+id/Usrnameet"
-                    android:layout_toStartOf="@+id/Usrnameet"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:hint="@string/phone_et"
-                    android:inputType="textPersonName"
-                    android:textColor="@color/colorPrimaryBlack"
-                    android:visibility="invisible"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="0dp"
-                    tools:layout_editor_absoluteY="446dp" />
-
-                <EditText
-                    android:id="@+id/contact3et"
-                    style="@style/Widget.AppCompat.AutoCompleteTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="45dp"
-                    android:layout_toLeftOf="@+id/Usrnameet"
-                    android:layout_toStartOf="@+id/Usrnameet"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:hint="@string/phone_et"
-                    android:inputType="phone"
-                    android:textColor="@color/colorPrimaryBlack"
-                    android:visibility="invisible"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="200dp"
-                    tools:layout_editor_absoluteY="446dp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="16dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
-                android:orientation="horizontal"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintRight_toRightOf="parent">
-
-                <EditText
-                    android:id="@+id/contact2et"
-                    style="@style/Widget.AppCompat.AutoCompleteTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="45dp"
-                    android:layout_marginBottom="16dp"
-                    android:layout_toLeftOf="@+id/Usrnameet"
-                    android:layout_toStartOf="@+id/Usrnameet"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:hint="@string/phone_et"
-                    android:inputType="phone"
-                    android:textColor="@color/colorPrimaryBlack"
-                    android:visibility="invisible"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    tools:ignore="MissingConstraints"
-                    tools:layout_editor_absoluteX="192dp" />
-
-
-            </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/include5"
-            tools:layout_constraintTop_creator="1">
-            <Button
-                android:id="@+id/savechngeBU"
-                android:layout_width="119dp"
-                android:layout_height="wrap_content"
-                android:layout_alignTop="@+id/include5"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
-                android:layout_toLeftOf="@+id/include5"
-                android:layout_toStartOf="@+id/include5"
-                android:width="25dp"
-                android:height="10dp"
-                android:background="@drawable/button_desing"
-                android:onClick="saveInfobu"
-                android:text="@string/savechenges"
-                android:theme="@style/ButtonText"
-                app:layout_constraintLeft_toLeftOf="parent"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteY="502dp" />
-        </LinearLayout>
-
-        </LinearLayout>
-    </ScrollView>
+    <EditText
+        android:id="@+id/contact3et"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/phone_et"
+        android:inputType="phone"
+        android:textColor="@color/colorPrimaryBlack"
+        android:visibility="invisible"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="464dp" />
+    <EditText
+        android:id="@+id/contact2et"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="@string/phone_et"
+        android:inputType="phone"
+        android:textColor="@color/colorPrimaryBlack"
+        android:visibility="invisible"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="497dp" />
+    <EditText
+        android:id="@+id/contact1et"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="@string/phone_et"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryBlack"
+        android:visibility="invisible"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="186dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp" />
 
 </android.support.constraint.ConstraintLayout>

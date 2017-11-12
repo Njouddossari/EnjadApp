@@ -1,26 +1,33 @@
 package com.example.lenovo.enjad;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-public class HomPageActivity extends AppCompatActivity {
-    FirebaseAuth firebaseAuth;
+import java.util.Timer;
+
+
+    public class HomPageActivity extends AppCompatActivity {
+        FirebaseAuth firebaseAuth;
+        Timer myTimer = new Timer ();
+        Timer timer = new Timer();
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hom_page);
+        //initialize the Timer and Timer task from my timer class
+        Timer myTimer = new Timer ();
+
 
         firebaseAuth=FirebaseAuth.getInstance();
         if (firebaseAuth.getCurrentUser() == null ) // check if user is not logged in
@@ -60,28 +67,31 @@ public class HomPageActivity extends AppCompatActivity {
                 startActivity(rep);
             }
         });
+
+        //Start the timer to call the service after 15 minute
+    //    myTimer.scheduleAtFixedRate(myTimerTask, 0, 900000);
+
+
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) { //to fill the menu with the items in menu
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu, menu);
+    public boolean onPrepareOptionsMenu(final Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) { //to tell if item is selected from the menu
+        //Log out user
+        firebaseAuth.signOut();
+        Toast.makeText(getApplicationContext(),getString(R.string.success_Log_out), Toast.LENGTH_LONG).show();
+        finish();
+        startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+        //Stop timer
+        myTimer.cancel();
         return super.onOptionsItemSelected(item);
     }
 
-    /*
-    function logout
-    {
-            firebaseAuth.signOut();
-            Toast.makeText(getApplicationContext(),getString(R.string.success_Log_out), Toast.LENGTH_LONG).show();
-            finish();
-            startActivity(new Intent(getApplicationContext(),LoginActivity.class));
-    }
 
-     */
 }

@@ -4,258 +4,277 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/enjadapp_bg"
     tools:context="com.example.lenovo.enjad.SignupActivity"
-    tools:layout_editor_absoluteY="25dp"
-    tools:layout_editor_absoluteX="0dp">
+    tools:ignore="GradleDependency"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
 
-    <include
-        android:id="@+id/include2"
-        layout="@layout/shared_design"
-        app:layout_constraintRight_toLeftOf="parent"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
+
+    <EditText
+        android:id="@+id/usrnameet"
+        android:layout_width="221dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginStart="51dp"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/emailet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        tools:ignore="MissingConstraints,RtlCompat"
         tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="parent"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
-        android:layout_marginTop="71dp"
+        tools:layout_constraintTop_creator="1" />
+
+    <EditText
+        android:id="@+id/emailet"
+        android:layout_width="221dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginStart="51dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/healthet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usrnameet"
+        tools:ignore="MissingConstraints,RtlCompat"
+        tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintTop_toTopOf="parent"
-        android:id="@+id/linearLayout5">
-
-        <EditText
-            android:id="@+id/usrnameet"
-            android:layout_width="221dp"
-            android:layout_height="44dp"
-            android:ems="10"
-            android:hint="@string/username"
-            android:inputType="textPersonName"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="74dp" />
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="44dp"
-            android:layout_height="44dp"
-            app:srcCompat="@drawable/username"
-            tools:layout_editor_absoluteX="299dp"
-            tools:layout_editor_absoluteY="65dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:id="@+id/linearLayout"
-        tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
-        android:layout_marginTop="14dp"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
-        tools:layout_constraintLeft_creator="1">
+        tools:layout_constraintTop_creator="1" />
 
-        <EditText
-            android:id="@+id/emailet"
-            android:layout_width="221dp"
-            android:layout_height="44dp"
-            android:layout_weight="1"
-            android:ems="10"
-            android:hint="@string/email"
-            android:inputType="textEmailAddress"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="138dp" />
-
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="44dp"
-            android:layout_height="44dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/email"
-            tools:layout_editor_absoluteX="299dp"
-            tools:layout_editor_absoluteY="138dp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="horizontal"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginTop="17dp"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+    <EditText
+        android:id="@+id/healthet"
+        android:layout_width="221dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginStart="51dp"
+        android:ems="10"
+        android:hint="@string/my_healthcondition"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/phoneet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailet"
+        tools:ignore="MissingConstraints,RtlCompat"
+        tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
-        android:id="@+id/linearLayout4">
-
-        <EditText
-            android:id="@+id/healthet"
-            android:layout_width="221dp"
-            android:layout_height="44dp"
-            android:layout_weight="1"
-            android:ems="10"
-            android:hint="@string/my_healthcondition"
-            android:inputType="textPersonName"
-            tools:layout_editor_absoluteX="52dp"
-            tools:layout_editor_absoluteY="197dp" />
-
-        <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="44dp"
-            android:layout_height="44dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/healthinfo"
-            tools:layout_editor_absoluteX="299dp"
-            tools:layout_editor_absoluteY="197dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:id="@+id/linearLayout2"
-        tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
-        android:layout_marginTop="15dp"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
-        tools:layout_constraintLeft_creator="1">
+        tools:layout_constraintTop_creator="1" />
 
-        <EditText
-            android:id="@+id/phoneet"
-            android:layout_width="221dp"
-            android:layout_height="44dp"
-            android:layout_weight="1"
-            android:ems="10"
-            android:gravity="start"
-            android:textAlignment="textStart"
-            android:hint="@string/phone"
-            android:inputType="phone"
-            tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="261dp" />
-
-        <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="44dp"
-            android:layout_height="44dp"
-            android:layout_weight="1"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.499"
-            app:srcCompat="@drawable/phone"
-            tools:layout_editor_absoluteX="299dp" />
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="horizontal"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginTop="19dp"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+    <EditText
+        android:id="@+id/phoneet"
+        android:layout_width="221dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginStart="51dp"
+        android:ems="10"
+        android:gravity="end"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:textAlignment="textEnd"
+        app:layout_constraintBottom_toTopOf="@+id/passwrdet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/healthet"
+        tools:ignore="MissingConstraints,RtlCompat"
+        tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
-        android:id="@+id/linearLayout3">
-
-        <EditText
-            android:id="@+id/passwrdet"
-            android:layout_width="221dp"
-            android:layout_height="44dp"
-            android:layout_weight="1"
-            android:ems="10"
-
-            android:gravity="end"
-
-            android:hint="@string/Password"
-            android:inputType="textPassword"
-            android:textAlignment="textEnd"
-            tools:layout_editor_absoluteX="52dp"
-            tools:layout_editor_absoluteY="332dp" />
-
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="44dp"
-            android:layout_height="44dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/pw"
-            tools:layout_editor_absoluteX="299dp"
-            tools:layout_editor_absoluteY="332dp" />
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
-        android:layout_marginTop="19dp"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        tools:layout_constraintLeft_creator="1">
+        tools:layout_constraintTop_creator="1" />
 
-        <EditText
-            android:id="@+id/reenterpasset"
-            android:layout_width="221dp"
-            android:layout_height="44dp"
-            android:layout_weight="1"
-            android:ems="10"
-            android:gravity="end"
-            android:hint="@string/ConfirmPassword"
-            android:inputType="textPassword"
-            android:textAlignment="textEnd"
-            tools:layout_editor_absoluteX="52dp"
-            tools:layout_editor_absoluteY="399dp" />
 
-        <ImageView
-            android:id="@+id/imageView9"
-            android:layout_width="44dp"
-            android:layout_height="44dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/pw2"
-            tools:layout_editor_absoluteX="299dp"
-            tools:layout_editor_absoluteY="399dp" />
-    </LinearLayout>
+    <EditText
+        android:id="@+id/passwrdet"
+        android:layout_width="221dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginStart="51dp"
+        android:ems="10"
+        android:gravity="end"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:textAlignment="textEnd"
+        app:layout_constraintBottom_toTopOf="@+id/reenterpasset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneet"
+        tools:ignore="MissingConstraints,RtlCompat"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+
+    <EditText
+        android:id="@+id/reenterpasset"
+        android:layout_width="221dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginStart="51dp"
+        android:ems="10"
+        android:gravity="end"
+        android:hint="@string/ConfirmPassword"
+        android:inputType="textPassword"
+        android:textAlignment="textEnd"
+        app:layout_constraintBottom_toTopOf="@+id/signbu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwrdet"
+        tools:ignore="MissingConstraints,RtlCompat"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
 
     <Button
         android:id="@+id/signbu"
         android:layout_width="128dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="35dp"
         android:background="@drawable/button_desing"
         android:onClick="signuponclick"
         android:text="@string/signup"
         android:theme="@style/ButtonText"
-
-        tools:layout_constraintBottom_creator="1"
-        android:layout_marginStart="39dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="31dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="39dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reenterpasset"
+        tools:ignore="MissingConstraints,RtlCompat"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_marginBottom="9dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginTop="156dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/usrnameet"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/username"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="43dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/emailet"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/email"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="43dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/healthet"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/healthinfo"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="43dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/phoneet"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/phone"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="43dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/passwrdet"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/pw"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_marginBottom="76dp"
+        android:layout_marginEnd="43dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/reenterpasset"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/pw2"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="135dp"
+        android:layout_height="137dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/usrnameet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/enjadapplogo" />
 
 
 </android.support.constraint.ConstraintLayout>
