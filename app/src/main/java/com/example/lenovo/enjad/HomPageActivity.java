@@ -1,32 +1,28 @@
 package com.example.lenovo.enjad;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-
 import com.google.firebase.auth.FirebaseAuth;
-
-import java.util.Timer;
 
 
     public class HomPageActivity extends AppCompatActivity {
         FirebaseAuth firebaseAuth;
-        Timer myTimer = new Timer ();
-        Timer timer = new Timer();
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hom_page);
-        //initialize the Timer and Timer task from my timer class
-        Timer myTimer = new Timer ();
+        //starting updatelocation service
+        startService(new Intent(HomPageActivity.this, UpdateLocation.class));
 
 
         firebaseAuth=FirebaseAuth.getInstance();
@@ -88,8 +84,9 @@ import java.util.Timer;
         Toast.makeText(getApplicationContext(),getString(R.string.success_Log_out), Toast.LENGTH_LONG).show();
         finish();
         startActivity(new Intent(getApplicationContext(),LoginActivity.class));
-        //Stop timer
-        myTimer.cancel();
+
+        //stop service from working
+        stopService(new Intent(HomPageActivity.this, UpdateLocation.class));
         return super.onOptionsItemSelected(item);
     }
 
