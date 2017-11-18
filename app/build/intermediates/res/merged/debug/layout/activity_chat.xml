@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.lenovo.enjad.chatActivity">
+    tools:context="com.example.lenovo.enjad.Activities.chatActivity">
     <include layout="@layout/shared_design"/>
     <Button
         android:layout_width="wrap_content"

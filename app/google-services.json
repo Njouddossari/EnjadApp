@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "352690967329-v3u9u6o9ljla1t03a3i5dg3fbu9j21lj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.enjad",
+            "certificate_hash": "1629803138419f1fb858c7a910ed677dbc921367"
+          }
+        },
+        {
           "client_id": "352690967329-s57b74jnvq0aho7u68d5pmsc4o3lf3ga.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

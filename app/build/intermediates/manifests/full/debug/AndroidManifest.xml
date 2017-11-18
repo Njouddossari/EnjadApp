@@ -15,6 +15,7 @@
         android:xlargeScreens="true" />
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- To get user location(turn the gps ON) -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -33,22 +34,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-        <activity android:name="com.example.lenovo.enjad.SignupActivity" />
-        <activity android:name="com.example.lenovo.enjad.LoginActivity" />
+        <activity android:name="com.example.lenovo.enjad.Activities.SignupActivity" />
+        <activity android:name="com.example.lenovo.enjad.Activities.LoginActivity" />
         <activity
-            android:name="com.example.lenovo.enjad.ProfileActivity"
+            android:name="com.example.lenovo.enjad.Activities.ProfileActivity"
             android:icon="@drawable/enjadapplogoicon" />
         <activity
-            android:name="com.example.lenovo.enjad.chatlistActivity"
+            android:name="com.example.lenovo.enjad.Activities.chatlistActivity"
             android:icon="@drawable/enjadapplogoicon" />
         <activity
-            android:name="com.example.lenovo.enjad.HomPageActivity"
+            android:name="com.example.lenovo.enjad.Activities.HomPageActivity"
             android:icon="@drawable/enjadapplogoicon" />
         <activity
-            android:name="com.example.lenovo.enjad.ReportlistActivity"
+            android:name="com.example.lenovo.enjad.Activities.ReportlistActivity"
             android:icon="@drawable/enjadapplogoicon" />
         <activity
-            android:name="com.example.lenovo.enjad.MainActivity"
+            android:name="com.example.lenovo.enjad.Activities.MainActivity"
             android:icon="@drawable/enjadapplogoicon" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -62,7 +63,7 @@
             <!-- uses-permission android:name="android.permission.GET_TASKS" / -->
         </activity>
 
-        <receiver android:name="com.example.lenovo.enjad.PowerButtonListenr" >
+        <receiver android:name="com.example.lenovo.enjad.Services.PowerButtonListenr" >
             <intent-filter
                 android:enabled="true"
                 android:exported="false" >
@@ -71,13 +72,13 @@
             </intent-filter>
         </receiver>
 
-        <service android:name="com.example.lenovo.enjad.ScreenOnOffService" >
+        <service android:name="com.example.lenovo.enjad.Services.ScreenOnOffService" >
             <intent-filter>
                 <action android:name=".ScreenOnOffService" />
             </intent-filter>
         </service>
         <service
-            android:name="com.example.lenovo.enjad.UpdateLocation"
+            android:name="com.example.lenovo.enjad.Services.getlocationService"
             android:exported="false" />
 
         <meta-data

@@ -9,6 +9,7 @@
         android:xlargeScreens="true" />
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- To get user location(turn the gps ON) -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -18,22 +19,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".SignupActivity" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name="com.example.lenovo.enjad.Activities.SignupActivity" />
+        <activity android:name=".Activities.LoginActivity" />
         <activity
-            android:name=".ProfileActivity"
+            android:name=".Activities.ProfileActivity"
             android:icon="@drawable/enjadapplogoicon" />
         <activity
-            android:name=".chatlistActivity"
+            android:name=".Activities.chatlistActivity"
             android:icon="@drawable/enjadapplogoicon" />
         <activity
-            android:name=".HomPageActivity"
+            android:name=".Activities.HomPageActivity"
             android:icon="@drawable/enjadapplogoicon" />
         <activity
-            android:name=".ReportlistActivity"
+            android:name=".Activities.ReportlistActivity"
             android:icon="@drawable/enjadapplogoicon" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activities.MainActivity"
             android:icon="@drawable/enjadapplogoicon">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,7 +48,7 @@
             <!-- uses-permission android:name="android.permission.GET_TASKS" / -->
         </activity>
 
-        <receiver android:name=".PowerButtonListenr">
+        <receiver android:name=".Services.PowerButtonListenr">
             <intent-filter
                 android:enabled="true"
                 android:exported="false">
@@ -55,13 +56,13 @@
                 <action android:name="android.intent.action.SCREEN_ON" />
             </intent-filter>
         </receiver>
-        <service android:name=".ScreenOnOffService">
+        <service android:name=".Services.ScreenOnOffService">
             <intent-filter>
                 <action android:name=".ScreenOnOffService" />
             </intent-filter>
         </service>
         <service
-            android:name=".UpdateLocation"
+            android:name=".Services.getlocationService"
             android:exported="false" />
     </application>
 

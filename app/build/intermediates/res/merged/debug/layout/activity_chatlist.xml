@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.lenovo.enjad.chatlistActivity">
+    tools:context="com.example.lenovo.enjad.Activities.chatlistActivity">
     <include layout="@layout/shared_design"/>
     <RadioButton
         android:layout_width="wrap_content"

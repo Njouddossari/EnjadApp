@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.android\build-cache\ded588036c66b2149425ace66289ed6096035f3c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e70a3fed299d84cd868614e11021664d72b8e488">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp-amjad\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_10c8e9d4c444de2ff7638acb637ec3ee3eef3682\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\Desktop\EnjadApp-amjad\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="461af20ac11b6a151c1b54dbf692d6e5087cc156">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp-amjad\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_91e9493b7e74edf755d424e3ff5855ec3fbde7e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\Desktop\EnjadApp-amjad\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp-amjad\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_fc74d0e639d90162d9e0de5753bf3a1714b77a82\classes.dex" />
+    </item>
+
+</items>
