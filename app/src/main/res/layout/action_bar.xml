@@ -9,12 +9,17 @@
     android:theme="@style/CustomeToolBar"
     tools:menu="menu">
 
-
-    <android.support.v4.widget.CircleImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="@android:dimen/app_icon_size"
         android:layout_height="@android:dimen/app_icon_size"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:src="@drawable/enjadapplogoicon" />
+        android:src="@drawable/enjadapplogoicon" android:layout_alignParentEnd="true"/>
+    <!--<android.support.v4.widget.CircleImageView
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/enjadapplogoicon" />-->
 
 </android.support.v7.widget.Toolbar>

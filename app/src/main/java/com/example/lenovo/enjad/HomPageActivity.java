@@ -7,6 +7,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Toast;
 import com.google.firebase.auth.FirebaseAuth;
@@ -20,10 +22,20 @@ import com.google.firebase.auth.FirebaseAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // thses flags to start activity on lock screen
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_ALLOW_LOCK_WHILE_SCREEN_ON);
+        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         setContentView(R.layout.activity_hom_page);
-        //starting updatelocation service
-        startService(new Intent(HomPageActivity.this, UpdateLocation.class));
 
+        //starting updatelocation service
+        //startService(new Intent(HomPageActivity.this, UpdateLocation.class));
+        Intent i0 = new Intent(this,ScreenOnOffService.class);
+        i0.setAction(".ScreenOnOffService");
+        startService(i0); //lesten to power button
 
         firebaseAuth=FirebaseAuth.getInstance();
         if (firebaseAuth.getCurrentUser() == null ) // check if user is not logged in

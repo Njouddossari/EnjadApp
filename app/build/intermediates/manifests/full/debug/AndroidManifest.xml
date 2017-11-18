@@ -14,10 +14,9 @@
         android:smallScreens="true"
         android:xlargeScreens="true" />
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    //To get user location(turn the gps ON)
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- To get user location(turn the gps ON) -->
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Optional permission for App measurement to run. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
@@ -60,8 +59,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-            <uses-permission android:name="android.permission.GET_TASKS" />
+            <!-- uses-permission android:name="android.permission.GET_TASKS" / -->
         </activity>
+
+        <receiver android:name="com.example.lenovo.enjad.PowerButtonListenr" >
+            <intent-filter
+                android:enabled="true"
+                android:exported="false" >
+                <action android:name="android.intent.action.SCREEN_OFF" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.example.lenovo.enjad.ScreenOnOffService" >
+            <intent-filter>
+                <action android:name=".ScreenOnOffService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.example.lenovo.enjad.UpdateLocation"
+            android:exported="false" />
 
         <meta-data
             android:name="android.support.VERSION"
@@ -74,9 +91,16 @@
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-            android:enabled="true" >
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
             <intent-filter>
-                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
             </intent-filter>
         </receiver>
 
@@ -84,6 +108,11 @@
             android:name="com.google.android.gms.measurement.AppMeasurementService"
             android:enabled="true"
             android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
 
         <receiver
             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
@@ -91,7 +120,6 @@
             android:permission="com.google.android.c2dm.permission.SEND" >
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
                 <category android:name="com.example.lenovo.enjad" />
             </intent-filter>

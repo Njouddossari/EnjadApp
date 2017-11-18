@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\USER\\Desktop\\EnjadApp1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+        "outputFile": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 125
                 },
                 "from": {
-                    "file": "C:\\Users\\USER\\.android\\build-cache\\ee7df750ab562b4ac5d4ec762b0899927c35f3e3\\output\\res\\values-v26\\values-v26.xml",
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "C:\\Users\\USER\\.android\\build-cache\\ee7df750ab562b4ac5d4ec762b0899927c35f3e3\\output\\res\\values-v26\\values-v26.xml",
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -50,7 +50,7 @@
                     "endOffset": 426
                 },
                 "from": {
-                    "file": "C:\\Users\\USER\\.android\\build-cache\\ee7df750ab562b4ac5d4ec762b0899927c35f3e3\\output\\res\\values-v26\\values-v26.xml",
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -71,7 +71,7 @@
                     "endOffset": 652
                 },
                 "from": {
-                    "file": "C:\\Users\\USER\\.android\\build-cache\\ee7df750ab562b4ac5d4ec762b0899927c35f3e3\\output\\res\\values-v26\\values-v26.xml",
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -92,7 +92,7 @@
                     "endOffset": 891
                 },
                 "from": {
-                    "file": "C:\\Users\\USER\\.android\\build-cache\\ee7df750ab562b4ac5d4ec762b0899927c35f3e3\\output\\res\\values-v26\\values-v26.xml",
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -113,7 +113,7 @@
                     "endOffset": 1135
                 },
                 "from": {
-                    "file": "C:\\Users\\USER\\.android\\build-cache\\7705313aa47ebbe998deee8d023076f08cd48313\\output\\res\\values-v26\\values-v26.xml",
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\0e49712dd2a0bdb2aa2db1a5498d2fe6edb7e109\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -133,7 +133,7 @@
                     "endOffset": 1228
                 },
                 "from": {
-                    "file": "C:\\Users\\USER\\.android\\build-cache\\ee7df750ab562b4ac5d4ec762b0899927c35f3e3\\output\\res\\values-v26\\values-v26.xml",
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -152,7 +152,7 @@
                     "endOffset": 1325
                 },
                 "from": {
-                    "file": "C:\\Users\\USER\\.android\\build-cache\\7705313aa47ebbe998deee8d023076f08cd48313\\output\\res\\values-v26\\values-v26.xml",
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\0e49712dd2a0bdb2aa2db1a5498d2fe6edb7e109\\output\\res\\values-v26\\values-v26.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,

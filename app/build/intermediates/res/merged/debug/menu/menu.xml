@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="10dp">
 <item
     android:id="@+id/toolbar_menu"
     android:title="@string/Log_out"
-    app:showAsAction="always"
+    app:showAsAction="never|always"
     android:icon="@drawable/settingicon"
-    android:elevation="100dp">
+    android:elevation="10dp">
 </item>
 </menu>
