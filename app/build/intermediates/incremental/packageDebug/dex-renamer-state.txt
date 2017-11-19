@@ -1,7 +1,4 @@
-#Sat Nov 18 18:54:04 AST 2017
-base.0=C\:\\Users\\Njoud\\Desktop\\EnjadApp-amjad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_91e9493b7e74edf755d424e3ff5855ec3fbde7e5
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Njoud\\Desktop\\EnjadApp-amjad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_fc74d0e639d90162d9e0de5753bf3a1714b77a82\\classes.dex
-base.1=C\:\\Users\\Njoud\\Desktop\\EnjadApp-amjad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_fc74d0e639d90162d9e0de5753bf3a1714b77a82
-file.0=C\:\\Users\\Njoud\\Desktop\\EnjadApp-amjad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_91e9493b7e74edf755d424e3ff5855ec3fbde7e5\\classes.dex
+#Mon Nov 20 00:44:32 AST 2017
+base.0=C\:\\Users\\Njoud\\Desktop\\EnjadApp-\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\Njoud\\Desktop\\EnjadApp-\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

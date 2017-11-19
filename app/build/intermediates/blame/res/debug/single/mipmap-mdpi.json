@@ -14,5 +14,13 @@
     {
         "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp-amjad\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
         "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp-amjad\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp-\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp-\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp-\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp-\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     }
 ]

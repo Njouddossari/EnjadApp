@@ -31,8 +31,6 @@ public class HomPageActivity extends AppCompatActivity {
         FirebaseAuth firebaseAuth;
         int PERMISSION_ACCESS_COARSE_LOCATION;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,15 +44,46 @@ public class HomPageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_hom_page);
 
         //Starting ScreenOnOffService
-        Intent i0 = new Intent(this,ScreenOnOffService.class);
-        i0.setAction(".ScreenOnOffService");
-        startService(i0); //listen to power button
+
 
         firebaseAuth=FirebaseAuth.getInstance();
         if (firebaseAuth.getCurrentUser() == null ) // check if user is not logged in
         {
             //login activity here
             startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+        }
+        else{ //starting 2 services only when user logged in
+            Intent i0 = new Intent(this,ScreenOnOffService.class);
+            i0.setAction(".ScreenOnOffService");
+            startService(i0); //listen to power button
+
+
+            long interval = 1000 * 60 * 15; // 5 minutes in milliseconds
+            Context ctx = getApplicationContext();
+            Calendar cal = Calendar.getInstance();
+            AlarmManager am = (AlarmManager) ctx.getSystemService(Context.ALARM_SERVICE);
+            Intent serviceIntent = new Intent(ctx, getlocationService.class);
+            PendingIntent servicePendingIntent =
+                    PendingIntent.getService(ctx,
+                            getlocationService.SERVICE_ID, // integer constant used to identify the service
+                            serviceIntent,
+                            PendingIntent.FLAG_CANCEL_CURRENT);  // FLAG to avoid creating a second service if there's already one running
+
+            // checking for location permission
+            if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION)
+                    != PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions(this, new String[] { Manifest.permission.ACCESS_COARSE_LOCATION },
+                        PERMISSION_ACCESS_COARSE_LOCATION);
+            }
+            else {//if permission granted
+                am.setRepeating(
+                        AlarmManager.RTC_WAKEUP,//type of alarm. This one will wake up the device when it goes off, but there are others, check the docs
+                        cal.getTimeInMillis(),
+                        interval,
+                        servicePendingIntent
+                );
+            }
+
         }
 
         Button ReportsB = (Button) findViewById(R.id.Reportsbutton);
@@ -90,31 +119,6 @@ public class HomPageActivity extends AppCompatActivity {
         });
 
         //setting Alarm manager if permission granted
-        Context ctx = getApplicationContext();
-        Calendar cal = Calendar.getInstance();
-        AlarmManager am = (AlarmManager) ctx.getSystemService(Context.ALARM_SERVICE);
-        long interval = 1000 * 60 * 15; // 5 minutes in milliseconds
-        Intent serviceIntent = new Intent(ctx, getlocationService.class);
-        // make sure you **don't** use *PendingIntent.getBroadcast*, it wouldn't work
-        PendingIntent servicePendingIntent =
-                PendingIntent.getService(ctx,
-                        getlocationService.SERVICE_ID, // integer constant used to identify the service
-                        serviceIntent,
-                        PendingIntent.FLAG_CANCEL_CURRENT);  // FLAG to avoid creating a second service if there's already one running
-        // checking for permission
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION)
-                != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(this, new String[] { Manifest.permission.ACCESS_COARSE_LOCATION },
-                    PERMISSION_ACCESS_COARSE_LOCATION);
-        }
-        else {//if permission granted
-            am.setRepeating(
-                    AlarmManager.RTC_WAKEUP,//type of alarm. This one will wake up the device when it goes off, but there are others, check the docs
-                    cal.getTimeInMillis(),
-                    interval,
-                    servicePendingIntent
-            );
-        }
 
     }
 
@@ -146,6 +150,28 @@ public class HomPageActivity extends AppCompatActivity {
         firebaseAuth.signOut();
         Toast.makeText(getApplicationContext(),getString(R.string.success_Log_out), Toast.LENGTH_LONG).show();
         finish();
+        // stop the services
+        //1
+        Intent i0 = new Intent(this,ScreenOnOffService.class);
+        i0.setAction(".ScreenOnOffService");
+        stopService(i0);
+        //2
+        Intent i1 = new Intent(this,getlocationService.class);
+        i1.setAction(".getlocationService");
+        stopService(i1);
+        //Stop AlarmManager
+        long interval = 1000 * 60 * 15; // 5 minutes in milliseconds
+        Context ctx = getApplicationContext();
+        Calendar cal = Calendar.getInstance();
+        AlarmManager am = (AlarmManager) ctx.getSystemService(Context.ALARM_SERVICE);
+        Intent serviceIntent = new Intent(ctx, getlocationService.class);
+        PendingIntent servicePendingIntent =
+                PendingIntent.getService(ctx,
+                        getlocationService.SERVICE_ID, // integer constant used to identify the service
+                        serviceIntent,
+                        PendingIntent.FLAG_CANCEL_CURRENT);  // FLAG to avoid creating a second service if there's already one running
+
+        am.cancel(servicePendingIntent);
         startActivity(new Intent(getApplicationContext(),LoginActivity.class));
 
         return super.onOptionsItemSelected(item);
