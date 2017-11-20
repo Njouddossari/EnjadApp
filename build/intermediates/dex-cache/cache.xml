@@ -183,6 +183,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\44947324f061b2e5a0cf2272c0691556ef6bf181\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2a7f46cbd5607e57e0aadce84c6a59dafeef1a7e">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp-\app\build\intermediates\pre-dexed\debug\classes_31778b5f92058d9d83382894be62a665172804e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Njoud\.android\build-cache\24ddc28087fac972613d0c165b1b1d78a045b7bc\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"

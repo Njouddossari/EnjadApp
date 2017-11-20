@@ -70,19 +70,19 @@ public class HomPageActivity extends AppCompatActivity {
                             PendingIntent.FLAG_CANCEL_CURRENT);  // FLAG to avoid creating a second service if there's already one running
 
             // checking for location permission
-            if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION)
+           if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION)
                     != PackageManager.PERMISSION_GRANTED) {
                 ActivityCompat.requestPermissions(this, new String[] { Manifest.permission.ACCESS_COARSE_LOCATION },
                         PERMISSION_ACCESS_COARSE_LOCATION);
             }
-            else {//if permission granted
+          //  else {//if permission granted
                 am.setRepeating(
                         AlarmManager.RTC_WAKEUP,//type of alarm. This one will wake up the device when it goes off, but there are others, check the docs
                         cal.getTimeInMillis(),
                         interval,
                         servicePendingIntent
                 );
-            }
+           // }
 
         }
 
