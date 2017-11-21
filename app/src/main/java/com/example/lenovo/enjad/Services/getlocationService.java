@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import com.example.lenovo.enjad.JavaClasses.User;
 import com.firebase.geofire.GeoFire;
+import com.firebase.geofire.GeoLocation;
 import com.google.android.gms.location.FusedLocationProviderApi;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -59,7 +60,7 @@ public class getlocationService extends Service implements LocationListener {
         Toast.makeText(getBaseContext(), "onStart()have been successfully called ", Toast.LENGTH_LONG).show();
         //needs to check if permission granted, but already checked on main activity
         //it will have a redline but it works just fine
-        locationmanager.requestLocationUpdates(provider, 400, 1, this);
+        locationmanager.requestLocationUpdates(provider, 100000, 10, this);
         Location lastKnownLocation = locationmanager.getLastKnownLocation(provider);
         super.onStart(intent, startId);
     }
@@ -88,7 +89,8 @@ public class getlocationService extends Service implements LocationListener {
             Location currentLocation = new Location(provider);
              newLong =location.getLongitude();
              newLat =location.getLatitude();
-            if (calculateDistance(newLat,newLong,currentLocation.getLatitude(), currentLocation.getLongitude()) && isBetterLocation(location, currentLocation)) {
+            Log.v("loggg", "IN ON LOCATION CHANGE, lat=" +newLat + ", lon=" + newLong);
+           // if (calculateDistance(newLat,newLong,currentLocation.getLatitude(), currentLocation.getLongitude()) && isBetterLocation(location, currentLocation)) {
                 lat = newLat;
                 lng = newLong;
                 currentLocation = location;
@@ -98,9 +100,9 @@ public class getlocationService extends Service implements LocationListener {
                     Toast.makeText(getBaseContext(), "lat and lng NOT stored", Toast.LENGTH_LONG).show();
                 } else if (val)
                     Toast.makeText(getBaseContext(), "lat and lng stored", Toast.LENGTH_LONG).show();
-            } else {
+        //    } else {
                 Toast.makeText(getBaseContext(), "Same Location", Toast.LENGTH_LONG).show();
-            }
+          //  }
 
            // locationmanager.removeUpdates(locationListener);
 
@@ -112,12 +114,14 @@ public class getlocationService extends Service implements LocationListener {
             // FirebaseDatabase database = FirebaseDatabase.getInstance();
             FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
             FirebaseUser userid = firebaseAuth.getCurrentUser();
-            DatabaseReference myRef = FirebaseDatabase.getInstance().getReference();
+            DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("User_location");
             GeoFire geoFire = new GeoFire(myRef);
             if (lat != null) {
-                myRef.child("user").child(userid.getUid()).child("location_lat").setValue(lat);
+
+                //myRef.child("user").child(userid.getUid()).child("location_lat").setValue(lat);
                 if (lng != null) {
-                    myRef.child("user").child(userid.getUid()).child("location_lang").setValue(lng);
+                    geoFire.setLocation(userid.getUid(), new GeoLocation(lat,lng));
+                    //myRef.child("user").child(userid.getUid()).child("location_lang").setValue(lng);
                 }
                 return true;
             } else {
@@ -129,12 +133,12 @@ public class getlocationService extends Service implements LocationListener {
     /**
      * Determines whether user Location reading is the same as current Location
      *
-     * @param userLat
-     * @param userLng are new user location
-     * @param venueLat
-     * @param venueLng are the old user location
+     *  userLat
+     * userLng are new user location
+     * venueLat
+     *  venueLng are the old user location
      */
-
+/*
     public Boolean calculateDistance(double userLat, double userLng, double venueLat, double venueLng) {
         double latDistance = Math.toRadians(userLat - venueLat);
         double lngDistance = Math.toRadians(userLng - venueLng);
@@ -149,14 +153,14 @@ public class getlocationService extends Service implements LocationListener {
 
         if (dist < 0.01) {
                 /* If it's within 10m, we assume we're not moving */
-            Toast.makeText(getBaseContext(), "Same region ", Toast.LENGTH_LONG).show();
+           /* Toast.makeText(getBaseContext(), "Same region ", Toast.LENGTH_LONG).show();
             return false;
         }
         else if (dist > 0.01){
             Toast.makeText(getBaseContext(), "User moved ", Toast.LENGTH_LONG).show();
             return true;
         }
-
+        return true;
     }
 
 
@@ -168,7 +172,7 @@ public class getlocationService extends Service implements LocationListener {
          * @param location            The new Location that you want to evaluate
          * @param currentBestLocation The current Location fix, to which you want to compare the new one
          */
-        protected boolean isBetterLocation(Location location, Location currentBestLocation) {
+        /*protected boolean isBetterLocation(Location location, Location currentBestLocation) {
             if (currentBestLocation == null) {
                 // A new location is always better than no location
              Toast.makeText(getBaseContext(), "Current Location is null ", Toast.LENGTH_LONG).show();
@@ -221,12 +225,12 @@ public class getlocationService extends Service implements LocationListener {
         /**
          * Checks whether two providers are the same
          */
-        private boolean isSameProvider(String provider1, String provider2) {
+       /* private boolean isSameProvider(String provider1, String provider2) {
             if (provider1 == null) {
                 return provider2 == null;
             }
             return provider1.equals(provider2);
-        }
+        }*/
 
         @Override
         public void onStatusChanged(String s, int i, Bundle bundle) {
