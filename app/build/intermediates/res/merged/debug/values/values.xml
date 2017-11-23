@@ -841,6 +841,7 @@
     <string name="email">البريد الإلكتروني</string>
     <string name="error_confrim">تأكد أن كل الحقول كاملة.</string>
     <string name="failed_login">اسم المستخدم او كلمة المرور غير صحيحة</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="fill_contact">من فضلك أدخل رقم الجوال للشخص الذي تريد تنبيهه في حالتك الطارئة. </string>
     <string name="firebase_database_url" translatable="false">https://enjadpp.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">352690967329</string>

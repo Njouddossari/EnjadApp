@@ -139,9 +139,10 @@ public class ProfileActivity extends AppCompatActivity {
             con_id = dbRefconfig.child(user.getUid()).push().getKey(); //generate unique id
             flag=false;
         }
-        con_id = dbRefconfig.child(user.getUid()).getKey();
+        //con_id = dbRefconfig.child(user.getUid()).getKey();
+        con_id="1";
         configuration con = new configuration(con_id,flag_provideHelp,flag_access_contact );
-        dbRefconfig.child(user.getUid()).child(con_id).setValue(con); //insert to db to configuration table
+        dbRefconfig.child(user.getUid()).setValue(con); //insert to db to configuration table
    }
 
     public String save_contactlist(String username ) {//save contactlist info. in DB
@@ -152,15 +153,15 @@ public class ProfileActivity extends AppCompatActivity {
             contact1= contact1_et.getText().toString().trim();
             if (!TextUtils.isEmpty(contact1)) {
                 contact = new user_contactlist(username, contact1);
-                dbRefcontact.child(user.getUid()).setValue(contact);
+                dbRefcontact.child(user.getUid()).child("1").setValue(contact);
                 contact2= contact2_et.getText().toString().trim();
                 if (!TextUtils.isEmpty(contact2)) {
                     contact = new user_contactlist(username, contact2);
-                    dbRefcontact.child(user.getUid()).setValue(contact);
+                    dbRefcontact.child(user.getUid()).child("2").setValue(contact);
                     contact3= contact3_et.getText().toString().trim();
                     if (!TextUtils.isEmpty(contact3)) {
                         contact = new user_contactlist(username, contact3);
-                        dbRefcontact.child(user.getUid()).setValue(contact);
+                        dbRefcontact.child(user.getUid()).child("3").setValue(contact);
                         return "1";
                     }
                     else { Toast.makeText(this, getString(R.string.fill_contact), Toast.LENGTH_SHORT).show();

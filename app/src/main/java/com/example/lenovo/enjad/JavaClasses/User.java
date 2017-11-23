@@ -6,8 +6,9 @@ package com.example.lenovo.enjad.JavaClasses;
 
 public class User {
 
- public String username, Email,health_info, phone, password ;
+ public String username, Email,health_info, phone, password , notificationTokens;
  public Double location_lang , location_lat ;
+
 
     public User (){}
 
@@ -15,6 +16,7 @@ public class User {
     {
         this.username=name;
         this.Email=email;
+        this.notificationTokens="";
         this.health_info=health;
         this.password=pass;
         this.phone=mobile;

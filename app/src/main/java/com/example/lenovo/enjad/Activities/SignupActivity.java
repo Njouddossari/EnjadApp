@@ -164,8 +164,9 @@ public class SignupActivity extends AppCompatActivity {
         User newuser= new User (username1, Email, H_info,mobile,password); //save user information in object
         user=firebaseAuth.getCurrentUser();// which user is signed in system
         databaseReference.child("user").child(user.getUid()).setValue(newuser); // insert the user info to DB
-
-
+        databaseReference.child("configuration").child(user.getUid()).child("act_as_helper").setValue("0");
+        databaseReference.child("configuration").child(user.getUid()).child("inform_contact_list").setValue("0");
+        databaseReference.child("configuration").child(user.getUid()).child("config_id").setValue("1");
     }
 
 

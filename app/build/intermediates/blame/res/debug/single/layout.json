@@ -236,6 +236,10 @@
         "source": "C:\\Users\\LENOVO\\.android\\build-cache\\2ddbd4bda8d7578e21c9778da74001781edbc607\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test.xml",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
