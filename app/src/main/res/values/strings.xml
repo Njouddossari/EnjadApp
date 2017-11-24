@@ -49,7 +49,13 @@
     <string name="success_sign_in">تمت عمليةالتسجيل بنجاح... </string>
     <string name="fill_contact">من فضلك أدخل رقم الجوال للشخص الذي تريد تنبيهه في حالتك الطارئة. </string>
     <string name="save_change">تم تحديث الملف الشخصي. </string>
-    <string name="title_activity_main2">Main2Activity</string>
-
+    <!--string name="title_activity_main2">Main2Activity</string-->
+    <string name="send">إرسال</string>
+    <string name="emrgType">نوع الحالة</string>
+    <string name="theft">سرقة</string>
+    <string name="accident">حادث</string>
+    <string name="emrg_case">حالة إسعافية</string>
+    <string name="fire">حريق</string>
+    <string name="other">أخرى</string>
 
 </resources>

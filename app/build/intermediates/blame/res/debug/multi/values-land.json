@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+        "outputFile": "C:\\Users\\USER\\Desktop\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 120
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\USER\\.android\\build-cache\\ee7df750ab562b4ac5d4ec762b0899927c35f3e3\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\USER\\.android\\build-cache\\ee7df750ab562b4ac5d4ec762b0899927c35f3e3\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 255
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\USER\\.android\\build-cache\\ee7df750ab562b4ac5d4ec762b0899927c35f3e3\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\USER\\.android\\build-cache\\ee7df750ab562b4ac5d4ec762b0899927c35f3e3\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -88,7 +88,7 @@
                     "endOffset": 505
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\0e49712dd2a0bdb2aa2db1a5498d2fe6edb7e109\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\USER\\.android\\build-cache\\7705313aa47ebbe998deee8d023076f08cd48313\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

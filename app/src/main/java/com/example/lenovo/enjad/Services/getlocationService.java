@@ -101,7 +101,7 @@ public class getlocationService extends Service implements LocationListener {
                 } else if (val)
                     Toast.makeText(getBaseContext(), "lat and lng stored", Toast.LENGTH_LONG).show();
         //    } else {
-                Toast.makeText(getBaseContext(), "Same Location", Toast.LENGTH_LONG).show();
+               // Toast.makeText(getBaseContext(), "Same Location", Toast.LENGTH_LONG).show();
           //  }
 
            // locationmanager.removeUpdates(locationListener);

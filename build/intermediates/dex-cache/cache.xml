@@ -2,13 +2,139 @@
 <items version="2" >
 
     <item
+        is-multidex="true"
+        jar="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d3f3b58edd839336a5f12161b8dddcf961e83916">
+        <dex dex="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8eaf17e737373026725d82d98ca8e7bde06aa718\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\377e3e378ca3fd0480fdd3cc627dde191f9e1e1c\output\jars\classes.jar"
+        jar="C:\Users\USER\.android\build-cache\2e65f459e9cd5fe12468f6be60759dd55fb8e651\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4262bcd49b19d558c241bf8c68470fcc6fa1ac84">
+        <dex dex="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_9895c0e5c4017ccdcb57d850794f742ce26d6604.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_17c27d29ed151a8fd1de76858a3a08bc783e2b30\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\.android\build-cache\ea13ef53de7b829249bc6d7658b276cfa4b02902\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2c1d9fbe7d2f686b3dcdbc3f63a983a211401ca3">
+        <dex dex="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_10885ee28d99d63bd9eefe36ca285b980aef79e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\.android\build-cache\34a4239d2556b354624ca65884033175692cce02\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e8c74e789b51b9da4070aeaed71bae36c3d244f">
+        <dex dex="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_b67d8805e051f46c1ba6ca4c65f2c4e587ea3ad6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\.android\build-cache\ba80fc5501d9be799accd1fa0edc87cbacec391a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2737331564e0084fc0eb30ba500564a6dbe5e98f">
+        <dex dex="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_3483e337305c270fdba4a5e10a8808d77abab8b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\.android\build-cache\0657491cba50bcfdae4b2789633b9682d8866d16\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="2a7f46cbd5607e57e0aadce84c6a59dafeef1a7e">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_1b82261f3d0b1e4bf60b51600b5178159a57cc1e.jar" />
+        <dex dex="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_65ffff638b4519fc77911fa54707647713286fd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\.android\build-cache\ac02bcee714e05214cba8c036d17260419620516\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4802b21cc23549f7eba5edb802241091ad998b35">
+        <dex dex="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_bed9ecd7d8509b725809ceb1984e9263cda06bb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\.android\build-cache\ce5b834e3b92e6d8e829f4052282feba0f855135\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e70a3fed299d84cd868614e11021664d72b8e488">
+        <dex dex="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_1d856b4dfd87a2f3b9475b20e2caac5888a25594.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\.android\build-cache\8533d4474462ba4064394d930ce3c3e703e3d928\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a71be5f29a1c1e3fd3e84472742668f101a5b936">
+        <dex dex="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_5b55c492cb22c2f0ffeb9a35727ae4f72c5f9e9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\.android\build-cache\b0f234f79fab789122fe8b4c370e449c0db8ab8f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="86baa7d1051901fc1b8e7f596732f71f32175bde">
+        <dex dex="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_2b88367116ad4d8ec9660769abbfeb124939de86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\.android\build-cache\02d1e9274c5402adf198a4c1f2624ffcdae5e839\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="240e5a7c620376184f3168cfdd36315b97b1fe07">
+        <dex dex="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_ddacf1316f3bf1540c7a2dca78d2f5bdf8ffe100.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\.android\build-cache\bef889857fd1db889fa730273a04b2b669307b11\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9a6350134db98fb39e212ddca5f0bad9280e8f3f">
+        <dex dex="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_e8ef144f7c1a04de977feaf6ace97ec504e3dee8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\.android\build-cache\23c28e5bb247ba89a3c8cc3f1a9611022beee589\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2a2d9cd43adbe7599a78f2293273a77881c1909a">
+        <dex dex="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_2136e9e8f519b19a42f96ea43523b10a3f9b574e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\USER\.android\build-cache\4b2966ae75df3b6ee9de72ef96ca86d8476ae3e9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fc5624185d414a0f572bfb3df7d841ceb335aef9">
+        <dex dex="C:\Users\USER\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_621f81105985923966d57ad7a30d55fef4f33d40.jar" />
     </item>
 
 </items>

@@ -24,8 +24,6 @@ import com.example.lenovo.enjad.Services.ScreenOnOffService;
 import com.example.lenovo.enjad.Services.getlocationService;
 import com.google.firebase.auth.FirebaseAuth;
 
-import java.util.Calendar;
-
 
 public class HomPageActivity extends AppCompatActivity {
         FirebaseAuth firebaseAuth;
@@ -34,16 +32,10 @@ public class HomPageActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // these flags to start activity on lock screen
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_ALLOW_LOCK_WHILE_SCREEN_ON);
-        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
+
+
         setContentView(R.layout.activity_hom_page);
 
-        //Starting ScreenOnOffService
 
 
         firebaseAuth=FirebaseAuth.getInstance();
@@ -53,6 +45,8 @@ public class HomPageActivity extends AppCompatActivity {
             startActivity(new Intent(getApplicationContext(),LoginActivity.class));
         }
         else{ //starting 2 services only when user logged in
+            //Starting ScreenOnOffService
+
             Intent i0 = new Intent(this,ScreenOnOffService.class);
             i0.setAction(".ScreenOnOffService");
             startService(i0); //listen to power button
@@ -113,6 +107,7 @@ public class HomPageActivity extends AppCompatActivity {
         ReportsB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { //move to report list page
+
                 Intent rep = new Intent(getApplicationContext(), ReportlistActivity.class);
                 startActivity(rep);
             }
