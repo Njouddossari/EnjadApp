@@ -87,6 +87,17 @@
 
         <activity android:name="com.example.lenovo.enjad.Activities.TestActivity" />
 
+        <service android:name="com.example.lenovo.enjad.Services.FCMTokenInstanceIdService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.example.lenovo.enjad.Services.MyFCMService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />
