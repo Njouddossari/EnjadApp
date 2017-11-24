@@ -11,6 +11,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -23,6 +24,10 @@ import com.example.lenovo.enjad.R;
 import com.example.lenovo.enjad.Services.ScreenOnOffService;
 import com.example.lenovo.enjad.Services.getlocationService;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.iid.FirebaseInstanceId;
 
 
 public class HomPageActivity extends AppCompatActivity {
@@ -39,6 +44,7 @@ public class HomPageActivity extends AppCompatActivity {
 
 
         firebaseAuth=FirebaseAuth.getInstance();
+        FirebaseUser userid = firebaseAuth.getCurrentUser();
         if (firebaseAuth.getCurrentUser() == null ) // check if user is not logged in
         {
             //login activity here
@@ -46,7 +52,16 @@ public class HomPageActivity extends AppCompatActivity {
         }
         else{ //starting 2 services only when user logged in
             //Starting ScreenOnOffService
-
+            try {
+                String recent_token = FirebaseInstanceId.getInstance().getToken(); //notification token
+                if ( recent_token!=null ){
+                DatabaseReference myRef = FirebaseDatabase.getInstance().getReference();
+                myRef.child("user").child(userid.getUid()).child("notificationTokens").child(recent_token).setValue(true);}
+            }
+            catch(RuntimeException r)
+            {
+                Log.v(" error", "Error "+ r.getMessage());
+            }
             Intent i0 = new Intent(this,ScreenOnOffService.class);
             i0.setAction(".ScreenOnOffService");
             startService(i0); //listen to power button

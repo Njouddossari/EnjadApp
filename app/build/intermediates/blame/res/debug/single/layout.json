@@ -168,6 +168,10 @@
         "source": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_emrg_type_dialog.xml",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\layout\\activity_emrg_type_dialog.xml"
+    },
+    {
         "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
         "source": "C:\\Users\\LENOVO\\.android\\build-cache\\77c6045de05c9543db1d42e02e5f470f2bf40b45\\output\\res\\layout\\notification_template_big_media_custom.xml"
     },

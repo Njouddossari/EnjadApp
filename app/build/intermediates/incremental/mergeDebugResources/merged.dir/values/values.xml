@@ -816,6 +816,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="accessToMIC">استخدام المايكروفون</string>
     <string name="accessTocontact">تنبيه ثلاثة من معارفك فقط:</string>
+    <string name="accident">حادث</string>
     <string name="app_name">إنجاد</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
@@ -839,10 +840,13 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="default_web_client_id" translatable="false">352690967329-shgt0osh1d3nmkdttcp9vn3q0bcbru8h.apps.googleusercontent.com</string>
     <string name="email">البريد الإلكتروني</string>
+    <string name="emrgType">نوع الحالة</string>
+    <string name="emrg_case">حالة إسعافية</string>
     <string name="error_confrim">تأكد أن كل الحقول كاملة.</string>
     <string name="failed_login">اسم المستخدم او كلمة المرور غير صحيحة</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="fill_contact">من فضلك أدخل رقم الجوال للشخص الذي تريد تنبيهه في حالتك الطارئة. </string>
+    <string name="fire">حريق</string>
     <string name="firebase_database_url" translatable="false">https://enjadpp.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">352690967329</string>
     <string name="google_api_key" translatable="false">AIzaSyAevEfjj7JRinnM5f0BUmoulDODktTclk8</string>
@@ -855,6 +859,7 @@
     <string name="my_reports">البلاغات</string>
     <string name="my_reportslist">قائمة بلاغاتي</string>
     <string name="olduser">تسجيل دخول</string>
+    <string name="other">أخرى</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -868,12 +873,13 @@
     <string name="save_change">تم تحديث الملف الشخصي. </string>
     <string name="savechenges">حفظ التغييرات</string>
     <string name="search_menu_title">Search</string>
+    <string name="send">إرسال</string>
     <string name="signup">تسجيل</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="success_Log_in">تمت عملية تسجيل الدخول بنجاح... </string>
     <string name="success_Log_out">تمت عملية تسجيل الخروج بنجاح... </string>
     <string name="success_sign_in">تمت عمليةالتسجيل بنجاح... </string>
-    <string name="title_activity_main2">Main2Activity</string>
+    <string name="theft">سرقة</string>
     <string name="toRegister">اضغط هنا إذا لم يكن لديك حساب</string>
     <string name="username">اسم المستخدم</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

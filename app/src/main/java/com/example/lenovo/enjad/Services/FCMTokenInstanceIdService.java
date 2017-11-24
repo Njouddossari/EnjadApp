@@ -22,10 +22,10 @@ public class FCMTokenInstanceIdService extends FirebaseInstanceIdService {
         String recent_token= FirebaseInstanceId.getInstance().getToken(); //notification token
         Log.w("REGESTRAITON Token", recent_token+ "");
         //send the token to the firebase database
-        FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
+       /* FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
         FirebaseUser userid = firebaseAuth.getCurrentUser();
         DatabaseReference myRef = FirebaseDatabase.getInstance().getReference();
-        myRef.child("user").child(userid.getUid()).child("notificationTokens").child(recent_token).setValue(true);
+        myRef.child("user").child(userid.getUid()).child("notificationTokens").child(recent_token).setValue(true);*/
 
     }
 }
