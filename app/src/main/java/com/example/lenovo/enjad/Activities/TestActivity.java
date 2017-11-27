@@ -104,7 +104,7 @@ public class TestActivity extends AppCompatActivity {
                 //  3 KM range
                 try {
 
-                    GeoQuery find_nearest_helpers_query = geoFire.queryAtLocation(new GeoLocation(lat, lng), 3);
+                    GeoQuery find_nearest_helpers_query = geoFire.queryAtLocation(new GeoLocation(lat, lng), 7);
                     find_nearest_helpers_query.removeAllListeners();//find nearest helpers
                     Log.v(" testing", "Testing ");
                     find_nearest_helpers_query.addGeoQueryEventListener(new GeoQueryEventListener() {
@@ -202,7 +202,7 @@ public class TestActivity extends AppCompatActivity {
                         @Override
                         public void onCancelled(DatabaseError databaseError) {}
                     });
-                    DatabaseReference nearestRef = FirebaseDatabase.getInstance().getReference("nearestHelper");
+                    DatabaseReference nearestRef = FirebaseDatabase.getInstance().getReference("nearest");
                     for (String nearest_id : helpers_id)
                     {
                         nearestRef.child(nearest_id).child(user.getUid()).setValue(true);
@@ -216,7 +216,7 @@ public class TestActivity extends AppCompatActivity {
                     @Override
                     public void onKeyEntered(String key, GeoLocation location) { // The location of a key now matches the query criteria.
                         nearest_helpers_id.add(key);
-                    }
+                    }t
 
                     @Override
                     public void onKeyExited(String key) {

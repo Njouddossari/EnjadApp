@@ -25,8 +25,10 @@ public class MyFCMService extends FirebaseMessagingService {
         String title = remoteMessage.getData().get("title");
         String body = remoteMessage.getData().get("body");
         String Reportername = remoteMessage.getData().get("username");
-        Double Reporterlng = Double.parseDouble((remoteMessage.getData().get("lng"))); //reporter location
-        Double Reporterlat = Double.parseDouble((remoteMessage.getData().get("lat")));
+        //Double Reporterlng = Double.parseDouble((remoteMessage.getData().get("lng"))); //reporter location
+        //Double Reporterlat = Double.parseDouble((remoteMessage.getData().get("lat")));
+        Double Reporterlng =1.1; //reporter location
+        Double Reporterlat = 22.3;
         String reporterHealth= remoteMessage.getData().get("healthInfo");
         String Severity= remoteMessage.getData().get("severity");
         String Emrg_type= remoteMessage.getData().get("emergType");
