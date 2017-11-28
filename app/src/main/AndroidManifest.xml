@@ -31,6 +31,9 @@
             android:name=".Activities.chatlistActivity"
             android:icon="@drawable/enjadapplogoicon" />
         <activity
+            android:name=".Activities.EmrgTypeDialog"
+            android:icon="@drawable/enjadapplogoicon" />
+        <activity
             android:name=".Activities.HomPageActivity"
             android:icon="@drawable/enjadapplogoicon" />
         <activity
@@ -70,6 +73,7 @@
             android:exported="false" />
 
         <activity android:name=".Activities.TestActivity"></activity>
+
         <service android:name=".Services.FCMTokenInstanceIdService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>

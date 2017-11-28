@@ -115,13 +115,14 @@ public class getlocationService extends Service implements LocationListener {
             FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
             FirebaseUser userid = firebaseAuth.getCurrentUser();
             DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("User_location");
+            DatabaseReference myRef1 = FirebaseDatabase.getInstance().getReference();
             GeoFire geoFire = new GeoFire(myRef);
             if (lat != null) {
 
-                //myRef.child("user").child(userid.getUid()).child("location_lat").setValue(lat);
+                myRef1.child("user").child(userid.getUid()).child("location_lat").setValue(lat);
                 if (lng != null) {
                     geoFire.setLocation(userid.getUid(), new GeoLocation(lat,lng));
-                    //myRef.child("user").child(userid.getUid()).child("location_lang").setValue(lng);
+                    myRef1.child("user").child(userid.getUid()).child("location_lang").setValue(lng);
                 }
                 return true;
             } else {

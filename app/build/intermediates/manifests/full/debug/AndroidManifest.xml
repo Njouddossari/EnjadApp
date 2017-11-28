@@ -47,6 +47,9 @@
             android:name="com.example.lenovo.enjad.Activities.chatlistActivity"
             android:icon="@drawable/enjadapplogoicon" />
         <activity
+            android:name="com.example.lenovo.enjad.Activities.EmrgTypeDialog"
+            android:icon="@drawable/enjadapplogoicon" />
+        <activity
             android:name="com.example.lenovo.enjad.Activities.HomPageActivity"
             android:icon="@drawable/enjadapplogoicon" />
         <activity
