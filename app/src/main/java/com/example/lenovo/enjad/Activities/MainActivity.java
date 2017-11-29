@@ -16,15 +16,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        process();
         Button loginB = (Button) findViewById(R.id.signin);
         TextView signupTV= (TextView) findViewById(R.id.signuptextview);
-        firebaseAuth= FirebaseAuth.getInstance();
-        if (firebaseAuth.getCurrentUser() != null ) // check if user is already logged in
-        {
-            //profile activity here
-            finish();
-            startActivity(new Intent(getApplicationContext(),HomPageActivity.class));
-        }
+
 
         loginB.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,5 +36,41 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(R);
             }
         });
+    }
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        setIntent(intent);
+        process();
+
+    }
+
+    public void process (){
+
+        Bundle extras=getIntent().getExtras();
+
+        if (extras!=null)
+        {
+            if (extras.getString("title").equals("حالة طارئة")){
+                firebaseAuth= FirebaseAuth.getInstance();
+                if (firebaseAuth.getCurrentUser() != null ) // check if user is already logged in
+                     {
+                         Intent R = new Intent(getApplicationContext(),chatActivity.class); // here must popup activity for receiving notification 
+                         finish();
+                         startActivity(R);
+                     }
+            }
+        }
+        else
+        {
+            firebaseAuth= FirebaseAuth.getInstance();
+            if (firebaseAuth.getCurrentUser() != null ) // check if user is already logged in
+            {
+                //profile activity here
+                finish();
+                startActivity(new Intent(getApplicationContext(),HomPageActivity.class));
+            }
+        }
     }
 }

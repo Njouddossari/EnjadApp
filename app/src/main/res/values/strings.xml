@@ -26,6 +26,8 @@
     <string name="accessTocontact">تنبيه ثلاثة من معارفك فقط:</string>
     <string name="phone_et">رقم الجوال </string>
 
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
     <string name="failed_login">اسم المستخدم او كلمة المرور غير صحيحة</string>
     <string name="Msg_ErrorTitle">خطأ</string>
     <string name="Msg_RequiredUserName">من فضلك ادخل اسم المستخدم</string>

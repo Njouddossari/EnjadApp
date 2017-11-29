@@ -48,6 +48,7 @@ public  class EmrgTypeDialog extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // these flags to start activity on lock screen
+        super.onCreate(savedInstanceState);
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_DISMISS_KEYGUARD);
@@ -57,7 +58,7 @@ public  class EmrgTypeDialog extends Activity {
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         Toast.makeText(this, "On emergencey dialog", Toast.LENGTH_SHORT).show();
 
-        super.onCreate(savedInstanceState);
+
 
         // setContentView(R.layout.dialog_view);
         //public void onClick(View v) {
@@ -78,7 +79,7 @@ public  class EmrgTypeDialog extends Activity {
         final RadioButton Dialog1 = (RadioButton) findViewById(R.id.radioButton3);
 
         //Send button
-        final Button Dialog2 = (Button) findViewById(R.id.button3);
+
 // ---------
         firebaseAuth= FirebaseAuth.getInstance();
         if (firebaseAuth.getCurrentUser() == null ) // check if user is not logged in
@@ -99,46 +100,61 @@ public  class EmrgTypeDialog extends Activity {
             public void onCancelled(DatabaseError databaseError) {}
         });
         //------------
+
         // set dialog message
         alertDialogBuilder
-                .setCancelable(false)
-                .setPositiveButton("OK",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
+                .setCancelable(false);
 
-                                //intaite the report
 
-                                // we can select the severity based on   the user choice if the user not select the type
-                                // , the severity  of the report = unknown
-                                Report new_report = new Report ("High ", "حريق", "نشط" , username);
-                                SaveReport(new_report); //save report info in the DB
-                                //---
-                                //now we search for nearest user through Geofire query
-                                DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("User_location");
-                                GeoFire geoFire = new GeoFire(myRef);
-                                geoFire.getLocation(user.getUid(), new LocationCallback() { // get the current location of reporter
-                                    @Override
-                                    public void onLocationResult(String key, GeoLocation location) {
-                                        if (location != null) {
-                                            lat=location.latitude;
-                                            lng=location.longitude;
-                                            Log.v("location is saved", " location lat "+ lat);
-                                        } else {
-                                            Log.v("location error", "There is no location");
+        // create alert dialog
+        final AlertDialog alertDialog = alertDialogBuilder.create();
+
+        // show it
+        alertDialog.setCanceledOnTouchOutside(false);
+        alertDialog.show();
+
+        final Button sendbu = (Button) alertDialog.findViewById(R.id.button3);
+        //----------
+        sendbu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                                try {
+                                    // we can select the severity based on   the user choice if the user not select the type
+                                    // , the severity  of the report = unknown
+                                    //Report new_report = new Report ("High ", "حريق", "نشط" , username);
+                                    //SaveReport(new_report); //save report info in the DB
+                                    //---
+                                    //now we search for nearest user through Geofire query
+                                    DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("User_location");
+                                    GeoFire geoFire = new GeoFire(myRef);
+                                    geoFire.getLocation(user.getUid(), new LocationCallback() { // get the current location of reporter
+                                        @Override
+                                        public void onLocationResult(String key, GeoLocation location) {
+                                            if (location != null) {
+                                                lat=location.latitude;
+                                                lng=location.longitude;
+                                                Log.v("location is saved", " location lat "+ lat);
+                                            } else {
+                                                Log.v("location error", "There is no location");
+                                            }
+
                                         }
 
-                                    }
+                                        @Override
+                                        public void onCancelled(DatabaseError databaseError) {
+                                            Log.v(" error", "Error with Geo fire location : " + databaseError);
+                                        }
+                                    });
 
-                                    @Override
-                                    public void onCancelled(DatabaseError databaseError) {
-                                        Log.v(" error", "Error with Geo fire location : " + databaseError);
-                                    }
-                                });
+                                    //  3 KM range
 
-                                //  3 KM range
-                                try {
 
                                     GeoQuery find_nearest_helpers_query = geoFire.queryAtLocation(new GeoLocation(lat, lng), 7);
+                                    //saving in the database
+                                    Report new_report = new Report ("High ", "حريق", "نشط" , username);
+                                    SaveReport(new_report); //save report info in the DB
+
                                     find_nearest_helpers_query.removeAllListeners();//find nearest helpers
                                     Log.v(" testing", "Testing ");
                                     find_nearest_helpers_query.addGeoQueryEventListener(new GeoQueryEventListener() {
@@ -228,7 +244,9 @@ public  class EmrgTypeDialog extends Activity {
                                             else
                                             {
                                                 helpers_id=nearest_helpers_id;
+                                                // if ( helpers_id.size() != 0  ){
                                                 Log.v("At the end", "helpers_id: "+ helpers_id.get(0));
+                                                //}
 
                                             }
                                         }
@@ -237,44 +255,36 @@ public  class EmrgTypeDialog extends Activity {
                                         public void onCancelled(DatabaseError databaseError) {}
                                     });
                                     DatabaseReference nearestRef = FirebaseDatabase.getInstance().getReference("nearest");
+                                    //if ( helpers_id.size() != 0  ){
                                     for (String nearest_id : helpers_id)
                                     {
                                         nearestRef.child(nearest_id).child(user.getUid()).setValue(true);
                                     }
-                                    dialog.cancel();
+                                    // }
+                                    if ( helpers_id.size() == 0  ){
+                                        Toast.makeText(getBaseContext(), "There is no nearest helpers", Toast.LENGTH_LONG).show();
+                                    }
+
                                 }catch(RuntimeException r)
                                 {
                                     Log.v(" error", "Error "+ r.getMessage());
                                 }
 
-                                // get user input and set it to result
-                                // edit text
 
-                            }
-                        })
-                .setNegativeButton("Cancel",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                dialog.cancel();
-                            }
-                        });
 
-        // create alert dialog
-        AlertDialog alertDialog = alertDialogBuilder.create();
-
-        // show it
-        alertDialog.show();
-
+            }
+        });
     }
 
     public void SaveReport(Report obj) { //to send the report to DB
         user=firebaseAuth.getCurrentUser();// which user is signed in system
         DatabaseReference ReportRef ,ReportRef1;
-        ReportRef= FirebaseDatabase.getInstance().getReference("Report");
-        ReportRef1= FirebaseDatabase.getInstance().getReference("LastReport");
+        ReportRef= FirebaseDatabase.getInstance().getReference();
+        ReportRef1= FirebaseDatabase.getInstance().getReference();
         int id= obj.report_id;
-        ReportRef.child(user.getUid()).child( Integer.toString(id)).setValue(obj);
-        ReportRef1.child(user.getUid()).setValue(obj); // for notification purpose
+        ReportRef.child("Report").child(user.getUid()).child( Integer.toString(id)).setValue(obj);
+        ReportRef1.child("LastReport").child(user.getUid()).setValue(obj); // for notification purpose
+        Log.v(" save", "seve report succuess");
     }
 }
 
@@ -310,7 +320,12 @@ public  class EmrgTypeDialog extends Activity {
                     }
                 });
 
-
+ .setNegativeButton("Cancel",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                dialog.cancel();
+                            }
+                        });
         AlertDialog alert = builder.create();
         alert.show();
     }

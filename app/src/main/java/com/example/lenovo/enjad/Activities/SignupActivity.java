@@ -20,6 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.util.regex.Pattern;
 
@@ -164,6 +165,9 @@ public class SignupActivity extends AppCompatActivity {
         User newuser= new User (username1, Email, H_info,mobile,password); //save user information in object
         user=firebaseAuth.getCurrentUser();// which user is signed in system
         databaseReference.child("user").child(user.getUid()).setValue(newuser); // insert the user info to DB
+        String recent_token = FirebaseInstanceId.getInstance().getToken(); //notification token
+        if ( recent_token!=null ){
+        databaseReference.child("user").child(user.getUid()).child("notificationTokens").child( recent_token).setValue(true);}
         databaseReference.child("configuration").child(user.getUid()).child("act_as_helper").setValue("0");
         databaseReference.child("configuration").child(user.getUid()).child("inform_contact_list").setValue("0");
         databaseReference.child("configuration").child(user.getUid()).child("config_id").setValue("1");

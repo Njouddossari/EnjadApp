@@ -7,9 +7,12 @@ import android.content.Intent;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.support.v4.app.NotificationCompat;
+import android.util.Log;
 
 import com.example.lenovo.enjad.Activities.HomPageActivity;
+import com.example.lenovo.enjad.Activities.chatActivity;
 import com.example.lenovo.enjad.JavaClasses.reporterInfo;
+import com.example.lenovo.enjad.R;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
@@ -40,19 +43,19 @@ public class MyFCMService extends FirebaseMessagingService {
         reporterinfo.healthInfo=reporterHealth;
         reporterinfo.reportSeverity=Severity;
         reporterinfo.reportType=Emrg_type;
-
+        Log.e("on message received", " was done!");
         sendNotification(title,body);
 
     }
 
     public void sendNotification(String title, String messageBody) {
-
-        Intent intent= new Intent ( this, HomPageActivity.class);//here must be the emerg type pop up activity
-        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-
+        Log.e("In Send notification", "was done");
+        Intent intent= new Intent ( this, chatActivity.class);//here must be the emerg type pop up activity
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
         PendingIntent pendingIntent = PendingIntent.getActivity(this,0,intent,PendingIntent.FLAG_ONE_SHOT);
         Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-        NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this);
+        String channelId = getString(R.string.default_notification_channel_id);
+        NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this ,channelId );
         notificationBuilder.setContentTitle(title);
         notificationBuilder.setSound(defaultSoundUri);
         notificationBuilder.setContentText(messageBody);
