@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
+        "outputFile": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 208
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 316
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 439
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 538
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 650
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 738
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 845
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 959
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 1040
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1119
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1204
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1311
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1418
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1518
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1627
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1731
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1841
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1938
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 2049
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\e59e2c2e79a417653cba165b6b622af092240533\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -372,7 +372,7 @@
                     "endOffset": 2236
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\e59e2c2e79a417653cba165b6b622af092240533\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -391,7 +391,7 @@
                     "endOffset": 2371
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\e59e2c2e79a417653cba165b6b622af092240533\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -410,7 +410,7 @@
                     "endOffset": 2483
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\e59e2c2e79a417653cba165b6b622af092240533\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -429,7 +429,7 @@
                     "endOffset": 2688
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\e59e2c2e79a417653cba165b6b622af092240533\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -448,7 +448,7 @@
                     "endOffset": 2823
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\e59e2c2e79a417653cba165b6b622af092240533\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -467,7 +467,7 @@
                     "endOffset": 2958
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\e59e2c2e79a417653cba165b6b622af092240533\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -486,7 +486,7 @@
                     "endOffset": 3179
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\5a36dd160729330b38a3796f42a28f3f61c19859\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\24ddc28087fac972613d0c165b1b1d78a045b7bc\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -505,7 +505,7 @@
                     "endOffset": 3404
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\e59e2c2e79a417653cba165b6b622af092240533\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -524,7 +524,7 @@
                     "endOffset": 3516
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\e59e2c2e79a417653cba165b6b622af092240533\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
@@ -543,7 +543,7 @@
                     "endOffset": 3696
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\e59e2c2e79a417653cba165b6b622af092240533\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
@@ -562,7 +562,7 @@
                     "endOffset": 3835
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\e59e2c2e79a417653cba165b6b622af092240533\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -581,7 +581,7 @@
                     "endOffset": 4038
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\e59e2c2e79a417653cba165b6b622af092240533\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -600,7 +600,7 @@
                     "endOffset": 4224
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\e59e2c2e79a417653cba165b6b622af092240533\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -619,7 +619,7 @@
                     "endOffset": 4318
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\e59e2c2e79a417653cba165b6b622af092240533\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -638,7 +638,7 @@
                     "endOffset": 4413
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\e59e2c2e79a417653cba165b6b622af092240533\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -657,7 +657,7 @@
                     "endOffset": 4523
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\\output\\res\\values-az\\values.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\e59e2c2e79a417653cba165b6b622af092240533\\output\\res\\values-az\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
@@ -676,7 +676,7 @@
                     "endOffset": 4606
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -695,7 +695,7 @@
                     "endOffset": 4707
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-az\\values-az.xml",
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-az\\values-az.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,

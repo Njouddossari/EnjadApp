@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_bd4fda759e241cf54379564a9b15b27273b8639e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dbe9ed9c33ca4a41206a400e1aa5d5c259aa1bd7">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_043480d8db32534630fe12d02fe87a96d3ff18e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_b01a63530c426ac6b391b19b2a91f9327c03fba6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.android\build-cache\4b14ac2d70a043d0944b98d23a9c30723a7e790c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3c433e48557e476290f45fb6cb568d1a103c9978">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ba278d339e720b943b4c42abffa005c83fbe6bc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.android\build-cache\10eafb08e1a6a1c4b83bd489b0b73add55a1b363\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6fafeb68b656dfcd59801622627593b2e41d9210\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.android\build-cache\b9601ced21a33ac552040f90242c72dca076b2a0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="51518e8e8f97c314a243d9def0ded91d385b6a1e">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c5473394e1e511e77a6933be974345f765342d28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.android\build-cache\707dce927fa3486d5dda9cce75f16472f361325f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="de2c50f4a24277d22d675d598640da6d4622b14d">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_03c1779f2b67e88c307fe97bd80e47674f2c21bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.android\build-cache\fc5ea9ef8f2f8d9e7ec73c720d5ab317f0f595eb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_83c03bc918d9706d55e2d89a5b14d562e0efa29a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_4a8d939901d6e92a4d5f33cf756993da23cb3a67\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.android\build-cache\47c46fcab6a965908d60f5aafd0c21800f14c7ca\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="42a3ae86dd3ae2876d3e95c2e6e104ae57a50a65">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4c227ad5d17caad03b994f018c27beb3463591c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.android\build-cache\b19705ecbd4a07b5d30dad6a5880f63c99f25f71\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5e651c1430cc9b8a3b3b5a9d92bb173214dfdf42">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4adfdb21ad662eba631ae13d5b6a514bba9f9695\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.android\build-cache\4e4474a4e890493ff492a14435bd3234c21e6fef\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="16226703bab55ec42457666213cd3503799d36a8">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6ec0f8503c1917acee5c16668bdacb9790456691\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_bf9293b71c82c64183fbed7c6c3e807c69a1aa1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.android\build-cache\60b3f40ab51b6240923dc851c8dfabf01676cd7f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1f4bb2577a30d0b3268fed038ed59230709ad593">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5ba5f6256e5afcb965064e72edafa4b9e9292da8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.android\build-cache\50cd2a60fa15daccf6a464f9214f2545da7724db\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8ac09931704b91e7b4d281f5e34b3b006b628c22">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a21f520f7e177faec5b8085460456f0cea0d0b38\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.android\build-cache\24f2ba3072b31f59d029a6ac061df2682e694520\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ebf985be182798e6322fee8fe437b14ee6bb8609">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_179153cf8fe0c2d778bc8b03c2ec86bc90760f07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.android\build-cache\56ff9e30082db4699cdefcaf1770f32c24db63b7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_961b351774b36b267551b8aed6d26c3c5e75fb2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Njoud\.android\build-cache\d7a28a0bc251177887c031764176e9a3cb0e6ec6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0ef21408e3142ffbfbd4a7ec1762c3325c6c386c">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d6dc65cd281f44637f2291c875bf52e22852331b\classes.dex" />
+    </item>
+
+</items>

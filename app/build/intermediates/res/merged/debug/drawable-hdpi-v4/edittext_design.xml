@@ -6,18 +6,15 @@
         <shape>
             <gradient
                 android:centerY="0.2"
-                android:startColor="#D3D3D3"
+                android:startColor="@color/whitetext"
                 android:centerColor="#65FFFFFF"
-                android:endColor="#00FFFFFF"
+                android:endColor="@color/whitetext"
                 android:angle="270"
                 />
-            <stroke
-                android:width="2dp"
-                android:color="#808080" />
             <corners
-                android:radius="5dp" />
+                android:radius="3dp" />
             <size
-                android:width="25dp"
+                android:width="30dp"
                 android:height="10dp"/>
         </shape>
     </item>

@@ -35,4 +35,14 @@
     <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="EditText" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/colorPrimaryBlack</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:background">@drawable/edittext_design
+        </item><!-- only way to change this is to change the src image -->
+        <item name="android:layout_width">80.0px</item>
+        <item name="android:layout_height">40.0px</item>
+
+    </style>
 </resources>

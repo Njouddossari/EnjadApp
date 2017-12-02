@@ -126,7 +126,7 @@ public class HomPageActivity extends AppCompatActivity {
         ChatsB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { // move to chat list page
-                Intent chls = new Intent(getApplicationContext(), chatlistActivity.class);
+                Intent chls = new Intent(getApplicationContext(), chatActivity.class);
                 startActivity(chls);
             }
         });

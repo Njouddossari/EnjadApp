@@ -57,7 +57,7 @@ public class PowerButtonListenr extends BroadcastReceiver {
         if (countPowerOff > 2) { // here we can initiate the report
             countPowerOff = 0;
             Toast.makeText(context, "MAIN ACTIVITY IS BEING CALLED ", Toast.LENGTH_LONG).show();
-           Intent z = new Intent(context, TestActivity.class);
+           Intent z = new Intent(context, EmrgTypeDialog.class);
             z.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
            context.startActivity(z);
         }

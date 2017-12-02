@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.enjad"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="26" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- To get user location from gps and network -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.LOCATION_HARDWARE" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature android:name="android.hardware.location.network" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.example.lenovo.enjad.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.lenovo.enjad.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/enjadapplogoicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name="com.example.lenovo.enjad.Activities.SignupActivity" />
+        <activity android:name="com.example.lenovo.enjad.Activities.LoginActivity" />
+        <activity android:name="com.example.lenovo.enjad.Activities.chatActivity" />
+        <activity
+            android:name="com.example.lenovo.enjad.Activities.ProfileActivity"
+            android:icon="@drawable/enjadapplogoicon" />
+        <activity
+            android:name="com.example.lenovo.enjad.Activities.chatlistActivity"
+            android:icon="@drawable/enjadapplogoicon" />
+        <activity
+            android:name="com.example.lenovo.enjad.Activities.EmrgTypeDialog"
+            android:icon="@drawable/enjadapplogoicon" />
+        <activity
+            android:name="com.example.lenovo.enjad.Activities.HomPageActivity"
+            android:icon="@drawable/enjadapplogoicon" />
+        <activity
+            android:name="com.example.lenovo.enjad.Activities.ReportlistActivity"
+            android:icon="@drawable/enjadapplogoicon" />
+        <activity
+            android:name="com.example.lenovo.enjad.Activities.MainActivity"
+            android:icon="@drawable/enjadapplogoicon" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- uses-permission android:name="android.permission.GET_TASKS" / -->
+        </activity>
+
+        <receiver android:name="com.example.lenovo.enjad.Services.PowerButtonListenr" >
+            <intent-filter
+                android:enabled="true"
+                android:exported="false" >
+                <action android:name="android.intent.action.SCREEN_OFF" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.example.lenovo.enjad.Services.ScreenOnOffService" >
+            <intent-filter>
+                <action android:name=".ScreenOnOffService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.example.lenovo.enjad.Services.getlocationService"
+            android:exported="false" />
+
+        <activity android:name="com.example.lenovo.enjad.Activities.TestActivity" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/enjadapplogoicon" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimaryRed" />
+        <!-- [END fcm_default_icon] -->
+        <!-- [START fcm_default_channel] -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <!--
+         FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.firebase.ui.auth.ui.email.ConfirmRecoverPasswordActivity"
+            android:label="@string/title_confirm_recover_password_activity"
+            android:theme="@style/FirebaseUI.Dialog" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.email.EmailHintContainerActivity"
+            android:label="@string/default_toolbar_title"
+            android:theme="@style/FirebaseUI.Translucent" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+            android:label="@string/title_recover_password_activity"
+            android:theme="@style/FirebaseUI" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.email.RegisterEmailActivity"
+            android:label="@string/title_register_email_activity"
+            android:theme="@style/FirebaseUI" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.email.SignInNoPasswordActivity"
+            android:label="@string/title_sign_in_no_password_activity"
+            android:theme="@style/FirebaseUI" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.email.SignInActivity"
+            android:label="@string/title_sign_in_activity"
+            android:theme="@style/FirebaseUI" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.account_link.SaveCredentialsActivity"
+            android:label="@string/default_toolbar_title"
+            android:theme="@style/FirebaseUI.Translucent" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.account_link.WelcomeBackIDPPrompt"
+            android:label="@string/title_welcome_back_idp_prompt"
+            android:theme="@style/FirebaseUI" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.account_link.WelcomeBackPasswordPrompt"
+            android:label="@string/title_welcome_back_password_prompt"
+            android:theme="@style/FirebaseUI" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+            android:label="@string/default_toolbar_title"
+            android:theme="@style/FirebaseUI" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.idp.IDPSignInContainerActivity"
+            android:label="@string/default_toolbar_title"
+            android:theme="@style/FirebaseUI.Translucent" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.ChooseAccountActivity"
+            android:label="@string/default_toolbar_title"
+            android:theme="@style/FirebaseUI.Translucent" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/FirebaseUI.Translucent" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/facebook_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.example.lenovo.enjad" />
+            </intent-filter>
+        </receiver>
+        <!--
+ Internal (not exported) receiver used by the app to start its own exported services
+             without risk of being spoofed.
+        -->
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.lenovo.enjad.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="com.example.lenovo.enjad.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

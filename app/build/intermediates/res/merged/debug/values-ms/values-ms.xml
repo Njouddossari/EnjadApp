@@ -19,6 +19,22 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Kongsi dengan"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Kongsi dengan %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Runtuhkan"</string>
+    <string name="com_facebook_image_download_unknown_error">Ralat tidak dijangka ketika memuat turun imej.</string>
+    <string name="com_facebook_internet_permission_error_message">Log masuk WebView memerlukan kebenaran INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Ralat AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">Disukai</string>
+    <string name="com_facebook_like_button_not_liked">Suka</string>
+    <string name="com_facebook_loading">Memuatkan...</string>
+    <string name="com_facebook_loginview_cancel_action">Batal</string>
+    <string name="com_facebook_loginview_log_in_button">Log masuk</string>
+    <string name="com_facebook_loginview_log_in_button_long">Log masuk dengan Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log keluar</string>
+    <string name="com_facebook_loginview_log_out_button">Log keluar</string>
+    <string name="com_facebook_loginview_logged_in_as">Dilog masuk sebagai: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Dilog masuk menggunakan Facebook</string>
+    <string name="com_facebook_send_button_text">Hantar</string>
+    <string name="com_facebook_share_button_text">Kongsi</string>
+    <string name="com_facebook_tooltip_default">Baru! Anda yang mengawal - pilih maklumat yang anda ingin kongsi dengan aplikasi.</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Dayakan"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> tidak akan berfungsi melainkan anda mendayakan perkhidmatan Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Dayakan perkhidmatan Google Play"</string>
@@ -36,6 +52,7 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Buka pada telefon"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Log masuk"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Log masuk dengan Google"</string>
+    <string name="messenger_send_button_text">Hantar</string>
     <string msgid="146198913615257606" name="search_menu_title">"Cari"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>
