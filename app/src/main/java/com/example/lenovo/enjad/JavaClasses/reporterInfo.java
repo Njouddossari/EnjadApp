@@ -1,5 +1,7 @@
 package com.example.lenovo.enjad.JavaClasses;
 
+import android.widget.TextView;
+
 /**
  * Created by LENOVO on 24/11/17.
  */

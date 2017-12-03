@@ -312,6 +312,10 @@
         "source": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
+        "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mute.png",
+        "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\drawable\\mute.png"
+    },
+    {
         "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
         "source": "C:\\Users\\Njoud\\.android\\build-cache\\55c35f841fe1944400b8e89e8462a1d89b4c18c6\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },

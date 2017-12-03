@@ -196,6 +196,10 @@
         "source": "C:\\Users\\Njoud\\.android\\build-cache\\8176b35b71b7e9fefebd158d27d6106bba68022f\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
+        "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\report_info_dialog.xml",
+        "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\layout\\report_info_dialog.xml"
+    },
+    {
         "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },

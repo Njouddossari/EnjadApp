@@ -59,5 +59,9 @@
     <string name="emrg_case">حالة إسعافية</string>
     <string name="fire">حريق</string>
     <string name="other">أخرى</string>
+    <string name="emergytype">نوع الحالة:</string>
+    <string name="severity">المستوى:</string>
+    <string name="info">معلومات:</string>
+    <string name="Location">الموقع:</string>
 
 </resources>
