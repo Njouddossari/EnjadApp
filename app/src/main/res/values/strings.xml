@@ -64,4 +64,10 @@
     <string name="info">معلومات:</string>
     <string name="Location">الموقع:</string>
 
+    <string-array name="stat_array">
+        <item>نشط</item>
+        <item>انتهى</item>
+        <item>قيد المعالجة</item>
+    </string-array>
+
 </resources>

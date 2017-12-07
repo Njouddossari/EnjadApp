@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lenovo.enjad.test" >
+    package="com.example.lenovo.enjad.test">
 
-    <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="26" />
-
-    <instrumentation
-        android:name="android.support.test.runner.AndroidJUnitRunner"
-        android:functionalTest="false"
-        android:handleProfiling="false"
-        android:label="Tests for com.example.lenovo.enjad"
-        android:targetPackage="com.example.lenovo.enjad" />
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="26" />
 
     <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
+    <instrumentation android:name="android.support.test.runner.AndroidJUnitRunner"
+                     android:targetPackage="com.example.lenovo.enjad"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for com.example.lenovo.enjad"/>
 </manifest>

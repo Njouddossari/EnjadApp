@@ -40,6 +40,10 @@
         "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\layout\\activity_emrg_type_dialog.xml"
     },
     {
+        "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reportlist1.xml",
+        "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\layout\\activity_reportlist1.xml"
+    },
+    {
         "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
@@ -86,14 +90,6 @@
     {
         "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "C:\\Users\\Njoud\\.android\\build-cache\\55c35f841fe1944400b8e89e8462a1d89b4c18c6\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_in_message.xml",
-        "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\layout\\item_in_message.xml"
-    },
-    {
-        "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chatlist.xml",
-        "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\layout\\activity_chatlist.xml"
     },
     {
         "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tooltip.xml",
@@ -300,10 +296,6 @@
         "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\layout\\shared_design.xml"
     },
     {
-        "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_out_message.xml",
-        "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\layout\\item_out_message.xml"
-    },
-    {
         "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\message_area.xml",
         "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\layout\\message_area.xml"
     },
@@ -388,8 +380,16 @@
         "source": "C:\\Users\\Njoud\\.android\\build-cache\\8176b35b71b7e9fefebd158d27d6106bba68022f\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
+        "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
+        "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\report_card.xml",
+        "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\layout\\report_card.xml"
     },
     {
         "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",

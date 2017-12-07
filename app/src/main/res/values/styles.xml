@@ -45,4 +45,9 @@
         <item name="android:layout_height">40.0px</item>
 
     </style>
+    <style name="CheckBoxTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorSecondary">@color/whitetext</item>
+        <item name="colorAccent">@color/whitetext</item>
+        <item name="colorControlNormal">@color/whitetext</item>
+    </style>
 </resources>

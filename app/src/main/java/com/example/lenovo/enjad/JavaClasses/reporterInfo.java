@@ -25,4 +25,6 @@ public class reporterInfo {
         this.lng=lngitude;
         this.lat=latitude;
     }
+
+
 }

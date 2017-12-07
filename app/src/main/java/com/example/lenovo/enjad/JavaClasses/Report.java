@@ -19,4 +19,20 @@ public class Report {
         Emerg_status = status;
         this.username = name;
     }
+
+    public String getReport_id() {
+        return String.valueOf(report_id);
+    }
+
+    public String getEmerg_status() {
+        return Emerg_status;
+    }
+
+    public String getSeverity() {
+        return severity;
+    }
+
+    public String getEmerg_type() {
+        return Emerg_type;
+    }
 }

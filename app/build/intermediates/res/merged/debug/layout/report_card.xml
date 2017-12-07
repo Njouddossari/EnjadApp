@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryRed">
+
+
+
+            <TextView
+                android:id="@+id/reportNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="200dp"
+                android:layout_margin="5dp"
+                android:paddingTop="5dp"
+                android:text="رقم البلاغ:"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/selectcard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/whitetext"
+                android:layout_toLeftOf="@id/reportNo"
+                android:theme="@style/CheckBoxTheme"/>
+
+
+            <TextView
+                android:id="@+id/reportLoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/reportNo"
+                android:text="الموقع:"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/reportType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/reportNo"
+                android:layout_alignRight="@+id/reportNo"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/reportLoc"
+                android:text="نوع الحالة:"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/reportLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/reportType"
+                android:layout_toEndOf="@+id/reportstat1"
+                android:layout_toRightOf="@+id/reportstat1"
+                android:text="المستوى:"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/reportstat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@id/reportLevel"
+                android:layout_marginBottom="5dp"
+                android:layout_alignParentRight="true"
+                android:text="حالة البلاغ:"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatSpinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/reportLevel"
+                android:layout_toLeftOf="@id/reportstat"
+                android:backgroundTint="@color/whitetext"
+                android:id="@+id/reportstat1"/>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
