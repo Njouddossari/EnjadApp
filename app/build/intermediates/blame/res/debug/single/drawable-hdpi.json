@@ -1,11 +1,35 @@
 [
     {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pw2.png",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\pw2.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\healthinfo.png",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\healthinfo.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bubble_in.9.png",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\bubble_in.9.png"
+    },
+    {
         "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\enjadapp_bg.png",
         "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\enjadapp_bg.png"
     },
     {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\enjadapplogoicon.png",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\enjadapplogoicon.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\enjadapp_bg.png",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\enjadapp_bg.png"
+    },
+    {
         "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bubble_in.9.png",
         "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\bubble_in.9.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\phone.png",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\phone.png"
     },
     {
         "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\enjadapplogo.png",
@@ -18,6 +42,54 @@
     {
         "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\phone.png",
         "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\phone.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\settingicon.png",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\settingicon.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\email.png",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\email.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\username.png",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\username.png"
+    },
+    {
+        "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\profileicon.png",
+        "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\profileicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pw2.png",
+        "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\pw2.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\enjadapplogo.png",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\enjadapplogo.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bellicon.png",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\bellicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\healthinfo.png",
+        "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\healthinfo.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\chaticon.png",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\chaticon.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\profileicon.png",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\profileicon.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bubble_out.9.png",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\bubble_out.9.png"
     },
     {
         "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\settingicon.png",
@@ -40,14 +112,6 @@
         "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\username.png"
     },
     {
-        "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\profileicon.png",
-        "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\profileicon.png"
-    },
-    {
-        "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pw2.png",
-        "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\pw2.png"
-    },
-    {
         "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bellicon.png",
         "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\bellicon.png"
     },
@@ -56,8 +120,8 @@
         "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\email.png"
     },
     {
-        "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\healthinfo.png",
-        "source": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\healthinfo.png"
+        "merged": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pw.png",
+        "source": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\src\\main\\res\\drawable-hdpi\\pw.png"
     },
     {
         "merged": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bubble_out.9.png",

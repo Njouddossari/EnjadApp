@@ -18,6 +18,7 @@ import com.example.lenovo.enjad.R;
 import com.example.lenovo.enjad.JavaClasses.User;
 import com.example.lenovo.enjad.JavaClasses.configuration;
 import com.example.lenovo.enjad.JavaClasses.user_contactlist;
+import com.firebase.geofire.GeoFire;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -240,6 +241,10 @@ public class ProfileActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) { //to tell if item is selected from the menu
+
+        DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("User_location");
+        GeoFire geoFire = new GeoFire(myRef);
+        geoFire.removeLocation((firebaseAuth.getCurrentUser().getUid()));
         firebaseAuth.signOut();
         Toast.makeText(getApplicationContext(),getString(R.string.success_Log_out), Toast.LENGTH_LONG).show();
         finish();

@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 firebaseAuth= FirebaseAuth.getInstance();
                 if (firebaseAuth.getCurrentUser() != null ) // check if user is already logged in
                      {
-                         Intent R = new Intent(getApplicationContext(),chatActivity.class); // here must popup activity for receiving notification 
+                         Intent R = new Intent(getApplicationContext(),chatActivity.class); // here must popup activity for receiving notification
                          finish();
                          startActivity(R);
                      }

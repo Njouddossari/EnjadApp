@@ -45,6 +45,7 @@
     <string name="error_confrim">تأكد أن كل الحقول كاملة.</string>
     <string name="Log_out">تسجيل خروج</string>
     <string name="New_user">مستخدم جديد؟</string>
+    <string name="pass_length">يجب أن يكون الرقم السري 8 حروف أو أرقام وأكثر. </string>
 
     <string name="success_Log_in">تمت عملية تسجيل الدخول بنجاح... </string>
     <string name="success_Log_out">تمت عملية تسجيل الخروج بنجاح... </string>

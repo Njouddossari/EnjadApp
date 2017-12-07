@@ -26,6 +26,7 @@ import java.util.Calendar;
 import com.example.lenovo.enjad.R;
 import com.example.lenovo.enjad.Services.ScreenOnOffService;
 import com.example.lenovo.enjad.Services.getlocationService;
+import com.firebase.geofire.GeoFire;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
@@ -169,6 +170,9 @@ public class HomPageActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) { //to tell if item is selected from the menu
         //Log out user
+        DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("User_location");
+        GeoFire geoFire = new GeoFire(myRef);
+        geoFire.removeLocation((firebaseAuth.getCurrentUser().getUid()));
         firebaseAuth.signOut();
         Toast.makeText(getApplicationContext(),getString(R.string.success_Log_out), Toast.LENGTH_LONG).show();
         finish();

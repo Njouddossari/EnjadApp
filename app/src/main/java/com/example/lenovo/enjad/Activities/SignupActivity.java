@@ -61,6 +61,8 @@ public class SignupActivity extends AppCompatActivity {
 
     public final Pattern phone_PATTERN = Pattern
             .compile("^[0-9]{10}$");
+    public final Pattern pass_PATTERN = Pattern
+            .compile("^\\w{9,}$");
 
     public void signuponclick(View view) {
 
@@ -90,6 +92,10 @@ public class SignupActivity extends AppCompatActivity {
         }
         if (passwordet.getText().toString().trim().equalsIgnoreCase("")) {
             Toast.makeText(this, getString(R.string.Msg_RequiredPassword), Toast.LENGTH_SHORT).show();
+            return;
+        }
+        if (pass_PATTERN.matcher(passwordet.getText().toString().trim()).matches() == false) {
+            Toast.makeText(this, getString(R.string.pass_length), Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -167,7 +173,8 @@ public class SignupActivity extends AppCompatActivity {
         databaseReference.child("user").child(user.getUid()).setValue(newuser); // insert the user info to DB
         String recent_token = FirebaseInstanceId.getInstance().getToken(); //notification token
         if ( recent_token!=null ){
-        databaseReference.child("user").child(user.getUid()).child("notificationTokens").child( recent_token).setValue(true);}
+        databaseReference.child("user").child(user.getUid()).child("notificationTokens").child( recent_token).setValue(true);
+        }
         databaseReference.child("configuration").child(user.getUid()).child("act_as_helper").setValue("0");
         databaseReference.child("configuration").child(user.getUid()).child("inform_contact_list").setValue("0");
         databaseReference.child("configuration").child(user.getUid()).child("config_id").setValue("1");

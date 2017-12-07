@@ -26,7 +26,8 @@ public class FCMTokenInstanceIdService extends FirebaseInstanceIdService {
         FirebaseUser userid = firebaseAuth.getCurrentUser();
         DatabaseReference myRef = FirebaseDatabase.getInstance().getReference();
         if ( firebaseAuth.getCurrentUser() != null ){
-        myRef.child("user").child(userid.getUid()).child("notificationTokens").child(recent_token).setValue(true);}
+        myRef.child("user").child(userid.getUid()).child("notificationTokens").child(recent_token).setValue(true);
+       }
 
     }
 }

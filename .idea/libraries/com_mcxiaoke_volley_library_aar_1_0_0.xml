@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="com.mcxiaoke.volley:library-aar-1.0.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/10eafb08e1a6a1c4b83bd489b0b73add55a1b363/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/10eafb08e1a6a1c4b83bd489b0b73add55a1b363/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/36434066f30eda712d78d40e19743d8123ccf35c/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/36434066f30eda712d78d40e19743d8123ccf35c/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
