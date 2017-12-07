@@ -862,6 +862,7 @@
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="ConfirmPassword">تأكيد كلمة المرور</string>
     <string name="Location">الموقع:</string>
+    <string name="Location1">الموقع</string>
     <string name="Log_out">تسجيل خروج</string>
     <string name="Msg_ConfirmPassword">كلمة المرور وتأكيد كلمة المرور غير متطابقتين.</string>
     <string name="Msg_ErrorTitle">خطأ</string>
@@ -968,6 +969,7 @@
     <string name="email_account_creation_error">Email account registration unsuccessful</string>
     <string name="email_hint">Email</string>
     <string name="emergytype">نوع الحالة:</string>
+    <string name="emergytype1"> الحالة</string>
     <string name="emrgType">نوع الحالة</string>
     <string name="emrg_case">حالة إسعافية</string>
     <string name="error_confrim">تأكد أن كل الحقول كاملة.</string>
@@ -991,6 +993,7 @@
     <string name="idp_name_facebook">Facebook</string>
     <string name="idp_name_google">Google</string>
     <string name="info">معلومات:</string>
+    <string name="info1">معلومات</string>
     <string name="invalid_email_address">That email address isn\'t correct</string>
     <string name="login">دخول</string>
     <string name="login_error">Login unsuccessful</string>
@@ -1005,6 +1008,7 @@
     <string name="next">Next</string>
     <string name="olduser">تسجيل دخول</string>
     <string name="other">أخرى</string>
+    <string name="pass_length">يجب أن يكون الرقم السري 8 حروف أو أرقام وأكثر. </string>
     <string name="password_hint">Password</string>
     <string name="password_length">Strong passwords have at least %1$d characters and a mix of letters
         and numbers</string>
@@ -1034,6 +1038,7 @@
     <string name="search_menu_title">Search</string>
     <string name="send">إرسال</string>
     <string name="severity">المستوى:</string>
+    <string name="severity1">المستوى</string>
     <string name="sign_in">Sign in</string>
     <string name="sign_in_no_password_title">Put an email to use for sign in</string>
     <string name="sign_in_with_email">Sign in with email</string>

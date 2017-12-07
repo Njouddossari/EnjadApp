@@ -20,61 +20,6 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 
-    <RelativeLayout
-        android:layout_width="0dp"
-        android:layout_height="55dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="52dp">
-
-        <TextView
-            android:id="@+id/PersonalProfile"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:text="@string/profile"
-            android:textAppearance="@style/TextAppearance.AppCompat"
-            android:textColor="@color/colorPrimaryBlack"
-            android:textSize="36sp"
-            tools:layout_constraintLeft_creator="1"
-            tools:layout_constraintTop_creator="1"
-            tools:layout_editor_absoluteX="80dp"
-            tools:layout_editor_absoluteY="49dp" />
-    </RelativeLayout>
-
-    <EditText
-        android:id="@+id/Helathet"
-        style="@style/Widget.AppCompat.AutoCompleteTextView"
-        android:layout_width="184dp"
-        android:layout_height="45dp"
-        android:layout_alignLeft="@+id/Phoneet"
-        android:layout_alignStart="@+id/Phoneet"
-        android:layout_below="@+id/Emailet"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textColor="@color/colorPrimaryBlack"
-        tools:ignore="MissingConstraints,NotSibling"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="206dp" />
-
-    <EditText
-        android:id="@+id/Passet"
-        style="@style/Widget.AppCompat.AutoCompleteTextView"
-        android:layout_width="184dp"
-        android:layout_height="45dp"
-        android:layout_alignLeft="@+id/savechngeBU"
-        android:layout_alignStart="@+id/savechngeBU"
-        android:layout_alignTop="@+id/imageView12"
-        android:layout_weight="1"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textColor="@color/colorPrimaryBlack"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="316dp" />
-
     <TextView
         android:id="@+id/accesset"
         android:layout_width="wrap_content"
@@ -82,28 +27,23 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/provideet"
+        android:layout_marginEnd="200dp"
+        android:layout_marginLeft="16dp"
         android:text="@string/accessTocontact"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/colorPrimaryRed"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.735"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="432dp" />
-
-    <Switch
-        android:id="@+id/providehelpSW"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/Phoneet"
-        android:layout_alignStart="@+id/Phoneet"
-        android:textColor="@color/colorPrimaryRed"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="384dp" />
+        android:layout_marginRight="200dp" />
 
     <Switch
         android:id="@+id/accesstocontctSW"
@@ -111,208 +51,283 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/Phoneet"
         android:layout_alignStart="@+id/Phoneet"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/colorPrimaryRed"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/DeletBU"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.651"
+        tools:ignore="MissingConstraints" />
+
+    <Switch
+        android:id="@+id/providehelpSW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Phoneet"
+        android:layout_alignStart="@+id/Phoneet"
+        android:layout_marginRight="16dp"
         android:textColor="@color/colorPrimaryRed"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="432dp" />
-
-    <RelativeLayout
-        android:layout_width="254dp"
-        android:layout_height="51dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="155dp">
-
-        <ImageView
-            android:id="@+id/imageView11"
-            android:layout_width="@android:dimen/app_icon_size"
-            android:layout_height="@android:dimen/app_icon_size"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            app:srcCompat="@drawable/email"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="280dp"
-            tools:layout_editor_absoluteY="143dp" />
-
-        <EditText
-            android:id="@+id/Emailet"
-            style="@style/Widget.AppCompat.AutoCompleteTextView"
-            android:layout_width="184dp"
-            android:layout_height="45dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginEnd="19dp"
-            android:layout_marginRight="19dp"
-            android:layout_toLeftOf="@+id/imageView11"
-            android:layout_toStartOf="@+id/imageView11"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:textColor="@color/colorPrimaryBlack"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="20dp"
-            tools:layout_editor_absoluteY="0dp" />
-
-    </RelativeLayout>
+        app:layout_constraintBottom_toTopOf="@+id/DeletBU"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.237"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
         android:layout_above="@+id/imageView10"
         android:layout_alignLeft="@+id/imageView10"
         android:layout_alignStart="@+id/imageView10"
+        android:layout_marginTop="8dp"
         android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
         app:srcCompat="@drawable/healthinfo"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="203dp" />
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/savechngeBU"
-        android:layout_width="176dp"
-        android:layout_height="62dp"
+        android:id="@+id/DeletBU"
+        android:layout_width="94dp"
+        android:layout_height="30dp"
         android:layout_alignTop="@+id/include5"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@+id/include5"
+        android:layout_toStartOf="@+id/include5"
+        android:background="@drawable/button_desing"
+        android:text="@string/deleteaccount"
+        android:textSize="14sp"
+        android:theme="@style/ButtonText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PersonalProfile"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/savechngeBU2"
+        android:layout_width="94dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/include5"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:layout_toLeftOf="@+id/include5"
         android:layout_toStartOf="@+id/include5"
         android:background="@drawable/button_desing"
         android:text="@string/savechenges"
+        android:textSize="14sp"
         android:theme="@style/ButtonText"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="480dp" />
-
-
-    <EditText
-        android:id="@+id/Phoneet"
-        style="@style/Widget.AppCompat.AutoCompleteTextView"
-        android:layout_width="184dp"
-        android:layout_height="45dp"
-        android:layout_above="@+id/imageView11"
-        android:layout_toLeftOf="@+id/Usrnameet"
-        android:layout_toStartOf="@+id/Usrnameet"
-        android:layout_weight="1"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textColor="@color/colorPrimaryBlack"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="261dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PersonalProfile"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/provideet"
         android:layout_width="164dp"
         android:layout_height="32dp"
         android:layout_alignBottom="@+id/imageView10"
+        android:layout_marginEnd="32dp"
         android:text="@string/providehelp"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/colorPrimaryRed"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/accesset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.339"
         tools:ignore="MissingConstraints,NotSibling"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="384dp" />
+        android:layout_marginRight="32dp" />
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
         app:srcCompat="@drawable/phone"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="259dp" />
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
         app:srcCompat="@drawable/pw"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="313dp" />
+        tools:ignore="MissingConstraints" />
 
-    <EditText
-        android:id="@+id/contact3et"
-        style="@style/Widget.AppCompat.AutoCompleteTextView"
+    <TextView
+        android:id="@+id/PersonalProfile"
         android:layout_width="wrap_content"
-        android:layout_height="45dp"
-        android:layout_weight="1"
-        android:ems="10"
-        android:hint="@string/phone_et"
-        android:inputType="phone"
-        android:textColor="@color/colorPrimaryBlack"
-        android:visibility="invisible"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="464dp" />
-
-    <EditText
-        android:id="@+id/contact2et"
-        style="@style/Widget.AppCompat.AutoCompleteTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="45dp"
-        android:ems="10"
-        android:hint="@string/phone_et"
-        android:inputType="phone"
-        android:textColor="@color/colorPrimaryBlack"
-        android:visibility="invisible"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="186dp"
-        tools:layout_editor_absoluteY="497dp" />
-
-    <EditText
-        android:id="@+id/contact1et"
-        style="@style/Widget.AppCompat.AutoCompleteTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="45dp"
-        android:layout_marginBottom="16dp"
-        android:ems="10"
-        android:hint="@string/phone_et"
-        android:inputType="textPersonName"
-        android:textColor="@color/colorPrimaryBlack"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="186dp" />
-
-    <RelativeLayout
-        android:layout_width="253dp"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="107dp">
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:text="@string/profile"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/colorPrimaryBlack"
+        android:textSize="15sp"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/email"
+        tools:ignore="MissingConstraints" />
 
-        <ImageView
-            android:id="@+id/imageView10"
-            android:layout_width="@android:dimen/app_icon_size"
-            android:layout_height="@android:dimen/app_icon_size"
-            android:layout_alignBottom="@+id/Usrnameet"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            app:srcCompat="@drawable/username"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="280dp"
-            tools:layout_editor_absoluteY="143dp" />
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/Usrnameet"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PersonalProfile"
+        app:srcCompat="@drawable/username"
+        tools:ignore="MissingConstraints" />
 
-        <EditText
-            android:id="@+id/Usrnameet"
-            style="@style/Widget.AppCompat.AutoCompleteTextView"
-            android:layout_width="184dp"
-            android:layout_height="45dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:textColor="@color/colorPrimaryBlack"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="107dp" />
-    </RelativeLayout>
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <EditText
+        android:id="@+id/Usrnameet"
+        android:layout_width="178dp"
+        android:layout_height="42dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154"
+        android:layout_marginLeft="80dp" />
+
+    <EditText
+        android:id="@+id/Helathet"
+        android:layout_width="178dp"
+        android:layout_height="42dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356"
+        android:layout_marginLeft="80dp" />
+
+    <EditText
+        android:id="@+id/Phoneet"
+        android:layout_width="178dp"
+        android:layout_height="42dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44"
+        android:layout_marginLeft="80dp" />
+
+    <EditText
+        android:id="@+id/Passet"
+        android:layout_width="178dp"
+        android:layout_height="42dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="92dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556"
+        android:layout_marginLeft="92dp" />
+
+    <EditText
+        android:id="@+id/Emailet"
+        android:layout_width="178dp"
+        android:layout_height="42dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265"
+        android:layout_marginLeft="80dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
 
 
 </android.support.constraint.ConstraintLayout>

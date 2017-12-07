@@ -61,9 +61,16 @@
     <string name="fire">حريق</string>
     <string name="other">أخرى</string>
     <string name="emergytype">نوع الحالة:</string>
+    <string name="emergytype1"> الحالة</string>
     <string name="severity">المستوى:</string>
+    <string name="severity1">المستوى</string>
     <string name="info">معلومات:</string>
+    <string name="info1">معلومات</string>
     <string name="Location">الموقع:</string>
+    <string name="Location1">الموقع</string>
+
+
+    <string name="deleteaccount">حذف الحساب</string>
 
     <string-array name="stat_array">
         <item>نشط</item>

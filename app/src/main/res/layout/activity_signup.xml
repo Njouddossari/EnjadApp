@@ -154,13 +154,14 @@
 
     <Button
         android:id="@+id/signbu"
-        android:layout_width="128dp"
-        android:layout_height="wrap_content"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
         android:layout_marginBottom="16dp"
         android:layout_marginStart="35dp"
         android:background="@drawable/button_desing"
         android:onClick="signuponclick"
         android:text="@string/signup"
+        android:textSize="14sp"
         android:theme="@style/ButtonText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -185,8 +186,8 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="@android:dimen/app_icon_size"
-        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
         android:layout_marginBottom="9dp"
         android:layout_marginEnd="43dp"
         android:layout_marginTop="156dp"
@@ -199,8 +200,8 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="@android:dimen/app_icon_size"
-        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="43dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView6"
@@ -212,8 +213,8 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="@android:dimen/app_icon_size"
-        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="43dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView7"
@@ -225,8 +226,8 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="@android:dimen/app_icon_size"
-        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
         android:layout_marginBottom="11dp"
         android:layout_marginEnd="43dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView8"
@@ -238,8 +239,8 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="@android:dimen/app_icon_size"
-        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
         android:layout_marginBottom="11dp"
         android:layout_marginEnd="43dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView9"
@@ -251,8 +252,8 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="@android:dimen/app_icon_size"
-        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
         android:layout_marginBottom="76dp"
         android:layout_marginEnd="43dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -271,7 +272,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/usrnameet"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.373"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/enjadapplogo" />

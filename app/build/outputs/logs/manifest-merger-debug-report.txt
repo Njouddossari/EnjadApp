@@ -1,588 +1,600 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:3:1-94:12
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:3:1-110:12
 	package
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:4:5-39
-		INJECTED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:4:5-39
+		INJECTED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:3:11-69
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:3:11-69
 	android:versionCode
-		INJECTED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml
 supports-screens
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:6:5-10:40
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:6:5-10:40
 	android:largeScreens
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:7:9-36
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:7:9-36
 	android:smallScreens
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:9:9-36
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:9:9-36
 	android:normalScreens
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:8:9-37
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:8:9-37
 	android:xlargeScreens
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:10:9-37
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:10:9-37
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:12:5-79
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:12:22-76
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:12:22-76
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:13:5-67
-MERGED from [com.firebase:geofire-android:2.1.3] C:\Users\LENOVO\.android\build-cache\377e3e378ca3fd0480fdd3cc627dde191f9e1e1c\output\AndroidManifest.xml:4:3-64
-MERGED from [com.firebaseui:firebase-ui:0.6.0] C:\Users\LENOVO\.android\build-cache\3c0fc65aeba446c77c6b0ec47838185b54c8d86a\output\AndroidManifest.xml:11:5-67
-MERGED from [com.firebaseui:firebase-ui-database:0.6.0] C:\Users\LENOVO\.android\build-cache\9e61b5b697c5ed2ed42fe11961b6c151c72f455b\output\AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\LENOVO\.android\build-cache\c2f0feb2fde2937e02d049844799121cd13ca3a2\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:20:5-66
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:13:5-67
+MERGED from [com.firebase:geofire-android:2.1.3] /Users/deemah/.android/build-cache/139d74dec953aad87236172d32e694d0fdd960ea/output/AndroidManifest.xml:4:3-64
+MERGED from [com.firebaseui:firebase-ui:0.6.0] /Users/deemah/.android/build-cache/f6fee12ded303bc852e42118cbdb3b8524f60d35/output/AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:0.6.0] /Users/deemah/.android/build-cache/3da2f88835b681a0eed05aacbe4efb860373a9a6/output/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/deemah/.android/build-cache/19099738d546ac7da23d473c786065b34d0dad88/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:13:22-64
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:13:22-64
 uses-permission#android.permission.LOCATION_HARDWARE
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:14:5-76
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:14:5-76
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:14:22-73
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:14:22-73
 uses-feature#android.hardware.location.gps
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:16:5-66
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:16:5-66
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:16:19-63
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:16:19-63
 uses-feature#android.hardware.location.network
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:17:5-70
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:17:5-70
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:17:19-67
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:17:19-67
 application
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:19:5-92:19
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\LENOVO\.android\build-cache\a8a2e1fc24fbebc51fd330e6f9d76251d84fdf63\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\LENOVO\.android\build-cache\d63b0fb949196cd443c9df49967496af934b42ba\output\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\LENOVO\.android\build-cache\1dafda5fe5fa864533972cf34b669486d86d1290\output\AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\LENOVO\.android\build-cache\b5f4198b9cdec0ce164467b8974e62e55ccdc794\output\AndroidManifest.xml:4:5-19
-MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\LENOVO\.android\build-cache\36434066f30eda712d78d40e19743d8123ccf35c\output\AndroidManifest.xml:5:5-19
-MERGED from [com.firebaseui:firebase-ui-database:0.6.0] C:\Users\LENOVO\.android\build-cache\9e61b5b697c5ed2ed42fe11961b6c151c72f455b\output\AndroidManifest.xml:13:5-17:19
-MERGED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:12:5-83:19
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] C:\Users\LENOVO\.android\build-cache\09a05c5600c13c7fa6e9943d30b761fdc8fedfb1\output\AndroidManifest.xml:28:5-37:19
-MERGED from [com.android.support:customtabs:23.4.0] C:\Users\LENOVO\.android\build-cache\13187287cea0b17b5e9dd4087618e0133c319337\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:26.1.0] C:\Users\LENOVO\.android\build-cache\0e49712dd2a0bdb2aa2db1a5498d2fe6edb7e109\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:transition:26.1.0] C:\Users\LENOVO\.android\build-cache\58885c96137cf73a99e6c5a9c5dd21ea314674c5\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.firebase:firebase-auth:11.0.2] C:\Users\LENOVO\.android\build-cache\01c4803d40aaa43092e4293aeb9e1f0e9412ca63\output\AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.android.gms:play-services-auth:9.6.0] C:\Users\LENOVO\.android\build-cache\719fabc0f7b2964dd7c9de9e68a9cedec93d8773\output\AndroidManifest.xml:19:5-25:19
-MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\LENOVO\.android\build-cache\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\output\AndroidManifest.xml:18:5-20:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\LENOVO\.android\build-cache\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\LENOVO\.android\build-cache\125352f0bea4b11689a25f4052bc6c2782473873\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\LENOVO\.android\build-cache\ed6ed936b12a7b62613a561da74a6d86f14ba1f3\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:palette-v7:23.4.0] C:\Users\LENOVO\.android\build-cache\bfa71a3d7a9c914828ea56b2c0957bd903a535b0\output\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\LENOVO\.android\build-cache\6a19fd7ceef8474f1e74dddc69185a82dc8582ee\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\LENOVO\.android\build-cache\60e53c0a180541b16aa3cd555054185058f5012b\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\LENOVO\.android\build-cache\bfc0ddac09b20d65ee790b1fbec728757057a0a3\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:24:5-34:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\LENOVO\.android\build-cache\c2f0feb2fde2937e02d049844799121cd13ca3a2\output\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\LENOVO\.android\build-cache\66d053f5907b07146b8f279c6b96884c3aee6a56\output\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\LENOVO\.android\build-cache\15d6c8f94e35715aea9c57c73f2c0e36d886c5d7\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\LENOVO\.android\build-cache\5a36dd160729330b38a3796f42a28f3f61c19859\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\LENOVO\.android\build-cache\37d5acb87583f209b32ae19d1eafb6bff8fb8fd7\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\LENOVO\.android\build-cache\77c6045de05c9543db1d42e02e5f470f2bf40b45\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\LENOVO\.android\build-cache\6e45aac946ece26f794bfa5b1495d9dfd53718d0\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\LENOVO\.android\build-cache\178c3bad8e99ec731714d4d89ff200ead0aa1554\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\LENOVO\.android\build-cache\6046170a6cd872ecab4bf38c3077837563e4265e\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\LENOVO\.android\build-cache\2ddbd4bda8d7578e21c9778da74001781edbc607\output\AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\LENOVO\.android\build-cache\2423178624ac5a4cc6add3610d12d05f96130781\output\AndroidManifest.xml:24:5-28:19
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:19:5-108:19
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/deemah/.android/build-cache/5aafb03d9036f2283adc201d272672cdb1c93633/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/deemah/.android/build-cache/9970c29eb3c90b64ccadd8b31525824aa03242e8/output/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:11.0.2] /Users/deemah/.android/build-cache/a89e322ca447cc6d7670dc47438b1979825fca9e/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-location:11.0.2] /Users/deemah/.android/build-cache/1aca3edb852ca7e56e195a5689531dbc185bb33d/output/AndroidManifest.xml:4:5-19
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] /Users/deemah/.android/build-cache/f474efbd0d86c1843d0a86a313687fa49bcb5c31/output/AndroidManifest.xml:5:5-19
+MERGED from [com.firebaseui:firebase-ui-database:0.6.0] /Users/deemah/.android/build-cache/3da2f88835b681a0eed05aacbe4efb860373a9a6/output/AndroidManifest.xml:13:5-17:19
+MERGED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:12:5-83:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/deemah/.android/build-cache/6da2d3692632aec1f940ab6f445e60f2e3e820e2/output/AndroidManifest.xml:28:5-37:19
+MERGED from [com.android.support:customtabs:23.4.0] /Users/deemah/.android/build-cache/0b3a2da71fb1d1422357c778cb898492f87bac26/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:26.1.0] /Users/deemah/.android/build-cache/38d66010860b06482f715f7c5ac41455171a30b7/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.1.0] /Users/deemah/.android/build-cache/5cb368ff5a78710f978bc26e6de11f6e5a494588/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-auth:11.0.2] /Users/deemah/.android/build-cache/0bd1bae7010814a79205c010024cd7bac2bfd36e/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-auth:9.6.0] /Users/deemah/.android/build-cache/ab1e29636b7fc35d39f73108103c9655fee3bc17/output/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-base:11.0.2] /Users/deemah/.android/build-cache/168454961af10974dd5f4dafa3bb322f07948350/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/deemah/.android/build-cache/4f763ab91d676f0202aa4383a4870fce006ebb7b/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/deemah/.android/build-cache/2d422dd9755499a6f12612ea2c5ed3f4975f1114/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/deemah/.android/build-cache/fc9fe1877fcd21c82280b1ff892f808e40e61cd7/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:palette-v7:23.4.0] /Users/deemah/.android/build-cache/c1ae7c6f2b8e1a06086701501429d0d5415ae823/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/deemah/.android/build-cache/634c57effc0b9c937cc7ca8980cba22544790ff7/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/deemah/.android/build-cache/01884c107f52fe68bebf3c35d6ea1998cfec897b/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-core:11.0.2] /Users/deemah/.android/build-cache/c76d8ead8e9cf8ebb1ca6e013543284eb729b04a/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/deemah/.android/build-cache/19099738d546ac7da23d473c786065b34d0dad88/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.2] /Users/deemah/.android/build-cache/cfe90f14ed2412adcfd64300dd042f54268c8153/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] /Users/deemah/.android/build-cache/e9dd277bc5f9ea3608bfda83f78d00f609f26abb/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] /Users/deemah/.android/build-cache/3b79812ad744331bcc68bea308bbc5a8dbe45dc7/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/deemah/.android/build-cache/8f2371cfa43f7a74462b5a331622d4b184f586e4/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/deemah/.android/build-cache/23506b46e8b19a938999d89cc5a43c07e58e396f/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/deemah/.android/build-cache/a7f2da1bcfc77624952d4021c8286b789838e176/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/deemah/.android/build-cache/42c8d2dfba974035de65c62277d8e2283d277c57/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/deemah/.android/build-cache/7f601aa9bc3ffff41bf9c151788f81bb4a932087/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/deemah/.android/build-cache/5510ee6ebf1937e2fe62d4f1e78ae279200dac05/output/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/deemah/.android/build-cache/d4457575c3f5a6b052df1524f4182bf5ad72e1e1/output/AndroidManifest.xml:24:5-28:19
 	android:label
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:22:9-41
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:22:9-41
 	android:supportsRtl
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:24:9-35
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:24:9-35
 	android:roundIcon
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:23:9-54
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:23:9-54
 	android:allowBackup
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:20:9-35
 	android:icon
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:21:9-50
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:21:9-50
 	android:theme
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:25:9-65
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:25:9-65
 activity#com.example.lenovo.enjad.Activities.SignupActivity
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:26:9-63
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:26:9-63
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:26:19-60
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:26:19-60
 activity#com.example.lenovo.enjad.Activities.LoginActivity
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:27:9-62
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:27:9-62
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:27:19-59
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:27:19-59
 activity#com.example.lenovo.enjad.Activities.chatActivity
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:28:9-61
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:28:9-61
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:28:19-58
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:28:19-58
 activity#com.example.lenovo.enjad.Activities.ProfileActivity
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:29:9-31:57
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:29:9-31:57
 	android:icon
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:31:13-54
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:31:13-54
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:30:13-55
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:30:13-55
 activity#com.example.lenovo.enjad.Activities.EmrgTypeDialog
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:32:9-34:57
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:32:9-34:57
 	android:icon
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:34:13-54
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:34:13-54
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:33:13-54
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:33:13-54
 activity#com.example.lenovo.enjad.Activities.HomPageActivity
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:35:9-37:57
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:35:9-37:57
 	android:icon
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:37:13-54
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:37:13-54
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:36:13-55
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:36:13-55
 activity#com.example.lenovo.enjad.Activities.MainActivity
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:38:9-50:20
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:38:9-50:20
 	android:icon
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:40:13-54
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:40:13-54
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:39:13-52
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:39:13-52
 intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.HOME+android.intent.category.LAUNCHER
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:41:13-47:29
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:41:13-47:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:42:17-69
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:42:17-69
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:42:25-66
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:42:25-66
 category#android.intent.category.HOME
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:44:17-73
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:44:17-73
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:44:27-70
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:44:27-70
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:45:17-76
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:45:17-76
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:45:27-73
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:45:27-73
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:46:17-77
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:46:17-77
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:46:27-74
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:46:27-74
 receiver#com.example.lenovo.enjad.Services.PowerButtonListenr
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:52:9-59:20
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:52:9-59:20
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:52:19-62
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:52:19-62
 intent-filter#android.intent.action.SCREEN_OFF+android.intent.action.SCREEN_ON
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:53:13-58:29
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:53:13-58:29
 	android:enabled
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:54:17-39
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:54:17-39
 	android:exported
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:55:17-41
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:55:17-41
 action#android.intent.action.SCREEN_OFF
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:56:17-75
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:56:17-75
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:56:25-72
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:56:25-72
 action#android.intent.action.SCREEN_ON
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:57:17-74
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:57:17-74
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:57:25-71
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:57:25-71
 service#com.example.lenovo.enjad.Services.ScreenOnOffService
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:61:9-65:19
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:61:9-65:19
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:61:18-61
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:61:18-61
 intent-filter#.ScreenOnOffService
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:62:13-64:29
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:62:13-64:29
 action#.ScreenOnOffService
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:63:17-62
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:63:17-62
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:63:25-59
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:63:25-59
 service#com.example.lenovo.enjad.Services.getlocationService
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:66:9-68:40
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:66:9-68:40
 	android:exported
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:68:13-37
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:68:13-37
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:67:13-56
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:67:13-56
 activity#com.example.lenovo.enjad.Activities.TestActivity
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:70:9-61
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:70:9-61
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:70:19-58
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:70:19-58
 meta-data#com.google.firebase.messaging.default_notification_icon
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:74:9-76:61
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:74:9-76:61
 	android:resource
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:76:13-58
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:76:13-58
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:75:13-83
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:75:13-83
 meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:81:9-83:57
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:81:9-83:57
 	android:resource
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:83:13-54
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:83:13-54
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:82:13-84
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:82:13-84
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:86:9-88:71
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:86:9-88:71
 	android:value
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:88:13-68
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:88:13-68
 	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:87:13-89
-activity#com.example.lenovo.enjad.ReportlistActivity
-ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:89:9-91:20
-	android:label
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:90:13-45
-	android:name
-		ADDED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml:89:19-53
-uses-sdk
-INJECTED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\LENOVO\.android\build-cache\a8a2e1fc24fbebc51fd330e6f9d76251d84fdf63\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\LENOVO\.android\build-cache\d63b0fb949196cd443c9df49967496af934b42ba\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\LENOVO\.android\build-cache\1dafda5fe5fa864533972cf34b669486d86d1290\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-location:11.0.2] C:\Users\LENOVO\.android\build-cache\b5f4198b9cdec0ce164467b8974e62e55ccdc794\output\AndroidManifest.xml:3:5-43
-MERGED from [com.firebase:geofire-android:2.1.3] C:\Users\LENOVO\.android\build-cache\377e3e378ca3fd0480fdd3cc627dde191f9e1e1c\output\AndroidManifest.xml:2:3-70
-MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\LENOVO\.android\build-cache\36434066f30eda712d78d40e19743d8123ccf35c\output\AndroidManifest.xml:3:5-72
-MERGED from [com.firebaseui:firebase-ui:0.6.0] C:\Users\LENOVO\.android\build-cache\3c0fc65aeba446c77c6b0ec47838185b54c8d86a\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.firebaseui:firebase-ui-database:0.6.0] C:\Users\LENOVO\.android\build-cache\9e61b5b697c5ed2ed42fe11961b6c151c72f455b\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-database:11.0.2] C:\Users\LENOVO\.android\build-cache\5f1be7551d8ba8048794b5c0965d711323ec4be9\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-database-connection:11.0.2] C:\Users\LENOVO\.android\build-cache\20cdfb7bce74278d3df1b2c63b70de5264938925\output\AndroidManifest.xml:3:5-43
-MERGED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] C:\Users\LENOVO\.android\build-cache\09a05c5600c13c7fa6e9943d30b761fdc8fedfb1\output\AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:customtabs:23.4.0] C:\Users\LENOVO\.android\build-cache\13187287cea0b17b5e9dd4087618e0133c319337\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:26.1.0] C:\Users\LENOVO\.android\build-cache\0e49712dd2a0bdb2aa2db1a5498d2fe6edb7e109\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:26.1.0] C:\Users\LENOVO\.android\build-cache\58885c96137cf73a99e6c5a9c5dd21ea314674c5\output\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth:11.0.2] C:\Users\LENOVO\.android\build-cache\01c4803d40aaa43092e4293aeb9e1f0e9412ca63\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-auth:9.6.0] C:\Users\LENOVO\.android\build-cache\719fabc0f7b2964dd7c9de9e68a9cedec93d8773\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-auth-base:9.6.0] C:\Users\LENOVO\.android\build-cache\32162f7672aa169fa94c1015c43f026a4b987c9b\output\AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\LENOVO\.android\build-cache\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\output\AndroidManifest.xml:17:5-43
-MERGED from [com.firebaseui:firebase-ui-storage:0.6.0] C:\Users\LENOVO\.android\build-cache\5210babc97317fe2f45e9e66a506dac027710857\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\LENOVO\.android\build-cache\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\LENOVO\.android\build-cache\125352f0bea4b11689a25f4052bc6c2782473873\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\LENOVO\.android\build-cache\ed6ed936b12a7b62613a561da74a6d86f14ba1f3\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:palette-v7:23.4.0] C:\Users\LENOVO\.android\build-cache\bfa71a3d7a9c914828ea56b2c0957bd903a535b0\output\AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-storage:9.6.0] C:\Users\LENOVO\.android\build-cache\ba8b14ab8a57114b1b564d840984017132cb9a79\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-storage-common:9.6.0] C:\Users\LENOVO\.android\build-cache\bb0b8b120401e60366ca7a70c3e32b4862b7a7cc\output\AndroidManifest.xml:3:5-42
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\LENOVO\.android\build-cache\6a19fd7ceef8474f1e74dddc69185a82dc8582ee\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\LENOVO\.android\build-cache\60e53c0a180541b16aa3cd555054185058f5012b\output\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-core:11.0.2] C:\Users\LENOVO\.android\build-cache\bfc0ddac09b20d65ee790b1fbec728757057a0a3\output\AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\LENOVO\.android\build-cache\c2f0feb2fde2937e02d049844799121cd13ca3a2\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-common:11.0.2] C:\Users\LENOVO\.android\build-cache\66d053f5907b07146b8f279c6b96884c3aee6a56\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\LENOVO\.android\build-cache\15d6c8f94e35715aea9c57c73f2c0e36d886c5d7\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\LENOVO\.android\build-cache\5a36dd160729330b38a3796f42a28f3f61c19859\output\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\LENOVO\.android\build-cache\37d5acb87583f209b32ae19d1eafb6bff8fb8fd7\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\LENOVO\.android\build-cache\77c6045de05c9543db1d42e02e5f470f2bf40b45\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\LENOVO\.android\build-cache\6e45aac946ece26f794bfa5b1495d9dfd53718d0\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\LENOVO\.android\build-cache\178c3bad8e99ec731714d4d89ff200ead0aa1554\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\LENOVO\.android\build-cache\6046170a6cd872ecab4bf38c3077837563e4265e\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\LENOVO\.android\build-cache\2ddbd4bda8d7578e21c9778da74001781edbc607\output\AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\LENOVO\.android\build-cache\2423178624ac5a4cc6add3610d12d05f96130781\output\AndroidManifest.xml:20:5-22:41
-	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] C:\Users\LENOVO\.android\build-cache\0e49712dd2a0bdb2aa2db1a5498d2fe6edb7e109\output\AndroidManifest.xml:23:9-59
-	android:targetSdkVersion
-		INJECTED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\src\main\AndroidManifest.xml
-service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\LENOVO\.android\build-cache\1dafda5fe5fa864533972cf34b669486d86d1290\output\AndroidManifest.xml:23:9-27:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\LENOVO\.android\build-cache\1dafda5fe5fa864533972cf34b669486d86d1290\output\AndroidManifest.xml:23:88-111
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\LENOVO\.android\build-cache\1dafda5fe5fa864533972cf34b669486d86d1290\output\AndroidManifest.xml:23:18-87
-intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\LENOVO\.android\build-cache\1dafda5fe5fa864533972cf34b669486d86d1290\output\AndroidManifest.xml:24:13-26:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\LENOVO\.android\build-cache\1dafda5fe5fa864533972cf34b669486d86d1290\output\AndroidManifest.xml:24:28-51
-action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\LENOVO\.android\build-cache\1dafda5fe5fa864533972cf34b669486d86d1290\output\AndroidManifest.xml:25:17-77
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.0.2] C:\Users\LENOVO\.android\build-cache\1dafda5fe5fa864533972cf34b669486d86d1290\output\AndroidManifest.xml:25:25-75
-meta-data#com.google.android.gms.version
-ADDED from [com.firebaseui:firebase-ui-database:0.6.0] C:\Users\LENOVO\.android\build-cache\9e61b5b697c5ed2ed42fe11961b6c151c72f455b\output\AndroidManifest.xml:14:9-16:69
-MERGED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:13:9-15:69
-MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\LENOVO\.android\build-cache\5a36dd160729330b38a3796f42a28f3f61c19859\output\AndroidManifest.xml:20:9-121
-	android:value
-		ADDED from [com.firebaseui:firebase-ui-database:0.6.0] C:\Users\LENOVO\.android\build-cache\9e61b5b697c5ed2ed42fe11961b6c151c72f455b\output\AndroidManifest.xml:16:13-66
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-database:0.6.0] C:\Users\LENOVO\.android\build-cache\9e61b5b697c5ed2ed42fe11961b6c151c72f455b\output\AndroidManifest.xml:15:13-58
-activity#com.firebase.ui.auth.ui.email.ConfirmRecoverPasswordActivity
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:17:9-20:56
-	android:label
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:19:13-76
-	android:theme
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:20:13-53
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:18:13-88
-activity#com.firebase.ui.auth.ui.email.EmailHintContainerActivity
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:21:9-24:61
-	android:label
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:23:13-58
-	android:theme
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:24:13-58
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:22:13-84
-activity#com.firebase.ui.auth.ui.email.RecoverPasswordActivity
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:25:9-28:49
-	android:label
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:27:13-68
-	android:theme
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:28:13-46
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:26:13-81
-activity#com.firebase.ui.auth.ui.email.RegisterEmailActivity
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:29:9-32:49
-	android:label
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:31:13-66
-	android:theme
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:32:13-46
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:30:13-79
-activity#com.firebase.ui.auth.ui.email.SignInNoPasswordActivity
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:33:9-36:49
-	android:label
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:35:13-71
-	android:theme
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:36:13-46
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:34:13-82
-activity#com.firebase.ui.auth.ui.email.SignInActivity
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:37:9-40:49
-	android:label
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:39:13-59
-	android:theme
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:40:13-46
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:38:13-72
-activity#com.firebase.ui.auth.ui.account_link.SaveCredentialsActivity
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:41:9-44:61
-	android:label
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:43:13-58
-	android:theme
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:44:13-58
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:42:13-88
-activity#com.firebase.ui.auth.ui.account_link.WelcomeBackIDPPrompt
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:45:9-48:49
-	android:label
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:47:13-66
-	android:theme
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:48:13-46
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:46:13-85
-activity#com.firebase.ui.auth.ui.account_link.WelcomeBackPasswordPrompt
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:49:9-52:49
-	android:label
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:51:13-71
-	android:theme
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:52:13-46
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:50:13-90
-activity#com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:53:9-56:49
-	android:label
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:55:13-58
-	android:theme
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:56:13-46
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:54:13-80
-activity#com.firebase.ui.auth.ui.idp.IDPSignInContainerActivity
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:57:9-60:61
-	android:label
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:59:13-58
-	android:theme
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:60:13-58
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:58:13-82
-activity#com.firebase.ui.auth.ui.ChooseAccountActivity
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:61:9-64:61
-	android:label
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:63:13-58
-	android:theme
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:64:13-58
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:62:13-73
-activity#com.facebook.FacebookActivity
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:65:9-70:45
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] C:\Users\LENOVO\.android\build-cache\09a05c5600c13c7fa6e9943d30b761fdc8fedfb1\output\AndroidManifest.xml:29:9-32:75
-	android:label
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:68:13-45
-	android:configChanges
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:67:13-96
-	android:theme
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:69:13-58
-		REJECTED from [com.facebook.android:facebook-android-sdk:4.14.1] C:\Users\LENOVO\.android\build-cache\09a05c5600c13c7fa6e9943d30b761fdc8fedfb1\output\AndroidManifest.xml:32:13-72
-	tools:replace
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:70:13-42
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:66:13-57
-activity#com.facebook.CustomTabActivity
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:71:9-82:20
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] C:\Users\LENOVO\.android\build-cache\09a05c5600c13c7fa6e9943d30b761fdc8fedfb1\output\AndroidManifest.xml:33:9-36:20
-	android:exported
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:73:13-36
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:72:13-58
-intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:74:13-81:29
-action#android.intent.action.VIEW
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:75:17-69
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:75:25-66
-category#android.intent.category.BROWSABLE
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:78:17-78
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:78:27-75
-data
-ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:80:17-81
-	android:scheme
-		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\AndroidManifest.xml:80:23-78
-meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.1.0] C:\Users\LENOVO\.android\build-cache\0e49712dd2a0bdb2aa2db1a5498d2fe6edb7e109\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:transition:26.1.0] C:\Users\LENOVO\.android\build-cache\58885c96137cf73a99e6c5a9c5dd21ea314674c5\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\LENOVO\.android\build-cache\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\LENOVO\.android\build-cache\125352f0bea4b11689a25f4052bc6c2782473873\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\LENOVO\.android\build-cache\ed6ed936b12a7b62613a561da74a6d86f14ba1f3\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\LENOVO\.android\build-cache\6a19fd7ceef8474f1e74dddc69185a82dc8582ee\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\LENOVO\.android\build-cache\60e53c0a180541b16aa3cd555054185058f5012b\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\LENOVO\.android\build-cache\37d5acb87583f209b32ae19d1eafb6bff8fb8fd7\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\LENOVO\.android\build-cache\77c6045de05c9543db1d42e02e5f470f2bf40b45\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\LENOVO\.android\build-cache\6e45aac946ece26f794bfa5b1495d9dfd53718d0\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\LENOVO\.android\build-cache\178c3bad8e99ec731714d4d89ff200ead0aa1554\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\LENOVO\.android\build-cache\6046170a6cd872ecab4bf38c3077837563e4265e\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\LENOVO\.android\build-cache\2ddbd4bda8d7578e21c9778da74001781edbc607\output\AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:design:26.1.0] C:\Users\LENOVO\.android\build-cache\0e49712dd2a0bdb2aa2db1a5498d2fe6edb7e109\output\AndroidManifest.xml:28:13-35
-	android:name
-		ADDED from [com.android.support:design:26.1.0] C:\Users\LENOVO\.android\build-cache\0e49712dd2a0bdb2aa2db1a5498d2fe6edb7e109\output\AndroidManifest.xml:27:13-51
-activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:9.6.0] C:\Users\LENOVO\.android\build-cache\719fabc0f7b2964dd7c9de9e68a9cedec93d8773\output\AndroidManifest.xml:20:9-189
-	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:9.6.0] C:\Users\LENOVO\.android\build-cache\719fabc0f7b2964dd7c9de9e68a9cedec93d8773\output\AndroidManifest.xml:20:129-162
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:9.6.0] C:\Users\LENOVO\.android\build-cache\719fabc0f7b2964dd7c9de9e68a9cedec93d8773\output\AndroidManifest.xml:20:163-187
-	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:9.6.0] C:\Users\LENOVO\.android\build-cache\719fabc0f7b2964dd7c9de9e68a9cedec93d8773\output\AndroidManifest.xml:20:69-128
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:9.6.0] C:\Users\LENOVO\.android\build-cache\719fabc0f7b2964dd7c9de9e68a9cedec93d8773\output\AndroidManifest.xml:20:19-68
-service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:9.6.0] C:\Users\LENOVO\.android\build-cache\719fabc0f7b2964dd7c9de9e68a9cedec93d8773\output\AndroidManifest.xml:24:9-184
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:9.6.0] C:\Users\LENOVO\.android\build-cache\719fabc0f7b2964dd7c9de9e68a9cedec93d8773\output\AndroidManifest.xml:24:64-87
-	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:9.6.0] C:\Users\LENOVO\.android\build-cache\719fabc0f7b2964dd7c9de9e68a9cedec93d8773\output\AndroidManifest.xml:24:88-182
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:9.6.0] C:\Users\LENOVO\.android\build-cache\719fabc0f7b2964dd7c9de9e68a9cedec93d8773\output\AndroidManifest.xml:24:18-63
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\LENOVO\.android\build-cache\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\output\AndroidManifest.xml:19:9-172
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\LENOVO\.android\build-cache\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\output\AndroidManifest.xml:19:146-170
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\LENOVO\.android\build-cache\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\output\AndroidManifest.xml:19:86-145
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\LENOVO\.android\build-cache\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\output\AndroidManifest.xml:19:19-85
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\LENOVO\.android\build-cache\c2f0feb2fde2937e02d049844799121cd13ca3a2\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:19:5-78
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:21:22-76
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\LENOVO\.android\build-cache\c2f0feb2fde2937e02d049844799121cd13ca3a2\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:21:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:22:22-65
-receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\LENOVO\.android\build-cache\c2f0feb2fde2937e02d049844799121cd13ca3a2\output\AndroidManifest.xml:25:7-26:18
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:87:13-89
+service#com.example.lenovo.enjad.Services.FCMTokenInstanceIdService
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:90:9-96:19
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:25:90-112
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:92:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:25:113-137
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:91:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:25:17-89
-receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:27:7-31:18
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:27:162-184
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:27:185-208
-	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:27:105-161
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:27:17-104
-intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:28:11-30:27
-action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:29:15-76
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:29:23-74
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] C:\Users\LENOVO\.android\build-cache\c2f0feb2fde2937e02d049844799121cd13ca3a2\output\AndroidManifest.xml:27:7-137
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:32:88-110
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:32:111-135
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:32:16-87
-service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:33:7-197
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:33:148-170
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:33:171-195
-	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:33:91-147
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\AndroidManifest.xml:33:16-90
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:22:5-81
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:22:22-79
-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:24:5-109
-	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:24:72-107
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:24:17-71
-uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:26:5-78
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:26:22-76
-receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:30:9-35:20
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:30:85-108
-	android:permission
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:30:109-169
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:30:19-84
-intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:31:13-34:29
-action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:32:17-80
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:32:25-78
-category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:33:17-60
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:33:27-58
-receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:39:9-119
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:39:93-117
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:39:19-92
-service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:43:9-47:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:43:83-106
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:43:18-82
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:90:18-68
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:44:13-46:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:44:28-51
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:93:13-95:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:45:17-79
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:94:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\AndroidManifest.xml:45:25-77
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\LENOVO\.android\build-cache\66d053f5907b07146b8f279c6b96884c3aee6a56\output\AndroidManifest.xml:6:9-194
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\LENOVO\.android\build-cache\66d053f5907b07146b8f279c6b96884c3aee6a56\output\AndroidManifest.xml:6:19-78
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:94:25-77
+service#com.example.lenovo.enjad.Services.MyFCMService
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:97:9-103:19
+	android:enabled
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:99:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\LENOVO\.android\build-cache\66d053f5907b07146b8f279c6b96884c3aee6a56\output\AndroidManifest.xml:6:144-168
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\LENOVO\.android\build-cache\66d053f5907b07146b8f279c6b96884c3aee6a56\output\AndroidManifest.xml:6:169-192
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:98:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:11.0.2] C:\Users\LENOVO\.android\build-cache\66d053f5907b07146b8f279c6b96884c3aee6a56\output\AndroidManifest.xml:6:79-143
-meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\LENOVO\.android\build-cache\2423178624ac5a4cc6add3610d12d05f96130781\output\AndroidManifest.xml:25:9-27:47
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:97:18-55
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:100:13-102:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:101:17-77
+	android:name
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:101:25-75
+activity#com.example.lenovo.enjad.Activities.ReportlistActivity
+ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:105:9-107:20
+	android:label
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:106:13-45
+	android:name
+		ADDED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml:105:19-64
+uses-sdk
+INJECTED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/deemah/.android/build-cache/5aafb03d9036f2283adc201d272672cdb1c93633/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/deemah/.android/build-cache/9970c29eb3c90b64ccadd8b31525824aa03242e8/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-messaging:11.0.2] /Users/deemah/.android/build-cache/a89e322ca447cc6d7670dc47438b1979825fca9e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.2] /Users/deemah/.android/build-cache/1aca3edb852ca7e56e195a5689531dbc185bb33d/output/AndroidManifest.xml:3:5-43
+MERGED from [com.firebase:geofire-android:2.1.3] /Users/deemah/.android/build-cache/139d74dec953aad87236172d32e694d0fdd960ea/output/AndroidManifest.xml:2:3-70
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] /Users/deemah/.android/build-cache/f474efbd0d86c1843d0a86a313687fa49bcb5c31/output/AndroidManifest.xml:3:5-72
+MERGED from [com.firebaseui:firebase-ui:0.6.0] /Users/deemah/.android/build-cache/f6fee12ded303bc852e42118cbdb3b8524f60d35/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-database:0.6.0] /Users/deemah/.android/build-cache/3da2f88835b681a0eed05aacbe4efb860373a9a6/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database:11.0.2] /Users/deemah/.android/build-cache/4ae33a3cb1d15b17aac14aa806beaffa1e455eb9/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.2] /Users/deemah/.android/build-cache/a4d94240e83ed862cdd6ce48a0934517623e39e2/output/AndroidManifest.xml:3:5-43
+MERGED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/deemah/.android/build-cache/6da2d3692632aec1f940ab6f445e60f2e3e820e2/output/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:customtabs:23.4.0] /Users/deemah/.android/build-cache/0b3a2da71fb1d1422357c778cb898492f87bac26/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:26.1.0] /Users/deemah/.android/build-cache/38d66010860b06482f715f7c5ac41455171a30b7/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:26.1.0] /Users/deemah/.android/build-cache/5cb368ff5a78710f978bc26e6de11f6e5a494588/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:11.0.2] /Users/deemah/.android/build-cache/0bd1bae7010814a79205c010024cd7bac2bfd36e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:9.6.0] /Users/deemah/.android/build-cache/ab1e29636b7fc35d39f73108103c9655fee3bc17/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:9.6.0] /Users/deemah/.android/build-cache/a2073f4257be5e87f9100254dbf200bceb04401e/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:11.0.2] /Users/deemah/.android/build-cache/168454961af10974dd5f4dafa3bb322f07948350/output/AndroidManifest.xml:17:5-43
+MERGED from [com.firebaseui:firebase-ui-storage:0.6.0] /Users/deemah/.android/build-cache/40934d0caa9ab28cd76a7741fb362cf6bcd7b7d2/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/deemah/.android/build-cache/4f763ab91d676f0202aa4383a4870fce006ebb7b/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/deemah/.android/build-cache/2d422dd9755499a6f12612ea2c5ed3f4975f1114/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/deemah/.android/build-cache/fc9fe1877fcd21c82280b1ff892f808e40e61cd7/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:23.4.0] /Users/deemah/.android/build-cache/c1ae7c6f2b8e1a06086701501429d0d5415ae823/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-storage:9.6.0] /Users/deemah/.android/build-cache/1a54f02cdda2de1fcedcfa8924fe1aacf28d9223/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:9.6.0] /Users/deemah/.android/build-cache/ed4af6305217028e0f6a71c5399aaf8bd7dec099/output/AndroidManifest.xml:3:5-42
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/deemah/.android/build-cache/634c57effc0b9c937cc7ca8980cba22544790ff7/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/deemah/.android/build-cache/01884c107f52fe68bebf3c35d6ea1998cfec897b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:11.0.2] /Users/deemah/.android/build-cache/c76d8ead8e9cf8ebb1ca6e013543284eb729b04a/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/deemah/.android/build-cache/19099738d546ac7da23d473c786065b34d0dad88/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.2] /Users/deemah/.android/build-cache/cfe90f14ed2412adcfd64300dd042f54268c8153/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] /Users/deemah/.android/build-cache/e9dd277bc5f9ea3608bfda83f78d00f609f26abb/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] /Users/deemah/.android/build-cache/3b79812ad744331bcc68bea308bbc5a8dbe45dc7/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.1.0] /Users/deemah/.android/build-cache/8f2371cfa43f7a74462b5a331622d4b184f586e4/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/deemah/.android/build-cache/23506b46e8b19a938999d89cc5a43c07e58e396f/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/deemah/.android/build-cache/a7f2da1bcfc77624952d4021c8286b789838e176/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/deemah/.android/build-cache/42c8d2dfba974035de65c62277d8e2283d277c57/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/deemah/.android/build-cache/7f601aa9bc3ffff41bf9c151788f81bb4a932087/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] /Users/deemah/.android/build-cache/5510ee6ebf1937e2fe62d4f1e78ae279200dac05/output/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/deemah/.android/build-cache/d4457575c3f5a6b052df1524f4182bf5ad72e1e1/output/AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /Users/deemah/.android/build-cache/38d66010860b06482f715f7c5ac41455171a30b7/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deemah/Desktop/الجامعة/EnjadApp/app/src/main/AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.0.2] /Users/deemah/.android/build-cache/a89e322ca447cc6d7670dc47438b1979825fca9e/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.0.2] /Users/deemah/.android/build-cache/a89e322ca447cc6d7670dc47438b1979825fca9e/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.2] /Users/deemah/.android/build-cache/a89e322ca447cc6d7670dc47438b1979825fca9e/output/AndroidManifest.xml:23:18-87
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-database:0.6.0] /Users/deemah/.android/build-cache/3da2f88835b681a0eed05aacbe4efb860373a9a6/output/AndroidManifest.xml:14:9-16:69
+MERGED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:13:9-15:69
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] /Users/deemah/.android/build-cache/3b79812ad744331bcc68bea308bbc5a8dbe45dc7/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\LENOVO\.android\build-cache\2423178624ac5a4cc6add3610d12d05f96130781\output\AndroidManifest.xml:27:13-44
+		ADDED from [com.firebaseui:firebase-ui-database:0.6.0] /Users/deemah/.android/build-cache/3da2f88835b681a0eed05aacbe4efb860373a9a6/output/AndroidManifest.xml:16:13-66
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\LENOVO\.android\build-cache\2423178624ac5a4cc6add3610d12d05f96130781\output\AndroidManifest.xml:26:13-58
+		ADDED from [com.firebaseui:firebase-ui-database:0.6.0] /Users/deemah/.android/build-cache/3da2f88835b681a0eed05aacbe4efb860373a9a6/output/AndroidManifest.xml:15:13-58
+activity#com.firebase.ui.auth.ui.email.ConfirmRecoverPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:17:9-20:56
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:19:13-76
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:20:13-53
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:18:13-88
+activity#com.firebase.ui.auth.ui.email.EmailHintContainerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:21:9-24:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:23:13-58
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:24:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:22:13-84
+activity#com.firebase.ui.auth.ui.email.RecoverPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:25:9-28:49
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:27:13-68
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:28:13-46
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:26:13-81
+activity#com.firebase.ui.auth.ui.email.RegisterEmailActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:29:9-32:49
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:31:13-66
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:32:13-46
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:30:13-79
+activity#com.firebase.ui.auth.ui.email.SignInNoPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:33:9-36:49
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:35:13-71
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:36:13-46
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:34:13-82
+activity#com.firebase.ui.auth.ui.email.SignInActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:37:9-40:49
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:39:13-59
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:40:13-46
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:38:13-72
+activity#com.firebase.ui.auth.ui.account_link.SaveCredentialsActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:41:9-44:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:43:13-58
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:44:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:42:13-88
+activity#com.firebase.ui.auth.ui.account_link.WelcomeBackIDPPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:45:9-48:49
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:47:13-66
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:48:13-46
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:46:13-85
+activity#com.firebase.ui.auth.ui.account_link.WelcomeBackPasswordPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:49:9-52:49
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:51:13-71
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:52:13-46
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:50:13-90
+activity#com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:53:9-56:49
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:55:13-58
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:56:13-46
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:54:13-80
+activity#com.firebase.ui.auth.ui.idp.IDPSignInContainerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:57:9-60:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:59:13-58
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:60:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:58:13-82
+activity#com.firebase.ui.auth.ui.ChooseAccountActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:61:9-64:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:63:13-58
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:64:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:62:13-73
+activity#com.facebook.FacebookActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:65:9-70:45
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/deemah/.android/build-cache/6da2d3692632aec1f940ab6f445e60f2e3e820e2/output/AndroidManifest.xml:29:9-32:75
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:68:13-45
+	android:configChanges
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:67:13-96
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:69:13-58
+		REJECTED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/deemah/.android/build-cache/6da2d3692632aec1f940ab6f445e60f2e3e820e2/output/AndroidManifest.xml:32:13-72
+	tools:replace
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:70:13-42
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:66:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:71:9-82:20
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/deemah/.android/build-cache/6da2d3692632aec1f940ab6f445e60f2e3e820e2/output/AndroidManifest.xml:33:9-36:20
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:73:13-36
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:72:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:74:13-81:29
+action#android.intent.action.VIEW
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:75:17-69
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:75:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:78:17-78
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:78:27-75
+data
+ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:80:17-81
+	android:scheme
+		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/deemah/.android/build-cache/b868915a0188b3a96af627b97cca8bac97714bea/output/AndroidManifest.xml:80:23-78
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /Users/deemah/.android/build-cache/38d66010860b06482f715f7c5ac41455171a30b7/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /Users/deemah/.android/build-cache/5cb368ff5a78710f978bc26e6de11f6e5a494588/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/deemah/.android/build-cache/4f763ab91d676f0202aa4383a4870fce006ebb7b/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/deemah/.android/build-cache/2d422dd9755499a6f12612ea2c5ed3f4975f1114/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/deemah/.android/build-cache/fc9fe1877fcd21c82280b1ff892f808e40e61cd7/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/deemah/.android/build-cache/634c57effc0b9c937cc7ca8980cba22544790ff7/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /Users/deemah/.android/build-cache/01884c107f52fe68bebf3c35d6ea1998cfec897b/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/deemah/.android/build-cache/8f2371cfa43f7a74462b5a331622d4b184f586e4/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/deemah/.android/build-cache/23506b46e8b19a938999d89cc5a43c07e58e396f/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/deemah/.android/build-cache/a7f2da1bcfc77624952d4021c8286b789838e176/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/deemah/.android/build-cache/42c8d2dfba974035de65c62277d8e2283d277c57/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/deemah/.android/build-cache/7f601aa9bc3ffff41bf9c151788f81bb4a932087/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/deemah/.android/build-cache/5510ee6ebf1937e2fe62d4f1e78ae279200dac05/output/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /Users/deemah/.android/build-cache/38d66010860b06482f715f7c5ac41455171a30b7/output/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /Users/deemah/.android/build-cache/38d66010860b06482f715f7c5ac41455171a30b7/output/AndroidManifest.xml:27:13-51
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:9.6.0] /Users/deemah/.android/build-cache/ab1e29636b7fc35d39f73108103c9655fee3bc17/output/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:9.6.0] /Users/deemah/.android/build-cache/ab1e29636b7fc35d39f73108103c9655fee3bc17/output/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.6.0] /Users/deemah/.android/build-cache/ab1e29636b7fc35d39f73108103c9655fee3bc17/output/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:9.6.0] /Users/deemah/.android/build-cache/ab1e29636b7fc35d39f73108103c9655fee3bc17/output/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.6.0] /Users/deemah/.android/build-cache/ab1e29636b7fc35d39f73108103c9655fee3bc17/output/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:9.6.0] /Users/deemah/.android/build-cache/ab1e29636b7fc35d39f73108103c9655fee3bc17/output/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.6.0] /Users/deemah/.android/build-cache/ab1e29636b7fc35d39f73108103c9655fee3bc17/output/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:9.6.0] /Users/deemah/.android/build-cache/ab1e29636b7fc35d39f73108103c9655fee3bc17/output/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.6.0] /Users/deemah/.android/build-cache/ab1e29636b7fc35d39f73108103c9655fee3bc17/output/AndroidManifest.xml:24:18-63
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.2] /Users/deemah/.android/build-cache/168454961af10974dd5f4dafa3bb322f07948350/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] /Users/deemah/.android/build-cache/168454961af10974dd5f4dafa3bb322f07948350/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] /Users/deemah/.android/build-cache/168454961af10974dd5f4dafa3bb322f07948350/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] /Users/deemah/.android/build-cache/168454961af10974dd5f4dafa3bb322f07948350/output/AndroidManifest.xml:19:19-85
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/deemah/.android/build-cache/19099738d546ac7da23d473c786065b34d0dad88/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/deemah/.android/build-cache/19099738d546ac7da23d473c786065b34d0dad88/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/deemah/.android/build-cache/19099738d546ac7da23d473c786065b34d0dad88/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/deemah/.android/build-cache/19099738d546ac7da23d473c786065b34d0dad88/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:43:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.0.2] /Users/deemah/.android/build-cache/cfe90f14ed2412adcfd64300dd042f54268c8153/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.0.2] /Users/deemah/.android/build-cache/cfe90f14ed2412adcfd64300dd042f54268c8153/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.0.2] /Users/deemah/.android/build-cache/cfe90f14ed2412adcfd64300dd042f54268c8153/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.0.2] /Users/deemah/.android/build-cache/cfe90f14ed2412adcfd64300dd042f54268c8153/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.0.2] /Users/deemah/.android/build-cache/cfe90f14ed2412adcfd64300dd042f54268c8153/output/AndroidManifest.xml:6:79-143
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/deemah/.android/build-cache/d4457575c3f5a6b052df1524f4182bf5ad72e1e1/output/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/deemah/.android/build-cache/d4457575c3f5a6b052df1524f4182bf5ad72e1e1/output/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/deemah/.android/build-cache/d4457575c3f5a6b052df1524f4182bf5ad72e1e1/output/AndroidManifest.xml:26:13-58
