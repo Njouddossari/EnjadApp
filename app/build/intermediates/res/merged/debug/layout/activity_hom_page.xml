@@ -6,133 +6,153 @@
     android:layout_height="match_parent"
     tools:context="com.example.lenovo.enjad.Activities.HomPageActivity">
 
-    <include layout="@layout/shared_design"
-        android:id="@+id/include4"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        android:layout_height="0dp"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_width="0dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="410dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/enjadapp_bg"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1">
+        tools:context="com.example.lenovo.enjad.Activities.LoginActivity">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="100dp"
-            android:gravity="center"
-            android:text="@string/username"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat"
-            android:textColor="@color/colorPrimaryBlack"
-            android:textSize="36sp" />
 
-        <ImageView
-            android:id="@+id/imageView15"
-            android:layout_width="@android:dimen/app_icon_size"
-            android:layout_height="@android:dimen/app_icon_size"
-            android:layout_alignLeft="@+id/imageView16"
-            android:layout_alignStart="@+id/imageView16"
-            android:layout_alignTop="@+id/Reportsbutton"
-            android:background="@color/colorPrimaryRed"
-            android:elevation="3dp"
-            app:srcCompat="@drawable/bellicon" />
+        <!--android:background="@drawable/edittext_design" (for rounded textedit field) -->
 
-        <ImageView
-            android:id="@+id/imageView16"
-            android:layout_width="@android:dimen/app_icon_size"
-            android:layout_height="@android:dimen/app_icon_size"
-            android:layout_alignLeft="@+id/imageView17"
-            android:layout_alignStart="@+id/imageView17"
-            android:layout_alignTop="@+id/Chatsbutton"
-            android:background="@color/colorPrimaryRed"
-            android:elevation="3dp"
-            app:srcCompat="@drawable/chaticon" />
 
-        <Button
-            android:id="@+id/Chatsbutton"
-            android:layout_width="@android:dimen/thumbnail_width"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/Profilebutton"
-            android:layout_alignStart="@+id/Profilebutton"
-            android:layout_below="@+id/Profilebutton"
-            android:layout_marginTop="14dp"
-            android:layout_weight="1"
-            android:background="@drawable/button_desing"
-            android:text="@string/my_chats"
-            android:theme="@style/ButtonText"
-            tools:layout_editor_absoluteX="-35dp"
-            tools:layout_editor_absoluteY="-120dp" />
+    </android.support.constraint.ConstraintLayout>
 
-        <Button
-            android:id="@+id/Profilebutton"
-            android:layout_width="@android:dimen/thumbnail_width"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/Reportsbutton"
-            android:layout_marginTop="21dp"
-            android:layout_toLeftOf="@+id/imageView16"
-            android:layout_toStartOf="@+id/imageView16"
-            android:layout_weight="1"
-            android:background="@drawable/button_desing"
-            android:foregroundGravity="center"
-            android:gravity="center"
-            android:text="@string/profile"
-            android:theme="@style/ButtonText"
-            tools:layout_editor_absoluteX="-35dp"
-            tools:layout_editor_absoluteY="-120dp" />
+    <Button
+        android:id="@+id/Chatsbutton"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/Profilebutton"
+        android:layout_toLeftOf="@+id/imageView16"
+        android:layout_toStartOf="@+id/imageView16"
+        android:layout_weight="1"
+        android:background="@drawable/button_desing"
+        android:text="@string/my_chats"
+        android:textSize="14sp"
+        android:theme="@style/ButtonText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591" />
 
-        <Button
-            android:id="@+id/Reportsbutton"
-            android:layout_width="@android:dimen/thumbnail_width"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/textView"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="81dp"
-            android:layout_weight="1"
-            android:background="@drawable/button_desing"
-            android:text="@string/my_reports"
-            android:theme="@style/ButtonText"
-            tools:layout_editor_absoluteX="-35dp"
-            tools:layout_editor_absoluteY="-120dp" />
+    <Button
+        android:id="@+id/Profilebutton"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/Reportsbutton"
+        android:layout_toLeftOf="@+id/imageView16"
+        android:layout_toStartOf="@+id/imageView16"
+        android:layout_weight="1"
+        android:background="@drawable/button_desing"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/profile"
+        android:textSize="14sp"
+        android:theme="@style/ButtonText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382" />
 
-        <ImageView
-            android:id="@+id/imageView17"
-            android:layout_width="@android:dimen/app_icon_size"
-            android:layout_height="@android:dimen/app_icon_size"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignTop="@+id/Profilebutton"
-            android:layout_marginEnd="55dp"
-            android:layout_marginRight="55dp"
-            android:background="@color/colorPrimaryRed"
-            android:elevation="3dp"
-            app:srcCompat="@drawable/profileicon" />
+    <Button
+        android:id="@+id/Reportsbutton"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/textView"
+        android:layout_toLeftOf="@+id/imageView15"
+        android:layout_toStartOf="@+id/imageView15"
+        android:layout_weight="1"
+        android:background="@drawable/button_desing"
+        android:text="@string/my_reports"
+        android:textSize="14sp"
+        android:theme="@style/ButtonText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479" />
 
-    </RelativeLayout>
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/Profilebutton"
+        android:background="@color/colorPrimaryRed"
+        android:elevation="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38"
+        app:srcCompat="@drawable/profileicon" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_alignLeft="@+id/imageView17"
+        android:layout_alignStart="@+id/imageView17"
+        android:layout_alignTop="@+id/Chatsbutton"
+        android:background="@color/colorPrimaryRed"
+        android:elevation="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598"
+        app:srcCompat="@drawable/chaticon" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_alignLeft="@+id/imageView16"
+        android:layout_alignStart="@+id/imageView16"
+        android:layout_alignTop="@+id/Reportsbutton"
+        android:background="@color/colorPrimaryRed"
+        android:elevation="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484"
+        app:srcCompat="@drawable/bellicon" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/username"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/colorPrimaryBlack"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.204" />
 
 </android.support.constraint.ConstraintLayout>

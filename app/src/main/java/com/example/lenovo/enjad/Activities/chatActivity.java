@@ -59,7 +59,7 @@ public class chatActivity extends AppCompatActivity {
         //Start Reporter info dialog
 
         final View addView = getLayoutInflater().inflate(R.layout.report_info_dialog, null);
-        ImageButton Mute = (ImageButton) findViewById(R.id.MuteButton);
+       // ImageButton Mute = (ImageButton) findViewById(R.id.MuteButton);
         final TextView info = (TextView) addView.findViewById(R.id.info1);
       final   TextView Etype = (TextView) addView.findViewById(R.id.emergtype1);
       final   TextView severity = (TextView) addView.findViewById(R.id.severity1);

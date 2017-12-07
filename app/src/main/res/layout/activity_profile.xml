@@ -29,6 +29,7 @@
         android:layout_below="@+id/provideet"
         android:layout_marginEnd="200dp"
         android:layout_marginLeft="16dp"
+        android:layout_marginRight="200dp"
         android:text="@string/accessTocontact"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -42,8 +43,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.735"
-        tools:ignore="MissingConstraints"
-        android:layout_marginRight="200dp" />
+        tools:ignore="MissingConstraints" />
 
     <Switch
         android:id="@+id/accesstocontctSW"
@@ -150,6 +150,7 @@
         android:layout_height="32dp"
         android:layout_alignBottom="@+id/imageView10"
         android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
         android:text="@string/providehelp"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -162,8 +163,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView14"
         app:layout_constraintVertical_bias="0.339"
-        tools:ignore="MissingConstraints,NotSibling"
-        android:layout_marginRight="32dp" />
+        tools:ignore="MissingConstraints,NotSibling" />
 
     <ImageView
         android:id="@+id/imageView13"
@@ -251,6 +251,7 @@
         android:id="@+id/Usrnameet"
         android:layout_width="178dp"
         android:layout_height="42dp"
+        android:layout_marginLeft="80dp"
         android:layout_marginRight="16dp"
         android:layout_marginStart="80dp"
         android:ems="10"
@@ -259,13 +260,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.154"
-        android:layout_marginLeft="80dp" />
+        app:layout_constraintVertical_bias="0.154" />
 
     <EditText
         android:id="@+id/Helathet"
         android:layout_width="178dp"
         android:layout_height="42dp"
+        android:layout_marginLeft="80dp"
         android:layout_marginRight="16dp"
         android:layout_marginStart="80dp"
         android:ems="10"
@@ -274,13 +275,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.356"
-        android:layout_marginLeft="80dp" />
+        app:layout_constraintVertical_bias="0.356" />
 
     <EditText
         android:id="@+id/Phoneet"
         android:layout_width="178dp"
         android:layout_height="42dp"
+        android:layout_marginLeft="80dp"
         android:layout_marginRight="16dp"
         android:layout_marginStart="80dp"
         android:ems="10"
@@ -289,13 +290,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44"
-        android:layout_marginLeft="80dp" />
+        app:layout_constraintVertical_bias="0.44" />
 
     <EditText
         android:id="@+id/Passet"
         android:layout_width="178dp"
         android:layout_height="42dp"
+        android:layout_marginLeft="92dp"
         android:layout_marginRight="16dp"
         android:layout_marginStart="92dp"
         android:ems="10"
@@ -304,13 +305,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.556"
-        android:layout_marginLeft="92dp" />
+        app:layout_constraintVertical_bias="0.556" />
 
     <EditText
         android:id="@+id/Emailet"
         android:layout_width="178dp"
         android:layout_height="42dp"
+        android:layout_marginLeft="80dp"
         android:layout_marginRight="16dp"
         android:layout_marginStart="80dp"
         android:ems="10"
@@ -319,8 +320,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.265"
-        android:layout_marginLeft="80dp" />
+        app:layout_constraintVertical_bias="0.265" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline5"
@@ -328,6 +328,46 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="20dp" />
+
+    <TextView
+        android:id="@+id/contact1et"
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74" />
+
+    <TextView
+        android:id="@+id/contact2et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/savechngeBU2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact1et"
+        app:layout_constraintVertical_bias="0.26999998" />
+
+    <TextView
+        android:id="@+id/contact3et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/savechngeBU2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact2et" />
 
 
 </android.support.constraint.ConstraintLayout>

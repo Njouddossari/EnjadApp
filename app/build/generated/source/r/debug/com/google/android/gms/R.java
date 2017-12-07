@@ -58,12 +58,12 @@ public final class R {
         public static final int button = 0x7f0e006b;
         public static final int center = 0x7f0e003d;
         public static final int dark = 0x7f0e0063;
-        public static final int email = 0x7f0e0106;
+        public static final int email = 0x7f0e0108;
         public static final int icon_only = 0x7f0e0060;
         public static final int light = 0x7f0e0064;
         public static final int none = 0x7f0e0024;
         public static final int normal = 0x7f0e0026;
-        public static final int progressBar = 0x7f0e0111;
+        public static final int progressBar = 0x7f0e0113;
         public static final int radio = 0x7f0e008d;
         public static final int standard = 0x7f0e0061;
         public static final int text = 0x7f0e0010;
@@ -92,7 +92,7 @@ public final class R {
         public static final int common_open_on_phone = 0x7f070032;
         public static final int common_signin_button_text = 0x7f070033;
         public static final int common_signin_button_text_long = 0x7f070034;
-        public static final int fcm_fallback_notification_channel_label = 0x7f070079;
+        public static final int fcm_fallback_notification_channel_label = 0x7f07007a;
     }
     public static final class styleable {
         public static final int[] LoadingImageView = { 0x7f010128, 0x7f010129, 0x7f01012a };
