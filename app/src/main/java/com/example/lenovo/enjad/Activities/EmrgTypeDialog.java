@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
@@ -36,7 +37,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public  class EmrgTypeDialog extends Activity {
+public  class EmrgTypeDialog extends Activity implements CompoundButton.OnCheckedChangeListener {
     FirebaseAuth firebaseAuth;
     FirebaseUser user;
     DatabaseReference databaseReference;
@@ -44,7 +45,7 @@ public  class EmrgTypeDialog extends Activity {
     public Double lng , lat;
     List<String > nearest_helpers_id = new ArrayList<>(); // to store nearest helpers id
     List <String > helpers_id = new ArrayList<>(); // to store helpers id
-
+    RadioButton userInput1 , userInput2 , userInput3 ,  userInput4, userInput5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // these flags to start activity on lock screen
@@ -72,12 +73,18 @@ public  class EmrgTypeDialog extends Activity {
         alertDialogBuilder.setView(promptsView);
 
         //type choices
-        final RadioButton userInput1 = (RadioButton) promptsView
+       userInput1 = (RadioButton) promptsView
                 .findViewById(R.id.radioButton);
-        final RadioButton userInput2 = (RadioButton) promptsView
+        userInput1.setOnCheckedChangeListener(this);
+        userInput2 = (RadioButton) promptsView
                 .findViewById(R.id.radioButton2);
-        final RadioButton Dialog1 = (RadioButton) findViewById(R.id.radioButton3);
-
+        userInput2.setOnCheckedChangeListener(this);
+        userInput3 = (RadioButton) findViewById(R.id.radioButton3);
+        userInput3.setOnCheckedChangeListener(this);
+        userInput4 = (RadioButton) findViewById(R.id.radioButton4);
+        userInput4.setOnCheckedChangeListener(this);
+        userInput5 = (RadioButton) findViewById(R.id.radioButton5);
+        userInput5.setOnCheckedChangeListener(this);
         //Send button
 
 // ---------
@@ -152,7 +159,25 @@ public  class EmrgTypeDialog extends Activity {
 
                                     GeoQuery find_nearest_helpers_query = geoFire.queryAtLocation(new GeoLocation(lat, lng), 7);
                                     //saving in the database
-                                    Report new_report = new Report ("High ", "حريق", "نشط" , username);
+                                    String sev_high="عالي";String sev_low="منخفض";
+                                    String type="غيرمعروف";
+
+                                    if (userInput1.isChecked() ){
+                                        type="حادث";
+                                    }
+                                    else if (userInput2.isChecked() ){
+                                        type="حالة إسعافية";
+                                    }
+                                    else if (userInput3.isChecked() ){
+                                        type="سرقة";
+                                    }
+                                    else if (userInput4.isChecked() ){
+                                        type="حريق";
+                                    }
+                                    else if (userInput5.isChecked() ){
+                                        type="غير معروف";
+                                    }
+                                    Report new_report = new Report (sev_high, type, "نشط" , username);
                                     SaveReport(new_report); //save report info in the DB
 
                                     find_nearest_helpers_query.removeAllListeners();//find nearest helpers
@@ -281,11 +306,49 @@ public  class EmrgTypeDialog extends Activity {
         DatabaseReference ReportRef ,ReportRef1;
         ReportRef= FirebaseDatabase.getInstance().getReference();
         ReportRef1= FirebaseDatabase.getInstance().getReference();
-        int id= obj.report_id;
-        ReportRef.child("Report").child(user.getUid()).child( Integer.toString(id)).setValue(obj);
+        String id= obj.getReport_id();
+        ReportRef.child("Report").child(user.getUid()).child(id).setValue(obj);
         ReportRef1.child("LastReport").child(user.getUid()).setValue(obj); // for notification purpose
         Log.v(" save", "seve report succuess");
     }
+
+
+    @Override
+    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+        if (isChecked) {
+            if (buttonView.getId() == R.id.radioButton) {
+                userInput2.setChecked(false);
+                userInput3.setChecked(false);
+                userInput4.setChecked(false);
+                userInput5.setChecked(false);
+            }
+            if (buttonView.getId() == R.id.radioButton2) {
+                userInput1.setChecked(false);
+                userInput3.setChecked(false);
+                userInput4.setChecked(false);
+                userInput5.setChecked(false);
+            }
+            if (buttonView.getId() == R.id.radioButton3) {
+                userInput1.setChecked(false);
+                userInput2.setChecked(false);
+                userInput4.setChecked(false);
+                userInput5.setChecked(false);
+            }
+            if (buttonView.getId() == R.id.radioButton4) {
+                userInput1.setChecked(false);
+                userInput3.setChecked(false);
+                userInput2.setChecked(false);
+                userInput5.setChecked(false);
+            }
+            if (buttonView.getId() == R.id.radioButton5) {
+                userInput1.setChecked(false);
+                userInput3.setChecked(false);
+                userInput2.setChecked(false);
+                userInput4.setChecked(false);
+            }
+        }
+    }
+
 }
 
 /*  LayoutInflater li = LayoutInflater.from(this);

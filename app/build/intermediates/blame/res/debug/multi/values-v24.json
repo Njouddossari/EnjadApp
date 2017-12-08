@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/deemah/Desktop/الجامعة/EnjadApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+        "outputFile": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 207
                 },
                 "from": {
-                    "file": "/Users/deemah/.android/build-cache/4f763ab91d676f0202aa4383a4870fce006ebb7b/output/res/values-v24/values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 342
                 },
                 "from": {
-                    "file": "/Users/deemah/.android/build-cache/4f763ab91d676f0202aa4383a4870fce006ebb7b/output/res/values-v24/values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 411
                 },
                 "from": {
-                    "file": "/Users/deemah/.android/build-cache/4f763ab91d676f0202aa4383a4870fce006ebb7b/output/res/values-v24/values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 475
                 },
                 "from": {
-                    "file": "/Users/deemah/.android/build-cache/4f763ab91d676f0202aa4383a4870fce006ebb7b/output/res/values-v24/values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 544
                 },
                 "from": {
-                    "file": "/Users/deemah/.android/build-cache/4f763ab91d676f0202aa4383a4870fce006ebb7b/output/res/values-v24/values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 614
                 },
                 "from": {
-                    "file": "/Users/deemah/.android/build-cache/4f763ab91d676f0202aa4383a4870fce006ebb7b/output/res/values-v24/values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 680
                 },
                 "from": {
-                    "file": "/Users/deemah/.android/build-cache/23506b46e8b19a938999d89cc5a43c07e58e396f/output/res/values-v24/values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\.android\\build-cache\\8176b35b71b7e9fefebd158d27d6106bba68022f\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 741
                 },
                 "from": {
-                    "file": "/Users/deemah/.android/build-cache/23506b46e8b19a938999d89cc5a43c07e58e396f/output/res/values-v24/values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\.android\\build-cache\\8176b35b71b7e9fefebd158d27d6106bba68022f\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "/Users/deemah/.android/build-cache/23506b46e8b19a938999d89cc5a43c07e58e396f/output/res/values-v24/values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\.android\\build-cache\\8176b35b71b7e9fefebd158d27d6106bba68022f\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 874
                 },
                 "from": {
-                    "file": "/Users/deemah/.android/build-cache/23506b46e8b19a938999d89cc5a43c07e58e396f/output/res/values-v24/values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\.android\\build-cache\\8176b35b71b7e9fefebd158d27d6106bba68022f\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -195,7 +195,7 @@
         ]
     },
     {
-        "outputFile": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+        "outputFile": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
         "map": [
             {
                 "to": {
@@ -206,7 +206,7 @@
                     "endOffset": 207
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -225,7 +225,7 @@
                     "endOffset": 342
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -244,7 +244,7 @@
                     "endOffset": 411
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -263,7 +263,7 @@
                     "endOffset": 475
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -282,7 +282,7 @@
                     "endOffset": 544
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -301,7 +301,7 @@
                     "endOffset": 614
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -320,7 +320,7 @@
                     "endOffset": 680
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\LENOVO\\.android\\build-cache\\77c6045de05c9543db1d42e02e5f470f2bf40b45\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\77c6045de05c9543db1d42e02e5f470f2bf40b45\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -339,7 +339,7 @@
                     "endOffset": 741
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\LENOVO\\.android\\build-cache\\77c6045de05c9543db1d42e02e5f470f2bf40b45\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\77c6045de05c9543db1d42e02e5f470f2bf40b45\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -358,7 +358,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\LENOVO\\.android\\build-cache\\77c6045de05c9543db1d42e02e5f470f2bf40b45\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\77c6045de05c9543db1d42e02e5f470f2bf40b45\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -377,7 +377,7 @@
                     "endOffset": 874
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\LENOVO\\.android\\build-cache\\77c6045de05c9543db1d42e02e5f470f2bf40b45\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\77c6045de05c9543db1d42e02e5f470f2bf40b45\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -390,7 +390,7 @@
         ]
     },
     {
-        "outputFile": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+        "outputFile": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
         "map": [
             {
                 "to": {
@@ -401,7 +401,7 @@
                     "endOffset": 207
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\4f763ab91d676f0202aa4383a4870fce006ebb7b\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -420,7 +420,7 @@
                     "endOffset": 342
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\4f763ab91d676f0202aa4383a4870fce006ebb7b\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -439,7 +439,7 @@
                     "endOffset": 411
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\4f763ab91d676f0202aa4383a4870fce006ebb7b\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -458,7 +458,7 @@
                     "endOffset": 475
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\4f763ab91d676f0202aa4383a4870fce006ebb7b\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -477,7 +477,7 @@
                     "endOffset": 544
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\4f763ab91d676f0202aa4383a4870fce006ebb7b\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -496,7 +496,7 @@
                     "endOffset": 614
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\4f763ab91d676f0202aa4383a4870fce006ebb7b\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -515,7 +515,7 @@
                     "endOffset": 680
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\Njoud\\.android\\build-cache\\8176b35b71b7e9fefebd158d27d6106bba68022f\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\23506b46e8b19a938999d89cc5a43c07e58e396f\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -534,7 +534,7 @@
                     "endOffset": 741
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\Njoud\\.android\\build-cache\\8176b35b71b7e9fefebd158d27d6106bba68022f\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\23506b46e8b19a938999d89cc5a43c07e58e396f\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -553,7 +553,7 @@
                     "endOffset": 807
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\Njoud\\.android\\build-cache\\8176b35b71b7e9fefebd158d27d6106bba68022f\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\23506b46e8b19a938999d89cc5a43c07e58e396f\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -572,7 +572,202 @@
                     "endOffset": 874
                 },
                 "from": {
-                    "file": "/Users/deemah/Desktop/الجامعة/EnjadApp/C:\\Users\\Njoud\\.android\\build-cache\\8176b35b71b7e9fefebd158d27d6106bba68022f\\output\\res\\values-v24\\values-v24.xml",
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\23506b46e8b19a938999d89cc5a43c07e58e396f\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 248,
+                        "endColumn": 66,
+                        "endOffset": 310
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 156,
+                    "endOffset": 207
+                },
+                "from": {
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 156,
+                        "endOffset": 207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 212,
+                    "endColumn": 134,
+                    "endOffset": 342
+                },
+                "from": {
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 212,
+                        "endColumn": 134,
+                        "endOffset": 342
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 347,
+                    "endColumn": 68,
+                    "endOffset": 411
+                },
+                "from": {
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 347,
+                        "endColumn": 68,
+                        "endOffset": 411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 416,
+                    "endColumn": 63,
+                    "endOffset": 475
+                },
+                "from": {
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 416,
+                        "endColumn": 63,
+                        "endOffset": 475
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 480,
+                    "endColumn": 68,
+                    "endOffset": 544
+                },
+                "from": {
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 480,
+                        "endColumn": 68,
+                        "endOffset": 544
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 549,
+                    "endColumn": 69,
+                    "endOffset": 614
+                },
+                "from": {
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 549,
+                        "endColumn": 69,
+                        "endOffset": 614
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 619,
+                    "endColumn": 65,
+                    "endOffset": 680
+                },
+                "from": {
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\77c6045de05c9543db1d42e02e5f470f2bf40b45\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 65,
+                        "endOffset": 116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 685,
+                    "endColumn": 60,
+                    "endOffset": 741
+                },
+                "from": {
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\77c6045de05c9543db1d42e02e5f470f2bf40b45\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 121,
+                        "endColumn": 60,
+                        "endOffset": 177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 746,
+                    "endColumn": 65,
+                    "endOffset": 807
+                },
+                "from": {
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\77c6045de05c9543db1d42e02e5f470f2bf40b45\\output\\res\\values-v24\\values-v24.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 182,
+                        "endColumn": 65,
+                        "endOffset": 243
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 812,
+                    "endColumn": 66,
+                    "endOffset": 874
+                },
+                "from": {
+                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\77c6045de05c9543db1d42e02e5f470f2bf40b45\\output\\res\\values-v24\\values-v24.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,

@@ -1,6 +1,7 @@
 package com.example.lenovo.enjad.Activities;
 
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -19,6 +20,8 @@ import com.example.lenovo.enjad.JavaClasses.User;
 import com.example.lenovo.enjad.JavaClasses.configuration;
 import com.example.lenovo.enjad.JavaClasses.user_contactlist;
 import com.firebase.geofire.GeoFire;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -250,5 +253,29 @@ public class ProfileActivity extends AppCompatActivity {
         finish();
         startActivity(new Intent(getApplicationContext(),LoginActivity.class));
         return super.onOptionsItemSelected(item);
+    }
+
+    public void deleteUser(View view) {
+
+        DatabaseReference myRef1 = FirebaseDatabase.getInstance().getReference("User_location");
+        DatabaseReference myRef2 = FirebaseDatabase.getInstance().getReference();
+        myRef2.child("user").child(user.getUid()).setValue(null);
+        myRef2.child("configuration").child(user.getUid()).setValue(null);
+        myRef2.child("Report").child(user.getUid()).setValue(null);
+        myRef2.child("LastReport").child(user.getUid()).setValue(null);
+        GeoFire geoFire = new GeoFire(myRef1);
+        geoFire.removeLocation(user.getUid());
+
+        user.delete().addOnCompleteListener(new OnCompleteListener<Void>() {
+            @Override
+            public void onComplete(@NonNull Task<Void> task) {
+                if(task.isSuccessful()){
+                    Toast.makeText(getApplicationContext(), getString(R.string.deleteuser), Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent (getApplicationContext(),MainActivity.class));
+
+                }
+            }
+        });
+
     }
 }

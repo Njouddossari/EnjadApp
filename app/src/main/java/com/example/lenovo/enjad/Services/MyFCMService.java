@@ -36,13 +36,13 @@ public class MyFCMService extends FirebaseMessagingService {
         String Severity= remoteMessage.getData().get("severity");
         String Emrg_type= remoteMessage.getData().get("emergType");
 // save the reporter info to attach in chat
-        reporterInfo reporterinfo= new reporterInfo();
-        reporterinfo.user_name=Reportername;
-        reporterinfo.lng=Reporterlng;
-        reporterinfo.lat=Reporterlat;
-        reporterinfo.healthInfo=reporterHealth;
-        reporterinfo.reportSeverity=Severity;
-        reporterinfo.reportType=Emrg_type;
+        //reporterInfo reporterinfo= new reporterInfo();
+        //reporterinfo.user_name=Reportername;
+        //reporterinfo.lng=Reporterlng;
+       // reporterinfo.lat=Reporterlat;
+        //reporterinfo.healthInfo=reporterHealth;
+        //reporterinfo.reportSeverity=Severity;
+        //reporterinfo.reportType=Emrg_type;
         Log.e("on message received", " was done!");
         sendNotification(title,body);
 

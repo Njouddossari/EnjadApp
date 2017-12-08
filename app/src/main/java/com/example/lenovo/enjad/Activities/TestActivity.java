@@ -60,7 +60,7 @@ public class TestActivity extends AppCompatActivity {
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {  //upload user_info from dB
-                 username = dataSnapshot.child(user.getUid()).child("username").getValue(String.class);
+                username = dataSnapshot.child(user.getUid()).child("username").getValue(String.class);
             }
 
             @Override
@@ -223,8 +223,8 @@ public class TestActivity extends AppCompatActivity {
         DatabaseReference ReportRef ,ReportRef1;
         ReportRef= FirebaseDatabase.getInstance().getReference("Report");
         ReportRef1= FirebaseDatabase.getInstance().getReference("LastReport");
-        int id= obj.report_id;
-        ReportRef.child(user.getUid()).child( Integer.toString(id)).setValue(obj);
+        String id= obj.getReport_id();
+        ReportRef.child(user.getUid()).child( id).setValue(obj);
         ReportRef1.child(user.getUid()).setValue(obj); // for notification purpose
     }
 

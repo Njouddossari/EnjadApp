@@ -227,38 +227,6 @@
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="android:Widget.Material.Toolbar.Button.Navigation">
     </style>
     <style name="Base.Widget.Design.AppBarLayout" parent="Base.V21.Widget.Design.AppBarLayout"/>
-    <style name="FirebaseUI" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/authui_colorPrimary</item>
-        <item name="colorPrimaryDark">@color/authui_colorPrimaryDark</item>
-        <item name="colorAccent">@color/authui_colorAccent</item>
-        <item name="colorButtonNormal">@color/authui_colorPrimary</item>
-
-        <item name="android:colorPrimary">@color/authui_colorPrimary</item>
-        <item name="android:colorPrimaryDark">@color/authui_colorPrimaryDark</item>
-        <item name="android:colorAccent">@color/authui_colorAccent</item>
-        <item name="android:colorButtonNormal">@color/authui_colorPrimary</item>
-
-        <item name="android:buttonStyle">@style/FirebaseUI.Button</item>
-        <item name="android:editTextStyle">@style/FirebaseUI.EditText</item>
-    </style>
-    <style name="FirebaseUI.Dialog" parent="Base.Theme.AppCompat.Light.Dialog.MinWidth">
-        <item name="colorPrimary">@color/authui_colorPrimary</item>
-        <item name="colorPrimaryDark">@color/authui_colorPrimaryDark</item>
-        <item name="colorAccent">@color/authui_colorAccent</item>
-        <item name="colorButtonNormal">@color/authui_colorPrimary</item>
-
-        <item name="android:colorPrimary">@color/authui_colorPrimary</item>
-        <item name="android:colorPrimaryDark">@color/authui_colorPrimaryDark</item>
-        <item name="android:colorAccent">@color/authui_colorAccent</item>
-        <item name="android:colorButtonNormal">@color/authui_colorPrimary</item>
-
-        <item name="android:buttonStyle">@style/FirebaseUI.Button</item>
-        <item name="android:editTextStyle">@style/FirebaseUI.EditText</item>
-
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:windowMinWidthMajor">360dp</item>
-        <item name="android:layout_height">match_parent</item>
-    </style>
     <style name="Platform.AppCompat" parent="Platform.V21.AppCompat"/>
     <style name="Platform.AppCompat.Light" parent="Platform.V21.AppCompat.Light"/>
     <style name="Platform.ThemeOverlay.AppCompat" parent="">

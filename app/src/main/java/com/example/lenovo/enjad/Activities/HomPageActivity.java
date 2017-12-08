@@ -20,6 +20,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 import java.util.Calendar;
 
@@ -29,13 +30,18 @@ import com.example.lenovo.enjad.Services.getlocationService;
 import com.firebase.geofire.GeoFire;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.iid.FirebaseInstanceId;
 
 
 public class HomPageActivity extends AppCompatActivity {
         FirebaseAuth firebaseAuth;
+    DatabaseReference dbRefuser;
+        TextView txt_username;
         int PERMISSION_ACCESS_COARSE_LOCATION;
 
     @Override
@@ -57,7 +63,7 @@ public class HomPageActivity extends AppCompatActivity {
         }
 
         firebaseAuth=FirebaseAuth.getInstance();
-        FirebaseUser userid = firebaseAuth.getCurrentUser();
+        final FirebaseUser userid = firebaseAuth.getCurrentUser();
         if (firebaseAuth.getCurrentUser() == null ) // check if user is not logged in
         {
             //login activity here
@@ -75,6 +81,23 @@ public class HomPageActivity extends AppCompatActivity {
             {
                 Log.v(" error", "Error "+ r.getMessage());
             }
+            dbRefuser= FirebaseDatabase.getInstance().getReference("user");
+            txt_username=(TextView) findViewById(R.id.textView);
+            dbRefuser.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {  //upload user_info from dB
+
+                    String username = dataSnapshot.child(userid.getUid()).child("username").getValue(String.class);
+
+
+                    txt_username.setText(username);
+
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {}
+            });
+
             Intent i0 = new Intent(this,ScreenOnOffService.class);
             i0.setAction(".ScreenOnOffService");
             startService(i0); //listen to power button

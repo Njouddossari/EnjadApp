@@ -7,7 +7,10 @@
 
     <string name="ConfirmPassword">تأكيد كلمة المرور</string>
 
+
     <string name="username">اسم المستخدم</string>
+    <string name="username1">اسم المبلغ:</string>
+
     <string name="email">البريد الإلكتروني</string>
     <string name="phone">رقم الجوال</string>
     <string name="signup">تسجيل</string>
@@ -46,7 +49,7 @@
     <string name="Log_out">تسجيل خروج</string>
     <string name="New_user">مستخدم جديد؟</string>
     <string name="pass_length">يجب أن يكون الرقم السري 8 حروف أو أرقام وأكثر. </string>
-
+    <string name="deleteuser">تم حذف الحساب بنجاح. </string>
     <string name="success_Log_in">تمت عملية تسجيل الدخول بنجاح... </string>
     <string name="success_Log_out">تمت عملية تسجيل الخروج بنجاح... </string>
     <string name="success_sign_in">تمت عمليةالتسجيل بنجاح... </string>
@@ -64,7 +67,7 @@
     <string name="emergytype1"> الحالة</string>
     <string name="severity">المستوى:</string>
     <string name="severity1">المستوى</string>
-    <string name="info">معلومات:</string>
+    <string name="info">المعلومات الصحية للمبلغ:</string>
     <string name="info1">معلومات</string>
     <string name="Location">الموقع:</string>
     <string name="Location1">الموقع</string>

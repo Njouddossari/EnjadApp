@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
-    <string-array name="facebook_permissions">
-    </string-array>
-    <string-array name="google_permissions">
-    </string-array>
     <string-array name="stat_array">
         <item>نشط</item>
         <item>انتهى</item>
@@ -114,24 +110,16 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <color name="authui_colorAccent">#3E50B4</color>
-    <color name="authui_colorActivated">#1a237e</color>
-    <color name="authui_colorPrimary">#3E50B4</color>
-    <color name="authui_colorPrimaryDark">#2F3E9E</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
-    <color name="bodyTextColor">#c0000000</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
-    <color name="buttonColor">@color/authui_colorPrimary</color>
-    <color name="buttonColorPressed">@color/authui_colorActivated</color>
-    <color name="buttonTextColor">#FFFFFF</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="cardview_dark_background">#FF424242</color>
@@ -140,24 +128,6 @@
     <color name="cardview_shadow_start_color">#37000000</color>
     <color name="colorPrimaryBlack">#000000</color>
     <color name="colorPrimaryRed">#b62028</color>
-    <color name="com_facebook_blue">#3B5998</color>
-    <color name="com_facebook_button_background_color">#415dae</color>
-    <color name="com_facebook_button_background_color_disabled">#bdc1c9</color>
-    <color name="com_facebook_button_background_color_focused">#FFFFFe</color>
-    <color name="com_facebook_button_background_color_focused_disabled">#84878c</color>
-    <color name="com_facebook_button_background_color_pressed">#2f477a</color>
-    <color name="com_facebook_button_background_color_selected">#7c8fc8</color>
-    <color name="com_facebook_button_border_color_focused">#dedee6</color>
-    <color name="com_facebook_button_login_silver_background_color">#f4f6f8</color>
-    <color name="com_facebook_button_login_silver_background_color_pressed">#e9eaf0</color>
-    <color name="com_facebook_button_send_background_color">@color/com_facebook_messenger_blue</color>
-    <color name="com_facebook_button_send_background_color_pressed">#006fff</color>
-    <color name="com_facebook_device_auth_text">#797E87</color>
-    <color name="com_facebook_likeboxcountview_border_color">#6a7180</color>
-    <color name="com_facebook_likeboxcountview_text_color">#6a7180</color>
-    <color name="com_facebook_likeview_text_color">#6a7180</color>
-    <color name="com_facebook_messenger_blue">#0084ff</color>
-    <color name="com_facebook_share_button_text_color">#FFFFFF</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -179,15 +149,11 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <color name="errorColor">#DD2C00</color>
     <color name="error_color_material">#F4511E</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
-    <color name="headingColor">#212121</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
-    <color name="inputLabelColor">#757575</color>
-    <color name="linkColor">#4285F4</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -217,7 +183,6 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <color name="shadowColor">#eeeeee</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
@@ -614,9 +579,6 @@
             <enum name="screen" value="15"/>
         </attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <declare-styleable name="com_facebook_like_view"><attr format="color" name="com_facebook_foreground_color"/><attr format="string" name="com_facebook_object_id"/><attr name="com_facebook_object_type"><enum name="unknown" value="0"/><enum name="open_graph" value="1"/><enum name="page" value="2"/></attr><attr name="com_facebook_style"><enum name="standard" value="0"/><enum name="button" value="1"/><enum name="box_count" value="2"/></attr><attr name="com_facebook_auxiliary_view_position"><enum name="bottom" value="0"/><enum name="inline" value="1"/><enum name="top" value="2"/></attr><attr name="com_facebook_horizontal_alignment"><enum name="center" value="0"/><enum name="left" value="1"/><enum name="right" value="2"/></attr></declare-styleable>
-    <declare-styleable name="com_facebook_login_view"><attr format="boolean" name="com_facebook_confirm_logout"/><attr format="string" name="com_facebook_login_text"/><attr format="string" name="com_facebook_logout_text"/><attr name="com_facebook_tooltip_mode"><enum name="automatic" value="0"/><enum name="display_always" value="1"/><enum name="never_display" value="2"/></attr></declare-styleable>
-    <declare-styleable name="com_facebook_profile_picture_view"><attr name="com_facebook_preset_size"><enum name="small" value="-2"/><enum name="normal" value="-3"/><enum name="large" value="-4"/></attr><attr format="boolean" name="com_facebook_is_cropped"/></declare-styleable>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -703,28 +665,6 @@
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
-    <dimen name="com_facebook_auth_dialog_corner_radius">2dp</dimen>
-    <dimen name="com_facebook_auth_dialog_corner_radius_oversized">4dp</dimen>
-    <dimen name="com_facebook_button_corner_radius">2dp</dimen>
-    <dimen name="com_facebook_likeboxcountview_border_radius">3dp</dimen>
-    <dimen name="com_facebook_likeboxcountview_border_width">1dp</dimen>
-    <dimen name="com_facebook_likeboxcountview_caret_height">3dp</dimen>
-    <dimen name="com_facebook_likeboxcountview_caret_width">6dp</dimen>
-    <dimen name="com_facebook_likeboxcountview_text_padding">6dp</dimen>
-    <dimen name="com_facebook_likeboxcountview_text_size">11.0sp</dimen>
-    <dimen name="com_facebook_likeview_edge_padding">2dp</dimen>
-    <dimen name="com_facebook_likeview_internal_padding">6dp</dimen>
-    <dimen name="com_facebook_likeview_text_size">11.0sp</dimen>
-    <dimen name="com_facebook_profilepictureview_preset_size_large">180dp</dimen>
-    <dimen name="com_facebook_profilepictureview_preset_size_normal">100dp</dimen>
-    <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
-    <dimen name="com_facebook_share_button_compound_drawable_padding">12dp</dimen>
-    <dimen name="com_facebook_share_button_padding_bottom">12dp</dimen>
-    <dimen name="com_facebook_share_button_padding_left">12dp</dimen>
-    <dimen name="com_facebook_share_button_padding_right">16dp</dimen>
-    <dimen name="com_facebook_share_button_padding_top">12dp</dimen>
-    <dimen name="com_facebook_share_button_text_size">16.0sp</dimen>
-    <dimen name="com_facebook_tooltip_horizontal_padding">10dp</dimen>
     <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
     <dimen name="compat_button_inset_vertical_material">6dp</dimen>
     <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
@@ -806,7 +746,6 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
-    <item format="float" name="slightly_visible_icon" type="dimen">0.4</item>
     <dimen name="songs_count">12dp</dimen>
     <dimen name="songs_count_padding_bottom">5dp</dimen>
     <dimen name="tooltip_corner_radius">2dp</dimen>
@@ -817,7 +756,6 @@
     <dimen name="tooltip_vertical_padding">6.5dp</dimen>
     <dimen name="tooltip_y_offset_non_touch">0dp</dimen>
     <dimen name="tooltip_y_offset_touch">16dp</dimen>
-    <item format="float" name="visible_icon" type="dimen">1.0</item>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -857,7 +795,6 @@
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="google_play_services_version">11020000</integer>
     <integer name="hide_password_duration">320</integer>
-    <integer name="min_password_length">6</integer>
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="ConfirmPassword">تأكيد كلمة المرور</string>
@@ -913,33 +850,10 @@
     <string name="accessToMIC">استخدام المايكروفون</string>
     <string name="accessTocontact">تنبيه ثلاثة من معارفك فقط:</string>
     <string name="accident">حادث</string>
-    <string name="account_welcomeback">Welcome back</string>
     <string name="app_name">إنجاد</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
-    <string name="button_done">Done</string>
-    <string name="button_password_recovery_text">Trouble remembering your password</string>
-    <string name="button_text_save">Save</string>
-    <string name="button_text_send">Send</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="check_your_email">Check your email</string>
-    <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b>&lt;br />on your smartphone or computer&lt;br />and enter this code</string>
-    <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
-    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
-    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
-    <string name="com_facebook_like_button_liked">Liked</string>
-    <string name="com_facebook_like_button_not_liked">Like</string>
-    <string name="com_facebook_loading">Loading...</string>
-    <string name="com_facebook_loginview_cancel_action">Cancel</string>
-    <string name="com_facebook_loginview_log_in_button">Log in</string>
-    <string name="com_facebook_loginview_log_in_button_long">Log in with Facebook</string>
-    <string name="com_facebook_loginview_log_out_action">Log out</string>
-    <string name="com_facebook_loginview_log_out_button">Log out</string>
-    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
-    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
-    <string name="com_facebook_send_button_text">Send</string>
-    <string name="com_facebook_share_button_text">Share</string>
-    <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -957,67 +871,36 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="confirm_recovery_body">Follow the instructions sent to %1$s to recover your
-        password.</string>
-    <string name="create_account_preamble">"By tapping SAVE you are indicating that you agree to the "</string>
-    <string name="create_account_title">Create account</string>
     <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
-    <string name="default_toolbar_title">@string/app_name</string>
     <string name="default_web_client_id" translatable="false">352690967329-shgt0osh1d3nmkdttcp9vn3q0bcbru8h.apps.googleusercontent.com</string>
     <string name="deleteaccount">حذف الحساب</string>
-    <string name="do_delete">Delete</string>
     <string name="email">البريد الإلكتروني</string>
-    <string name="email_account_creation_error">Email account registration unsuccessful</string>
-    <string name="email_hint">Email</string>
     <string name="emergytype">نوع الحالة:</string>
     <string name="emergytype1"> الحالة</string>
     <string name="emrgType">نوع الحالة</string>
     <string name="emrg_case">حالة إسعافية</string>
     <string name="error_confrim">تأكد أن كل الحقول كاملة.</string>
-    <string name="error_email_does_not_exist">That email address doesn\'t match an existing account</string>
-    <string name="error_user_collision">An account already exists with that email address.</string>
-    <string name="error_weak_password">Password not strong enough. Use at least 6 characters and a mix of letters and numbers.</string>
-    <string name="facebook_application_id" translatable="false">CHANGE-ME</string>
-    <string name="facebook_login_protocol_scheme" translatable="false">fbYOUR_APP_ID</string>
     <string name="failed_login">اسم المستخدم او كلمة المرور غير صحيحة</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="fill_contact">من فضلك أدخل رقم الجوال للشخص الذي تريد تنبيهه في حالتك الطارئة. </string>
-    <string name="finding_credential">Finding a credential…</string>
     <string name="fire">حريق</string>
-    <string name="firebaseUrl"/>
     <string name="firebase_database_url" translatable="false">https://enjadpp.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">352690967329</string>
     <string name="google_api_key" translatable="false">AIzaSyAevEfjj7JRinnM5f0BUmoulDODktTclk8</string>
     <string name="google_app_id" translatable="false">1:352690967329:android:6dc528e44becdfff</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAevEfjj7JRinnM5f0BUmoulDODktTclk8</string>
     <string name="google_storage_bucket" translatable="false">enjadpp.appspot.com</string>
-    <string name="idp_name_facebook">Facebook</string>
-    <string name="idp_name_google">Google</string>
     <string name="info">معلومات:</string>
     <string name="info1">معلومات</string>
-    <string name="invalid_email_address">That email address isn\'t correct</string>
     <string name="login">دخول</string>
-    <string name="login_error">Login unsuccessful</string>
-    <string name="messenger_send_button_text">Send</string>
-    <string name="missing_email_address">Enter your email address to continue</string>
-    <string name="missing_password_email_toast">Missing password or email</string>
     <string name="my_chats">المحادثات</string>
     <string name="my_healthcondition">المعلومات الصحية</string>
     <string name="my_reports">البلاغات</string>
     <string name="my_reportslist">قائمة بلاغاتي</string>
-    <string name="name_hint">First &amp; last name</string>
-    <string name="next">Next</string>
     <string name="olduser">تسجيل دخول</string>
     <string name="other">أخرى</string>
     <string name="pass_length">يجب أن يكون الرقم السري 8 حروف أو أرقام وأكثر. </string>
-    <string name="password_hint">Password</string>
-    <string name="password_length">Strong passwords have at least %1$d characters and a mix of letters
-        and numbers</string>
-    <string name="password_recovery_body">Get instructions sent to this email that explain how to
-        reset your password.</string>
-    <string name="password_recovery_title">Forgot password</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
-    <string name="password_word">Password</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -1025,52 +908,22 @@
     <string name="phone">رقم الجوال</string>
     <string name="phone_et">رقم الجوال </string>
     <string name="profile">الملف الشخصي</string>
-    <string name="progress_dialog_loading">Loading…</string>
-    <string name="progress_dialog_sending">Sending…</string>
-    <string name="progress_dialog_signing_in">Signing in…</string>
-    <string name="progress_dialog_signing_up">Signing up…</string>
     <string name="project_id" translatable="false">enjadpp</string>
     <string name="providehelp">تقديم المساعدة للآخرين: </string>
-    <string name="recover_password_title">Recover password</string>
-    <string name="require_email_text">Please input email address</string>
-    <string name="required_field">You can\'t leave this empty.</string>
     <string name="save_change">تم تحديث الملف الشخصي. </string>
     <string name="savechenges">حفظ التغييرات</string>
     <string name="search_menu_title">Search</string>
     <string name="send">إرسال</string>
     <string name="severity">المستوى:</string>
     <string name="severity1">المستوى</string>
-    <string name="sign_in">Sign in</string>
-    <string name="sign_in_no_password_title">Put an email to use for sign in</string>
-    <string name="sign_in_with_email">Sign in with email</string>
-    <string name="sign_in_with_facebook">Sign in with Facebook</string>
-    <string name="sign_in_with_google">Sign in with Google</string>
     <string name="signup">تسجيل</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="success_Log_in">تمت عملية تسجيل الدخول بنجاح... </string>
     <string name="success_Log_out">تمت عملية تسجيل الخروج بنجاح... </string>
     <string name="success_sign_in">تمت عمليةالتسجيل بنجاح... </string>
-    <string name="terms_of_service">Terms of Service</string>
     <string name="theft">سرقة</string>
-    <string name="title_confirm_recover_password_activity">@string/check_your_email</string>
-    <string name="title_recover_password_activity">@string/recover_password_title</string>
-    <string name="title_register_email_activity">@string/create_account_title</string>
-    <string name="title_sign_in_activity">@string/sign_in</string>
-    <string name="title_sign_in_no_password_activity">@string/sign_in_with_email</string>
-    <string name="title_welcome_back_idp_prompt">@string/sign_in</string>
-    <string name="title_welcome_back_password_prompt">@string/sign_in</string>
     <string name="toRegister">اضغط هنا إذا لم يكن لديك حساب</string>
-    <string name="trouble_signing_in">Trouble signing in?</string>
     <string name="username">اسم المستخدم</string>
-    <string name="welcome_back">Welcome back!</string>
-    <string name="welcome_back_idp_header">You already have an account</string>
-    <string name="welcome_back_idp_prompt">
-        You\'ve already used <ns1:g example="jane.doe@example.com" id="email_addr">%1$s</ns1:g>.
-        Sign in with <ns1:g example="Google" id="provider_name">%2$s</ns1:g> to continue.
-    </string>
-    <string name="welcome_back_password_prompt_body">You\'ve already used
-        <ns1:g example="jane.doe@example.com" id="email_addr">%1$s</ns1:g> to sign in. Enter
-        your password for that account.</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -1306,7 +1159,7 @@
         <item name="actionBarWidgetTheme">@null</item>
         <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
 
-        
+        <!-- Panel attributes -->
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
 
         <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
@@ -1357,7 +1210,7 @@
         <item name="colorButtonNormal">@color/button_material_dark</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
 
-        
+        <!-- Used by MediaRouter -->
         <item name="isLightTheme">false</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
@@ -1394,7 +1247,7 @@
         <item name="colorButtonNormal">@color/button_material_light</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
 
-        
+        <!-- Used by MediaRouter -->
         <item name="isLightTheme">true</item>
     </style>
     <style name="Base.V14.Widget.Design.AppBarLayout" parent="android:Widget">
@@ -1409,7 +1262,7 @@
 
         <item name="colorBackgroundFloating">@color/background_floating_material_dark</item>
 
-        
+        <!-- Used by MediaRouter -->
         <item name="isLightTheme">false</item>
 
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
@@ -1420,7 +1273,7 @@
         <item name="dividerVertical">@drawable/abc_list_divider_mtrl_alpha</item>
         <item name="dividerHorizontal">@drawable/abc_list_divider_mtrl_alpha</item>
 
-        
+        <!-- Action Bar Styles -->
         <item name="actionBarTabStyle">@style/Widget.AppCompat.ActionBar.TabView</item>
         <item name="actionBarTabBarStyle">@style/Widget.AppCompat.ActionBar.TabBar</item>
         <item name="actionBarTabTextStyle">@style/Widget.AppCompat.ActionBar.TabText</item>
@@ -1437,10 +1290,10 @@
         <item name="actionMenuTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
         <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
 
-        
+        <!-- Dropdown Spinner Attributes -->
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
 
-        
+        <!-- Action Mode -->
         <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
         <item name="actionModeBackground">@drawable/abc_cab_background_top_material</item>
         <item name="actionModeSplitBackground">?attr/colorPrimaryDark</item>
@@ -1453,14 +1306,14 @@
         <item name="actionModeSelectAllDrawable">@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
         <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
 
-        
+        <!-- Panel attributes -->
         <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
         <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
         <item name="panelBackground">@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
         <item name="android:panelBackground">@android:color/transparent</item>
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
 
-        
+        <!-- List attributes -->
         <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSmall">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSecondary">@style/TextAppearance.AppCompat.Body1</item>
@@ -1470,16 +1323,16 @@
         <item name="listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
         <item name="listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
 
-        
+        <!-- Spinner styles -->
         <item name="spinnerStyle">@style/Widget.AppCompat.Spinner</item>
         <item name="android:spinnerItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem</item>
         <item name="android:dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
 
-        
+        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
         <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
 
-        
+        <!-- Popup Menu styles -->
         <item name="popupMenuStyle">@style/Widget.AppCompat.PopupMenu</item>
         <item name="textAppearanceLargePopupMenu">@style/TextAppearance.AppCompat.Widget.PopupMenu.Large</item>
         <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.AppCompat.Widget.PopupMenu.Small</item>
@@ -1488,17 +1341,17 @@
         <item name="dropDownListViewStyle">?android:attr/dropDownListViewStyle</item>
         <item name="listMenuViewStyle">@style/Widget.AppCompat.ListMenuView</item>
 
-        
+        <!-- SearchView attributes -->
         <item name="searchViewStyle">@style/Widget.AppCompat.SearchView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="textColorSearchUrl">@color/abc_search_url_text</item>
         <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.SearchResult.Title</item>
         <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
 
-        
+        <!-- ShareActionProvider attributes -->
         <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
 
-        
+        <!-- Toolbar styles -->
         <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
         <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
 
@@ -1507,7 +1360,7 @@
         <item name="editTextColor">?android:attr/textColorPrimary</item>
         <item name="autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
 
-        
+        <!-- Color palette -->
         <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
         <item name="colorPrimary">@color/primary_material_dark</item>
         <item name="colorAccent">@color/accent_material_dark</item>
@@ -1530,7 +1383,7 @@
         <item name="ratingBarStyleSmall">@style/Widget.AppCompat.RatingBar.Small</item>
         <item name="seekBarStyle">@style/Widget.AppCompat.SeekBar</item>
 
-        
+        <!-- Button styles -->
         <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
         <item name="buttonStyleSmall">@style/Widget.AppCompat.Button.Small</item>
         <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Widget.Button</item>
@@ -1543,7 +1396,7 @@
         <item name="buttonBarNegativeButtonStyle">?attr/buttonBarButtonStyle</item>
         <item name="buttonBarNeutralButtonStyle">?attr/buttonBarButtonStyle</item>
 
-        
+        <!-- Dialog attributes -->
         <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog</item>
         <item name="dialogPreferredPadding">@dimen/abc_dialog_padding_material</item>
 
@@ -1553,13 +1406,14 @@
         <item name="textColorAlertDialogListItem">@color/abc_primary_text_material_dark</item>
         <item name="listDividerAlertDialog">@null</item>
 
-        
+        <!-- Define these here; ContextThemeWrappers around themes that define them should
+             always clear these values. -->
         <item name="windowFixedWidthMajor">@null</item>
         <item name="windowFixedWidthMinor">@null</item>
         <item name="windowFixedHeightMajor">@null</item>
         <item name="windowFixedHeightMinor">@null</item>
 
-        
+        <!-- Tooltip attributes -->
         <item name="tooltipFrameBackground">@drawable/tooltip_frame_light</item>
         <item name="tooltipForegroundColor">@color/foreground_material_light</item>
 
@@ -1596,7 +1450,7 @@
 
         <item name="colorBackgroundFloating">@color/background_floating_material_light</item>
 
-        
+        <!-- Used by MediaRouter -->
         <item name="isLightTheme">true</item>
 
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
@@ -1607,7 +1461,7 @@
         <item name="dividerVertical">@drawable/abc_list_divider_mtrl_alpha</item>
         <item name="dividerHorizontal">@drawable/abc_list_divider_mtrl_alpha</item>
 
-        
+        <!-- Action Bar Styles -->
         <item name="actionBarTabStyle">@style/Widget.AppCompat.Light.ActionBar.TabView</item>
         <item name="actionBarTabBarStyle">@style/Widget.AppCompat.Light.ActionBar.TabBar</item>
         <item name="actionBarTabTextStyle">@style/Widget.AppCompat.Light.ActionBar.TabText</item>
@@ -1624,7 +1478,7 @@
         <item name="actionMenuTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
         <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
 
-        
+        <!-- Action Mode -->
         <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
         <item name="actionModeBackground">@drawable/abc_cab_background_top_material</item>
         <item name="actionModeSplitBackground">?attr/colorPrimaryDark</item>
@@ -1637,17 +1491,17 @@
         <item name="actionModeSelectAllDrawable">@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
         <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
 
-        
+        <!-- Dropdown Spinner Attributes -->
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
 
-        
+        <!-- Panel attributes -->
         <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
         <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
         <item name="panelBackground">@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
         <item name="android:panelBackground">@android:color/transparent</item>
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_light</item>
 
-        
+        <!-- List attributes -->
         <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSmall">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSecondary">@style/TextAppearance.AppCompat.Body1</item>
@@ -1657,16 +1511,16 @@
         <item name="listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
         <item name="listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
 
-        
+        <!-- Spinner styles -->
         <item name="spinnerStyle">@style/Widget.AppCompat.Spinner</item>
         <item name="android:spinnerItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem</item>
         <item name="android:dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
 
-        
+        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
         <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
 
-        
+        <!-- Popup Menu styles -->
         <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
         <item name="textAppearanceLargePopupMenu">@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
         <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
@@ -1675,17 +1529,17 @@
         <item name="dropDownListViewStyle">?android:attr/dropDownListViewStyle</item>
         <item name="listMenuViewStyle">@style/Widget.AppCompat.ListMenuView</item>
 
-        
+        <!-- SearchView attributes -->
         <item name="searchViewStyle">@style/Widget.AppCompat.Light.SearchView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="textColorSearchUrl">@color/abc_search_url_text</item>
         <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.SearchResult.Title</item>
         <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
 
-        
+        <!-- ShareActionProvider attributes -->
         <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
 
-        
+        <!-- Toolbar styles -->
         <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
         <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
 
@@ -1694,7 +1548,7 @@
         <item name="editTextColor">?android:attr/textColorPrimary</item>
         <item name="autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
 
-        
+        <!-- Color palette -->
         <item name="colorPrimaryDark">@color/primary_dark_material_light</item>
         <item name="colorPrimary">@color/primary_material_light</item>
         <item name="colorAccent">@color/accent_material_light</item>
@@ -1717,7 +1571,7 @@
         <item name="ratingBarStyleSmall">@style/Widget.AppCompat.RatingBar.Small</item>
         <item name="seekBarStyle">@style/Widget.AppCompat.SeekBar</item>
 
-        
+        <!-- Button styles -->
         <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
         <item name="buttonStyleSmall">@style/Widget.AppCompat.Button.Small</item>
         <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Widget.Button</item>
@@ -1730,7 +1584,7 @@
         <item name="buttonBarNegativeButtonStyle">?attr/buttonBarButtonStyle</item>
         <item name="buttonBarNeutralButtonStyle">?attr/buttonBarButtonStyle</item>
 
-        
+        <!-- Dialog attributes -->
         <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog</item>
         <item name="dialogPreferredPadding">@dimen/abc_dialog_padding_material</item>
 
@@ -1740,13 +1594,14 @@
         <item name="textColorAlertDialogListItem">@color/abc_primary_text_material_light</item>
         <item name="listDividerAlertDialog">@null</item>
 
-        
+        <!-- Define these here; ContextThemeWrappers around themes that define them should
+             always clear these values. -->
         <item name="windowFixedWidthMajor">@null</item>
         <item name="windowFixedWidthMinor">@null</item>
         <item name="windowFixedHeightMajor">@null</item>
         <item name="windowFixedHeightMinor">@null</item>
 
-        
+        <!-- Tooltip attributes -->
         <item name="tooltipFrameBackground">@drawable/tooltip_frame_dark</item>
         <item name="tooltipForegroundColor">@color/foreground_material_dark</item>
 
@@ -2136,7 +1991,7 @@
         <item name="android:textColor">@color/whitetext</item>
         <item name="android:textSize">22sp</item>
         <item name="android:background">@drawable/button_desing
-        </item>
+        </item><!-- only way to change this is to change the src image -->
         <item name="android:layout_width">80.0px</item>
         <item name="android:layout_height">40.0px</item>
 
@@ -2166,277 +2021,11 @@
         <item name="android:textColor">@color/colorPrimaryBlack</item>
         <item name="android:textSize">22sp</item>
         <item name="android:background">@drawable/edittext_design
-        </item>
+        </item><!-- only way to change this is to change the src image -->
         <item name="android:layout_width">80.0px</item>
         <item name="android:layout_height">40.0px</item>
 
     </style>
-    <style name="FirebaseEditTextTheme">
-        <item name="colorControlActivated">#1194F6</item>
-        
-    </style>
-    <style name="FirebaseUI" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/authui_colorPrimary</item>
-        <item name="colorPrimaryDark">@color/authui_colorPrimaryDark</item>
-        <item name="colorAccent">@color/authui_colorAccent</item>
-        <item name="colorButtonNormal">@color/authui_colorPrimary</item>
-
-        <item name="android:buttonStyle">@style/FirebaseUI.Button</item>
-        <item name="android:editTextStyle">@style/FirebaseUI.EditText</item>
-    </style>
-    <style name="FirebaseUI.AuthMethodPicker"/>
-    <style name="FirebaseUI.AuthMethodPicker.ButtonHolder">
-        <item name="android:orientation">vertical</item>
-        <item name="android:paddingBottom">56dp</item>
-        <item name="android:clipToPadding">false</item>
-        <item name="android:layout_width">220dp</item>
-        <item name="android:layout_height">wrap_content</item>
-    </style>
-    <style name="FirebaseUI.AuthMethodPicker.Logo">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_gravity">center</item>
-    </style>
-    <style name="FirebaseUI.Button" parent="@style/Widget.AppCompat.Button">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_gravity">right</item>
-        <item name="android:layout_height">36dp</item>
-        <item name="android:layout_margin">8dp</item>
-        <item name="android:textColor">@color/buttonTextColor</item>
-        <item name="android:textAllCaps">true</item>
-        <item name="android:radius">3dp</item>
-        <item name="android:background">@drawable/rounded_button</item>
-    </style>
-    <style name="FirebaseUI.Button.AccountChooser">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textAllCaps">false</item>
-        <item name="android:drawablePadding">20dp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:paddingLeft">12dp</item>
-        <item name="android:paddingRight">12dp</item>
-        <item name="android:layout_marginBottom">24dp</item>
-        <item name="android:layout_gravity">left</item>
-        <item name="android:gravity">left|center_vertical</item>
-        <item name="android:typeface">normal</item>
-    </style>
-    <style name="FirebaseUI.Button.AccountChooser.EmailButton">
-        <item name="android:drawableLeft">@drawable/ic_email_white_18dp</item>
-        <item name="android:visibility">gone</item>
-        <item name="android:background">@drawable/idp_button_background_email</item>
-        <item name="android:textColor">#ffffff</item>
-    </style>
-    <style name="FirebaseUI.Button.AccountChooser.FacebookButton">
-        <item name="android:drawableLeft">@drawable/com_facebook_button_icon_white</item>
-        <item name="android:background">@drawable/idp_button_background_facebook</item>
-        <item name="android:textColor">@color/com_facebook_button_text_color</item>
-    </style>
-    <style name="FirebaseUI.Button.AccountChooser.GoogleButton">
-        <item name="android:drawableLeft">@drawable/logo_googleg_color_18dp</item>
-        <item name="android:background">@drawable/idp_button_background_google</item>
-        <item name="android:textColor">#757575</item>
-    </style>
-    <style name="FirebaseUI.Button.AlertButton">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">52dp</item>
-        <item name="android:padding">0dp</item>
-        <item name="android:layout_margin">0dp</item>
-        <item name="android:layout_marginBottom">0dp</item>
-        <item name="android:gravity">right|center</item>
-        <item name="android:background">@android:color/transparent</item>
-        <item name="android:textColor">@color/buttonColor</item>
-    </style>
-    <style name="FirebaseUI.Button.NextButton">
-        <item name="android:layout_width">88dp</item>
-        <item name="android:layout_height">36dp</item>
-    </style>
-    <style name="FirebaseUI.Dialog" parent="Base.Theme.AppCompat.Light.Dialog.MinWidth">
-        <item name="colorPrimary">@color/authui_colorPrimary</item>
-        <item name="colorPrimaryDark">@color/authui_colorPrimaryDark</item>
-        <item name="colorAccent">@color/authui_colorAccent</item>
-        <item name="colorButtonNormal">@color/authui_colorPrimary</item>
-
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:windowMinWidthMajor">360dp</item>
-        <item name="android:layout_height">match_parent</item>
-
-    </style>
-    <style name="FirebaseUI.EditText">
-        <item name="android:textSize">16sp</item>
-        <item name="android:lineSpacingExtra">8sp</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:fontFamily">sans-serif</item>
-        <item name="android:colorActivatedHighlight">@color/authui_colorPrimary</item>
-        <item name="android:colorFocusedHighlight">@color/authui_colorPrimary</item>
-    </style>
-    <style name="FirebaseUI.EditText.PasswordField">
-        <item name="android:hint">@string/password_hint</item>
-        <item name="android:inputType">textPassword</item>
-    </style>
-    <style name="FirebaseUI.ImageView"/>
-    <style name="FirebaseUI.ImageView.VisibilityToggle">
-        <item name="android:layout_marginBottom">12dp</item>
-        <item name="android:layout_marginRight">4dp</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:src">@drawable/ic_visibility_black_24dp</item>
-    </style>
-    <style name="FirebaseUI.Text">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:fontFamily">sans-serif</item>
-    </style>
-    <style name="FirebaseUI.Text.BodyText" parent="FirebaseUI.Text.T08">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@color/bodyTextColor</item>
-        <item name="android:paddingBottom">16dp</item>
-    </style>
-    <style name="FirebaseUI.Text.ErrorText" parent="FirebaseUI.Text.T12">
-        <item name="android:textColor">@color/errorColor</item>
-        <item name="android:paddingTop">4dp</item>
-        <item name="android:paddingBottom">4dp</item>
-    </style>
-    <style name="FirebaseUI.Text.Heading" parent="FirebaseUI.Text.T07">
-        <item name="android:textColor">@color/headingColor</item>
-        <item name="android:paddingTop">0dp</item>
-        <item name="android:paddingBottom">16dp</item>
-    </style>
-    <style name="FirebaseUI.Text.HintText" parent="FirebaseUI.Text.T12">
-        <item name="android:textColor">@color/inputLabelColor</item>
-    </style>
-    <style name="FirebaseUI.Text.InputLabel" parent="FirebaseUI.Text.T12">
-        <item name="android:textColor">@color/inputLabelColor</item>
-        <item name="android:paddingTop">8dp</item>
-        <item name="android:paddingBottom">8dp</item>
-    </style>
-    <style name="FirebaseUI.Text.Link">
-        <item name="android:textColor">@color/linkColor</item>
-
-    </style>
-    <style name="FirebaseUI.Text.T01">
-        <item name="android:textSize">112sp</item>
-    </style>
-    <style name="FirebaseUI.Text.T02">
-        <item name="android:textSize">64sp</item>
-    </style>
-    <style name="FirebaseUI.Text.T03">
-        <item name="android:textSize">48sp</item>
-    </style>
-    <style name="FirebaseUI.Text.T04">
-        <item name="android:textSize">36sp</item>
-        <item name="android:lineSpacingExtra">12sp</item>
-    </style>
-    <style name="FirebaseUI.Text.T05">
-        <item name="android:textSize">24sp</item>
-        <item name="android:lineSpacingExtra">8sp</item>
-    </style>
-    <style name="FirebaseUI.Text.T06">
-        <item name="android:textSize">18sp</item>
-        <item name="android:lineSpacingExtra">6sp</item>
-    </style>
-    <style name="FirebaseUI.Text.T07">
-        <item name="android:textSize">20sp</item>
-        <item name="android:lineSpacingExtra">4sp</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-    <style name="FirebaseUI.Text.T08">
-        <item name="android:textSize">16sp</item>
-        <item name="android:lineSpacingExtra">8sp</item>
-    </style>
-    <style name="FirebaseUI.Text.T09">
-        <item name="android:textSize">16sp</item>
-        <item name="android:lineSpacingExtra">4sp</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-    <style name="FirebaseUI.Text.T11">
-        <item name="android:textSize">14sp</item>
-        <item name="android:lineSpacingExtra">6sp</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-    <style name="FirebaseUI.Text.T12">
-        <item name="android:textSize">12sp</item>
-        <item name="android:lineSpacingExtra">4sp</item>
-    </style>
-    <style name="FirebaseUI.Text.T13">
-        <item name="android:textSize">10sp</item>
-    </style>
-    <style name="FirebaseUI.Text.TextInputLayout">
-        <item name="android:paddingTop">8dp</item>
-    </style>
-    <style name="FirebaseUI.Translucent">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:colorBackgroundCacheHint">@null</item>
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowAnimationStyle">@android:style/Animation</item>
-    </style>
-    <style name="FirebaseUI.WrapperStyle">
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:paddingTop">16dp</item>
-        <item name="android:paddingLeft">24dp</item>
-        <item name="android:paddingRight">24dp</item>
-    </style>
-    <style name="MessengerButton">
-    <item name="android:clickable">true</item>
-  </style>
-    <style name="MessengerButton.Blue">
-    <item name="android:background">@drawable/messenger_button_blue_bg_selector</item>
-  </style>
-    <style name="MessengerButton.Blue.Large">
-    <item name="android:layout_width">match_parent</item>
-    <item name="android:layout_height">44dp</item>
-    <item name="android:layout_marginLeft">16dp</item>
-    <item name="android:layout_marginRight">16dp</item>
-  </style>
-    <style name="MessengerButton.Blue.Small">
-    <item name="android:layout_width">158dp</item>
-    <item name="android:layout_height">36dp</item>
-  </style>
-    <style name="MessengerButton.White">
-    <item name="android:background">@drawable/messenger_button_white_bg_selector</item>
-  </style>
-    <style name="MessengerButton.White.Large">
-    <item name="android:layout_width">match_parent</item>
-    <item name="android:layout_height">44dp</item>
-    <item name="android:layout_marginLeft">16dp</item>
-    <item name="android:layout_marginRight">16dp</item>
-  </style>
-    <style name="MessengerButton.White.Small">
-    <item name="android:layout_width">158dp</item>
-    <item name="android:layout_height">36dp</item>
-  </style>
-    <style name="MessengerButtonText">
-    <item name="android:layout_width">wrap_content</item>
-    <item name="android:layout_height">wrap_content</item>
-    <item name="android:layout_gravity">center</item>
-    <item name="android:drawablePadding">4dp</item>
-    <item name="android:gravity">center</item>
-    
-    <item name="android:textAllCaps">true</item>
-    <item name="android:textSize">14sp</item>
-    <item name="android:textStyle">bold</item>
-  </style>
-    <style name="MessengerButtonText.Blue">
-    <item name="android:textColor">#ffffff</item>
-  </style>
-    <style name="MessengerButtonText.Blue.Large">
-    <item name="android:drawableLeft">@drawable/messenger_bubble_large_white</item>
-  </style>
-    <style name="MessengerButtonText.Blue.Small">
-    <item name="android:drawableLeft">@drawable/messenger_bubble_small_white</item>
-  </style>
-    <style name="MessengerButtonText.White">
-    <item name="android:textColor">#0084ff</item>
-  </style>
-    <style name="MessengerButtonText.White.Large">
-    <item name="android:drawableLeft">@drawable/messenger_bubble_large_blue</item>
-  </style>
-    <style name="MessengerButtonText.White.Small">
-    <item name="android:drawableLeft">@drawable/messenger_bubble_small_blue</item>
-  </style>
     <style name="MyActionButtonOverflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
 
         <item name="android:src">@drawable/settingicon</item>
@@ -2446,7 +2035,7 @@
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
 
-        
+        <!-- Window colors -->
         <item name="android:colorForeground">@color/foreground_material_dark</item>
         <item name="android:colorForegroundInverse">@color/foreground_material_light</item>
         <item name="android:colorBackground">@color/background_material_dark</item>
@@ -2455,7 +2044,7 @@
         <item name="android:backgroundDimAmount">0.6</item>
         <item name="android:windowBackground">@color/background_material_dark</item>
 
-        
+        <!-- Text colors -->
         <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
         <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item>
         <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
@@ -2468,7 +2057,7 @@
         <item name="android:textColorHighlight">@color/highlighted_text_material_dark</item>
         <item name="android:textColorLink">?attr/colorAccent</item>
 
-        
+        <!-- Text styles -->
         <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
         <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
         <item name="android:textAppearanceLarge">@style/TextAppearance.AppCompat.Large</item>
@@ -2488,7 +2077,7 @@
     <style name="Platform.AppCompat.Light" parent="android:Theme.Light">
         <item name="android:windowNoTitle">true</item>
 
-        
+        <!-- Window colors -->
         <item name="android:colorForeground">@color/foreground_material_light</item>
         <item name="android:colorForegroundInverse">@color/foreground_material_dark</item>
         <item name="android:colorBackground">@color/background_material_light</item>
@@ -2497,7 +2086,7 @@
         <item name="android:backgroundDimAmount">0.6</item>
         <item name="android:windowBackground">@color/background_material_light</item>
 
-        
+        <!-- Text colors -->
         <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
         <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_dark</item>
         <item name="android:textColorSecondary">@color/abc_secondary_text_material_light</item>
@@ -2511,7 +2100,7 @@
         <item name="android:textColorHighlight">@color/highlighted_text_material_light</item>
         <item name="android:textColorLink">?attr/colorAccent</item>
 
-        
+        <!-- Text styles -->
         <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
         <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
         <item name="android:textAppearanceLarge">@style/TextAppearance.AppCompat.Large</item>
@@ -2530,12 +2119,12 @@
     </style>
     <style name="Platform.ThemeOverlay.AppCompat" parent=""/>
     <style name="Platform.ThemeOverlay.AppCompat.Dark">
-        
+        <!-- Action Bar styles -->
         <item name="actionBarItemBackground">@drawable/abc_item_background_holo_dark</item>
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
 
-        
+        <!-- SearchView styles -->
         <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
@@ -2544,7 +2133,7 @@
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
 
-        
+        <!-- SearchView attributes -->
         <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.Light.AutoCompleteTextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
@@ -2741,13 +2330,6 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <style name="Theme.AppCompat.Transparent">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:colorBackgroundCacheHint">@null</item>
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowAnimationStyle">@android:style/Animation</item>
-    </style>
     <style name="Theme.Design" parent="Theme.AppCompat">
         <item name="textColorError">?attr/colorError</item>
     </style>
@@ -2934,51 +2516,5 @@
         <item name="passwordToggleDrawable">@drawable/design_password_eye</item>
         <item name="passwordToggleTint">@color/design_tint_password_toggle</item>
         <item name="passwordToggleContentDescription">@string/password_toggle_content_description</item>
-    </style>
-    <style name="com_facebook_auth_dialog" parent="android:style/Theme.Dialog">
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowIsFloating">true</item>
-    </style>
-    <style name="com_facebook_button" parent="@android:style/Widget.Button">
-        <item name="android:background">@drawable/com_facebook_button_background</item>
-        <item name="android:drawablePadding">6dp</item>
-        <item name="android:gravity">center</item>
-        <item name="android:paddingBottom">5dp</item>
-        <item name="android:paddingLeft">8dp</item>
-        <item name="android:paddingRight">8dp</item>
-        <item name="android:paddingTop">5dp</item>
-        <item name="android:textColor">@color/com_facebook_button_text_color</item>
-        <item name="android:textSize">14.0dp</item>
-    </style>
-    <style name="com_facebook_button_like" parent="com_facebook_button">
-        <item name="android:background">@drawable/com_facebook_button_like_background</item>
-    </style>
-    <style name="com_facebook_button_send" parent="com_facebook_button">
-        <item name="android:background">@drawable/com_facebook_button_send_background</item>
-        <item name="android:drawableLeft">@drawable/com_facebook_send_button_icon</item>
-        <item name="android:text">@string/com_facebook_send_button_text</item>
-        <item name="android:textColor">@color/com_facebook_send_button_text_color</item>
-    </style>
-    <style name="com_facebook_button_share" parent="com_facebook_button">
-        <item name="android:drawableLeft">@drawable/com_facebook_button_icon</item>
-        <item name="android:text">@string/com_facebook_share_button_text</item>
-    </style>
-    <style name="com_facebook_loginview_default_style" parent="com_facebook_button">
-        <item name="android:drawableLeft">@drawable/com_facebook_button_icon</item>
-    </style>
-    <style name="com_facebook_loginview_silver_style" parent="com_facebook_loginview_default_style">
-        <item name="android:background">@drawable/com_facebook_button_login_silver_background</item>
-        <item name="android:drawableLeft">@null</item>
-        <item name="android:textColor">#4b5164</item>
-    </style>
-    <style name="tooltip_bubble_text">
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:gravity">left</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:shadowDy">-1</item>
-        <item name="android:shadowRadius">0.25</item>
-        <item name="android:shadowColor">#40000000</item>
     </style>
 </resources>

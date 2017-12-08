@@ -1,7 +1,4 @@
-#Thu Dec 07 04:42:05 AST 2017
-base.0=C\:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_043480d8db32534630fe12d02fe87a96d3ff18e5
-renamed.1=classes2.dex
+#Fri Dec 08 00:20:46 AST 2017
+base.0=C\:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.1=C\:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_bd4fda759e241cf54379564a9b15b27273b8639e\\classes.dex
-base.1=C\:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_bd4fda759e241cf54379564a9b15b27273b8639e
-file.0=C\:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_043480d8db32534630fe12d02fe87a96d3ff18e5\\classes.dex
+file.0=C\:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
