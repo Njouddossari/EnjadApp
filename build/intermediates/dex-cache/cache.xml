@@ -3,435 +3,300 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\77c6045de05c9543db1d42e02e5f470f2bf40b45\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_8c0b7fd27ae7119caa74777491fc7b0eeb0c8612.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\377e3e378ca3fd0480fdd3cc627dde191f9e1e1c\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="2a7f46cbd5607e57e0aadce84c6a59dafeef1a7e">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_1b82261f3d0b1e4bf60b51600b5178159a57cc1e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\bfa71a3d7a9c914828ea56b2c0957bd903a535b0\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="51518e8e8f97c314a243d9def0ded91d385b6a1e">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_b16254273fc80fb751df3c446e8b7b403b05de4e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\60e53c0a180541b16aa3cd555054185058f5012b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_3ded0a927986dfed817637462da006e08433b1f0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\3c0fc65aeba446c77c6b0ec47838185b54c8d86a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="16226703bab55ec42457666213cd3503799d36a8">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_1368e8f0a7b1fd070f8608d37ba7266d97158e08.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\common-1.0.0_311bd33184c253933f9c3ebac6a82f168728ad6d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\58885c96137cf73a99e6c5a9c5dd21ea314674c5\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_3baba0b0de946457df98cebc56789748a6ae332f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\6a19fd7ceef8474f1e74dddc69185a82dc8582ee\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_4b30a8b12abf7dd59068e02fb2440f7ae91265b1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\37d5acb87583f209b32ae19d1eafb6bff8fb8fd7\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_bd9265b9c626d7303485d2c68645e778e4c4ef35.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\2423178624ac5a4cc6add3610d12d05f96130781\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_409807d7fda8d69b55a8083a74d7a65d8f1c7948.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\20cdfb7bce74278d3df1b2c63b70de5264938925\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="4262bcd49b19d558c241bf8c68470fcc6fa1ac84">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_5698ceb362cf614581cc2575a9f537dcf8ad1eaa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\c2f0feb2fde2937e02d049844799121cd13ca3a2\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="2c1d9fbe7d2f686b3dcdbc3f63a983a211401ca3">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_25d3d5d27fc0059d73d90b033c883bdf77596674.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\32162f7672aa169fa94c1015c43f026a4b987c9b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="0ef21408e3142ffbfbd4a7ec1762c3325c6c386c">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_65960ce3557adf2aa291dc95f89556b38d97e6ef.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\178c3bad8e99ec731714d4d89ff200ead0aa1554\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="508f50705b4fde51a16259f29c854201a3044516">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_2e8649ca8377b98331b17ecb95e332636ecdc1dc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\5f1be7551d8ba8048794b5c0965d711323ec4be9\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="4802b21cc23549f7eba5edb802241091ad998b35">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_a2e5f6dce92cf9a16efc39b84e00748e822a18c1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\d63b0fb949196cd443c9df49967496af934b42ba\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_c2cf7bccfa238b542607d6fd82a181d2562399c8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\0e49712dd2a0bdb2aa2db1a5498d2fe6edb7e109\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_9ad3d66f779f3b4e7adbdcd056dd635ea68c552e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\common-1.0.0_083a979ec173b27943daf07f635330f67cccf93c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\36434066f30eda712d78d40e19743d8123ccf35c\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_f7b2bdd76f2f24be7ac0c3bec986f1100243c169.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\bb0b8b120401e60366ca7a70c3e32b4862b7a7cc\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="5e651c1430cc9b8a3b3b5a9d92bb173214dfdf42">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_581e7cd03bbc48e0ce812b9b07b8af07cef492ed.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\9e61b5b697c5ed2ed42fe11961b6c151c72f455b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="ebf985be182798e6322fee8fe437b14ee6bb8609">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_2dd887c7b4c1760723cfaef74bc4e8a360369635.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\e69edcddecec1e61f52d0852e46c7e01cf30b715\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="9a6350134db98fb39e212ddca5f0bad9280e8f3f">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_44abd457eb1b328d17c81578e53239e56310684d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\6046170a6cd872ecab4bf38c3077837563e4265e\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_99115e3481c1c163e4f5d191f10ad92b6bb597ce.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\glide-3.7.0_7898b503be95d561b45b59d4a5db2575f012a3de.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_88dd1ce8a18e7062ae7ade97dc53e7427618f662.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\719fabc0f7b2964dd7c9de9e68a9cedec93d8773\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="1f4bb2577a30d0b3268fed038ed59230709ad593">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_b5de23959bc95959157d25c538f98072b3261358.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\ba8b14ab8a57114b1b564d840984017132cb9a79\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="de2c50f4a24277d22d675d598640da6d4622b14d">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_a6a0ae3e059e669793fc1dbc0dfa58a1a102f473.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\b10aa7511d851c0da2709713c1d7caf1d8ce0b9b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="8ac09931704b91e7b4d281f5e34b3b006b628c22">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_3152dd94d529309cc5f0a43200669e536340fd35.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_4ffd24d5de89a2df46937b6568bb3b6b501cadf6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\66d053f5907b07146b8f279c6b96884c3aee6a56\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="fc5624185d414a0f572bfb3df7d841ceb335aef9">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_38618112c03ba1b6ce98a82615d71f17ffa46672.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\5a36dd160729330b38a3796f42a28f3f61c19859\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="a71be5f29a1c1e3fd3e84472742668f101a5b936">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_e7b6d4b9621187457ef10c6f238609114e449356.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\9b002c2d89780bf556cfb2e05b7f137a58691e54\output\jars\classes.jar"
+        jar="C:\Users\Njoud\.android\build-cache\233182167f1e9ebc0bde5021e07a174529db0004\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
         sha1="2737331564e0084fc0eb30ba500564a6dbe5e98f">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_17c87e56246a4e85e522362d4ca07f07cabdf514.jar" />
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_18d2ae2afd9666332a934d5d2ff502a9f8ce5890.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\a8a2e1fc24fbebc51fd330e6f9d76251d84fdf63\output\jars\classes.jar"
+        jar="C:\Users\Njoud\.android\build-cache\ca6c178dec63885fcaeaf6fdc68243cfc17d2603\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_0d037bf0a548705b77606784d5645a9879ea45ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\ded588036c66b2149425ace66289ed6096035f3c\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
         sha1="e70a3fed299d84cd868614e11021664d72b8e488">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_4221c2e243335897b4bed8c8a0a47ba17791dfe1.jar" />
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_10c8e9d4c444de2ff7638acb637ec3ee3eef3682.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\bb4e31407bf5e411ab02fcc0d4b5406caab2381b\output\jars\classes.jar"
+        jar="C:\Users\Njoud\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
-        sha1="2a2d9cd43adbe7599a78f2293273a77881c1909a">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_2b1c194768d8119bca385a9d82b8c7288e35c9e4.jar" />
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\common-1.0.0_6f9660c41801a68fa77ea222b888c5b21b458768.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\LENOVO\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\support-annotations-26.1.0_f98c119edb0fa74666bab83c170c8a8b49ead325.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\13187287cea0b17b5e9dd4087618e0133c319337\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_ff2fdb8187812ed1fccb940efdbcdf2bd331a08b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\5210babc97317fe2f45e9e66a506dac027710857\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="3c433e48557e476290f45fb6cb568d1a103c9978">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_7c874b595d99c915eec2fea4ba220d5fea969949.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\6e45aac946ece26f794bfa5b1495d9dfd53718d0\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_f6dab0cd8fc7136a48e6623ef77349f1d9a83846.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\15d6c8f94e35715aea9c57c73f2c0e36d886c5d7\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="86baa7d1051901fc1b8e7f596732f71f32175bde">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_8b91e9325c7c761accf808e12e201f283e9b9031.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\1dafda5fe5fa864533972cf34b669486d86d1290\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="f260cdc1a267b17b911022919f19d568e6624229">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_caff15094eac6148ef7d9a30863bf168280900bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\125352f0bea4b11689a25f4052bc6c2782473873\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_c9f7cd454d440e5ca32b907b667d022091dd6550.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\ed6ed936b12a7b62613a561da74a6d86f14ba1f3\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_ed7856e844c471c064bb0265cdaef335eb20f9bd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\b5f4198b9cdec0ce164467b8974e62e55ccdc794\output\jars\classes.jar"
+        jar="C:\Users\Njoud\.android\build-cache\1102f0f5a26e063f64224a03ea64b492ec0061ae\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
         sha1="240e5a7c620376184f3168cfdd36315b97b1fe07">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_1b8b9577c0f20b46401c9126355b7e3ae71a3961.jar" />
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_8993df04607d93957eaa5b347df24eafabece76b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\09a05c5600c13c7fa6e9943d30b761fdc8fedfb1\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="42a3ae86dd3ae2876d3e95c2e6e104ae57a50a65">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_5de0c2711d9b14fa0727d84b00a034a197412ae1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\output\jars\classes.jar"
+        jar="C:\Users\Njoud\.android\build-cache\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
         sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_aecb38573e8783e964188a5e645046daaf57b9c9.jar" />
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_677973d55bd751534ebc4302943296cba542ff70.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\LENOVO\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jar="C:\Users\Njoud\.android\build-cache\8176b35b71b7e9fefebd158d27d6106bba68022f\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
-        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_787a72e07d42893956c51ecba436ea10c194f23d.jar" />
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_06723648361a9b187c925a0b39464d88c3bab0c2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\2ddbd4bda8d7578e21c9778da74001781edbc607\output\jars\classes.jar"
+        jar="C:\Users\Njoud\.android\build-cache\254f7932e9f1c95e9b18c1853c54d24263870b69\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
-        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_5ef2a9ec0ff56727331a41e88e2780ab18ecbf2f.jar" />
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_11abca607dbcc86613b605f1229fb2cb9575ac70.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\LENOVO\.android\build-cache\01c4803d40aaa43092e4293aeb9e1f0e9412ca63\output\jars\classes.jar"
+        jar="C:\Users\Njoud\.android\build-cache\44947324f061b2e5a0cf2272c0691556ef6bf181\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2a7f46cbd5607e57e0aadce84c6a59dafeef1a7e">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_31778b5f92058d9d83382894be62a665172804e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\024b0afac515b3175e6a4d845659d3df71b980af\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_17084f0de53ccd044a3ad6afa1fa4b92cfb5bdb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\1c5c14ad697866cb5fd2a65f9e31770df5b0aaa9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9a6350134db98fb39e212ddca5f0bad9280e8f3f">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_ddb5767bca866ea773c2a89aa46a316e4e46ac32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\f4cc29d625c29fd9fc58af51138c85fb445df4ec\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
         sha1="9e8c74e789b51b9da4070aeaed71bae36c3d244f">
-        <dex dex="C:\Users\LENOVO\Desktop\GP\EnjadApp\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_f996135b58eaa7b0132ea0d5f263cc805b916b63.jar" />
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_6724a347476b56300fd12c276132d8388a148f91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\c59481fb0c29a0bdda22f763af5d600df33a3eaf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_e4d66651ed803d3138d81b6ca7a53b4200ed8880.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\9229b68aa465e9d4ebf360133cffc3bdf08029e1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_cae1efab539c7b501e36bb7aa256039bb4965770.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\e59e2c2e79a417653cba165b6b622af092240533\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2a2d9cd43adbe7599a78f2293273a77881c1909a">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_107d92d459f1d7bf325b4f3ca280a75e90c1ac1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\d9110aef87eb87c43c5d343f649df90e11abfc8a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_69b8fe13cf28b7a18cb8e948991b960ca5050f6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\ba8b9b8c943cadbb41fab8d57a32dc835e2fafaa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="86baa7d1051901fc1b8e7f596732f71f32175bde">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_540fd15d1f634c3840ca1c1c2dc85915d8608d60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\051ac92d1a58f5bb4b0bb0608b12378acc6649ba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_c5446af0f796deee532b75be738d040e040a6e3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\70a49b16dfeb005e68303175617dd4c134e8d981\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4262bcd49b19d558c241bf8c68470fcc6fa1ac84">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_f180a481fed5979d7bb5c09767b87ef9f02f0965.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\2e50d450f8f73ab9b330127b863bddcc4c2c1110\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="4802b21cc23549f7eba5edb802241091ad998b35">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_001c716795eb4c62d599aaa4bbd64da1a0efeedb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\common-1.0.0_cb294833deefe6796b9940f17817a9997500c052.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\cb35ce835a47f35d12b92b71c90a7e8177056b2d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_d852d6267e61b1725848d9300efcaf0aea20c7ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\5b627dfb88997677e3a7f3d2aaf657e269f04737\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2c1d9fbe7d2f686b3dcdbc3f63a983a211401ca3">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_6029d26ddb6cca347e1b98e7135580b3c1fcb2d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\support-annotations-26.1.0_e75fb31b7b496d14500918bfb94ebedcd5fb7572.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\55c35f841fe1944400b8e89e8462a1d89b4c18c6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_5085d35f8dae4d6ef28952b2e0069290185eef2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\6fece25d8aa7c7d68bd737cafc6a9fe306ac335f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_deaacca9f5b88acf3751c203d180b47f08f7bab8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\61446f1a4ed68e40d7697273e7bfe1cfb56f089d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_58d116e635a686eaabd61c2817ebe618caac7cd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_fa715338498b90e7c6fe75be949494a2601b3e6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\6f325615866a36c6af97e15addfae3cf81716762\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fc5624185d414a0f572bfb3df7d841ceb335aef9">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_4110f93763965caa35a09dc7ba078d5d48d6b93f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\24ddc28087fac972613d0c165b1b1d78a045b7bc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a71be5f29a1c1e3fd3e84472742668f101a5b936">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_6be9dc4912488dcaa36c7fa511f44c7e26ef734f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\7408af63c1f8d27f4afe7d58e3f32e40982bbd4b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_c0530c2b73850a20ff07744ef5f15a5853d65052.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\ee76bf0a6b7db193148d66c3aa55c49f5701e3d7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f260cdc1a267b17b911022919f19d568e6624229">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_aa7ee5378ad076c9a027f7f2b408def920b4b34f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Njoud\.android\build-cache\c97c616cbea736a975ad2244ed06f993380f1670\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\pre-dexed\debug\classes_df59d69f2a920eb0dc80162b9d566ee2f8b68faa.jar" />
     </item>
 
 </items>

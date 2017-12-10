@@ -874,6 +874,7 @@
     <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
     <string name="default_web_client_id" translatable="false">352690967329-shgt0osh1d3nmkdttcp9vn3q0bcbru8h.apps.googleusercontent.com</string>
     <string name="deleteaccount">حذف الحساب</string>
+    <string name="deleteuser">تم حذف الحساب بنجاح. </string>
     <string name="email">البريد الإلكتروني</string>
     <string name="emergytype">نوع الحالة:</string>
     <string name="emergytype1"> الحالة</string>
@@ -890,7 +891,7 @@
     <string name="google_app_id" translatable="false">1:352690967329:android:6dc528e44becdfff</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAevEfjj7JRinnM5f0BUmoulDODktTclk8</string>
     <string name="google_storage_bucket" translatable="false">enjadpp.appspot.com</string>
-    <string name="info">معلومات:</string>
+    <string name="info">المعلومات الصحية للمبلغ:</string>
     <string name="info1">معلومات</string>
     <string name="login">دخول</string>
     <string name="my_chats">المحادثات</string>
@@ -924,6 +925,7 @@
     <string name="theft">سرقة</string>
     <string name="toRegister">اضغط هنا إذا لم يكن لديك حساب</string>
     <string name="username">اسم المستخدم</string>
+    <string name="username1">اسم المبلغ:</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

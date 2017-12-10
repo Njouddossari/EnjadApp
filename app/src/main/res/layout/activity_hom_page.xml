@@ -18,7 +18,7 @@
         tools:context="com.example.lenovo.enjad.Activities.LoginActivity">
 
 
-        <!--android:background="@drawable/edittext_design" (for rounded textedit field) -->
+
 
 
     </android.support.constraint.ConstraintLayout>

@@ -6,81 +6,87 @@
     density="hdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1512611836984"
+    timestamp="1512735917853"
     token="4903822515630314074"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="3977" />
+        duration="11000" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="194" />
     <task
         name="verifier"
-        duration="0" />
+        duration="8" />
+
+    <artifact
+        location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Njoud\Desktop\EnjadApp\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1512609877213"
+        timestamp="1512733750306"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
+            location="C:\Users\Njoud\Desktop\EnjadApp\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Njoud\Desktop\EnjadApp\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1512610893332"
-        verifier="COLD_SWAP_REQUESTED" >
+            location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1512735917853"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
             location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Njoud\Desktop\EnjadApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Njoud\Desktop\EnjadApp\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1512611836984"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

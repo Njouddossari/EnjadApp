@@ -47,7 +47,9 @@
 
             <!-- uses-permission android:name="android.permission.GET_TASKS" / -->
         </activity>
-
+        <activity android:name=".Activities.ReportlistActivity"
+            android:label="@string/app_name">
+        </activity>
         <receiver android:name=".Services.PowerButtonListenr">
             <intent-filter
                 android:enabled="true"
@@ -105,6 +107,7 @@
             android:name=".Activities.ReportlistActivity"
             android:label="@string/app_name"></activity>
         <activity android:name=".Activities.reportInfoDailog"></activity>
+
     </application>
 
 </manifest>

@@ -64,6 +64,10 @@
 
             <!-- uses-permission android:name="android.permission.GET_TASKS" / -->
         </activity>
+        <activity
+            android:name="com.example.lenovo.enjad.Activities.ReportlistActivity"
+            android:label="@string/app_name" >
+        </activity>
 
         <receiver android:name="com.example.lenovo.enjad.Services.PowerButtonListenr" >
             <intent-filter
@@ -120,8 +124,8 @@
 
         <activity
             android:name="com.example.lenovo.enjad.Activities.ReportlistActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
+        <activity android:name="com.example.lenovo.enjad.Activities.reportInfoDailog" />
 
         <meta-data
             android:name="android.support.VERSION"

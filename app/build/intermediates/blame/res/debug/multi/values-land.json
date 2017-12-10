@@ -1,5 +1,107 @@
 [
     {
+        "outputFile": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 69,
+                    "endOffset": 120
+                },
+                "from": {
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 69,
+                        "endOffset": 120
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 125,
+                    "endColumn": 63,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 125,
+                        "endColumn": 63,
+                        "endOffset": 184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 189,
+                    "endColumn": 70,
+                    "endOffset": 255
+                },
+                "from": {
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 189,
+                        "endColumn": 70,
+                        "endOffset": 255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 260,
+                    "endColumn": 67,
+                    "endOffset": 323
+                },
+                "from": {
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 260,
+                        "endColumn": 67,
+                        "endOffset": 323
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 328,
+                    "endLine": 9,
+                    "endColumn": 12,
+                    "endOffset": 505
+                },
+                "from": {
+                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\55c35f841fe1944400b8e89e8462a1d89b4c18c6\\output\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 232
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
@@ -102,7 +204,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+        "outputFile": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
                 "to": {
@@ -113,7 +215,7 @@
                     "endOffset": 120
                 },
                 "from": {
-                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\4f763ab91d676f0202aa4383a4870fce006ebb7b\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -132,7 +234,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\4f763ab91d676f0202aa4383a4870fce006ebb7b\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -151,7 +253,7 @@
                     "endOffset": 255
                 },
                 "from": {
-                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\4f763ab91d676f0202aa4383a4870fce006ebb7b\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -170,7 +272,7 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\4f763ab91d676f0202aa4383a4870fce006ebb7b\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -190,7 +292,7 @@
                     "endOffset": 505
                 },
                 "from": {
-                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\0e49712dd2a0bdb2aa2db1a5498d2fe6edb7e109\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\deemah\\.android\\build-cache\\38d66010860b06482f715f7c5ac41455171a30b7\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -306,7 +408,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+        "outputFile": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
                 "to": {
@@ -317,7 +419,7 @@
                     "endOffset": 120
                 },
                 "from": {
-                    "file": "C:\\Users\\deemah\\.android\\build-cache\\4f763ab91d676f0202aa4383a4870fce006ebb7b\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -336,7 +438,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\deemah\\.android\\build-cache\\4f763ab91d676f0202aa4383a4870fce006ebb7b\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -355,7 +457,7 @@
                     "endOffset": 255
                 },
                 "from": {
-                    "file": "C:\\Users\\deemah\\.android\\build-cache\\4f763ab91d676f0202aa4383a4870fce006ebb7b\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -374,7 +476,7 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "C:\\Users\\deemah\\.android\\build-cache\\4f763ab91d676f0202aa4383a4870fce006ebb7b\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -394,7 +496,7 @@
                     "endOffset": 505
                 },
                 "from": {
-                    "file": "C:\\Users\\deemah\\.android\\build-cache\\38d66010860b06482f715f7c5ac41455171a30b7\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\0e49712dd2a0bdb2aa2db1a5498d2fe6edb7e109\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

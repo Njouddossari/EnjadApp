@@ -6,7 +6,7 @@
     android:layout_height="450dp"
     android:layout_marginTop="100dp"
     android:layout_gravity="center"
-    android:background="@color/colorPrimaryBlack"
+    android:background="@drawable/reportlistlayout"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".Activities.ReportlistActivity"
     tools:showIn="@layout/activity_reportlist">
@@ -24,11 +24,13 @@
     <android.support.v7.widget.AppCompatCheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/selectall"
         android:text="تحديد الكل"
         android:textSize="20dp"
         android:textStyle="bold"
+        android:layout_alignParentRight="true"
         android:layout_margin="10dp"
-        style="@style/CheckBoxTheme"
+        android:backgroundTint="@color/whitetext"
         android:textColor="@color/whitetext"
         android:gravity="right"/>
 
