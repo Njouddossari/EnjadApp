@@ -50,6 +50,8 @@ public class HomPageActivity extends AppCompatActivity {
 
 
         setContentView(R.layout.activity_hom_page);
+        Toolbar actionbar=(Toolbar) findViewById(R.id.action_bar);//Creating object toolbar
+        setSupportActionBar(actionbar);
 
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -135,8 +137,6 @@ public class HomPageActivity extends AppCompatActivity {
         Button ProfileB = (Button) findViewById(R.id.Profilebutton);
         Button ChatsB = (Button) findViewById(R.id.Chatsbutton);
 
-        Toolbar actionbar=(Toolbar) findViewById(R.id.action_bar);//Creating object toolbar
-        setSupportActionBar(actionbar);
 
 
         ProfileB.setOnClickListener(new View.OnClickListener() {

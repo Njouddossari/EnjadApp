@@ -66,7 +66,8 @@
         app:layout_constraintStart_toEndOf="@+id/accesset"
         app:layout_constraintTop_toBottomOf="@+id/providehelpSW"
         app:layout_constraintVertical_bias="0.023"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="8dp" />
 
     <Switch
         android:id="@+id/providehelpSW"
@@ -87,7 +88,8 @@
         app:layout_constraintStart_toEndOf="@+id/provideet"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.544"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="8dp" />
 
     <ImageView
         android:id="@+id/imageView12"
@@ -175,7 +177,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.579"
-        tools:ignore="MissingConstraints,NotSibling" />
+        tools:ignore="MissingConstraints,NotSibling"
+        android:layout_marginRight="32dp" />
 
     <ImageView
         android:id="@+id/imageView13"
@@ -297,7 +300,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.31" />
+        app:layout_constraintVertical_bias="0.31"
+        android:layout_marginRight="52dp" />
 
     <EditText
         android:id="@+id/Phoneet"
@@ -374,7 +378,7 @@
         android:layout_width="165dp"
         android:layout_height="30dp"
         android:layout_marginTop="20dp"
-        android:background="@android:color/holo_red_dark"
+        android:background="@color/colorPrimaryRed"
         android:hint="@string/phone"
         android:selectAllOnFocus="true"
         android:textAlignment="center"
@@ -397,7 +401,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
-        android:background="@android:color/holo_red_dark"
+        android:background="@color/colorPrimaryRed"
         android:hint="@string/phone"
         android:textAlignment="center"
         android:textColor="@color/whitetext"
@@ -418,7 +422,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
-        android:background="@android:color/holo_red_dark"
+        android:background="@color/colorPrimaryRed"
         android:hint="@string/phone"
         android:textAlignment="center"
         android:textColor="@color/whitetext"
@@ -463,40 +467,46 @@
 
 
     <ImageView
-        android:id="@+id/imageView23"
+        android:id="@+id/contact1"
         android:layout_width="30dp"
         android:layout_height="30dp"
+        android:visibility="invisible"
+        android:background="@color/colorPrimaryBlack"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.75"
-        app:srcCompat="@drawable/contact" />
+        app:srcCompat="@drawable/profileicon" />
 
     <ImageView
-        android:id="@+id/imageView25"
+        android:id="@+id/contact3"
         android:layout_width="30dp"
         android:layout_height="30dp"
+        android:visibility="invisible"
+        android:background="@color/colorPrimaryBlack"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.893"
-        app:srcCompat="@drawable/contact" />
+        app:srcCompat="@drawable/profileicon" />
 
     <ImageView
-        android:id="@+id/imageView24"
+        android:id="@+id/contact2"
         android:layout_width="30dp"
         android:layout_height="30dp"
+        android:visibility="invisible"
+        android:background="@color/colorPrimaryBlack"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.821"
-        app:srcCompat="@drawable/contact" />
+        app:srcCompat="@drawable/profileicon" />
 
 
 </android.support.constraint.ConstraintLayout>

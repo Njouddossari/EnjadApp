@@ -19,21 +19,21 @@ public class reportInfoDailog extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.report_info_dialog);
         obj=new reporterInfo();
-        usrname=(TextView) findViewById(R.id.txtusername);
-        severity=(TextView) findViewById(R.id.severity1);
-        type=(TextView) findViewById(R.id.emergtype1);
-        location=(TextView) findViewById(R.id.Location1);
-        healthinfo=(TextView) findViewById(R.id.info1);
+        usrname=(TextView) findViewById(R.id.usser_name);
+        severity=(TextView) findViewById(R.id.severity);
+        type=(TextView) findViewById(R.id.emergtype);
+        location=(TextView) findViewById(R.id.Location);
+        healthinfo=(TextView) findViewById(R.id.info);
 
 
         lng=obj.getLng();
         lat=obj.getLat();
         url_location="http://www.google.com/maps/place/"+lat+","+lng;
 
-        usrname.setText(obj.getUser_name());
-        severity.setText(obj.getReportSeverity());
-        type.setText(obj.getReportType());
-        healthinfo.setText(obj.getHealthInfo());
+        usrname.setText("@string/username1" + obj.getUser_name());
+        severity.setText("@string/severity"+ obj.getReportSeverity());
+        type.setText("@string/emergytype" + obj.getReportType());
+        healthinfo.setText("@string/info" + obj.getHealthInfo());
         location.setText( url_location);
 
         Linkify.addLinks(location,Linkify.WEB_URLS);

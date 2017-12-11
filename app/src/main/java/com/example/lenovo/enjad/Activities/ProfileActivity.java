@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Switch;
 import android.widget.Toast;
 
@@ -35,6 +36,7 @@ import java.util.regex.Pattern;
 public class ProfileActivity extends AppCompatActivity {
 
     EditText usrname_et, pass_et , email_et , health_et , mobile_et ,  contact1_et , contact2_et , contact3_et;
+    ImageView contact1, contact2, contact3;
     FirebaseAuth firebaseAuth;
     FirebaseUser user;
     DatabaseReference dbRefuser;
@@ -75,6 +77,9 @@ public class ProfileActivity extends AppCompatActivity {
         contact1_et= (EditText) findViewById(R.id.contact1et);
         contact2_et= (EditText) findViewById(R.id.contact2et);
         contact3_et= (EditText) findViewById(R.id.contact3et);
+        contact1 = (ImageView) findViewById(R.id.contact1);
+        contact2 = (ImageView) findViewById(R.id.contact2);
+        contact3 = (ImageView) findViewById(R.id.contact3);
 
         dbRefuser.addValueEventListener(new ValueEventListener() {
             @Override
@@ -103,13 +108,21 @@ public class ProfileActivity extends AppCompatActivity {
                     contact1_et.setVisibility(View.VISIBLE);
                     contact2_et.setVisibility(View.VISIBLE);
                     contact3_et.setVisibility(View.VISIBLE);
+                    contact1.setVisibility(View.VISIBLE);
+                    contact2.setVisibility(View.VISIBLE);
+                    contact3.setVisibility(View.VISIBLE);
 
                 }
                 else
                 {
                     contact1_et.setVisibility(View.INVISIBLE);
                     contact2_et.setVisibility(View.INVISIBLE);
-                    contact3_et.setVisibility(View.INVISIBLE);}
+                    contact3_et.setVisibility(View.INVISIBLE);
+                    contact1.setVisibility(View.INVISIBLE);
+                    contact2.setVisibility(View.INVISIBLE);
+                    contact3.setVisibility(View.INVISIBLE);
+
+                }
             }
         });
 

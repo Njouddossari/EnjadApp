@@ -25,4 +25,11 @@ public class User {
 
     }
 
+    public Double getLocation_lang() {
+        return location_lang;
+    }
+
+    public Double getLocation_lat() {
+        return location_lat;
+    }
 }

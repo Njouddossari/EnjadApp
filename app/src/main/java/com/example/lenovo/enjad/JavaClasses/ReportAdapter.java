@@ -14,6 +14,14 @@ import android.widget.TextView;
 
 
 import com.example.lenovo.enjad.R;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.List;
 
@@ -79,9 +87,29 @@ public class ReportAdapter extends RecyclerView.Adapter<ReportAdapter.MyViewHold
     //check ig crrent user is the same is report key
     @Override
     public void onBindViewHolder(final MyViewHolder holder, int position) {
+        final Double[] lat = new Double[1];
+        final Double[] lng = new Double[1];
+        FirebaseAuth firebaseAuth= FirebaseAuth.getInstance();
+        FirebaseUser currentuser = firebaseAuth.getCurrentUser();
+        DatabaseReference users = FirebaseDatabase.getInstance().getReference("user");
+        Query query = users.orderByChild(currentuser.getUid()).orderByChild("l");
+        query.addListenerForSingleValueEvent(new ValueEventListener() {
+                                                 @Override
+                                                 public void onDataChange(DataSnapshot dataSnapshot) {
+                                                     User user = dataSnapshot.getValue(User.class);
+                                                     lat[0] = user.getLocation_lat();
+                                                     lng[0] = user.getLocation_lang();
+                                                 }
+
+                                                 @Override
+                                                 public void onCancelled(DatabaseError databaseError) {
+
+                                                 }
+                                             });
+
         Report report = reportList.get(position);
         holder.reportType.setText("نوع الحالة: "+ report.getEmerg_type());
-        //holder.reportLoc.setText("الموقع: "+report.getEmerg_status());
+        holder.reportLoc.setText("الموقع: "+"http://www.google.com/maps/place/"+ lat[0] +","+ lng[0]);
         holder.reportNo.setText("رقم البلاغ: "+report.getReport_id());
         holder.reportLevel.setText("المستوى: "+report.getSeverity());
         //setting the Array

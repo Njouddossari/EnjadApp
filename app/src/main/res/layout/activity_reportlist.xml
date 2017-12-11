@@ -22,7 +22,8 @@
     <android.support.constraint.ConstraintLayout
         android:layout_width="544dp"
         android:layout_height="108dp"
-        tools:layout_editor_absoluteX="2dp">
+        tools:layout_editor_absoluteX="2dp"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/textreporterlist"

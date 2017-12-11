@@ -1,432 +1,571 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:2:1-113:12
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\99473eae1b4ab496f09d8eacd8a3435d\AndroidManifest.xml:17:1-31:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\ff9d2d33f724b49ad9acd03ae5287da3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f75e17e50ce226e86ab43e7b38417be6\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\71f7652d72aa2b29e2ef0f0776a68012\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.0.4.aar\ddaa61a0a26026fd0662a7cffdf45575\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-database:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-database-11.0.4.aar\a18fb5c957beb3e5f6be87a534778fd2\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\f5b6afe3951b7fb9d38629d5a162820b\AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.4.aar\b9bf494a5d08f062ea28c5ac572c3220\AndroidManifest.xml:2:1-5:12
+MERGED from [com.firebase:geofire-android:2.1.3] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\geofire-android-2.1.3.aar\39f087aeb18ae34eb75e46fae05a0c38\AndroidManifest.xml:1:1-5:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4218be0e7b059e5ebd94f0e3750664c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\18fccb46459a936f1d2d2b726e09f63b\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\7bf15b1bc6d76eb50d1def65774b5f2d\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f90a17b6757d4067bf34ab6e73d5852c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\daa135ac0c2553e8e5438a6ff4b6822a\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-database-connection:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.0.4.aar\d2a23146e814ecb2d0b3fecff89ff258\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\96586631406f86f08c3c62b8cbf38003\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\e1f0fefadc0d1b13a277c6adeb904800\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\3b59ec8b0f77855aa3bb8bfa38c98bb4\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\419d74c02a73a19d92c02e8cb89ef277\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5804de6ac6788227e866a2a07a6a12b0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\2405cecfc5889539b191082e59c517ce\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\61ccb951ead0b3dcf8175e63326908f3\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\e9d214f39553a3282b0cd0ca021deec4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5492e9b31f99690443e73f8c4a8346f0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\87429964131a4a0786eac8efa0273e5d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f360e07ff3863b9d80d3b92469aa52f9\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6ca939ca28e1cb7cdb7cd640138d18b1\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1d0bf62009f89fdb31cb3e306eac4618\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
 	package
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:3:5-39
-		INJECTED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml
-	xmlns:android
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:2:11-69
+		INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
+		INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
+		INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:11-69
 supports-screens
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:5:5-9:40
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:5:5-9:40
 	android:largeScreens
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:6:9-36
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:6:9-36
 	android:smallScreens
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:8:9-36
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:8:9-36
 	android:normalScreens
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:7:9-37
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:7:9-37
 	android:xlargeScreens
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:9:9-37
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:9:9-37
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:11:5-79
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:11:22-76
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:11:22-76
 uses-permission#android.permission.INTERNET
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:12:5-67
-MERGED from [com.firebase:geofire-android:2.1.3] /Users/deemah/.android/build-cache/139d74dec953aad87236172d32e694d0fdd960ea/output/AndroidManifest.xml:4:3-64
-MERGED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/deemah/.android/build-cache/19099738d546ac7da23d473c786065b34d0dad88/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:20:5-66
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:12:5-67
+MERGED from [com.firebase:geofire-android:2.1.3] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\geofire-android-2.1.3.aar\39f087aeb18ae34eb75e46fae05a0c38\AndroidManifest.xml:4:3-64
+MERGED from [com.firebase:geofire-android:2.1.3] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\geofire-android-2.1.3.aar\39f087aeb18ae34eb75e46fae05a0c38\AndroidManifest.xml:4:3-64
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\96586631406f86f08c3c62b8cbf38003\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\96586631406f86f08c3c62b8cbf38003\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:12:22-64
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.LOCATION_HARDWARE
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:13:5-76
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:13:5-76
 	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:13:22-73
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:13:22-73
 uses-feature#android.hardware.location.gps
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:15:5-66
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:15:5-66
 	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:15:19-63
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:15:19-63
 uses-feature#android.hardware.location.network
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:16:5-70
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:16:5-70
 	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:16:19-67
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:16:19-67
 application
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:18:5-111:19
-MERGED from [com.android.support:design:26.1.0] /Users/deemah/.android/build-cache/38d66010860b06482f715f7c5ac41455171a30b7/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:transition:26.1.0] /Users/deemah/.android/build-cache/5cb368ff5a78710f978bc26e6de11f6e5a494588/output/AndroidManifest.xml:22:5-26:19
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/deemah/.android/build-cache/5aafb03d9036f2283adc201d272672cdb1c93633/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/deemah/.android/build-cache/4f763ab91d676f0202aa4383a4870fce006ebb7b/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/deemah/.android/build-cache/2d422dd9755499a6f12612ea2c5ed3f4975f1114/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/deemah/.android/build-cache/fc9fe1877fcd21c82280b1ff892f808e40e61cd7/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/deemah/.android/build-cache/9970c29eb3c90b64ccadd8b31525824aa03242e8/output/AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-auth:11.0.2] /Users/deemah/.android/build-cache/0bd1bae7010814a79205c010024cd7bac2bfd36e/output/AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.firebase:firebase-messaging:11.0.2] /Users/deemah/.android/build-cache/a89e322ca447cc6d7670dc47438b1979825fca9e/output/AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.android.gms:play-services-location:11.0.2] /Users/deemah/.android/build-cache/1aca3edb852ca7e56e195a5689531dbc185bb33d/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-base:11.0.2] /Users/deemah/.android/build-cache/168454961af10974dd5f4dafa3bb322f07948350/output/AndroidManifest.xml:18:5-20:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/deemah/.android/build-cache/634c57effc0b9c937cc7ca8980cba22544790ff7/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:cardview-v7:26.1.0] /Users/deemah/.android/build-cache/01884c107f52fe68bebf3c35d6ea1998cfec897b/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.firebase:firebase-core:11.0.2] /Users/deemah/.android/build-cache/c76d8ead8e9cf8ebb1ca6e013543284eb729b04a/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:24:5-34:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/deemah/.android/build-cache/19099738d546ac7da23d473c786065b34d0dad88/output/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-common:11.0.2] /Users/deemah/.android/build-cache/cfe90f14ed2412adcfd64300dd042f54268c8153/output/AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.2] /Users/deemah/.android/build-cache/e9dd277bc5f9ea3608bfda83f78d00f609f26abb/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.2] /Users/deemah/.android/build-cache/3b79812ad744331bcc68bea308bbc5a8dbe45dc7/output/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/deemah/.android/build-cache/8f2371cfa43f7a74462b5a331622d4b184f586e4/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/deemah/.android/build-cache/23506b46e8b19a938999d89cc5a43c07e58e396f/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/deemah/.android/build-cache/a7f2da1bcfc77624952d4021c8286b789838e176/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/deemah/.android/build-cache/42c8d2dfba974035de65c62277d8e2283d277c57/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/deemah/.android/build-cache/7f601aa9bc3ffff41bf9c151788f81bb4a932087/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /Users/deemah/.android/build-cache/5510ee6ebf1937e2fe62d4f1e78ae279200dac05/output/AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/deemah/.android/build-cache/d4457575c3f5a6b052df1524f4182bf5ad72e1e1/output/AndroidManifest.xml:24:5-28:19
-	android:label
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:21:9-41
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:18:5-111:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\99473eae1b4ab496f09d8eacd8a3435d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\99473eae1b4ab496f09d8eacd8a3435d\AndroidManifest.xml:25:5-29:19
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\ff9d2d33f724b49ad9acd03ae5287da3\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\ff9d2d33f724b49ad9acd03ae5287da3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f75e17e50ce226e86ab43e7b38417be6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f75e17e50ce226e86ab43e7b38417be6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\71f7652d72aa2b29e2ef0f0776a68012\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\71f7652d72aa2b29e2ef0f0776a68012\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.0.4.aar\ddaa61a0a26026fd0662a7cffdf45575\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.0.4.aar\ddaa61a0a26026fd0662a7cffdf45575\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\f5b6afe3951b7fb9d38629d5a162820b\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\f5b6afe3951b7fb9d38629d5a162820b\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.4.aar\b9bf494a5d08f062ea28c5ac572c3220\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.4.aar\b9bf494a5d08f062ea28c5ac572c3220\AndroidManifest.xml:4:5-19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4218be0e7b059e5ebd94f0e3750664c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4218be0e7b059e5ebd94f0e3750664c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\18fccb46459a936f1d2d2b726e09f63b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\18fccb46459a936f1d2d2b726e09f63b\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\7bf15b1bc6d76eb50d1def65774b5f2d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\7bf15b1bc6d76eb50d1def65774b5f2d\AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f90a17b6757d4067bf34ab6e73d5852c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f90a17b6757d4067bf34ab6e73d5852c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\daa135ac0c2553e8e5438a6ff4b6822a\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\daa135ac0c2553e8e5438a6ff4b6822a\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\96586631406f86f08c3c62b8cbf38003\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\96586631406f86f08c3c62b8cbf38003\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\e1f0fefadc0d1b13a277c6adeb904800\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\e1f0fefadc0d1b13a277c6adeb904800\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\3b59ec8b0f77855aa3bb8bfa38c98bb4\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\3b59ec8b0f77855aa3bb8bfa38c98bb4\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\419d74c02a73a19d92c02e8cb89ef277\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\419d74c02a73a19d92c02e8cb89ef277\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5804de6ac6788227e866a2a07a6a12b0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5804de6ac6788227e866a2a07a6a12b0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\2405cecfc5889539b191082e59c517ce\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\2405cecfc5889539b191082e59c517ce\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\61ccb951ead0b3dcf8175e63326908f3\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\61ccb951ead0b3dcf8175e63326908f3\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\e9d214f39553a3282b0cd0ca021deec4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\e9d214f39553a3282b0cd0ca021deec4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5492e9b31f99690443e73f8c4a8346f0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5492e9b31f99690443e73f8c4a8346f0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\87429964131a4a0786eac8efa0273e5d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\87429964131a4a0786eac8efa0273e5d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f360e07ff3863b9d80d3b92469aa52f9\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f360e07ff3863b9d80d3b92469aa52f9\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6ca939ca28e1cb7cdb7cd640138d18b1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6ca939ca28e1cb7cdb7cd640138d18b1\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1d0bf62009f89fdb31cb3e306eac4618\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1d0bf62009f89fdb31cb3e306eac4618\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:23:9-35
-	android:roundIcon
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:22:9-54
-	android:allowBackup
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:19:9-35
-	android:icon
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:20:9-50
-	android:theme
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:24:9-65
-activity#com.example.lenovo.enjad.Activities.SignupActivity
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:25:9-63
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:25:19-60
-activity#com.example.lenovo.enjad.Activities.LoginActivity
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:26:9-62
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:26:19-59
-activity#com.example.lenovo.enjad.Activities.chatActivity
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:27:9-61
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:27:19-58
-activity#com.example.lenovo.enjad.Activities.ProfileActivity
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:28:9-30:57
-	android:icon
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:30:13-54
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:29:13-55
-activity#com.example.lenovo.enjad.Activities.EmrgTypeDialog
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:31:9-33:57
-	android:icon
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:33:13-54
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:32:13-54
-activity#com.example.lenovo.enjad.Activities.HomPageActivity
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:34:9-36:57
-	android:icon
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:36:13-54
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:35:13-55
-activity#com.example.lenovo.enjad.Activities.MainActivity
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:37:9-49:20
-	android:icon
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:39:13-54
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:38:13-52
-intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.HOME+android.intent.category.LAUNCHER
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:40:13-46:29
-action#android.intent.action.MAIN
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:41:17-69
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:41:25-66
-category#android.intent.category.HOME
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:43:17-73
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:43:27-70
-category#android.intent.category.DEFAULT
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:44:17-76
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:44:27-73
-category#android.intent.category.LAUNCHER
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:45:17-77
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:45:27-74
-activity#com.example.lenovo.enjad.Activities.ReportlistActivity
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:50:9-52:20
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:23:9-35
 	android:label
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:51:13-45
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:50:19-64
-receiver#com.example.lenovo.enjad.Services.PowerButtonListenr
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:53:9-60:20
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:53:19-62
-intent-filter#android.intent.action.SCREEN_OFF+android.intent.action.SCREEN_ON
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:54:13-59:29
-	android:enabled
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:55:17-39
-	android:exported
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:56:17-41
-action#android.intent.action.SCREEN_OFF
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:57:17-75
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:57:25-72
-action#android.intent.action.SCREEN_ON
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:58:17-74
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:58:25-71
-service#com.example.lenovo.enjad.Services.ScreenOnOffService
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:62:9-66:19
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:62:18-61
-intent-filter#.ScreenOnOffService
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:63:13-65:29
-action#.ScreenOnOffService
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:64:17-62
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:64:25-59
-service#com.example.lenovo.enjad.Services.getlocationService
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:67:9-69:40
-	android:exported
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:69:13-37
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:68:13-56
-activity#com.example.lenovo.enjad.Activities.TestActivity
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:71:9-61
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:71:19-58
-meta-data#com.google.firebase.messaging.default_notification_icon
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:73:9-75:61
-	android:resource
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:75:13-58
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:74:13-83
-meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:80:9-82:57
-	android:resource
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:82:13-54
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:81:13-84
-meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:85:9-87:71
-	android:value
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:87:13-68
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:86:13-89
-service#com.example.lenovo.enjad.Services.FCMTokenInstanceIdService
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:89:9-96:19
-	android:enabled
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:91:13-35
-	android:exported
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:92:13-36
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:90:13-63
-intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:93:13-95:29
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:94:17-80
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:94:25-77
-service#com.example.lenovo.enjad.Services.MyFCMService
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:97:9-104:19
-	android:enabled
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:99:13-35
-	android:exported
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:100:13-36
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:98:13-50
-intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:101:13-103:29
-action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:102:17-78
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:102:25-75
-activity#com.example.lenovo.enjad.Activities.reportInfoDailog
-ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:109:9-74
-	android:name
-		ADDED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml:109:19-62
-uses-sdk
-INJECTED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:26.1.0] /Users/deemah/.android/build-cache/38d66010860b06482f715f7c5ac41455171a30b7/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:26.1.0] /Users/deemah/.android/build-cache/5cb368ff5a78710f978bc26e6de11f6e5a494588/output/AndroidManifest.xml:20:5-44
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/deemah/.android/build-cache/5aafb03d9036f2283adc201d272672cdb1c93633/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/deemah/.android/build-cache/4f763ab91d676f0202aa4383a4870fce006ebb7b/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/deemah/.android/build-cache/2d422dd9755499a6f12612ea2c5ed3f4975f1114/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/deemah/.android/build-cache/fc9fe1877fcd21c82280b1ff892f808e40e61cd7/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/deemah/.android/build-cache/9970c29eb3c90b64ccadd8b31525824aa03242e8/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-auth:11.0.2] /Users/deemah/.android/build-cache/0bd1bae7010814a79205c010024cd7bac2bfd36e/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-database:11.0.2] /Users/deemah/.android/build-cache/4ae33a3cb1d15b17aac14aa806beaffa1e455eb9/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-database-connection:11.0.2] /Users/deemah/.android/build-cache/a4d94240e83ed862cdd6ce48a0934517623e39e2/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-messaging:11.0.2] /Users/deemah/.android/build-cache/a89e322ca447cc6d7670dc47438b1979825fca9e/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-location:11.0.2] /Users/deemah/.android/build-cache/1aca3edb852ca7e56e195a5689531dbc185bb33d/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.2] /Users/deemah/.android/build-cache/168454961af10974dd5f4dafa3bb322f07948350/output/AndroidManifest.xml:17:5-43
-MERGED from [com.firebase:geofire-android:2.1.3] /Users/deemah/.android/build-cache/139d74dec953aad87236172d32e694d0fdd960ea/output/AndroidManifest.xml:2:3-70
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/deemah/.android/build-cache/634c57effc0b9c937cc7ca8980cba22544790ff7/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:26.1.0] /Users/deemah/.android/build-cache/01884c107f52fe68bebf3c35d6ea1998cfec897b/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-core:11.0.2] /Users/deemah/.android/build-cache/c76d8ead8e9cf8ebb1ca6e013543284eb729b04a/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/deemah/.android/build-cache/19099738d546ac7da23d473c786065b34d0dad88/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-common:11.0.2] /Users/deemah/.android/build-cache/cfe90f14ed2412adcfd64300dd042f54268c8153/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.2] /Users/deemah/.android/build-cache/e9dd277bc5f9ea3608bfda83f78d00f609f26abb/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.2] /Users/deemah/.android/build-cache/3b79812ad744331bcc68bea308bbc5a8dbe45dc7/output/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:26.1.0] /Users/deemah/.android/build-cache/8f2371cfa43f7a74462b5a331622d4b184f586e4/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/deemah/.android/build-cache/23506b46e8b19a938999d89cc5a43c07e58e396f/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/deemah/.android/build-cache/a7f2da1bcfc77624952d4021c8286b789838e176/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/deemah/.android/build-cache/42c8d2dfba974035de65c62277d8e2283d277c57/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/deemah/.android/build-cache/7f601aa9bc3ffff41bf9c151788f81bb4a932087/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.1.0] /Users/deemah/.android/build-cache/5510ee6ebf1937e2fe62d4f1e78ae279200dac05/output/AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/deemah/.android/build-cache/d4457575c3f5a6b052df1524f4182bf5ad72e1e1/output/AndroidManifest.xml:20:5-22:41
-	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] /Users/deemah/.android/build-cache/38d66010860b06482f715f7c5ac41455171a30b7/output/AndroidManifest.xml:23:9-59
-	android:targetSdkVersion
-		INJECTED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/deemah/Desktop/EnjadApp/app/src/main/AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.1.0] /Users/deemah/.android/build-cache/38d66010860b06482f715f7c5ac41455171a30b7/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:transition:26.1.0] /Users/deemah/.android/build-cache/5cb368ff5a78710f978bc26e6de11f6e5a494588/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/deemah/.android/build-cache/4f763ab91d676f0202aa4383a4870fce006ebb7b/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/deemah/.android/build-cache/2d422dd9755499a6f12612ea2c5ed3f4975f1114/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/deemah/.android/build-cache/fc9fe1877fcd21c82280b1ff892f808e40e61cd7/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/deemah/.android/build-cache/634c57effc0b9c937cc7ca8980cba22544790ff7/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:cardview-v7:26.1.0] /Users/deemah/.android/build-cache/01884c107f52fe68bebf3c35d6ea1998cfec897b/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] /Users/deemah/.android/build-cache/8f2371cfa43f7a74462b5a331622d4b184f586e4/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /Users/deemah/.android/build-cache/23506b46e8b19a938999d89cc5a43c07e58e396f/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /Users/deemah/.android/build-cache/a7f2da1bcfc77624952d4021c8286b789838e176/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /Users/deemah/.android/build-cache/42c8d2dfba974035de65c62277d8e2283d277c57/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /Users/deemah/.android/build-cache/7f601aa9bc3ffff41bf9c151788f81bb4a932087/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /Users/deemah/.android/build-cache/5510ee6ebf1937e2fe62d4f1e78ae279200dac05/output/AndroidManifest.xml:26:9-28:38
-	android:value
-		ADDED from [com.android.support:design:26.1.0] /Users/deemah/.android/build-cache/38d66010860b06482f715f7c5ac41455171a30b7/output/AndroidManifest.xml:28:13-35
-	android:name
-		ADDED from [com.android.support:design:26.1.0] /Users/deemah/.android/build-cache/38d66010860b06482f715f7c5ac41455171a30b7/output/AndroidManifest.xml:27:13-51
-service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:11.0.2] /Users/deemah/.android/build-cache/a89e322ca447cc6d7670dc47438b1979825fca9e/output/AndroidManifest.xml:23:9-27:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:11.0.2] /Users/deemah/.android/build-cache/a89e322ca447cc6d7670dc47438b1979825fca9e/output/AndroidManifest.xml:23:88-111
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.0.2] /Users/deemah/.android/build-cache/a89e322ca447cc6d7670dc47438b1979825fca9e/output/AndroidManifest.xml:23:18-87
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.2] /Users/deemah/.android/build-cache/168454961af10974dd5f4dafa3bb322f07948350/output/AndroidManifest.xml:19:9-172
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.2] /Users/deemah/.android/build-cache/168454961af10974dd5f4dafa3bb322f07948350/output/AndroidManifest.xml:19:146-170
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:21:9-41
+	android:roundIcon
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:22:9-54
+	android:icon
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:20:9-50
+	android:allowBackup
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.2] /Users/deemah/.android/build-cache/168454961af10974dd5f4dafa3bb322f07948350/output/AndroidManifest.xml:19:86-145
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:24:9-65
+activity#com.example.lenovo.enjad.Activities.SignupActivity
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:25:9-63
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.2] /Users/deemah/.android/build-cache/168454961af10974dd5f4dafa3bb322f07948350/output/AndroidManifest.xml:19:19-85
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:25:19-60
+activity#com.example.lenovo.enjad.Activities.LoginActivity
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:26:9-62
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:26:19-59
+activity#com.example.lenovo.enjad.Activities.chatActivity
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:27:9-61
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:27:19-58
+activity#com.example.lenovo.enjad.Activities.ProfileActivity
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:28:9-30:57
+	android:icon
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:30:13-54
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:29:13-55
+activity#com.example.lenovo.enjad.Activities.EmrgTypeDialog
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:31:9-33:57
+	android:icon
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:33:13-54
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:32:13-54
+activity#com.example.lenovo.enjad.Activities.HomPageActivity
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:34:9-36:57
+	android:icon
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:36:13-54
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:35:13-55
+activity#com.example.lenovo.enjad.Activities.MainActivity
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:37:9-49:20
+	android:icon
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:39:13-54
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:38:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.HOME+android.intent.category.LAUNCHER
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:40:13-46:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:41:25-66
+category#android.intent.category.HOME
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:43:17-73
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:43:27-70
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:44:17-76
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:44:27-73
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:45:27-74
+activity#com.example.lenovo.enjad.Activities.ReportlistActivity
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:50:9-52:20
+	android:label
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:51:13-45
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:50:19-64
+receiver#com.example.lenovo.enjad.Services.PowerButtonListenr
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:53:9-60:20
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:53:19-62
+intent-filter#android.intent.action.SCREEN_OFF+android.intent.action.SCREEN_ON
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:54:13-59:29
+	android:enabled
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:55:17-39
+	android:exported
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:56:17-41
+action#android.intent.action.SCREEN_OFF
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:57:17-75
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:57:25-72
+action#android.intent.action.SCREEN_ON
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:58:17-74
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:58:25-71
+service#com.example.lenovo.enjad.Services.ScreenOnOffService
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:62:9-66:19
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:62:18-61
+intent-filter#.ScreenOnOffService
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:63:13-65:29
+action#com.example.lenovo.enjad.ScreenOnOffService
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:64:17-62
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:64:25-59
+service#com.example.lenovo.enjad.Services.getlocationService
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:67:9-69:40
+	android:exported
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:69:13-37
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:68:13-56
+activity#com.example.lenovo.enjad.Activities.TestActivity
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:71:9-61
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:71:19-58
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:73:9-75:61
+	android:resource
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:75:13-58
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:74:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:80:9-82:57
+	android:resource
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:82:13-54
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:81:13-84
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:85:9-87:71
+	android:value
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:87:13-68
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:86:13-89
+service#com.example.lenovo.enjad.Services.FCMTokenInstanceIdService
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:89:9-96:19
+	android:enabled
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:91:13-35
+	android:exported
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:92:13-36
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:90:13-63
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:93:13-95:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:94:17-80
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:94:25-77
+service#com.example.lenovo.enjad.Services.MyFCMService
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:97:9-104:19
+	android:enabled
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:99:13-35
+	android:exported
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:100:13-36
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:98:13-50
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:101:13-103:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:102:17-78
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:102:25-75
+activity#com.example.lenovo.enjad.Activities.reportInfoDailog
+ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:109:9-74
+	android:name
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:109:19-62
+uses-sdk
+INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\99473eae1b4ab496f09d8eacd8a3435d\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\99473eae1b4ab496f09d8eacd8a3435d\AndroidManifest.xml:21:5-23:62
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\ff9d2d33f724b49ad9acd03ae5287da3\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\ff9d2d33f724b49ad9acd03ae5287da3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f75e17e50ce226e86ab43e7b38417be6\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f75e17e50ce226e86ab43e7b38417be6\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\71f7652d72aa2b29e2ef0f0776a68012\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\71f7652d72aa2b29e2ef0f0776a68012\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.0.4.aar\ddaa61a0a26026fd0662a7cffdf45575\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.0.4.aar\ddaa61a0a26026fd0662a7cffdf45575\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-database-11.0.4.aar\a18fb5c957beb3e5f6be87a534778fd2\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-database-11.0.4.aar\a18fb5c957beb3e5f6be87a534778fd2\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\f5b6afe3951b7fb9d38629d5a162820b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\f5b6afe3951b7fb9d38629d5a162820b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.4.aar\b9bf494a5d08f062ea28c5ac572c3220\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.4.aar\b9bf494a5d08f062ea28c5ac572c3220\AndroidManifest.xml:3:5-43
+MERGED from [com.firebase:geofire-android:2.1.3] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\geofire-android-2.1.3.aar\39f087aeb18ae34eb75e46fae05a0c38\AndroidManifest.xml:2:3-70
+MERGED from [com.firebase:geofire-android:2.1.3] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\geofire-android-2.1.3.aar\39f087aeb18ae34eb75e46fae05a0c38\AndroidManifest.xml:2:3-70
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4218be0e7b059e5ebd94f0e3750664c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4218be0e7b059e5ebd94f0e3750664c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\18fccb46459a936f1d2d2b726e09f63b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\18fccb46459a936f1d2d2b726e09f63b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\7bf15b1bc6d76eb50d1def65774b5f2d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\7bf15b1bc6d76eb50d1def65774b5f2d\AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f90a17b6757d4067bf34ab6e73d5852c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f90a17b6757d4067bf34ab6e73d5852c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\daa135ac0c2553e8e5438a6ff4b6822a\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\daa135ac0c2553e8e5438a6ff4b6822a\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.0.4.aar\d2a23146e814ecb2d0b3fecff89ff258\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.0.4.aar\d2a23146e814ecb2d0b3fecff89ff258\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\96586631406f86f08c3c62b8cbf38003\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\96586631406f86f08c3c62b8cbf38003\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\e1f0fefadc0d1b13a277c6adeb904800\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\e1f0fefadc0d1b13a277c6adeb904800\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\3b59ec8b0f77855aa3bb8bfa38c98bb4\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\3b59ec8b0f77855aa3bb8bfa38c98bb4\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\419d74c02a73a19d92c02e8cb89ef277\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\419d74c02a73a19d92c02e8cb89ef277\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5804de6ac6788227e866a2a07a6a12b0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5804de6ac6788227e866a2a07a6a12b0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\2405cecfc5889539b191082e59c517ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\2405cecfc5889539b191082e59c517ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\61ccb951ead0b3dcf8175e63326908f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\61ccb951ead0b3dcf8175e63326908f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\e9d214f39553a3282b0cd0ca021deec4\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\e9d214f39553a3282b0cd0ca021deec4\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5492e9b31f99690443e73f8c4a8346f0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5492e9b31f99690443e73f8c4a8346f0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\87429964131a4a0786eac8efa0273e5d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\87429964131a4a0786eac8efa0273e5d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f360e07ff3863b9d80d3b92469aa52f9\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f360e07ff3863b9d80d3b92469aa52f9\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6ca939ca28e1cb7cdb7cd640138d18b1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6ca939ca28e1cb7cdb7cd640138d18b1\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1d0bf62009f89fdb31cb3e306eac4618\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1d0bf62009f89fdb31cb3e306eac4618\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\99473eae1b4ab496f09d8eacd8a3435d\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Njoud\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\99473eae1b4ab496f09d8eacd8a3435d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f75e17e50ce226e86ab43e7b38417be6\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f75e17e50ce226e86ab43e7b38417be6\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4218be0e7b059e5ebd94f0e3750664c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4218be0e7b059e5ebd94f0e3750664c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\18fccb46459a936f1d2d2b726e09f63b\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\18fccb46459a936f1d2d2b726e09f63b\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f90a17b6757d4067bf34ab6e73d5852c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f90a17b6757d4067bf34ab6e73d5852c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5804de6ac6788227e866a2a07a6a12b0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5804de6ac6788227e866a2a07a6a12b0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\2405cecfc5889539b191082e59c517ce\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\2405cecfc5889539b191082e59c517ce\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\61ccb951ead0b3dcf8175e63326908f3\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\61ccb951ead0b3dcf8175e63326908f3\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\e9d214f39553a3282b0cd0ca021deec4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\e9d214f39553a3282b0cd0ca021deec4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5492e9b31f99690443e73f8c4a8346f0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5492e9b31f99690443e73f8c4a8346f0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\87429964131a4a0786eac8efa0273e5d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\87429964131a4a0786eac8efa0273e5d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f360e07ff3863b9d80d3b92469aa52f9\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f360e07ff3863b9d80d3b92469aa52f9\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6ca939ca28e1cb7cdb7cd640138d18b1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\6ca939ca28e1cb7cdb7cd640138d18b1\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\99473eae1b4ab496f09d8eacd8a3435d\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\99473eae1b4ab496f09d8eacd8a3435d\AndroidManifest.xml:27:13-51
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\f5b6afe3951b7fb9d38629d5a162820b\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\f5b6afe3951b7fb9d38629d5a162820b\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\f5b6afe3951b7fb9d38629d5a162820b\AndroidManifest.xml:23:18-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\daa135ac0c2553e8e5438a6ff4b6822a\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\daa135ac0c2553e8e5438a6ff4b6822a\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\daa135ac0c2553e8e5438a6ff4b6822a\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\daa135ac0c2553e8e5438a6ff4b6822a\AndroidManifest.xml:19:19-85
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/deemah/.android/build-cache/19099738d546ac7da23d473c786065b34d0dad88/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:19:5-78
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\96586631406f86f08c3c62b8cbf38003\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\96586631406f86f08c3c62b8cbf38003\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:21:22-76
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:21:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/deemah/.android/build-cache/19099738d546ac7da23d473c786065b34d0dad88/output/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:21:5-67
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\96586631406f86f08c3c62b8cbf38003\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\96586631406f86f08c3c62b8cbf38003\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:22:22-65
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:22:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/deemah/.android/build-cache/19099738d546ac7da23d473c786065b34d0dad88/output/AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\96586631406f86f08c3c62b8cbf38003\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\96586631406f86f08c3c62b8cbf38003\AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:27:162-184
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:27:185-208
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:27:185-208
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /Users/deemah/.android/build-cache/19099738d546ac7da23d473c786065b34d0dad88/output/AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\96586631406f86f08c3c62b8cbf38003\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\96586631406f86f08c3c62b8cbf38003\AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:32:16-87
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:33:7-197
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:33:7-197
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:33:148-170
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:33:148-170
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:33:171-195
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:33:171-195
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:33:91-147
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:33:91-147
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.2] /Users/deemah/.android/build-cache/d257bbce69efd9adbce03ec2ae4e79d0cd4e9120/output/AndroidManifest.xml:33:16-90
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\bafdb07513d04de8fa80e1813d739871\AndroidManifest.xml:33:16-90
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:22:5-81
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:22:22-79
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:22:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:24:17-71
+permission#com.example.lenovo.enjad.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:26:22-76
+uses-permission#com.example.lenovo.enjad.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:30:9-35:20
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:30:9-35:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:31:13-34:29
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:31:13-34:29
+intent-filter#com.example.lenovo.enjad+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:31:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:32:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:33:17-60
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:33:27-58
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:33:27-58
+category#com.example.lenovo.enjad
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:33:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:39:9-119
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:39:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:39:93-117
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:39:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:39:19-92
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:39:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:43:9-47:19
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:43:9-47:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:43:83-106
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:43:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.2] /Users/deemah/.android/build-cache/08ef1d0b15310497d85625ed44da751b2480328c/output/AndroidManifest.xml:43:18-82
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\6b01c7150051be7df6dbd6bc0be4cb24\AndroidManifest.xml:43:18-82
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:11.0.2] /Users/deemah/.android/build-cache/cfe90f14ed2412adcfd64300dd042f54268c8153/output/AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\e1f0fefadc0d1b13a277c6adeb904800\AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:11.0.2] /Users/deemah/.android/build-cache/cfe90f14ed2412adcfd64300dd042f54268c8153/output/AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\e1f0fefadc0d1b13a277c6adeb904800\AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:11.0.2] /Users/deemah/.android/build-cache/cfe90f14ed2412adcfd64300dd042f54268c8153/output/AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\e1f0fefadc0d1b13a277c6adeb904800\AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:11.0.2] /Users/deemah/.android/build-cache/cfe90f14ed2412adcfd64300dd042f54268c8153/output/AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\e1f0fefadc0d1b13a277c6adeb904800\AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:11.0.2] /Users/deemah/.android/build-cache/cfe90f14ed2412adcfd64300dd042f54268c8153/output/AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\e1f0fefadc0d1b13a277c6adeb904800\AndroidManifest.xml:6:79-143
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.0.2] /Users/deemah/.android/build-cache/3b79812ad744331bcc68bea308bbc5a8dbe45dc7/output/AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\419d74c02a73a19d92c02e8cb89ef277\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.0.2] /Users/deemah/.android/build-cache/3b79812ad744331bcc68bea308bbc5a8dbe45dc7/output/AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\419d74c02a73a19d92c02e8cb89ef277\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.0.2] /Users/deemah/.android/build-cache/3b79812ad744331bcc68bea308bbc5a8dbe45dc7/output/AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\419d74c02a73a19d92c02e8cb89ef277\AndroidManifest.xml:20:20-65
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/deemah/.android/build-cache/d4457575c3f5a6b052df1524f4182bf5ad72e1e1/output/AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1d0bf62009f89fdb31cb3e306eac4618\AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/deemah/.android/build-cache/d4457575c3f5a6b052df1524f4182bf5ad72e1e1/output/AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1d0bf62009f89fdb31cb3e306eac4618\AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/deemah/.android/build-cache/d4457575c3f5a6b052df1524f4182bf5ad72e1e1/output/AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Njoud\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\1d0bf62009f89fdb31cb3e306eac4618\AndroidManifest.xml:26:13-58

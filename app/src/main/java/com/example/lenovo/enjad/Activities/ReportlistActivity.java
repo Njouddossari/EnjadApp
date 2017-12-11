@@ -8,15 +8,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.Spinner;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.lenovo.enjad.JavaClasses.Report;
 import com.example.lenovo.enjad.JavaClasses.ReportAdapter;
 import com.example.lenovo.enjad.R;
+import com.firebase.geofire.GeoFire;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -32,7 +38,7 @@ public class ReportlistActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
     private ReportAdapter adapter;
-
+    TextView emptylist;
     public CheckBox selectall;
     List<Report> reportList;
     @Override
@@ -40,13 +46,17 @@ public class ReportlistActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_reportlist);
+        Toolbar actionbar=(Toolbar) findViewById(R.id.action_bar);//Creating object toolbar
+        setSupportActionBar(actionbar);
 
+        emptylist = (TextView) findViewById(R.id.norport);
+        selectall = (CheckBox) findViewById(R.id.selectall);
         //Hold the coolection of reports
         reportList = new ArrayList<Report>();
         adapter = new ReportAdapter(this, reportList);
 
 
-        selectall = (CheckBox) findViewById(R.id.selectcard);
+
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(this, 1);
@@ -62,11 +72,18 @@ public class ReportlistActivity extends AppCompatActivity {
 
         prepareAlbums();
 
+        if(reportList == null){
 
-        try {
-        } catch (Exception e) {
-            e.printStackTrace();
+            emptylist.setVisibility(View.VISIBLE);
+            selectall.setVisibility(View.INVISIBLE);
+
         }
+        else {
+            emptylist.setVisibility(View.INVISIBLE);
+            selectall.setVisibility(View.VISIBLE);
+        }
+
+
     }
 
 
@@ -96,8 +113,10 @@ public class ReportlistActivity extends AppCompatActivity {
                     String username = dataSnapshot.child("username").getValue(String.class);
                     Report a = new Report(severity,emergtype, emergstat, username);
                     reportList.add(a);
+                    adapter.notifyDataSetChanged();
                 }
-                adapter.notifyDataSetChanged();
+
+
             }
 
             @Override
@@ -177,5 +196,27 @@ public class ReportlistActivity extends AppCompatActivity {
         Intent i = new Intent(this,ReportAdapter.class);
         i.putExtra("check","true");
 
+    }
+
+
+    @Override
+    public boolean onPrepareOptionsMenu(final Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) { //to tell if item is selected from the menu
+        FirebaseAuth firebaseAuth= FirebaseAuth.getInstance();
+        DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("User_location");
+        GeoFire geoFire = new GeoFire(myRef);
+        geoFire.removeLocation((firebaseAuth.getCurrentUser().getUid()));
+        firebaseAuth.signOut();
+        Toast.makeText(getApplicationContext(),getString(R.string.success_Log_out), Toast.LENGTH_LONG).show();
+        finish();
+        startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+        return super.onOptionsItemSelected(item);
     }
 }
