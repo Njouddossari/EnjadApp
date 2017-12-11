@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+        "outputFile": "/Users/deemah/Desktop/EnjadApp/C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 116
                 },
                 "from": {
-                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\6fece25d8aa7c7d68bd737cafc6a9fe306ac335f\\output\\res\\values-v16\\values-v16.xml",
+                    "file": "/Users/deemah/Desktop/EnjadApp/C:\\Users\\Njoud\\.android\\build-cache\\6fece25d8aa7c7d68bd737cafc6a9fe306ac335f\\output\\res\\values-v16\\values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -31,7 +31,7 @@
                     "endOffset": 289
                 },
                 "from": {
-                    "file": "C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-v16\\values-v16.xml",
+                    "file": "/Users/deemah/Desktop/EnjadApp/C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-v16\\values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+        "outputFile": "/Users/deemah/Desktop/EnjadApp/C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
         "map": [
             {
                 "to": {
@@ -56,7 +56,7 @@
                     "endOffset": 116
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\2ddbd4bda8d7578e21c9778da74001781edbc607\\output\\res\\values-v16\\values-v16.xml",
+                    "file": "/Users/deemah/Desktop/EnjadApp/C:\\Users\\LENOVO\\.android\\build-cache\\2ddbd4bda8d7578e21c9778da74001781edbc607\\output\\res\\values-v16\\values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -76,7 +76,7 @@
                     "endOffset": 289
                 },
                 "from": {
-                    "file": "C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v16\\values-v16.xml",
+                    "file": "/Users/deemah/Desktop/EnjadApp/C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v16\\values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -90,7 +90,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+        "outputFile": "/Users/deemah/Desktop/EnjadApp/C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
         "map": [
             {
                 "to": {
@@ -101,7 +101,7 @@
                     "endOffset": 116
                 },
                 "from": {
-                    "file": "C:\\Users\\deemah\\.android\\build-cache\\5510ee6ebf1937e2fe62d4f1e78ae279200dac05\\output\\res\\values-v16\\values-v16.xml",
+                    "file": "/Users/deemah/Desktop/EnjadApp/C:\\Users\\deemah\\.android\\build-cache\\5510ee6ebf1937e2fe62d4f1e78ae279200dac05\\output\\res\\values-v16\\values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -121,7 +121,7 @@
                     "endOffset": 289
                 },
                 "from": {
-                    "file": "C:\\Users\\deemah\\.android\\build-cache\\4f763ab91d676f0202aa4383a4870fce006ebb7b\\output\\res\\values-v16\\values-v16.xml",
+                    "file": "/Users/deemah/Desktop/EnjadApp/C:\\Users\\deemah\\.android\\build-cache\\4f763ab91d676f0202aa4383a4870fce006ebb7b\\output\\res\\values-v16\\values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -135,7 +135,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+        "outputFile": "/Users/deemah/Desktop/EnjadApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
         "map": [
             {
                 "to": {
@@ -146,7 +146,7 @@
                     "endOffset": 116
                 },
                 "from": {
-                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\2ddbd4bda8d7578e21c9778da74001781edbc607\\output\\res\\values-v16\\values-v16.xml",
+                    "file": "/Users/deemah/.android/build-cache/5510ee6ebf1937e2fe62d4f1e78ae279200dac05/output/res/values-v16/values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -166,7 +166,7 @@
                     "endOffset": 289
                 },
                 "from": {
-                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v16\\values-v16.xml",
+                    "file": "/Users/deemah/.android/build-cache/4f763ab91d676f0202aa4383a4870fce006ebb7b/output/res/values-v16/values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -180,7 +180,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+        "outputFile": "/Users/deemah/Desktop/EnjadApp/C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\Desktop\\GP\\EnjadApp\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
         "map": [
             {
                 "to": {
@@ -191,7 +191,7 @@
                     "endOffset": 116
                 },
                 "from": {
-                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\.android\\build-cache\\6fece25d8aa7c7d68bd737cafc6a9fe306ac335f\\output\\res\\values-v16\\values-v16.xml",
+                    "file": "/Users/deemah/Desktop/EnjadApp/C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\2ddbd4bda8d7578e21c9778da74001781edbc607\\output\\res\\values-v16\\values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -211,7 +211,52 @@
                     "endOffset": 289
                 },
                 "from": {
-                    "file": "C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-v16\\values-v16.xml",
+                    "file": "/Users/deemah/Desktop/EnjadApp/C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\LENOVO\\.android\\build-cache\\d43b2020094f2ae59c5e4b9caf5af1815a8aae76\\output\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 223
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/deemah/Desktop/EnjadApp/C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 65,
+                    "endOffset": 116
+                },
+                "from": {
+                    "file": "/Users/deemah/Desktop/EnjadApp/C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\.android\\build-cache\\6fece25d8aa7c7d68bd737cafc6a9fe306ac335f\\output\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 65,
+                        "endOffset": 116
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 121,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 289
+                },
+                "from": {
+                    "file": "/Users/deemah/Desktop/EnjadApp/C:\\Users\\deemah\\Desktop\\الجامعة\\EnjadApp\\C:\\Users\\Njoud\\.android\\build-cache\\d6ebdff64b7bae3fcb376efc08bc3da368e6d619\\output\\res\\values-v16\\values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

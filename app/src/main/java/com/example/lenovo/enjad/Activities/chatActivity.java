@@ -102,7 +102,7 @@ public class chatActivity extends AppCompatActivity {
 
 
         new AlertDialog.Builder(this).setTitle("معلومات البلاغ").setView(addView)
-                .setPositiveButton("الإنسحاب من المحادثة", new DialogInterface.OnClickListener() {
+                .setPositiveButton("إغلاق", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int whichButton) {
 
                     }

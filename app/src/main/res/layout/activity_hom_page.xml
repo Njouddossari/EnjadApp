@@ -18,15 +18,23 @@
         tools:context="com.example.lenovo.enjad.Activities.LoginActivity">
 
 
-
-
-
+        <include
+            android:id="@+id/include5"
+            layout="@layout/shared_design"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
     </android.support.constraint.ConstraintLayout>
 
     <Button
         android:id="@+id/Chatsbutton"
-        android:layout_width="148dp"
-        android:layout_height="33dp"
+        android:layout_width="165dp"
+        android:layout_height="30dp"
         android:layout_below="@+id/Profilebutton"
         android:layout_toLeftOf="@+id/imageView16"
         android:layout_toStartOf="@+id/imageView16"
@@ -46,8 +54,8 @@
 
     <Button
         android:id="@+id/Profilebutton"
-        android:layout_width="148dp"
-        android:layout_height="33dp"
+        android:layout_width="165dp"
+        android:layout_height="30dp"
         android:layout_below="@+id/Reportsbutton"
         android:layout_toLeftOf="@+id/imageView16"
         android:layout_toStartOf="@+id/imageView16"
@@ -67,8 +75,8 @@
 
     <Button
         android:id="@+id/Reportsbutton"
-        android:layout_width="148dp"
-        android:layout_height="33dp"
+        android:layout_width="165dp"
+        android:layout_height="30dp"
         android:layout_below="@+id/textView"
         android:layout_toLeftOf="@+id/imageView15"
         android:layout_toStartOf="@+id/imageView15"
@@ -86,8 +94,8 @@
 
     <ImageView
         android:id="@+id/imageView17"
-        android:layout_width="39dp"
-        android:layout_height="39dp"
+        android:layout_width="33dp"
+        android:layout_height="31dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/Profilebutton"
@@ -95,7 +103,7 @@
         android:elevation="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintHorizontal_bias="0.28"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.38"
@@ -103,8 +111,8 @@
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="39dp"
-        android:layout_height="39dp"
+        android:layout_width="33dp"
+        android:layout_height="30dp"
         android:layout_alignLeft="@+id/imageView17"
         android:layout_alignStart="@+id/imageView17"
         android:layout_alignTop="@+id/Chatsbutton"
@@ -112,16 +120,16 @@
         android:elevation="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintHorizontal_bias="0.28"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.598"
+        app:layout_constraintVertical_bias="0.59000003"
         app:srcCompat="@drawable/chaticon" />
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="39dp"
-        android:layout_height="39dp"
+        android:layout_width="33dp"
+        android:layout_height="31dp"
         android:layout_alignLeft="@+id/imageView16"
         android:layout_alignStart="@+id/imageView16"
         android:layout_alignTop="@+id/Reportsbutton"
@@ -129,10 +137,10 @@
         android:elevation="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintHorizontal_bias="0.28"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.484"
+        app:layout_constraintVertical_bias="0.48000002"
         app:srcCompat="@drawable/bellicon" />
 
     <TextView
@@ -145,8 +153,9 @@
         android:text="@string/username"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textColor="@color/colorPrimaryBlack"
-        android:textSize="14sp"
+        android:textColor="@color/colorPrimaryRed"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

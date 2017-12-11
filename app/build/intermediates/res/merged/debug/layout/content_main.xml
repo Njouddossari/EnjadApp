@@ -22,16 +22,16 @@
         android:layout_marginTop="50dp"/>
 
     <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/selectall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/selectall"
-        android:text="تحديد الكل"
-        android:textSize="20dp"
-        android:textStyle="bold"
         android:layout_alignParentRight="true"
         android:layout_margin="10dp"
         android:backgroundTint="@color/whitetext"
+        android:gravity="right"
+        android:text="تحديد الكل"
         android:textColor="@color/whitetext"
-        android:gravity="right"/>
+        android:textSize="14sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
