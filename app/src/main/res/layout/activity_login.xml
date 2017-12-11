@@ -10,7 +10,6 @@
     android:background="@drawable/enjadapp_bg">
 
 
-
     <EditText
         android:id="@+id/emailET"
         android:layout_width="221dp"
@@ -113,6 +112,23 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/enjadapplogo"
         tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/signuptextview2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:text="@string/New_user"
+        android:textColor="@color/colorPrimaryRed"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
 
     <!--android:background="@drawable/edittext_design" (for rounded textedit field) -->
 

@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.lenovo.enjad.Activities.HomPageActivity;
@@ -42,6 +43,14 @@ public class LoginActivity extends AppCompatActivity {
         bulogin= (Button) findViewById(R.id.loginbu);
         emailet= (EditText) findViewById(R.id.emailET);
         passwordet= (EditText) findViewById(R.id.Passwordet);
+        TextView signupTV= (TextView) findViewById(R.id.signuptextview);
+        signupTV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { //move to signup page
+                Intent R = new Intent(getApplicationContext(),SignupActivity.class);
+                startActivity(R);
+            }
+        });
 
 
 
