@@ -1,10 +1,45 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/deemah/Desktop/GP/EnjadApp/C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\deemah\\Desktop\\GP\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/deemah/Desktop/GP/EnjadApp/C:\\Users\\Njoud\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-26.1.0.aar\\18fccb46459a936f1d2d2b726e09f63b\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\deemah\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\6270327c6f60d7ca9d0c8a3e22c55774\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\deemah\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-26.1.0.aar\\5b671b4d7b596a8049b3fe42e150a7c9\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "2646",
+                        "endLines": "39",
+                        "endColumns": "12",
+                        "endOffsets": "2791"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\deemah\\Desktop\\GP\\EnjadApp\\C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v23\\values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\deemah\\Desktop\\GP\\EnjadApp\\C:\\Users\\Njoud\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-26.1.0.aar\\18fccb46459a936f1d2d2b726e09f63b\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +58,7 @@
                     }
                 },
                 {
-                    "source": "/Users/deemah/Desktop/GP/EnjadApp/C:\\Users\\Njoud\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f75e17e50ce226e86ab43e7b38417be6\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\deemah\\Desktop\\GP\\EnjadApp\\C:\\Users\\Njoud\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f75e17e50ce226e86ab43e7b38417be6\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -36,10 +71,10 @@
             ]
         },
         {
-            "outputFile": "/Users/deemah/Desktop/GP/EnjadApp/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/deemah/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/5b671b4d7b596a8049b3fe42e150a7c9/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\Njoud\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-26.1.0.aar\\18fccb46459a936f1d2d2b726e09f63b\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -58,7 +93,7 @@
                     }
                 },
                 {
-                    "source": "/Users/deemah/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6270327c6f60d7ca9d0c8a3e22c55774/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\Njoud\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f75e17e50ce226e86ab43e7b38417be6\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

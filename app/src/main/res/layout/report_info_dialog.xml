@@ -97,6 +97,7 @@
         android:layout_width="169dp"
         android:layout_height="46dp"
         android:layout_alignTop="@id/secondlayout"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/reportinfosecondlayer"
         android:gravity="center_horizontal"
         android:padding="8dp"
@@ -105,9 +106,9 @@
         android:textColor="@color/whitetext"
         android:textSize="17dp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="238dp" />
+        tools:layout_editor_absoluteX="35dp" />
 
     <ImageView
         android:id="@+id/imageView21"

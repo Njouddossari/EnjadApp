@@ -60,10 +60,10 @@ public class chatActivity extends AppCompatActivity {
 
         final View addView = getLayoutInflater().inflate(R.layout.report_info_dialog, null);
        // ImageButton Mute = (ImageButton) findViewById(R.id.MuteButton);
-      // final TextView info = (TextView) addView.findViewById(R.id.info1);
-      //final   TextView Etype = (TextView) addView.findViewById(R.id.emergtype1);
-      //final   TextView severity = (TextView) addView.findViewById(R.id.severity1);
-      //final  TextView location = (TextView) addView.findViewById(R.id.Location1);
+        final TextView info = (TextView) addView.findViewById(R.id.info);
+      final   TextView Etype = (TextView) addView.findViewById(R.id.emergtype);
+      final   TextView severity = (TextView) addView.findViewById(R.id.severity);
+      final  TextView location = (TextView) addView.findViewById(R.id.Location);
 
         mDatabase = FirebaseDatabase.getInstance().getReference("LastReport");
 
@@ -82,10 +82,10 @@ public class chatActivity extends AppCompatActivity {
                         String Severity = dataSnapshot.child("LastReport").child(uid).child("severity").getValue(String.class);
                         String Location = dataSnapshot.child("User_location").child(uid).child("g").getValue(String.class);
 
-                        //info.setText(inform);
+                       // info.setText(inform);
                         //Etype.setText(emergType);
-                        //severity.setText(Severity);
-                        //location.setText(Location);
+                       // severity.setText(Severity);
+                       // location.setText(Location);
 
                     }
 
@@ -101,12 +101,7 @@ public class chatActivity extends AppCompatActivity {
 
 
 
-        new AlertDialog.Builder(this).setTitle("معلومات البلاغ").setView(addView)
-                .setPositiveButton("إغلاق", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int whichButton) {
-
-                    }
-                }).show();
+        new AlertDialog.Builder(this).setView(addView).show();
 
         return (super.onOptionsItemSelected(item));}
 }

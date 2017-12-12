@@ -43,7 +43,7 @@ public class LoginActivity extends AppCompatActivity {
         bulogin= (Button) findViewById(R.id.loginbu);
         emailet= (EditText) findViewById(R.id.emailET);
         passwordet= (EditText) findViewById(R.id.Passwordet);
-        TextView signupTV= (TextView) findViewById(R.id.signuptextview);
+        TextView signupTV= (TextView) findViewById(R.id.signuptextview3);
         signupTV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { //move to signup page

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/deemah/Desktop/GP/EnjadApp/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "C:\\Users\\deemah\\Desktop\\GP\\EnjadApp\\C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/deemah/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6270327c6f60d7ca9d0c8a3e22c55774/res/values-night-v8/values-night-v8.xml",
+                    "source": "C:\\Users\\deemah\\Desktop\\GP\\EnjadApp\\C:\\Users\\Njoud\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f75e17e50ce226e86ab43e7b38417be6\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -16,10 +16,25 @@
             ]
         },
         {
-            "outputFile": "/Users/deemah/Desktop/GP/EnjadApp/C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\Njoud\\Desktop\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/deemah/Desktop/GP/EnjadApp/C:\\Users\\Njoud\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f75e17e50ce226e86ab43e7b38417be6\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\Njoud\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f75e17e50ce226e86ab43e7b38417be6\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "120,204,288,384,486,588,682"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\deemah\\Desktop\\GP\\EnjadApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\deemah\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\6270327c6f60d7ca9d0c8a3e22c55774\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
