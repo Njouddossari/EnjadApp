@@ -87,7 +87,7 @@ public class ReportAdapter extends RecyclerView.Adapter<ReportAdapter.MyViewHold
     //check ig crrent user is the same is report key
     @Override
     public void onBindViewHolder(final MyViewHolder holder, int position) {
-        final Double[] lat = new Double[1];
+        /*final Double[] lat = new Double[1];
         final Double[] lng = new Double[1];
         FirebaseAuth firebaseAuth= FirebaseAuth.getInstance();
         FirebaseUser currentuser = firebaseAuth.getCurrentUser();
@@ -105,11 +105,11 @@ public class ReportAdapter extends RecyclerView.Adapter<ReportAdapter.MyViewHold
                                                  public void onCancelled(DatabaseError databaseError) {
 
                                                  }
-                                             });
+                                             });*/
 
         Report report = reportList.get(position);
         holder.reportType.setText("نوع الحالة: "+ report.getEmerg_type());
-        holder.reportLoc.setText("الموقع: "+"http://www.google.com/maps/place/"+ lat[0] +","+ lng[0]);
+        holder.reportLoc.setText("الموقع: "+"http://www.google.com/maps/place/"+ "32.453" +","+ "23.2135");
         holder.reportNo.setText("رقم البلاغ: "+report.getReport_id());
         holder.reportLevel.setText("المستوى: "+report.getSeverity());
         //setting the Array

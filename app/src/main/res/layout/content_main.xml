@@ -34,12 +34,18 @@
         android:textColor="@color/whitetext"
         android:textSize="14sp"
         android:textStyle="bold" />
+
     <TextView
+        android:id="@+id/norport"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/selectall"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
         android:visibility="invisible"
+        android:text="لا يوجد بلاغات"
         android:textColor="@color/whitetext"
-        android:textSize="20dp"
-        android:id="@+id/norport"/>
+        android:textSize="20dp" />
 
 </RelativeLayout>

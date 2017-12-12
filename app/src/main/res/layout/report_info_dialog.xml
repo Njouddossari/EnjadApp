@@ -2,20 +2,22 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="320dp"
-    android:layout_height="300dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_gravity="center"
     android:background="@drawable/reportinfofirstlayer"
     tools:context="com.example.lenovo.enjad.Activities.reportInfoDailog">
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/secondlayout"
-        android:layout_width="250dp"
-        android:layout_height="200dp"
+        android:layout_width="216dp"
+        android:layout_height="131dp"
         android:layout_gravity="center"
         android:background="@drawable/reportinfosecondlayer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="35dp"
         tools:layout_editor_absoluteY="16dp">
 
 
@@ -28,24 +30,27 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.53"
+            app:layout_constraintHorizontal_bias="0.47"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.359" />
+            app:layout_constraintVertical_bias="0.23000002" />
 
 
         <TextView
             android:id="@+id/usser_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
             android:text="اسم المبلغ: علي"
             android:textColor="@color/whitetext"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.149" />
+            app:layout_constraintVertical_bias="0.04000002" />
 
 
         <TextView
@@ -58,44 +63,49 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.323" />
+            app:layout_constraintVertical_bias="0.0" />
 
 
         <TextView
             android:id="@+id/info"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="48dp"
             android:text="المعلومات الصحية: سكر وربو"
             android:textColor="@color/whitetext"
             android:textStyle="bold"
 
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.679" />
+            app:layout_constraintVertical_bias="0.64" />
 
         <TextView
             android:id="@+id/Location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="الموقع:google.com/maps/place/93.093"
+            android:textAlignment="center"
             android:textColor="@color/whitetext"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.545"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.856" />
+            app:layout_constraintVertical_bias="0.943" />
 
     </android.support.constraint.ConstraintLayout>
 
     <Button
-        android:layout_width="169dp"
-        android:layout_height="46dp"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
         android:layout_alignTop="@id/secondlayout"
         android:layout_marginBottom="8dp"
         android:background="@drawable/reportinfosecondlayer"
@@ -104,22 +114,30 @@
         android:text="الإنسحاب من المحادثة"
         android:textAlignment="center"
         android:textColor="@color/whitetext"
-        android:textSize="17dp"
+        android:textSize="12sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="35dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondlayout"
+        app:layout_constraintVertical_bias="0.031"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView21"
-        android:layout_width="@android:dimen/app_icon_size"
-        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
         android:layout_alignTop="@id/secondlayout"
         android:background="@drawable/reportinfosecondlayer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondlayout"
+        app:layout_constraintVertical_bias="0.100000024"
         app:srcCompat="@drawable/mute"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="237dp"
-        tools:layout_editor_absoluteY="236dp" />
+        tools:ignore="MissingConstraints" />
 
 
 </android.support.constraint.ConstraintLayout>
