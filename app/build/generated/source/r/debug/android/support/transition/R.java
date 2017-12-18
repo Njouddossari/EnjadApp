@@ -75,8 +75,8 @@ public final class R {
         public static final int actions = 0x7f090027;
         public static final int async = 0x7f090030;
         public static final int blocking = 0x7f090034;
-        public static final int cancel_action = 0x7f090039;
-        public static final int chronometer = 0x7f090040;
+        public static final int cancel_action = 0x7f090038;
+        public static final int chronometer = 0x7f09003f;
         public static final int end_padder = 0x7f09005e;
         public static final int forever = 0x7f090069;
         public static final int ghost_view = 0x7f09006a;
@@ -97,16 +97,16 @@ public final class R {
         public static final int save_image_matrix = 0x7f0900c9;
         public static final int save_non_transition_alpha = 0x7f0900ca;
         public static final int save_scale_type = 0x7f0900cb;
-        public static final int status_bar_latest_event_content = 0x7f0900f7;
-        public static final int text = 0x7f0900fc;
-        public static final int text2 = 0x7f0900fd;
-        public static final int time = 0x7f090106;
-        public static final int title = 0x7f090107;
-        public static final int transition_current_scene = 0x7f09010e;
-        public static final int transition_layout_save = 0x7f09010f;
-        public static final int transition_position = 0x7f090110;
-        public static final int transition_scene_layoutid_cache = 0x7f090111;
-        public static final int transition_transform = 0x7f090112;
+        public static final int status_bar_latest_event_content = 0x7f0900f8;
+        public static final int text = 0x7f0900fd;
+        public static final int text2 = 0x7f0900fe;
+        public static final int time = 0x7f090107;
+        public static final int title = 0x7f090108;
+        public static final int transition_current_scene = 0x7f09010f;
+        public static final int transition_layout_save = 0x7f090110;
+        public static final int transition_position = 0x7f090111;
+        public static final int transition_scene_layoutid_cache = 0x7f090112;
+        public static final int transition_transform = 0x7f090113;
     }
     public static final class integer {
         public static final int cancel_button_image_alpha = 0x7f0a0004;

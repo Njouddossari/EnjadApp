@@ -1,6 +1,7 @@
 package com.example.lenovo.enjad.Activities;
 
 import android.content.Intent;
+import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -8,6 +9,10 @@ import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.RadioButton;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.lenovo.enjad.JavaClasses.Report;
 import com.example.lenovo.enjad.R;
@@ -27,11 +32,13 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestActivity extends AppCompatActivity {
+public class TestActivity extends AppCompatActivity implements CompoundButton.OnCheckedChangeListener{
     FirebaseAuth firebaseAuth;
     FirebaseUser user;
     DatabaseReference databaseReference;
     String username;
+    RadioButton userInput1 , userInput2 , userInput3 ,  userInput4, userInput5;
+    TextView others;
     public Double lng , lat;
     List <String >  nearest_helpers_id = new ArrayList<>(); // to store nearest helpers id
     List <String > helpers_id = new ArrayList<>(); // to store helpers id
@@ -66,7 +73,42 @@ public class TestActivity extends AppCompatActivity {
             @Override
             public void onCancelled(DatabaseError databaseError) {}
         });
+
+
+        userInput1 = (RadioButton) findViewById(R.id.radioButton);
+        userInput1.setOnCheckedChangeListener(this);
+        userInput2 = (RadioButton) findViewById(R.id.radioButton2);
+        userInput2.setOnCheckedChangeListener(this);
+        userInput3 = (RadioButton) findViewById(R.id.radioButton3);
+        userInput3.setOnCheckedChangeListener(this);
+        userInput4 = (RadioButton) findViewById(R.id.radioButton4);
+        userInput4.setOnCheckedChangeListener(this);
+        userInput5 = (RadioButton) findViewById(R.id.radioButton5);
+        userInput5.setOnCheckedChangeListener(this);
+        others = (TextView) findViewById(R.id.othertype);
         Button send_report_BU = (Button) findViewById(R.id.btnsend);
+
+
+        //to send the report with no report type selected after 10 secoend --> Njoud
+        new CountDownTimer(10000,  1000) {
+
+            @Override
+            public void onTick(long millisUntilFinished) {
+                // TODO Auto-generated method stub
+
+            }
+
+            @Override
+            public void onFinish() {
+                // TODO Auto-generated method stub
+                //send report with unknown type
+                Report new_report = new Report ("عالي", "غيرمعروف", "نشط" , username);
+                SaveReport(new_report);
+                Intent R = new Intent(getApplicationContext(),HomPageActivity.class);
+                startActivity(R);
+            }
+        }.start();
+
 
 
 
@@ -76,8 +118,45 @@ public class TestActivity extends AppCompatActivity {
 
                 // we can select the severity based on   the user choice if the user not select the type
                 // , the severity  of the report = unknown
-                Report new_report = new Report ("High ", "حريق", "نشط" , username);
-                SaveReport(new_report); //save report info in the DB
+                String type, severity;
+                if (userInput1.isChecked() ){
+                    type="حادث";
+                    severity ="عالي";
+                    Report new_report = new Report (severity, type, "نشط" , username);
+                    SaveReport(new_report);
+                }
+                else if (userInput2.isChecked() ){
+                    type="حالة إسعافية";
+                    severity="عالي";
+                    Report new_report = new Report (severity, type, "نشط" , username);
+                    SaveReport(new_report);
+                }
+                else if (userInput3.isChecked() ){
+                    type="سرقة";
+                    severity="منخفض";
+                    Report new_report = new Report (severity, type, "نشط" , username);
+                    SaveReport(new_report);
+                }
+                else if (userInput4.isChecked() ){
+                    type="حريق";
+                    severity="عالي";
+                    Report new_report = new Report (severity, type, "نشط" , username);
+                    SaveReport(new_report);
+                }
+                else if (userInput5.isChecked() ){
+                    if (others != null){
+                        type = others.getText().toString().trim();
+                        severity="منخفض";
+                        Report new_report = new Report (severity, type, "نشط" , username);
+                        SaveReport(new_report);
+                    }
+                    else{
+                        type="غيرمعروف";
+                        severity="عالي";
+                        Report new_report = new Report (severity, type, "نشط" , username);
+                        SaveReport(new_report);
+                    }
+                }
                 //---
                 //now we search for nearest user through Geofire query
                 DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("User_location");
@@ -106,13 +185,16 @@ public class TestActivity extends AppCompatActivity {
 
                     GeoQuery find_nearest_helpers_query = geoFire.queryAtLocation(new GeoLocation(lat, lng), 7);
                     find_nearest_helpers_query.removeAllListeners();//find nearest helpers
-                    Log.v(" testing", "Testing ");
+                    Log.v(" remove all lisiner", "Testing ");
                     find_nearest_helpers_query.addGeoQueryEventListener(new GeoQueryEventListener() {
                         @Override
                         public void onKeyEntered(String key, GeoLocation location) { // The location of a key now matches the query criteria.
-                            nearest_helpers_id.add(key);
-                            Log.v("matched", "User added with id: " + key);
-
+                            DatabaseReference configRef = FirebaseDatabase.getInstance().getReference("configuration");
+                            int helper = configRef.child("key").child("act_as_helper").toString().compareTo("1");
+                            if(helper == 1){
+                                nearest_helpers_id.add(key);
+                                Log.v("matched", "User added with id: " + key);
+                            }
                         }
 
                         @Override
@@ -226,7 +308,42 @@ public class TestActivity extends AppCompatActivity {
         String id= obj.getReport_id();
         ReportRef.child(user.getUid()).child( id).setValue(obj);
         ReportRef1.child(user.getUid()).setValue(obj); // for notification purpose
+        Log.v(" save", "seve report succuess");
     }
 
-
+    @Override
+    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+        if (isChecked) {
+            if (buttonView.getId() == R.id.radioButton) {
+                userInput2.setChecked(false);
+                userInput3.setChecked(false);
+                userInput4.setChecked(false);
+                userInput5.setChecked(false);
+            }
+            if (buttonView.getId() == R.id.radioButton2) {
+                userInput1.setChecked(false);
+                userInput3.setChecked(false);
+                userInput4.setChecked(false);
+                userInput5.setChecked(false);
+            }
+            if (buttonView.getId() == R.id.radioButton3) {
+                userInput1.setChecked(false);
+                userInput2.setChecked(false);
+                userInput4.setChecked(false);
+                userInput5.setChecked(false);
+            }
+            if (buttonView.getId() == R.id.radioButton4) {
+                userInput1.setChecked(false);
+                userInput3.setChecked(false);
+                userInput2.setChecked(false);
+                userInput5.setChecked(false);
+            }
+            if (buttonView.getId() == R.id.radioButton5) {
+                userInput1.setChecked(false);
+                userInput3.setChecked(false);
+                userInput2.setChecked(false);
+                userInput4.setChecked(false);
+            }
+        }
+    }
 }

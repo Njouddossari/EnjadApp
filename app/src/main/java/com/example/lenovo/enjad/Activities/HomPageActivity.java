@@ -101,7 +101,7 @@ public class HomPageActivity extends AppCompatActivity {
             });
 
             Intent i0 = new Intent(this,ScreenOnOffService.class);
-            i0.setAction(".ScreenOnOffService");
+            i0.setAction("Services.ScreenOnOffService");
             startService(i0); //listen to power button
 
 
@@ -175,7 +175,7 @@ public class HomPageActivity extends AppCompatActivity {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 // All good!
             } else {
-                Toast.makeText(this, "Need your location!", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this, "Need your location!", Toast.LENGTH_SHORT).show();
             }
 
             return;
@@ -202,11 +202,11 @@ public class HomPageActivity extends AppCompatActivity {
         // stop the services
         //1
         Intent i0 = new Intent(this,ScreenOnOffService.class);
-        i0.setAction(".ScreenOnOffService");
+        i0.setAction("Services.ScreenOnOffService");
         stopService(i0);
         //2
         Intent i1 = new Intent(this,getlocationService.class);
-        i1.setAction(".getlocationService");
+        i1.setAction("Services.getlocationService");
         stopService(i1);
         //Stop AlarmManager
         long interval = 1000 * 60 * 15; // 5 minutes in milliseconds

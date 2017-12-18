@@ -54,6 +54,16 @@ public class ReportlistActivity extends AppCompatActivity {
         //Hold the coolection of reports
         reportList = new ArrayList<Report>();
         adapter = new ReportAdapter(this, reportList);
+        if(reportList == null){
+
+            emptylist.setVisibility(View.VISIBLE);
+            selectall.setVisibility(View.INVISIBLE);
+
+        }
+        else {
+            emptylist.setVisibility(View.INVISIBLE);
+            selectall.setVisibility(View.VISIBLE);
+        }
 
 
 
@@ -80,24 +90,27 @@ public class ReportlistActivity extends AppCompatActivity {
 
 
     private void prepareAlbums() {
-      /*  FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference databaseReference = database.getReference();
-        FirebaseAuth firebaseAuth= FirebaseAuth.getInstance();
-        FirebaseUser user = firebaseAuth.getCurrentUser();
-        databaseReference.child("Report").child(user.getUid()).addValueEventListener(new ValueEventListener() {
+       FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference databaseReference = database.getReference("Report");
+
+
+        databaseReference.addValueEventListener(new ValueEventListener() {
             /**
              * This method will be called anytime user add a report
              *
              * @param dataSnapshot
-             *
+             */
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 //get all reports
-                Iterable<DataSnapshot> children = dataSnapshot.getChildren();
+                FirebaseAuth firebaseAuth= FirebaseAuth.getInstance();
+                FirebaseUser user = firebaseAuth.getCurrentUser();
+                Iterable<DataSnapshot> children = dataSnapshot.child(user.getUid()).getChildren();
 
                 //handle each report
                 for(DataSnapshot child : children){
                    // Report a = child.getValue(Report.class);
+
                     String emergstat = dataSnapshot.child("emerg_status").getValue(String.class);
                     String emergtype = dataSnapshot.child("Emerg_type").getValue(String.class);
                     String severity = dataSnapshot.child("severity").getValue(String.class);
@@ -116,21 +129,12 @@ public class ReportlistActivity extends AppCompatActivity {
 
             }
         });
-        if(reportList == null){
 
-            emptylist.setVisibility(View.VISIBLE);
-            selectall.setVisibility(View.INVISIBLE);
-
-        }
-        else {
-            emptylist.setVisibility(View.INVISIBLE);
-            selectall.setVisibility(View.VISIBLE);
-        }*/
 
 
         /**
          * Adding report manually for testing
-         */
+
 
      Report a = new Report("عالي","حريق", "نشط", "خالد");
         reportList.add(a);
@@ -142,7 +146,7 @@ public class ReportlistActivity extends AppCompatActivity {
         reportList.add(a);
 
 
-    adapter.notifyDataSetChanged();
+    adapter.notifyDataSetChanged();*/
     }
 
     /**

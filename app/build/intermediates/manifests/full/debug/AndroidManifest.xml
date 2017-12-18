@@ -39,6 +39,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity android:name="com.example.lenovo.enjad.Activities.SignupActivity" />
         <activity android:name="com.example.lenovo.enjad.Activities.LoginActivity" />
@@ -62,13 +63,14 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-            <!-- uses-permission android:name="android.permission.GET_TASKS" / -->
         </activity>
         <activity
             android:name="com.example.lenovo.enjad.Activities.ReportlistActivity"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="com.example.lenovo.enjad.Activities.reportInfoDailog"
+            android:label="@string/app_name" />
 
         <receiver android:name="com.example.lenovo.enjad.Services.PowerButtonListenr" >
             <intent-filter
@@ -122,11 +124,6 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-
-        <activity
-            android:name="com.example.lenovo.enjad.Activities.ReportlistActivity"
-            android:label="@string/app_name" />
-        <activity android:name="com.example.lenovo.enjad.Activities.reportInfoDailog" />
 
         <meta-data
             android:name="android.support.VERSION"

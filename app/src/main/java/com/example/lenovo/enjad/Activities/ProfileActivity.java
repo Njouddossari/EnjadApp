@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -33,10 +34,13 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.regex.Pattern;
 
+import static android.widget.Toast.LENGTH_LONG;
+
 public class ProfileActivity extends AppCompatActivity {
 
     EditText usrname_et, pass_et , email_et , health_et , mobile_et ,  contact1_et , contact2_et , contact3_et;
     ImageView contact1, contact2, contact3;
+    Button save, delete;
     FirebaseAuth firebaseAuth;
     FirebaseUser user;
     DatabaseReference dbRefuser;
@@ -80,6 +84,8 @@ public class ProfileActivity extends AppCompatActivity {
         contact1 = (ImageView) findViewById(R.id.contact1);
         contact2 = (ImageView) findViewById(R.id.contact2);
         contact3 = (ImageView) findViewById(R.id.contact3);
+        save = (Button) findViewById(R.id.savechngeBU2);
+        delete = (Button) findViewById(R.id.DeletBU);
 
         dbRefuser.addValueEventListener(new ValueEventListener() {
             @Override
@@ -89,6 +95,7 @@ public class ProfileActivity extends AppCompatActivity {
                 String health_info = dataSnapshot.child(user.getUid()).child("health_info").getValue(String.class);
                 String phone = dataSnapshot.child(user.getUid()).child("phone").getValue(String.class);
                 String password = dataSnapshot.child(user.getUid()).child("password").getValue(String.class);
+            //    String help = dataSnapshot.child(user.getUid()).child("password").getValue(String.class);
 
                 usrname_et.setText(username);
                 health_et.setText(health_info);
@@ -99,6 +106,21 @@ public class ProfileActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(DatabaseError databaseError) {}
+        });
+
+        //upload switch infor from DB --> Njoud
+        dbRefconfig.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                  // providehelpSW.setChecked(dataSnapshot.child(user.getUid()).child("act_as_helper").getValue(Boolean.class));
+                   // acesscontactsw.setChecked(dataSnapshot.child(user.getUid()).child("inform_contact_list").getValue(Boolean.class));
+                providehelpSW.setChecked(true);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
         });
 
         acesscontactsw.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -125,7 +147,19 @@ public class ProfileActivity extends AppCompatActivity {
                 }
             }
         });
-
+        //set Buttons to save an delete user information
+        save.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { //move to Profile page
+                saveInfobu(view);
+            }
+        });
+        delete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                deleteUser(view);
+            }
+        });
 
     }
 
@@ -136,6 +170,8 @@ public class ProfileActivity extends AppCompatActivity {
             .compile("[a-zA-Z0-9\\+\\.\\_\\%\\-\\+]{1,256}" + "\\@"
                     + "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,64}" + "(" + "\\."
                     + "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,25}" + ")+"); //email pattern
+
+
 
     public void save_config() { //save configuration info. in DB
 
@@ -262,7 +298,7 @@ public class ProfileActivity extends AppCompatActivity {
         GeoFire geoFire = new GeoFire(myRef);
         geoFire.removeLocation((firebaseAuth.getCurrentUser().getUid()));
         firebaseAuth.signOut();
-        Toast.makeText(getApplicationContext(),getString(R.string.success_Log_out), Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),getString(R.string.success_Log_out), LENGTH_LONG).show();
         finish();
         startActivity(new Intent(getApplicationContext(),LoginActivity.class));
         return super.onOptionsItemSelected(item);

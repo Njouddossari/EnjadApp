@@ -2,20 +2,186 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.lenovo.enjad.Activities.TestActivity">
+    android:layout_width="300dp"
+    android:layout_height="450dp"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimaryBlack"
+    tools:context="com.example.lenovo.enjad.Activities.EmrgTypeDialog">
 
-    <Button
-        android:id="@+id/btnsend"
-        android:layout_width="113dp"
-        android:layout_height="69dp"
-        android:layout_marginBottom="184dp"
-        android:layout_marginTop="335dp"
-        android:text="Button"
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="258dp"
+            android:layout_marginBottom="83dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginStart="55dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints">
+
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="37dp"
+                android:layout_height="51dp"
+                android:buttonTint="@android:color/white"
+                app:layout_constraintLeft_toLeftOf="@id/emrg_case" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="37dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/white"
+                app:layout_constraintLeft_toLeftOf="@id/emrg_case" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="37dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/white"
+                app:layout_constraintLeft_toLeftOf="@id/theft" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="37dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/white"
+                app:layout_constraintLeft_toLeftOf="@id/fire" />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="37dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/white"></RadioButton>
+
+            <EditText
+                android:id="@+id/othertype"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/radioButton5"
+                android:background="@color/whitetext"
+                android:hint="@string/other"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/fire"
+            android:layout_width="135dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/theft"
+            android:background="@color/colorPrimaryRed"
+            android:text="@string/fire"
+            android:textAlignment="center"
+            android:textColor="@color/whitetext"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.606"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.607" />
+
+        <TextView
+            android:id="@+id/theft"
+            android:layout_width="135dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/emrg_case"
+            android:background="@color/colorPrimaryRed"
+            android:text="@string/theft"
+            android:textAlignment="center"
+            android:textColor="@color/whitetext"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.606"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/emrg_case"
+            android:layout_width="135dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/accident"
+            android:background="@color/colorPrimaryRed"
+            android:text="@string/emrg_case"
+            android:textAlignment="center"
+            android:textColor="@color/whitetext"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.606"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.397" />
+
+        <TextView
+            android:id="@+id/accident"
+            android:layout_width="135dp"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryRed"
+            android:text="@string/accident"
+            android:textAlignment="center"
+            android:textColor="@color/whitetext"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.606"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.28" />
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/tableRow"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="28dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginStart="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btnsend"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/othertype"
+            android:background="@color/colorPrimaryRed"
+            android:text="@string/send"
+            android:textSize="14sp" />
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="com.firebase:geofire-android-2.1.3">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/geofire-android-2.1.3.aar/39f087aeb18ae34eb75e46fae05a0c38/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/geofire-android-2.1.3.aar/39f087aeb18ae34eb75e46fae05a0c38/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/geofire-android-2.1.3.aar/f54c926d9e2f7281ed882a491d97df96/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/geofire-android-2.1.3.aar/f54c926d9e2f7281ed882a491d97df96/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -11,6 +11,8 @@ import com.example.lenovo.enjad.Activities.TestActivity;
 import com.example.lenovo.enjad.JavaClasses.HelperSharedPref;
 import com.example.lenovo.enjad.Activities.EmrgTypeDialog;
 
+import junit.framework.Test;
+
 
 /**
  * Created by ahmed aljoaid on 14/11/2017.
@@ -54,10 +56,10 @@ public class PowerButtonListenr extends BroadcastReceiver {
         Intent i = new Intent(context, ScreenOnOffService.class);
         i.putExtra("screen_state", screenOff);
         context.startService(i);
-        if (countPowerOff > 2) { // here we can initiate the report
+        if (countPowerOff > 3) { // here we can initiate the report
             countPowerOff = 0;
-            Toast.makeText(context, "MAIN ACTIVITY IS BEING CALLED ", Toast.LENGTH_LONG).show();
-           Intent z = new Intent(context, EmrgTypeDialog.class);
+            Toast.makeText(context, "Emergency dialog IS BEING CALLED ", Toast.LENGTH_LONG).show();
+           Intent z = new Intent(context, TestActivity.class);
             z.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
            context.startActivity(z);
         }

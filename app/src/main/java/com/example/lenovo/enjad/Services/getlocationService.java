@@ -57,7 +57,6 @@ public class getlocationService extends Service implements LocationListener {
 
     @Override
     public void onStart(Intent intent, int startId) {
-        Toast.makeText(getBaseContext(), "onStart()have been successfully called ", Toast.LENGTH_LONG).show();
         //needs to check if permission granted, but already checked on main activity
         //it will have a redline but it works just fine
         locationmanager.requestLocationUpdates(provider, 100000, 10, this);
@@ -85,16 +84,14 @@ public class getlocationService extends Service implements LocationListener {
         public void onLocationChanged(Location location) {
             Double lat , lng ,newLong,newLat;
             // Called when a new location is found by the network location provider.
-            Toast.makeText(getBaseContext(), "onLocationChanged()have been called: ", Toast.LENGTH_LONG).show();
             Location currentLocation = new Location(provider);
              newLong =location.getLongitude();
              newLat =location.getLatitude();
-            Log.v("loggg", "IN ON LOCATION CHANGE, lat=" +newLat + ", lon=" + newLong);
            // if (calculateDistance(newLat,newLong,currentLocation.getLatitude(), currentLocation.getLongitude()) && isBetterLocation(location, currentLocation)) {
                 lat = newLat;
                 lng = newLong;
                 currentLocation = location;
-                Toast.makeText(getBaseContext(), "lat and lng" + lat + ", " + lng, Toast.LENGTH_LONG).show();
+
                 boolean val = updatelocation(lng,lat);
                 if (!val) {
                     Toast.makeText(getBaseContext(), "lat and lng NOT stored", Toast.LENGTH_LONG).show();
@@ -131,107 +128,6 @@ public class getlocationService extends Service implements LocationListener {
 
         }
 
-    /**
-     * Determines whether user Location reading is the same as current Location
-     *
-     *  userLat
-     * userLng are new user location
-     * venueLat
-     *  venueLng are the old user location
-     */
-/*
-    public Boolean calculateDistance(double userLat, double userLng, double venueLat, double venueLng) {
-        double latDistance = Math.toRadians(userLat - venueLat);
-        double lngDistance = Math.toRadians(userLng - venueLng);
-        double a = (Math.sin(latDistance / 2) * Math.sin(latDistance / 2)) +
-                (Math.cos(Math.toRadians(userLat))) *
-                        (Math.cos(Math.toRadians(venueLat))) *
-                        (Math.sin(lngDistance / 2)) *
-                        (Math.sin(lngDistance / 2));
-
-        double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-        double dist = 6371 * c;
-
-        if (dist < 0.01) {
-                /* If it's within 10m, we assume we're not moving */
-           /* Toast.makeText(getBaseContext(), "Same region ", Toast.LENGTH_LONG).show();
-            return false;
-        }
-        else if (dist > 0.01){
-            Toast.makeText(getBaseContext(), "User moved ", Toast.LENGTH_LONG).show();
-            return true;
-        }
-        return true;
-    }
-
-
-        private static final int FIFTEEN_MINUTES = 1000 * 60 * 15;
-
-        /**
-         * Determines whether one Location reading is better than the current Location fix
-         *
-         * @param location            The new Location that you want to evaluate
-         * @param currentBestLocation The current Location fix, to which you want to compare the new one
-         */
-        /*protected boolean isBetterLocation(Location location, Location currentBestLocation) {
-            if (currentBestLocation == null) {
-                // A new location is always better than no location
-             Toast.makeText(getBaseContext(), "Current Location is null ", Toast.LENGTH_LONG).show();
-
-                return true;
-            }
-
-            // Check whether the new location fix is newer or older
-            long timeDelta = location.getTime() - currentBestLocation.getTime();
-            boolean isSignificantlyNewer = timeDelta > FIFTEEN_MINUTES;
-            boolean isSignificantlyOlder = timeDelta < -FIFTEEN_MINUTES;
-            boolean isNewer = timeDelta > 0;
-
-            // If it's been more than 15 minutes since the current location, use the new location
-            // because the user has likely moved
-            if (isSignificantlyNewer) {
-                Toast.makeText(getBaseContext(), "Current Location is 15mins old ", Toast.LENGTH_LONG).show();
-
-                return true;
-                // If the new location is more than two minutes older, it must be worse
-            } else if (isSignificantlyOlder) {
-                Toast.makeText(getBaseContext(), "Current Location is worse", Toast.LENGTH_LONG).show();
-
-                return false;
-            }
-
-            // Check whether the new location fix is more or less accurate
-            int accuracyDelta = (int) (location.getAccuracy() - currentBestLocation.getAccuracy());
-            boolean isLessAccurate = accuracyDelta > 0;
-            boolean isMoreAccurate = accuracyDelta < 0;
-            boolean isSignificantlyLessAccurate = accuracyDelta > 200;
-
-            // Check if the old and new location are from the same provider
-            boolean isFromSameProvider = isSameProvider(location.getProvider(),
-                    currentBestLocation.getProvider());
-
-            // Determine location quality using a combination of timeliness and accuracy
-            if (isMoreAccurate) {
-                Toast.makeText(getBaseContext(), "Current Location isMoreAccurate", Toast.LENGTH_LONG).show();
-                return true;
-            } else if (isNewer && !isLessAccurate) {
-                Toast.makeText(getBaseContext(), "Current Location is NEW and MoreAccurate", Toast.LENGTH_LONG).show();
-                return true;
-            } else if (isNewer && !isSignificantlyLessAccurate && isFromSameProvider) {
-                return true;
-            }
-            return false;
-        }
-
-        /**
-         * Checks whether two providers are the same
-         */
-       /* private boolean isSameProvider(String provider1, String provider2) {
-            if (provider1 == null) {
-                return provider2 == null;
-            }
-            return provider1.equals(provider2);
-        }*/
 
         @Override
         public void onStatusChanged(String s, int i, Bundle bundle) {

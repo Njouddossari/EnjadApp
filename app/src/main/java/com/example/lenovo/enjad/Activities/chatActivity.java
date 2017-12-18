@@ -82,10 +82,10 @@ public class chatActivity extends AppCompatActivity {
                         String Severity = dataSnapshot.child("LastReport").child(uid).child("severity").getValue(String.class);
                         String Location = dataSnapshot.child("User_location").child(uid).child("g").getValue(String.class);
 
-                       // info.setText(inform);
-                        //Etype.setText(emergType);
-                       // severity.setText(Severity);
-                       // location.setText(Location);
+                        info.setText(inform);
+                        Etype.setText(emergType);
+                        severity.setText(Severity);
+                        location.setText(Location);
 
                     }
 

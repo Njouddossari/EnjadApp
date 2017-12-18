@@ -118,10 +118,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintHorizontal_bias="0.657"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/secondlayout"
-        app:layout_constraintVertical_bias="0.031"
+        app:layout_constraintVertical_bias="0.126"
         tools:ignore="MissingConstraints" />
 
     <ImageView
