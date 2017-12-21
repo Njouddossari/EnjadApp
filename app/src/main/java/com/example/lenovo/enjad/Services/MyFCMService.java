@@ -9,9 +9,9 @@ import android.net.Uri;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
-import com.example.lenovo.enjad.Activities.HomPageActivity;
-import com.example.lenovo.enjad.Activities.chatActivity;
-import com.example.lenovo.enjad.JavaClasses.reporterInfo;
+import com.example.lenovo.enjad.Activities.ChatActivity;
+import com.example.lenovo.enjad.Activities.Createchat;
+import com.example.lenovo.enjad.FirebaseFiles.reporterInfo;
 import com.example.lenovo.enjad.R;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
@@ -36,7 +36,7 @@ public class MyFCMService extends FirebaseMessagingService {
         String Severity= remoteMessage.getData().get("severity");
         String Emrg_type= remoteMessage.getData().get("emergType");
 // save the reporter info to attach in chat
-        //reporterInfo reporterinfo= new reporterInfo();
+     //  reporterInfo reporterinfo= new reporterInfo();
         //reporterinfo.user_name=Reportername;
         //reporterinfo.lng=Reporterlng;
        // reporterinfo.lat=Reporterlat;
@@ -50,7 +50,7 @@ public class MyFCMService extends FirebaseMessagingService {
 
     public void sendNotification(String title, String messageBody) {
         Log.e("In Send notification", "was done");
-        Intent intent= new Intent ( this, chatActivity.class);//here must be the emerg type pop up activity
+        Intent intent= new Intent ( this, Createchat.class);//creating  and adding helper to the group chat
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
         PendingIntent pendingIntent = PendingIntent.getActivity(this,0,intent,PendingIntent.FLAG_ONE_SHOT);
         Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);

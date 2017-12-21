@@ -13,14 +13,12 @@ import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.lenovo.enjad.JavaClasses.Report;
-import com.example.lenovo.enjad.JavaClasses.ReportAdapter;
+import com.example.lenovo.enjad.FirebaseFiles.Report;
+import com.example.lenovo.enjad.FirebaseFiles.ReportAdapter;
 import com.example.lenovo.enjad.R;
 import com.firebase.geofire.GeoFire;
 import com.google.firebase.auth.FirebaseAuth;
@@ -51,7 +49,7 @@ public class ReportlistActivity extends AppCompatActivity {
 
         emptylist = (TextView) findViewById(R.id.norport);
         selectall = (CheckBox) findViewById(R.id.selectall);
-        //Hold the coolection of reports
+        //Hold the collection of reports
         reportList = new ArrayList<Report>();
         adapter = new ReportAdapter(this, reportList);
         if(reportList == null){

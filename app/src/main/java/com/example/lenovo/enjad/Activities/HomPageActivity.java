@@ -18,7 +18,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -150,7 +149,7 @@ public class HomPageActivity extends AppCompatActivity {
         ChatsB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { // move to chat list page
-                Intent chls = new Intent(getApplicationContext(), chatActivity.class);
+                Intent chls = new Intent(getApplicationContext(), Createchat.class);
                 startActivity(chls);
             }
         });

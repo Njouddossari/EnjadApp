@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.lenovo.enjad.JavaClasses.reporterInfo;
+import com.example.lenovo.enjad.FirebaseFiles.reporterInfo;
 import com.example.lenovo.enjad.R;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if (firebaseAuth.getCurrentUser() != null ) // check if user is already logged in
                      {
-                         Intent R = new Intent(getApplicationContext(),reportInfoDailog.class); // here must popup activity for receiving notification
+                         Intent R = new Intent(getApplicationContext(), Createchat.class); // here must popup activity for receiving notification
                          finish();
                          startActivity(R);
                      }

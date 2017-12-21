@@ -24,7 +24,7 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".Activities.SignupActivity" />
         <activity android:name=".Activities.LoginActivity" />
-        <activity android:name=".Activities.chatActivity" />
+        <activity android:name=".Activities.ChatActivity" />
         <activity
             android:name=".Activities.ProfileActivity"
             android:icon="@drawable/enjadapplogoicon" />
@@ -51,6 +51,9 @@
         <activity
             android:name=".Activities.reportInfoDailog"
             android:label="@string/app_name"></activity>
+        <activity android:name=".Activities.Createchat"/>
+        <activity android:name=".Activities.Chatlist"/>
+        <activity android:name=".Activities.HelpRequest"/>
         <receiver android:name=".Services.PowerButtonListenr">
             <intent-filter
                 android:enabled="true"
@@ -68,8 +71,6 @@
         <service
             android:name=".Services.getlocationService"
             android:exported="false" />
-
-        <activity android:name=".Activities.TestActivity" />
 
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"

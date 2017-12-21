@@ -2,8 +2,8 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
     android:layout_gravity="center"
     android:background="@drawable/reportinfofirstlayer"
     tools:context="com.example.lenovo.enjad.Activities.reportInfoDailog">
@@ -15,17 +15,16 @@
         android:layout_gravity="center"
         android:background="@drawable/reportinfosecondlayer"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="16dp">
+        tools:layout_editor_absoluteY="39dp">
 
 
         <TextView
             android:id="@+id/emergtype"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="نوع الحالة: حريق"
+            android:text="نوع الحالة: "
             android:textColor="@color/whitetext"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -41,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="اسم المبلغ: علي"
+            android:text="اسم المبلغ: "
             android:textColor="@color/whitetext"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -58,7 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
-            android:text="المستوى: عالي"
+            android:text="المستوى: "
             android:textColor="@color/whitetext"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -73,7 +72,7 @@
             android:id="@+id/info"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="المعلومات الصحية: سكر وربو"
+            android:text="المعلومات الصحية: "
             android:textColor="@color/whitetext"
             android:textStyle="bold"
 
@@ -88,18 +87,18 @@
             android:id="@+id/Location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="الموقع:google.com/maps/place/93.093"
+            android:text="الموقع:"
             android:textAlignment="center"
             android:textColor="@color/whitetext"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintHorizontal_bias="0.502"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.943" />
+            app:layout_constraintVertical_bias="0.857" />
 
     </android.support.constraint.ConstraintLayout>
 
@@ -118,10 +117,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintHorizontal_bias="0.64"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/secondlayout"
-        app:layout_constraintVertical_bias="0.126"
+        app:layout_constraintVertical_bias="0.911"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -132,10 +131,10 @@
         android:background="@drawable/reportinfosecondlayer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.157"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/secondlayout"
-        app:layout_constraintVertical_bias="0.100000024"
+        app:layout_constraintVertical_bias="0.835"
         app:srcCompat="@drawable/mute"
         tools:ignore="MissingConstraints" />
 

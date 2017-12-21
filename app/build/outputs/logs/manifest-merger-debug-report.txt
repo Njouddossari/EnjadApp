@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-112:12
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\USER\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\56c2c9f0c951a59acf1b6b85d15bfe87\AndroidManifest.xml:17:1-31:12
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\USER\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\9b56fa195452753e18edfc57004ebd3d\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\USER\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\796748d3790f06cc89580b0862dd9443\AndroidManifest.xml:17:1-31:12
@@ -34,20 +34,20 @@ MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\USER\.gra
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\USER\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\b7c85fc6a88e987d6ab8de3d54176dfc\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\USER\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f115ba974c157c9121c639c8f42342ce\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\USER\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\9a84356849f03b03e85166dda52e7f3e\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-112:12
-INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-112:12
+INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
+INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
 	package
 		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-112:12
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
 		INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-112:12
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:1-113:12
 		INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:2:11-69
@@ -90,7 +90,7 @@ ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:16:5-
 	android:name
 		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:16:19-67
 application
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:18:5-110:19
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:18:5-111:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\USER\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\56c2c9f0c951a59acf1b6b85d15bfe87\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\USER\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\56c2c9f0c951a59acf1b6b85d15bfe87\AndroidManifest.xml:25:5-29:19
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\USER\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\9b56fa195452753e18edfc57004ebd3d\AndroidManifest.xml:9:5-20
@@ -165,7 +165,7 @@ activity#com.example.lenovo.enjad.Activities.LoginActivity
 ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:26:9-62
 	android:name
 		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:26:19-59
-activity#com.example.lenovo.enjad.Activities.chatActivity
+activity#com.example.lenovo.enjad.Activities.ChatActivity
 ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:27:9-61
 	android:name
 		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:27:19-58
@@ -223,90 +223,98 @@ ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:51:9-
 		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:53:13-45
 	android:name
 		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:52:13-56
+activity#com.example.lenovo.enjad.Activities.Createchat
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:54:9-58
+	android:name
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:54:19-56
+activity#com.example.lenovo.enjad.Activities.Chatlist
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:55:9-56
+	android:name
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:55:19-54
+activity#com.example.lenovo.enjad.Activities.HelpRequest
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:56:9-59
+	android:name
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:56:19-57
 receiver#com.example.lenovo.enjad.Services.PowerButtonListenr
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:54:9-61:20
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:57:9-64:20
 	android:name
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:54:19-62
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:57:19-62
 intent-filter#android.intent.action.SCREEN_OFF+android.intent.action.SCREEN_ON
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:55:13-60:29
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:58:13-63:29
 	android:enabled
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:56:17-39
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:59:17-39
 	android:exported
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:57:17-41
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:60:17-41
 action#android.intent.action.SCREEN_OFF
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:58:17-75
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:61:17-75
 	android:name
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:58:25-72
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:61:25-72
 action#android.intent.action.SCREEN_ON
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:59:17-74
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:62:17-74
 	android:name
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:59:25-71
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:62:25-71
 service#com.example.lenovo.enjad.Services.ScreenOnOffService
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:63:9-67:19
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:66:9-70:19
 	android:name
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:63:18-61
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:66:18-61
 intent-filter#.ScreenOnOffService
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:64:13-66:29
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:67:13-69:29
 action#com.example.lenovo.enjad.ScreenOnOffService
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:65:17-62
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:68:17-62
 	android:name
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:65:25-59
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:68:25-59
 service#com.example.lenovo.enjad.Services.getlocationService
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:68:9-70:40
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:71:9-73:40
 	android:exported
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:70:13-37
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:73:13-37
 	android:name
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:69:13-56
-activity#com.example.lenovo.enjad.Activities.TestActivity
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:72:9-61
-	android:name
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:72:19-58
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:72:13-56
 meta-data#com.google.firebase.messaging.default_notification_icon
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:74:9-76:61
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:75:9-77:61
 	android:resource
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:76:13-58
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:77:13-58
 	android:name
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:75:13-83
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:76:13-83
 meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:81:9-83:57
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:82:9-84:57
 	android:resource
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:83:13-54
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:84:13-54
 	android:name
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:82:13-84
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:83:13-84
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:86:9-88:71
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:87:9-89:71
 	android:value
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:88:13-68
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:89:13-68
 	android:name
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:87:13-89
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:88:13-89
 service#com.example.lenovo.enjad.Services.FCMTokenInstanceIdService
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:90:9-97:19
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:91:9-98:19
 	android:enabled
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:92:13-35
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:93:13-35
 	android:exported
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:93:13-36
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:94:13-36
 	android:name
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:91:13-63
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:92:13-63
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:94:13-96:29
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:95:13-97:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:95:17-80
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:96:17-80
 	android:name
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:95:25-77
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:96:25-77
 service#com.example.lenovo.enjad.Services.MyFCMService
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:98:9-105:19
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:99:9-106:19
 	android:enabled
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:100:13-35
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:101:13-35
 	android:exported
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:101:13-36
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:102:13-36
 	android:name
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:99:13-50
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:100:13-50
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:102:13-104:29
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:103:13-105:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:103:17-78
+ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:104:17-78
 	android:name
-		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:103:25-75
+		ADDED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml:104:25-75
 uses-sdk
 INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\USER\Desktop\EnjadApp\app\src\main\AndroidManifest.xml

@@ -7,11 +7,8 @@ import android.os.Handler;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.example.lenovo.enjad.Activities.TestActivity;
-import com.example.lenovo.enjad.JavaClasses.HelperSharedPref;
-import com.example.lenovo.enjad.Activities.EmrgTypeDialog;
-
-import junit.framework.Test;
+import com.example.lenovo.enjad.Activities.HelpRequest;
+import com.example.lenovo.enjad.FirebaseFiles.HelperSharedPref;
 
 
 /**
@@ -59,7 +56,7 @@ public class PowerButtonListenr extends BroadcastReceiver {
         if (countPowerOff > 3) { // here we can initiate the report
             countPowerOff = 0;
             Toast.makeText(context, "Emergency dialog IS BEING CALLED ", Toast.LENGTH_LONG).show();
-           Intent z = new Intent(context, TestActivity.class);
+           Intent z = new Intent(context, HelpRequest.class);
             z.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
            context.startActivity(z);
         }

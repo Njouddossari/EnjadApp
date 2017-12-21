@@ -43,7 +43,7 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity android:name="com.example.lenovo.enjad.Activities.SignupActivity" />
         <activity android:name="com.example.lenovo.enjad.Activities.LoginActivity" />
-        <activity android:name="com.example.lenovo.enjad.Activities.chatActivity" />
+        <activity android:name="com.example.lenovo.enjad.Activities.ChatActivity" />
         <activity
             android:name="com.example.lenovo.enjad.Activities.ProfileActivity"
             android:icon="@drawable/enjadapplogoicon" />
@@ -71,6 +71,9 @@
         <activity
             android:name="com.example.lenovo.enjad.Activities.reportInfoDailog"
             android:label="@string/app_name" />
+        <activity android:name="com.example.lenovo.enjad.Activities.Createchat" />
+        <activity android:name="com.example.lenovo.enjad.Activities.Chatlist" />
+        <activity android:name="com.example.lenovo.enjad.Activities.HelpRequest" />
 
         <receiver android:name="com.example.lenovo.enjad.Services.PowerButtonListenr" >
             <intent-filter
@@ -89,8 +92,6 @@
         <service
             android:name="com.example.lenovo.enjad.Services.getlocationService"
             android:exported="false" />
-
-        <activity android:name="com.example.lenovo.enjad.Activities.TestActivity" />
 
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"

@@ -18,9 +18,9 @@ import android.widget.Switch;
 import android.widget.Toast;
 
 import com.example.lenovo.enjad.R;
-import com.example.lenovo.enjad.JavaClasses.User;
-import com.example.lenovo.enjad.JavaClasses.configuration;
-import com.example.lenovo.enjad.JavaClasses.user_contactlist;
+import com.example.lenovo.enjad.FirebaseFiles.User;
+import com.example.lenovo.enjad.FirebaseFiles.configuration;
+import com.example.lenovo.enjad.FirebaseFiles.user_contactlist;
 import com.firebase.geofire.GeoFire;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;

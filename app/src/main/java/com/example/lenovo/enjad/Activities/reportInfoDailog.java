@@ -2,11 +2,10 @@ package com.example.lenovo.enjad.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.Button;
 import android.widget.TextView;
 import android.text.util.Linkify;
 
-import com.example.lenovo.enjad.JavaClasses.reporterInfo;
+import com.example.lenovo.enjad.FirebaseFiles.reporterInfo;
 import com.example.lenovo.enjad.R;
 
 public class reportInfoDailog extends AppCompatActivity {
@@ -32,11 +31,11 @@ public class reportInfoDailog extends AppCompatActivity {
         lat=obj.getLat();
         url_location="http://www.google.com/maps/place/"+lat+","+lng;
 
-       // usrname.setText("@string/username1" + obj.getUser_name());
-       // severity.setText("@string/severity"+ obj.getReportSeverity());
-      //  type.setText("@string/emergytype" + obj.getReportType());
-       // healthinfo.setText("@string/info" + obj.getHealthInfo());
-      //  location.setText( url_location);
+       usrname.setText("@string/username1" + obj.getUser_name());
+        severity.setText("@string/severity"+ obj.getReportSeverity());
+       type.setText("@string/emergytype" + obj.getReportType());
+       healthinfo.setText("@string/info" + obj.getHealthInfo());
+     location.setText( url_location);
 
         Linkify.addLinks(location,Linkify.WEB_URLS);
     }
