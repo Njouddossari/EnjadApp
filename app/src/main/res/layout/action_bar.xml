@@ -21,5 +21,6 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:src="@drawable/enjadapplogoicon" />-->
+    <!-- Deemah : Test-->
 
 </android.support.v7.widget.Toolbar>
